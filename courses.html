@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Find a course — Birdie Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+
+<div class="page">
+  <div class="page-head">
+    <div class="eyebrow" id="head-eyebrow">Loading course directory…</div>
+    <h1 class="page-title">Find a course</h1>
+  </div>
+
+  <div id="locbar"></div>
+
+  <div class="toolbar">
+    <label class="searchbig">⌕ <input id="q" type="search" placeholder="Search courses by name, city, or ZIP…"></label>
+    <div class="toggle" id="view-toggle"><span class="on" data-view="list">List</span><span data-view="map">Map</span></div>
+    <label class="sortsel">Sort:
+      <select id="sort">
+        <option value="distance">Distance</option>
+        <option value="rating">Rating</option>
+        <option value="name">Name A–Z</option>
+        <option value="holes">Most holes</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="courses-layout">
+    <aside class="filters" id="filters">
+      <div class="filter-group"><div class="filter-title">Distance</div>
+        <div class="rangepills" data-f="dist">
+          <button class="pill sel" data-v="any">Any</button><button class="pill" data-v="10">&lt; 10 mi</button>
+          <button class="pill" data-v="25">&lt; 25 mi</button><button class="pill" data-v="50">&lt; 50 mi</button>
+        </div></div>
+      <div class="filter-group"><div class="filter-title">Holes</div>
+        <div class="rangepills" data-f="holes">
+          <button class="pill sel" data-v="any">Any</button><button class="pill" data-v="9">9</button>
+          <button class="pill" data-v="18">18</button><button class="pill" data-v="24">24+</button>
+        </div></div>
+      <div class="filter-group"><div class="filter-title">Difficulty</div><div id="f-diff">
+        <div class="filter-opt sel" data-v="Beginner"><span class="chkbox"></span>Beginner</div>
+        <div class="filter-opt sel" data-v="Intermediate"><span class="chkbox"></span>Intermediate</div>
+        <div class="filter-opt sel" data-v="Advanced"><span class="chkbox"></span>Advanced</div>
+        <div class="filter-opt sel" data-v="Pro"><span class="chkbox"></span>Pro</div>
+      </div></div>
+      <div class="filter-group"><div class="filter-title">Terrain</div><div id="f-terrain">
+        <div class="filter-opt" data-v="Wooded"><span class="chkbox"></span>Wooded</div>
+        <div class="filter-opt" data-v="Open / Field"><span class="chkbox"></span>Open / Field</div>
+        <div class="filter-opt" data-v="Elevation"><span class="chkbox"></span>Elevation</div>
+      </div></div>
+      <div class="filter-group"><div class="filter-title">Amenities</div><div id="f-amen">
+        <div class="filter-opt" data-v="Restrooms"><span class="chkbox"></span>Restrooms</div>
+        <div class="filter-opt" data-v="Parking"><span class="chkbox"></span>Parking</div>
+        <div class="filter-opt" data-v="Dog OK"><span class="chkbox"></span>Dog friendly</div>
+        <div class="filter-opt" data-v="Pro shop"><span class="chkbox"></span>Pro shop</div>
+      </div></div>
+      <div class="filter-group"><div class="filter-title">Rating</div>
+        <div class="rangepills" data-f="rating">
+          <button class="pill" data-v="4.5">4.5+</button><button class="pill" data-v="4.0">4.0+</button>
+          <button class="pill sel" data-v="any">Any</button>
+        </div></div>
+    </aside>
+
+    <div>
+      <div class="results-top">
+        <div class="results-count" id="count">—</div>
+        <button class="a-more" id="clear">Clear filters</button>
+      </div>
+      <div id="list-view">
+        <div class="courses-grid" id="grid"><div class="loading-note">Loading courses…</div></div>
+        <button class="btn-outline loadmore" id="more" hidden>Show more courses</button>
+      </div>
+      <div id="map-view" hidden><div id="course-map"></div></div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+BF.init({ active: 'courses' });
+
+BF.renderLocationBar('#locbar');
+
+(async function () {
+  const raw = await BF.loadCourses();
+  let loc = await BF.getLocation();
+
+  // Enrich every course with deterministic detail (diff/terrain/amenities/rating).
+  // Distance is recomputed whenever the location changes.
+  const courses = raw.map(c => ({ ...c, detail: BF.courseDetail(c), dist: 0 }));
+  function applyLocation(l) {
+    loc = l;
+    for (const c of courses) c.dist = BF.haversineMi(loc.lat, loc.lng, c.lat, c.lng);
+    document.getElementById('head-eyebrow').textContent = BF.fmt(courses.length) + ' courses · sorted from ' + loc.label;
+  }
+  applyLocation(loc);
+
+  const state = { q: '', dist: 'any', holes: 'any', rating: 'any', diff: new Set(['Beginner','Intermediate','Advanced','Pro']), terrain: new Set(), amen: new Set(), sort: 'distance', shown: 12, view: 'list' };
+
+  window.addEventListener('bf:location', (e) => {
+    applyLocation(e.detail);
+    render();        // refreshes markers + lastList for the new distances
+    if (map) recenter();
+  });
+
+  function filtered() {
+    let out = courses.filter(c => {
+      if (state.q) {
+        const hay = (c.name + ' ' + c.city + ' ' + c.state + ' ' + c.zip).toLowerCase();
+        if (!hay.includes(state.q)) return false;
+      }
+      if (state.dist !== 'any' && c.dist > Number(state.dist)) return false;
+      if (state.holes !== 'any') {
+        if (state.holes === '24' ? c.holes < 24 : c.holes !== Number(state.holes)) return false;
+      }
+      if (state.rating !== 'any' && Number(c.detail.rating) < Number(state.rating)) return false;
+      if (!state.diff.has(c.detail.diff)) return false;
+      if (state.terrain.size && ![...state.terrain].some(t => c.detail.terrain.some(x => x.includes(t) || t.includes(x)))) return false;
+      if (state.amen.size && ![...state.amen].every(a => c.detail.amens.includes(a))) return false;
+      return true;
+    });
+    out.sort((a, b) =>
+      state.sort === 'distance' ? a.dist - b.dist :
+      state.sort === 'rating' ? b.detail.rating - a.detail.rating :
+      state.sort === 'holes' ? b.holes - a.holes :
+      a.name.localeCompare(b.name));
+    return out;
+  }
+
+  function card(c) {
+    const d = c.detail;
+    return `<a class="a-card" href="course.html?id=${encodeURIComponent(c.id)}">
+      <div class="a-cardimg ph"><span class="phl">Course photo</span></div>
+      <div class="a-cardb">
+        <div class="a-ctop"><div><div class="a-cname">${BF.esc(c.name)}</div>
+          <div class="a-cloc">${BF.esc(c.city)}, ${BF.esc(c.state)} · ${c.dist.toFixed(1)} mi</div></div>
+          <div class="a-crate"><span class="star">★</span>${d.rating}</div></div>
+        <div class="a-chips"><span class="a-chip">${c.holes} holes</span><span class="a-chip">Par ${d.par}</span><span class="a-chip">${BF.fmt(d.length)} ft</span></div>
+        <div class="a-tagrow"><span class="a-tag">${d.diff}</span><span class="a-tag mossy">${d.terrain.join(' · ')}</span></div>
+        <div class="amen">${d.amens.map(a => `<span>${a}</span>`).join('')}</div>
+      </div></a>`;
+  }
+
+  /* ----- map (mounts the existing Leaflet setup from src/discMap/map.js) ----- */
+  let map = null, markersLayer = null, meLayer = null, lastList = [];
+
+  // Frame the map on the courses you'd actually drive to, not an arbitrary zoom
+  // level: fit the nearest handful plus your own position.
+  function recenter() {
+    if (!map) return;
+    const near = lastList.slice().sort((a, b) => a.dist - b.dist).slice(0, 10);
+    drawMe();
+    if (!near.length) { map.setView([loc.lat, loc.lng], 10); return; }
+    const bounds = L.latLngBounds(near.map(c => [c.lat, c.lng])).extend([loc.lat, loc.lng]);
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 13 });
+  }
+
+  function drawMe() {
+    meLayer.clearLayers();
+    const exact = loc.source === 'gps' || loc.source === 'manual';
+    L.circleMarker([loc.lat, loc.lng], { radius: 8, color: '#c2703d', fillColor: '#c2703d', fillOpacity: .9, weight: 2 })
+      .addTo(meLayer)
+      .bindPopup(exact ? `You are here — ${BF.esc(loc.label)}.` : `Approximate location (${BF.esc(BF.LOC_SOURCE_TEXT[loc.source])}). Set it for accurate distances.`);
+    // Show the real uncertainty rather than implying pinpoint accuracy.
+    if (loc.accuracy && loc.accuracy > 100) {
+      L.circle([loc.lat, loc.lng], { radius: loc.accuracy, color: '#c2703d', weight: 1, opacity: .4, fillOpacity: .06 }).addTo(meLayer);
+    }
+  }
+
+  function ensureMap(list) {
+    lastList = list;
+    if (!map) {
+      map = L.map('course-map');
+      L.tileLayer('https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=dl2uTG1RToVYg9Uxvtzt', {
+        attribution: '<a href="https://www.maptiler.com/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/" target="_blank">&copy; OpenStreetMap contributors</a>',
+        tileSize: 512, zoomOffset: -1,
+      }).addTo(map);
+      meLayer = L.layerGroup().addTo(map);
+      markersLayer = L.layerGroup().addTo(map);
+      recenter();
+    }
+    markersLayer.clearLayers();
+    list.slice(0, 400).forEach(c => {
+      L.circleMarker([c.lat, c.lng], { radius: 7, color: '#1e3a2b', fillColor: '#2f5c3f', fillOpacity: .85, weight: 2 })
+        .addTo(markersLayer)
+        .bindPopup(`<strong>${BF.esc(c.name)}</strong><br>${BF.esc(c.city)}, ${BF.esc(c.state)} · ${c.holes} holes · ${c.dist.toFixed(1)} mi<br><a href="course.html?id=${encodeURIComponent(c.id)}">View course →</a>`);
+    });
+    setTimeout(() => map.invalidateSize(), 60);
+  }
+
+  function render() {
+    const list = filtered();
+    document.getElementById('count').textContent = 'Showing ' + Math.min(state.shown, list.length) + ' of ' + BF.fmt(list.length) + ' courses';
+    document.getElementById('grid').innerHTML = list.length
+      ? list.slice(0, state.shown).map(card).join('')
+      : '<div class="loading-note">No courses match these filters. Try widening the distance or clearing filters.</div>';
+    document.getElementById('more').hidden = list.length <= state.shown;
+    if (state.view === 'map') ensureMap(list);
+  }
+
+  /* ----- wiring ----- */
+  document.getElementById('q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); state.shown = 12; render(); });
+  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+  document.getElementById('more').addEventListener('click', () => { state.shown += 12; render(); });
+
+  document.querySelectorAll('.rangepills').forEach(g => g.addEventListener('click', e => {
+    const b = e.target.closest('.pill'); if (!b) return;
+    g.querySelectorAll('.pill').forEach(p => p.classList.remove('sel'));
+    b.classList.add('sel');
+    state[g.dataset.f] = b.dataset.v;
+    state.shown = 12; render();
+  }));
+
+  function bindChecks(id, set) {
+    document.getElementById(id).addEventListener('click', e => {
+      const o = e.target.closest('.filter-opt'); if (!o) return;
+      o.classList.toggle('sel');
+      o.classList.contains('sel') ? set.add(o.dataset.v) : set.delete(o.dataset.v);
+      state.shown = 12; render();
+    });
+  }
+  bindChecks('f-diff', state.diff); bindChecks('f-terrain', state.terrain); bindChecks('f-amen', state.amen);
+
+  document.getElementById('clear').addEventListener('click', () => location.reload());
+
+  document.getElementById('view-toggle').addEventListener('click', e => {
+    const s = e.target.closest('[data-view]'); if (!s) return;
+    document.querySelectorAll('#view-toggle span').forEach(x => x.classList.toggle('on', x === s));
+    state.view = s.dataset.view;
+    document.getElementById('list-view').hidden = state.view !== 'list';
+    document.getElementById('map-view').hidden = state.view !== 'map';
+    render();
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

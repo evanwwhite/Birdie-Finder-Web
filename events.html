@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events &amp; leagues — Birdie Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+<div class="page">
+  <div class="page-head">
+    <div class="eyebrow" id="head-eyebrow">Near you</div>
+    <h1 class="page-title">Events &amp; leagues</h1>
+    <p class="page-sub">Find sanctioned tournaments, weekly leagues, and clinics happening near you.</p>
+  </div>
+
+  <div class="ev-feature">
+    <div class="ph"><span class="phl">Tournament photo — players on the tee</span></div>
+    <div class="ev-featb">
+      <span class="ev-tier">Featured · A-Tier</span>
+      <div class="ev-ftitle">New England Open 2026</div>
+      <div class="ev-fmeta">Maple Hill · Leicester, MA · Aug 15–17 · 144 players · $10,000 purse</div>
+    </div>
+  </div>
+
+  <div class="ev-filterbar" id="filterbar">
+    <button class="pill sel" data-t="all">All</button>
+    <button class="pill" data-t="Tournament">Tournaments</button>
+    <button class="pill" data-t="League">Leagues</button>
+    <button class="pill" data-t="Clinic">Clinics</button>
+    <button class="pill" data-t="Doubles">Doubles</button>
+    <label class="sortsel" style="margin-left:auto">Date:
+      <select id="ev-sort"><option value="soon">Soonest</option><option value="late">Latest</option></select>
+    </label>
+  </div>
+
+  <div class="ev-list" id="ev-list"></div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+BF.init({ active: 'events' });
+
+const EVENTS = [
+  { d: '2026-07-12', mo: 'Jul', day: 12, name: 'Thursday Night Doubles', loc: 'The Pyramids · Kansas City, MO', types: ['League', 'Doubles'], tags: [['League'], ['Random draw'], ['Weekly']], spots: [18, 40], fee: '$5' },
+  { d: '2026-07-19', mo: 'Jul', day: 19, name: 'Summer Singles Series · Stop 4', loc: 'Idlewild · Burlington, KY', types: ['Tournament'], tags: [['C-Tier', 'tier'], ['MA / FA divisions'], ['PDGA']], spots: [62, 90], fee: '$35' },
+  { d: '2026-07-26', mo: 'Jul', day: 26, name: 'Beginner Clinic: Backhand Basics', loc: 'Blue Ribbon Pines · East Bethel, MN', types: ['Clinic'], tags: [['Clinic'], ['All ages'], ['Discs provided']], spots: [9, 20], fee: 'Free' },
+  { d: '2026-08-02', mo: 'Aug', day: 2, name: 'Glow Doubles Under the Pines', loc: 'Flip City · Shelby, MI', types: ['League', 'Doubles'], tags: [['Doubles'], ['Glow round'], ['BYO lights']], spots: [22, 36], fee: '$10' },
+  { d: '2026-08-15', mo: 'Aug', day: 15, name: 'New England Open 2026', loc: 'Maple Hill · Leicester, MA', types: ['Tournament'], tags: [['A-Tier', 'tier'], ['$10,000 purse'], ['3 rounds']], spots: [144, 144], fee: null },
+  { d: '2026-08-29', mo: 'Aug', day: 29, name: 'Ladies League Finale', loc: 'Milo McIver · Estacada, OR', types: ['League'], tags: [['League'], ['FPO / FA'], ['Season finale']], spots: [31, 48], fee: '$12' },
+];
+
+const state = { type: 'all', sort: 'soon', registered: new Set() };
+
+function render() {
+  let list = EVENTS.filter(e => state.type === 'all' || e.types.includes(state.type));
+  list.sort((a, b) => state.sort === 'soon' ? a.d.localeCompare(b.d) : b.d.localeCompare(a.d));
+  document.getElementById('ev-list').innerHTML = list.map((e, i) => {
+    const full = e.spots[0] >= e.spots[1];
+    const reg = state.registered.has(e.name);
+    const btn = reg
+      ? `<button class="btn-dark" disabled>Registered ✓</button>`
+      : full
+        ? `<button class="btn-outline" data-reg="${BF.esc(e.name)}">Join waitlist</button>`
+        : `<button class="btn-primary" data-reg="${BF.esc(e.name)}">Register${e.fee ? ' · ' + e.fee : ''}</button>`;
+    return `<div class="ev-card">
+      <div class="ev-date"><div class="ev-mo">${e.mo}</div><div class="ev-day">${e.day}</div><div class="ev-yr">2026</div></div>
+      <div class="ev-info"><div class="ev-name">${BF.esc(e.name)}</div><div class="ev-loc">${BF.esc(e.loc)}</div>
+        <div class="ev-tags">${e.tags.map(([t, cls]) => `<span class="ev-badge${cls ? ' ' + cls : ''}">${t}</span>`).join('')}</div></div>
+      <div class="ev-right"><div class="ev-spots">${e.spots[0]} / ${e.spots[1]}${full ? ' · Waitlist' : ' spots'}</div>${btn}</div>
+    </div>`;
+  }).join('');
+}
+
+document.getElementById('filterbar').addEventListener('click', e => {
+  const p = e.target.closest('.pill'); if (!p) return;
+  document.querySelectorAll('#filterbar .pill').forEach(x => x.classList.remove('sel'));
+  p.classList.add('sel'); state.type = p.dataset.t; render();
+});
+document.getElementById('ev-sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+document.getElementById('ev-list').addEventListener('click', e => {
+  const b = e.target.closest('[data-reg]'); if (!b) return;
+  state.registered.add(b.dataset.reg);
+  const ev = EVENTS.find(x => x.name === b.dataset.reg);
+  if (ev && ev.spots[0] < ev.spots[1]) ev.spots[0]++;
+  BF.toast(ev.spots[0] >= ev.spots[1] && !ev.fee ? 'Added to the waitlist' : 'You\u2019re registered!');
+  render();
+});
+
+(async function () {
+  const loc = await BF.getLocation();
+  document.getElementById('head-eyebrow').textContent = 'Near ' + loc.label;
+})();
+render();
+</script>
+</body>
+</html>

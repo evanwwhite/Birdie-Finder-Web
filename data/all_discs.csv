@@ -1,0 +1,1919 @@
+id,name,manufacturer,primary_use,stability,speed,glide,turn,fade,diameter,height,rim_depth,rim_thickness,inside_rim_diameter,rim_diameter_ratio,rim_configuration,bead
+27462,Armadillo,Lone Star Disc,Putt & Approach,1.0,1.0,2.0,0.0,1.0,21.3,1.9,1.4,0.8,19.6,6.6,90.75,Beadless
+394,Beetle,Latitude 64,Putt & Approach,-1.0,1.0,7.0,-1.0,0.0,21.9,2.2,1.6,0.8,20.3,7.3,89.25,Beadless
+616,Berg,Kastaplast,Putt & Approach,2.0,1.0,1.0,0.0,2.0,21.1,2.0,1.4,0.9,19.3,6.6,87.0,Beadless
+156526,Berg X,Kastaplast,Putt & Approach,3.0,1.0,1.0,1.0,2.0,21.1,1.9,1.4,0.9,19.4,6.6,87.25,Beadless
+317,Birdie,Innova,Putt & Approach,0.0,1.0,2.0,0.0,0.0,21.2,2.4,1.9,0.7,19.8,9.0,98.25,Beadless
+757,Claws,Yikun,Putt & Approach,0.5,1.0,3.0,0.0,0.5,21.2,2.0,1.7,0.9,19.4,8.0,85.0,Beadless
+165229,Dogwood,Above Ground Level,Putt & Approach,2.0,1.0,4.0,0.0,2.0,22.7,2.8,2.1,0.8,21.1,9.3,112.75,Beadless
+77990,Glitch,MVP,Putt & Approach,0.0,1.0,7.0,0.0,0.0,21.2,2.0,1.6,0.8,19.5,7.5,66.5,Beadless
+174225,Glyph,Infinite Discs,Putt & Approach,1.0,1.0,5.0,0.0,1.0,21.2,1.9,1.5,0.7,19.7,7.1,90.25,Beadless
+17258,Hydrogen,Loft Discs,Putt & Approach,0.0,1.0,2.0,0.0,0.0,21.2,2.1,1.5,0.7,19.7,7.1,72.25,Beadless
+87580,No2 Putter,Lightning Discs,Putt & Approach,-1.0,1.0,2.0,-2.0,1.0,21.8,2.6,1.6,1.0,19.8,7.3,53.75,Beadless
+184320,Parachute,Streamline,Putt & Approach,0.5,1.0,7.0,0.0,0.5,21.2,2.0,1.6,0.8,19.5,7.5,77.0,Beadless
+171613,Pitch,Axiom,Putt & Approach,-0.5,1.0,7.0,-0.5,0.0,21.2,2.0,1.6,0.8,19.5,7.5,79.75,Beadless
+333,Polecat,Innova,Putt & Approach,0.0,1.0,3.0,0.0,0.0,21.3,2.3,1.6,0.7,19.9,7.5,83.25,Beadless
+335,Sonic,Innova,Putt & Approach,-4.0,1.0,2.0,-4.0,0.0,21.6,2.3,1.6,0.6,20.4,7.4,82.0,Beadless
+166495,Spore,Discmania,Putt & Approach,1.0,1.0,7.0,0.0,1.0,21.2,2.3,1.6,0.9,19.4,7.5,70.5,Beaded
+95845,Super Dillo,Lone Star Disc,Putt & Approach,-2.0,1.0,4.0,-3.0,1.0,23.6,2.0,1.2,0.8,22.0,5.1,88.0,Beadless
+87969,Upshot,Lightning Discs,Putt & Approach,-2.0,1.0,3.0,-2.0,0.0,21.6,2.2,1.4,0.7,20.2,6.5,63.75,Beadless
+198246,Yang,EV-7,Putt & Approach,2.0,1.0,2.0,0.0,2.0,21.2,2.0,1.4,1.1,19.0,6.6,56.0,Beaded
+198247,Yin,EV-7,Putt & Approach,2.0,1.0,2.0,0.0,2.0,21.2,2.0,1.4,1.1,19.0,6.6,73.25,Beadless
+27435,Agent,Dynamic Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.1,1.4,1.1,19.0,6.6,60.75,Beadless
+778,Animal,Innova,Putt & Approach,1.0,2.0,1.0,0.0,1.0,21.2,2.1,1.3,1.0,19.2,6.1,64.0,Beadless
+207516,Ankylosaurus,Dino Discs,Putt & Approach,-1.0,2.0,3.0,-1.0,0.0,21.0,2.1,1.5,1.0,19.0,7.1,54.0,Beadless
+100,APX,Discraft,Putt & Approach,0.0,2.0,2.0,-1.0,1.0,21.0,2.3,1.4,0.9,19.2,6.7,49.25,Beaded
+310,Aviar,Innova,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.5,0.9,19.4,7.1,55.75,Beadless
+312,Aviar Driver,Innova,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.0,1.5,0.9,19.4,7.1,55.75,Beaded
+104821,Bagger,Pie Pan Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.3,1.8,1.5,1.1,19.2,7.5,59.75,Beaded
+101,Banger GT,Discraft,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.6,1.0,19.2,7.5,65.75,Beaded
+201246,Bash,Lone Star Disc,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.7,1.5,1.0,19.0,7.1,72.25,Beadless
+824,Beaver,Daredevil,Putt & Approach,0.0,2.0,3.0,-1.0,1.0,21.2,2.2,1.6,0.9,19.3,7.5,50.5,Beaded
+169043,Beginner Putter,Kestrel Outdoors,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,1.9,1.6,0.8,19.6,7.5,104.25,Beadless
+830,Bighorn,Daredevil,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.2,1.6,1.5,19.2,7.5,67.75,Beaded
+86039,Bleak,Doomsday Discs,Putt & Approach,0.0,2.0,4.0,-1.0,1.0,21.0,2.2,1.4,1.1,18.9,6.7,52.0,Beadless
+835,Blowfly I,DGA,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.5,2.7,1.1,1.5,18.5,5.1,52.5,Beadless
+85946,Bluebonnet,Lone Star Disc,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.1,1.3,1.1,18.9,6.2,65.5,Beadless
+837,Blunt Gumbputt,DGA,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.7,2.2,1.9,0.7,20.2,8.8,86.75,Beadless
+235774,Bolderbane,Discape Disc Golf,Putt & Approach,0.0,2.0,4.0,-1.0,1.0,21.1,1.9,1.4,1.1,18.8,6.6,61.25,Beadless
+183578,Bongo,Goto Disc Golf,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.1,1.5,1.1,18.9,7.1,65.75,Beadless
+847,Bullet,Mint Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,1.8,1.5,1.1,18.9,7.1,58.75,Beadless
+208020,Bullseye,Hero Disc,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.8,1.4,1.0,19.1,6.6,60.75,Beadless
+51235,Butter,Clash Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.5,2.1,1.5,1.2,19.1,7.0,67.25,Beadless
+395,Caltrop,Latitude 64,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.0,1.9,1.5,1.0,19.1,7.1,64.0,Beadless
+11049,Chainzilla,Skyquest,Putt & Approach,0.0,2.0,3.0,-1.0,1.0,21.2,2.2,1.7,1.0,19.2,8.0,56.0,Beaded
+102,Challenger,Discraft,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.0,2.2,1.6,1.0,19.0,7.6,61.5,Beaded
+103,Challenger OS,Discraft,Putt & Approach,3.0,2.0,3.0,0.0,3.0,21.1,2.0,1.5,1.0,18.9,7.1,61.0,Beaded
+104,Challenger SS,Discraft,Putt & Approach,1.0,2.0,3.0,-1.0,2.0,21.1,2.0,1.4,1.0,19.1,6.6,61.0,Beadless
+207437,Champ,Climo Disc Golf,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.0,2.0,1.5,1.1,18.8,7.1,62.75,Beaded
+183635,Chickadee,Grassland Discs,Putt & Approach,3.0,2.0,3.0,0.0,3.0,21.1,1.7,1.4,1.0,19.1,6.6,68.0,Beadless
+192289,Chinook,Windward Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.2,1.5,1.1,19.0,7.1,52.0,Beadless
+208102,Classic Ace,Innova,Putt & Approach,-1.0,2.0,3.0,-2.0,1.0,21.2,2.2,1.1,0.9,19.4,5.2,50.5,Beadless
+34065,Classic Aviar,Innova,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.0,1.5,0.9,19.4,7.1,55.75,Beadless
+638,Clozer,Legacy Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.1,1.4,0.9,19.4,6.6,58.25,Beaded
+639,Clutch,Legacy Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.4,0.9,19.4,6.6,49.5,Beadless
+321,Coupe,Innova,Putt & Approach,0.0,2.0,3.0,-1.0,1.0,21.2,2.0,1.3,0.9,19.4,6.1,50.0,Beaded
+88075,Cumulus,Guru Disc Golf,Putt & Approach,0.0,2.0,3.0,-1.0,1.0,21.1,1.7,1.4,1.1,18.9,6.6,55.5,Beadless
+396,Dagger,Latitude 64,Putt & Approach,1.0,2.0,5.0,0.0,1.0,21.1,2.1,1.5,1.0,19.1,7.1,75.25,Beaded
+207848,Delivery,Eurodisc,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.0,2.0,1.4,1.0,19.0,6.7,59.0,Beaded
+207849,Delivery Organic,Eurodisc,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.1,1.4,1.0,19.2,6.6,59.0,Beaded
+142309,Depth Charge,Doomsday Discs,Putt & Approach,1.0,2.0,2.0,0.0,1.0,21.8,1.9,1.4,0.9,20.0,6.4,104.0,Beadless
+183747,Dime,Hooligan Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.1,1.5,1.0,19.1,7.1,54.0,Beaded
+220534,DMP1,Disc Monkey,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.1,1.5,1.0,19.2,7.1,68.5,Beadless
+192284,Eagle Wings,X-UFO,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.0,2.1,1.6,1.1,18.8,7.6,63.25,Beadless
+16101,EMac Judge,Dynamic Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.0,1.4,1.1,18.9,6.6,60.75,Beaded
+208681,EVO,OZDG,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.3,1.5,1.2,18.8,7.1,55.5,Beaded
+21367,Faith,Latitude 64,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.2,1.5,1.1,19.0,7.1,59.5,Beadless
+324,Firefly,Innova,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.1,1.5,1.0,19.1,7.1,71.0,Beadless
+88077,Flow Motion,Guru Disc Golf,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.9,1.5,1.0,19.0,7.1,66.5,Beadless
+106,Focus,Discraft,Putt & Approach,1.0,2.0,2.0,-1.0,2.0,21.1,2.1,1.6,1.0,19.1,7.6,60.25,Beaded
+183860,Fu Sang,Yikun,Putt & Approach,3.0,2.0,3.0,0.0,3.0,21.3,2.0,1.6,1.0,19.3,7.5,62.5,Beadless
+118919,Fudge,Clash Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.3,2.0,1.5,1.1,19.2,7.0,63.0,Beaded
+208667,G1,ODDGRIP,Putt & Approach,-1.0,2.0,3.0,-1.0,0.0,21.1,1.9,1.4,1.2,18.7,6.6,63.5,Beadless
+161438,Gain,Momentum Discs,Putt & Approach,-2.0,2.0,5.0,-3.0,1.0,21.5,1.9,1.1,1.1,19.3,5.1,49.75,Beadless
+397,Gauntlet,Latitude 64,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.1,1.5,1.1,19.0,7.1,61.75,Beaded
+235773,Glacioris,Discape Disc Golf,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.3,2.1,1.5,1.1,19.1,7.0,66.5,Beadless
+161451,Gloom,Doomsday Discs,Putt & Approach,0.0,2.0,3.0,-1.0,1.0,21.1,2.1,1.4,1.0,19.1,6.6,60.5,Beadless
+147230,Gnome,Sacred Discs,Putt & Approach,1.0,2.0,2.0,0.0,1.0,21.2,1.9,1.4,1.0,19.2,6.6,53.25,Beadless
+183913,GP1,Disgo,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.0,2.2,1.6,1.0,19.0,7.6,59.75,Beadless
+208872,Graboide,Rip Disc Golf,Putt & Approach,3.0,2.0,1.0,0.0,3.0,21.2,2.5,1.7,1.3,18.6,8.0,73.0,Beaded
+1035,Great Horned Owl,Daredevil,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.2,1.4,1.0,19.2,6.6,62.25,Beaded
+146,Guard,Dynamic Discs,Putt & Approach,0.5,2.0,5.0,0.0,0.5,21.0,2.1,1.6,0.9,19.1,7.6,90.0,Beadless
+758,Gui,Yikun,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.8,1.5,1.0,19.1,7.1,59.0,Beadless
+325,Hammer,Innova,Putt & Approach,1.0,2.0,2.0,-1.0,2.0,21.7,2.1,1.1,1.2,19.3,5.1,36.75,Beadless
+1057,Hammer Chui,Yikun,Putt & Approach,3.0,2.0,2.5,0.0,3.0,21.1,1.7,1.4,1.3,18.5,6.6,56.25,Beadless
+326,Hawg,Innova,Putt & Approach,3.5,2.0,1.0,0.0,3.5,21.2,2.0,1.3,1.2,18.8,6.1,71.5,Beadless
+23190,Hope,Latitude 64,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.5,1.1,19.0,7.1,62.75,Beadless
+17253,Hummingbird,Wild Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.0,1.5,0.9,19.3,7.1,52.5,Beadless
+640,Hunter,Legacy Discs,Putt & Approach,0.0,2.0,4.0,0.0,0.0,21.2,2.0,1.4,0.9,19.4,6.6,54.75,Beadless
+21461,Huntsman,Fourth Circle Discs,Putt & Approach,2.5,2.0,3.0,0.0,2.5,21.3,2.4,1.6,1.1,19.1,7.5,72.5,Beaded
+207899,Huntsman Zero1,Fourth Circle Discs,Putt & Approach,0.5,2.0,3.0,-1.0,1.5,21.5,2.0,1.6,1.1,19.2,7.4,60.5,Beaded
+89186,Inner Core,Trash Panda,Putt & Approach,-0.5,2.0,4.0,-0.5,0.0,21.3,1.9,1.5,1.0,19.4,7.0,56.5,Beadless
+11060,Iridium,Element Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.0,2.1,1.5,0.9,19.1,7.1,66.0,Beadless
+184023,Jetski,Albatross Disc Golf,Putt & Approach,2.0,2.0,4.0,0.0,2.0,21.2,2.0,1.5,1.0,19.1,7.1,75.75,Beadless
+34317,JK Aviar,Innova,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.0,1.5,0.9,19.4,7.1,55.75,Beaded
+147,Judge,Dynamic Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.0,1.5,1.1,18.9,7.1,58.25,Beaded
+174223,Jury,Dynamic Discs,Putt & Approach,2.0,2.0,4.0,0.0,2.0,21.2,2.0,1.4,1.1,19.0,6.6,58.25,Beaded
+329,KC Aviar,Innova,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.0,1.5,0.9,19.4,7.1,55.75,Beaded
+398,Keystone,Latitude 64,Putt & Approach,0.0,2.0,5.0,-1.0,1.0,21.1,1.9,1.5,1.0,19.0,7.1,75.0,Beadless
+742,Knife,Viking Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.9,1.3,1.0,19.1,8.5,58.75,Beadless
+86397,Land Mine,Doomsday Discs,Putt & Approach,2.0,2.0,2.0,0.0,2.0,22.0,1.8,1.5,1.2,19.6,6.8,92.75,Beadless
+184082,Leatherback,RIPR,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.0,2.1,1.4,1.0,19.0,6.7,58.25,Beadless
+207529,Lex,Disc King,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.5,2.1,1.6,1.0,19.5,7.4,75.25,Beadless
+75964,Ling,Yikun,Putt & Approach,-2.0,2.0,3.0,-3.0,1.0,21.2,1.8,1.3,1.0,19.2,6.1,74.5,Beadless
+35,Link,Discmania,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,1.9,1.5,1.0,19.1,7.0,71.0,Beaded
+184103,Loop,Supersonic Discs,Putt & Approach,0.0,2.0,9.0,0.0,0.0,23.9,2.6,1.7,1.0,21.8,7.1,77.0,Beadless
+165228,Love,Jester Disc Golf,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.5,1.1,19.0,7.1,59.0,Beadless
+184119,M10,Tefat,Putt & Approach,3.0,2.0,2.0,0.0,3.0,21.3,1.7,1.3,1.0,19.3,6.1,64.75,Beadless
+399,Macana,Latitude 64,Putt & Approach,1.0,2.0,5.0,0.0,1.0,21.1,2.1,1.4,1.1,18.9,6.6,74.0,Beaded
+181,Magic,Gateway,Putt & Approach,-1.0,2.0,3.0,-1.0,0.0,21.0,2.1,1.5,1.0,19.0,7.1,54.0,Beadless
+108,Magnet,Discraft,Putt & Approach,0.0,2.0,3.0,-1.0,1.0,21.2,2.0,1.4,0.8,19.6,6.6,47.75,Beaded
+11078,Magneton,Galaxy Disc Golf,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.9,1.5,1.0,19.1,7.1,59.25,Beadless
+284,Makani,Innova,Mid Range,-2.0,2.0,7.0,-2.0,0.0,24.2,2.7,1.7,0.7,22.8,7.0,83.0,Beadless
+33460,Marvel,Birdie,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.0,1.4,1.1,18.9,6.6,65.75,Beadless
+157743,Mercury,ITC Discs,Putt & Approach,-1.0,2.0,3.0,-1.0,0.0,21.1,2.0,1.5,1.0,19.1,7.1,62.0,Beadless
+400,Mercy,Latitude 64,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.1,1.5,1.1,19.1,7.1,61.5,Beadless
+760,Meteor Hammer,Yikun,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.0,1.5,1.0,19.2,7.1,52.5,Beadless
+161458,Mimic,Kraken Discs,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.0,2.2,1.4,1.1,18.8,6.7,60.5,Beadless
+11083,Mjolner,Guru Disc Golf,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.5,1.0,19.2,7.1,47.25,Beaded
+33492,Mobius,EV-7,Putt & Approach,-1.0,2.0,4.0,-1.0,0.0,21.1,1.9,1.4,1.0,19.1,6.6,77.25,Beadless
+207290,Money,ABC Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.0,2.2,1.7,1.0,19.0,8.1,56.5,Beadless
+202,Myth,Infinite Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.1,1.5,1.1,19.0,7.1,68.75,Beaded
+208642,Niohoggr,Nordisc,Putt & Approach,3.0,2.0,3.0,0.0,3.0,21.2,1.8,1.4,1.0,19.2,6.6,59.5,Beadless
+87583,No2 Upshot,Lightning Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.4,2.0,1.5,0.9,19.6,7.0,51.25,Beadless
+23359,Nomad,MVP,Putt & Approach,1.5,2.0,4.0,0.0,1.5,21.2,2.0,1.4,1.1,19.0,6.6,51.0,Beaded
+178168,Notion,Discmania,Putt & Approach,-1.0,2.0,3.0,-1.0,0.0,21.2,2.0,1.3,1.0,19.2,6.1,54.75,Beadless
+331,Nova,Innova,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.3,2.7,1.5,1.1,19.1,7.0,59.0,Beadless
+442,Ohm,MVP,Putt & Approach,1.0,2.0,5.0,0.0,1.0,21.2,1.9,1.5,1.0,19.1,7.1,58.0,Beadless
+660,Omega,Millennium,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.1,2.0,1.5,0.9,19.3,7.1,55.75,Beadless
+22582,Omega 4,Millennium,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.0,1.5,1.0,19.0,7.1,58.0,Beadless
+661,Omega AP,Millennium,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.1,2.0,1.5,0.9,19.3,7.1,55.75,Beadless
+662,Omega AP Big Bead,Millennium,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.0,1.5,0.9,19.3,7.1,55.75,Beaded
+663,Omega Big Bead,Millennium,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.1,1.5,0.9,19.4,7.1,55.75,Beaded
+665,Omega SuperSoft,Millennium,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.1,2.0,1.5,0.9,19.3,7.1,55.75,Beadless
+36,P1,Discmania,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.0,1.5,1.1,19.0,7.1,62.5,Beadless
+37,P1x,Discmania,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.0,1.4,1.1,19.0,6.6,59.75,Beaded
+38,P2,Discmania,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.1,1.6,1.1,19.0,7.5,68.75,Beadless
+207575,P2x,Discmania,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,1.9,1.3,1.1,18.9,6.1,69.75,Beaded
+120441,Pace,Finish Line Discs,Putt & Approach,1.5,2.0,4.0,0.0,1.5,21.1,2.0,1.5,1.1,18.9,7.1,60.25,Beadless
+184334,Peace,Essential Discs,Putt & Approach,0.5,2.0,3.0,0.0,0.5,21.2,1.8,1.4,1.1,18.9,6.6,58.25,Beadless
+22615,Penrose,EV-7,Putt & Approach,2.0,2.0,4.0,0.0,2.0,21.1,2.1,1.5,1.1,18.9,7.1,60.25,Beaded
+730,Pilot,Streamline,Putt & Approach,1.0,2.0,5.0,0.0,1.0,21.2,1.9,1.5,1.0,18.2,7.1,64.0,Beaded
+163969,Pixel,Axiom,Putt & Approach,0.5,2.0,4.0,0.0,0.5,21.2,2.1,1.5,1.0,19.1,7.1,61.0,Beaded
+158967,Pneuma,Thought Space Athletics,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.0,1.9,1.4,1.0,19.0,6.7,57.0,Beaded
+1276,Polar Bear,Daredevil,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.5,1.0,19.3,7.1,62.5,Beaded
+1281,PowerDrive Gumbputt,DGA,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.5,2.6,1.2,1.3,18.9,5.6,38.0,Beadless
+669,Profit,Mint Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,1.9,1.6,1.1,18.9,7.6,65.75,Beaded
+641,Prowler,Legacy Discs,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.2,2.2,1.4,0.9,19.4,6.6,61.5,Beaded
+161448,Proximity Mine,Doomsday Discs,Putt & Approach,1.5,2.0,3.0,0.0,1.5,22.0,2.0,1.3,0.8,20.4,5.9,65.25,Beadless
+1297,Puttr,Discraft,Putt & Approach,0.0,2.0,2.0,-1.0,1.0,21.0,2.4,1.6,0.9,19.2,7.6,78.75,Beadless
+724,Radar,Storm Disc Golf,Putt & Approach,0.5,2.0,5.0,0.0,0.5,21.1,2.0,1.5,1.0,19.1,7.1,55.5,Beaded
+23465,Rainmaker,Discmania,Putt & Approach,0.5,2.0,3.0,0.0,0.5,21.2,2.0,1.5,1.1,19.0,7.1,66.25,Beadless
+192293,Range,Streamline,Putt & Approach,1.5,2.0,1.0,-0.5,2.0,21.2,1.8,1.3,1.0,19.2,6.1,71.5,Beadless
+109,Rattler,Discraft,Putt & Approach,-1.0,2.0,2.0,-2.0,1.0,21.2,2.2,1.6,0.6,20.0,7.5,84.25,Beadless
+208398,Rebel,Legacy Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.0,2.1,1.5,1.1,18.9,7.1,60.25,Beadless
+1324,Reef,DGA,Putt & Approach,0.0,2.0,2.0,-1.0,1.0,21.2,2.1,1.4,0.9,19.4,6.6,49.25,Beaded
+208873,Relic,Rip Disc Golf,Putt & Approach,0.0,2.0,2.0,-2.0,2.0,21.2,2.4,1.7,1.3,18.6,8.0,76.5,Beadless
+334,Rhyno,Innova,Putt & Approach,3.0,2.0,1.0,0.0,3.0,21.2,1.9,1.3,1.0,19.2,6.1,56.75,Beadless
+1333,RhynoX,Innova,Putt & Approach,4.0,2.0,1.0,0.0,4.0,21.2,2.0,1.3,1.0,19.1,6.1,63.5,Beadless
+87747,Ridge,Vibram,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.0,1.6,0.9,19.3,7.6,61.25,Beaded
+184461,Rippling Waters,Albatross Disc Golf,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.1,1.5,1.1,19.0,7.1,64.25,Beaded
+112,Roach,Discraft,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.1,2.0,1.5,1.1,18.9,7.1,58.75,Beadless
+235771,Rootheon,Discape Disc Golf,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,2.0,1.3,0.9,19.4,6.2,74.0,Beaded
+161449,Rot,Doomsday Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,1.9,1.4,1.0,19.1,6.6,64.75,Beaded
+87767,Rubber Putter,Lightning Discs,Putt & Approach,0.5,2.0,3.0,0.0,0.5,21.6,2.5,1.3,1.3,19.0,6.0,45.5,Beaded
+743,Rune,Viking Discs,Putt & Approach,0.0,2.0,4.0,0.0,0.0,21.2,2.1,1.6,1.1,19.0,7.5,55.5,Beaded
+184500,Santa,Osuma Disc,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.3,2.1,1.6,1.0,19.2,7.5,57.25,Beadless
+403,Sarek,Latitude 64,Putt & Approach,1.5,2.0,4.0,0.0,1.5,21.2,2.2,1.5,1.1,19.0,7.1,61.0,Beadless
+11093,Scale,Reptilian Disc Golf,Putt & Approach,3.0,2.0,1.0,0.0,3.0,21.0,2.2,1.5,1.0,19.0,7.1,68.0,Beadless
+204,Scarab,Infinite Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.1,1.5,1.0,19.2,7.1,62.5,Beaded
+33698,Sea Otter,Wild Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,1.8,1.5,1.0,19.1,7.1,57.75,Beadless
+208901,Seed,Sacred Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.1,2.2,1.5,1.1,19.0,7.1,72.0,Beaded
+11094,Serpent,Reptilian Disc Golf,Putt & Approach,0.0,2.0,2.0,0.0,0.0,21.0,2.2,1.5,1.0,19.1,7.1,86.75,Beadless
+22717,Shogun,Discmania,Putt & Approach,2.0,2.0,4.0,0.0,2.0,21.2,2.4,1.5,1.0,19.2,7.1,74.0,Beaded
+404,Sinus,Latitude 64,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.2,1.9,1.4,1.1,19.0,6.6,54.25,Beadless
+184557,Skool,Goto Disc Golf,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.0,2.2,1.5,1.1,18.9,7.1,57.0,Beadless
+46966,Slim,Momentum Discs,Putt & Approach,-3.0,2.0,4.0,-3.0,0.0,21.4,1.7,1.1,1.1,19.2,5.1,54.5,Beadless
+113,Soft Magnet,Discraft,Putt & Approach,1.0,2.0,3.0,-1.0,2.0,21.2,2.0,1.4,0.8,19.6,6.6,47.75,Beadless
+87836,Sole,Vibram,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.3,1.5,1.0,19.2,7.1,58.75,Beadless
+142064,Sombra,Chumba,Putt & Approach,-1.0,2.0,4.0,-1.0,0.0,21.0,2.2,1.4,1.0,19.0,6.7,64.5,Beadless
+686,Sparta,Prodiscus,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.3,2.0,1.6,1.0,19.2,7.5,59.75,Beadless
+184618,Star Demon,X-UFO,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.0,2.2,1.5,1.0,19.0,7.1,63.75,Beadless
+1425,Steady,DGA,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.0,1.4,1.0,19.3,6.6,56.0,Beaded
+1426,Steady BL,DGA,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.5,1.5,1.1,19.0,7.1,64.75,Beadless
+87877,Summit,Vibram,Putt & Approach,-1.0,2.0,3.0,-1.0,0.0,21.1,1.9,1.2,0.9,19.2,5.7,61.25,Beaded
+92501,Supreme Judge,Dynamic Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.2,1.4,1.1,19.0,6.6,58.25,Beaded
+63953,Takapu,RPM Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.1,1.5,1.1,18.9,7.1,66.75,Beadless
+605,Tank,Hyzer Bomb,Putt & Approach,2.0,2.0,1.0,0.0,2.0,21.2,2.0,1.3,0.9,19.4,6.1,59.75,Beadless
+606,Tank-Panzer,Hyzer Bomb,Putt & Approach,3.0,2.0,2.0,0.0,3.0,21.2,2.1,1.4,1.2,18.8,6.6,59.75,Beadless
+208963,Tarkka,Taito Frisbeegolf,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.2,2.1,1.6,1.0,19.2,7.5,59.75,Beadless
+50156,Telos,EV-7,Putt & Approach,1.5,2.0,4.0,0.0,1.5,21.0,1.9,1.5,1.0,18.9,7.1,67.0,Beadless
+184717,Theios,Alfa Discs,Putt & Approach,2.0,2.0,4.0,0.0,2.0,21.1,2.1,1.6,1.1,18.9,7.6,55.0,Beadless
+1485,Titanic,DGA,Putt & Approach,2.0,2.0,2.0,0.0,2.0,21.1,2.2,1.5,1.0,19.1,7.1,63.5,Beaded
+11108,Touch,Salient,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.4,1.2,17.8,6.6,54.75,Beaded
+184756,Trickster Chukfi,Native Discs,Putt & Approach,1.0,2.0,5.0,0.0,1.0,21.1,2.2,1.4,1.0,19.1,6.6,72.5,Beadless
+170326,Tundra,Meridian Discs,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.0,2.1,1.4,1.0,19.0,6.7,62.75,Beadless
+184767,Tunnel Shot,Compound Discs,Putt & Approach,0.0,2.0,4.0,-1.0,1.0,21.1,1.7,1.1,0.9,19.4,5.2,68.25,Beadless
+209013,UB Lex,UB Disc Golf - Hand Candy,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.4,2.1,1.6,0.9,19.6,7.5,77.0,Beadless
+151674,UFO,Mint Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.1,1.5,1.1,19.0,7.1,62.25,Beaded
+184,Voodoo,Gateway,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.1,1.6,1.0,19.2,7.5,62.0,Beadless
+88002,VP,Vibram,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,2.0,1.6,0.9,19.1,7.6,66.75,Beaded
+88010,War Dove,Premier Discs,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.0,1.6,1.1,18.9,7.6,68.25,Beadless
+88012,War Pigeon,Premier Discs,Putt & Approach,3.0,2.0,3.0,0.0,3.0,21.2,2.0,1.5,1.1,19.1,7.1,68.25,Beaded
+150,Warden,Dynamic Discs,Putt & Approach,0.5,2.0,4.0,0.0,0.5,21.2,2.0,1.5,1.1,19.1,7.1,66.25,Beadless
+185,Warlock,Gateway,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.3,1.6,1.0,19.1,7.6,56.25,Beadless
+134914,Watt,MVP,Putt & Approach,0.0,2.0,5.0,-0.5,0.5,21.2,1.8,1.5,1.1,19.0,7.1,67.5,Beadless
+184845,Waymaker,Goliath Discs,Putt & Approach,1.0,2.0,4.0,-1.0,2.0,21.4,1.9,1.5,1.1,19.3,7.0,55.0,Beaded
+339,Whale,Innova,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.1,2.0,1.5,1.0,19.0,7.1,75.25,Beaded
+187,Wizard,Gateway,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.2,2.1,1.8,1.0,19.2,8.5,59.25,Beaded
+1560,Woodchuck,Daredevil,Putt & Approach,-1.0,2.0,2.0,-1.0,0.0,21.2,2.0,1.5,0.9,19.3,7.1,64.0,Beaded
+73950,Xero,Innova,Putt & Approach,0.0,2.0,3.0,0.0,0.0,21.2,2.0,1.5,1.0,19.2,7.1,68.75,Beaded
+21973,Xing,Yikun,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.3,2.1,1.7,1.0,19.3,8.0,71.0,Beaded
+201249,Yellow Rose,Lone Star Disc,Putt & Approach,1.0,2.0,4.0,0.0,1.0,21.1,2.0,1.6,1.1,19.0,7.6,66.25,Beadless
+52096,Yeti Aviar,Innova,Putt & Approach,1.0,2.0,3.0,0.0,1.0,21.2,2.0,1.5,0.9,19.4,7.1,55.75,Beaded
+342,Zephyr,Innova,Putt & Approach,0.0,2.0,3.0,0.0,0.0,24.1,2.7,1.7,0.7,22.7,7.1,83.0,Beadless
+23756,Zingback,Cheengz,Putt & Approach,0.0,2.0,3.0,0.0,0.0,22.3,2.8,1.7,0.7,20.9,7.6,76.0,Beadless
+172916,Zoom,Northstar Discs,Putt & Approach,2.0,2.0,3.0,0.0,2.0,21.1,2.2,1.5,1.0,19.1,7.1,68.5,Beadless
+438,Anode,MVP,Putt & Approach,0.5,2.5,3.0,0.0,0.5,21.0,2.1,1.4,1.1,18.9,6.7,54.0,Beadless
+441,Ion,MVP,Putt & Approach,1.5,2.5,3.0,0.0,1.5,21.0,1.9,1.6,1.1,18.8,7.6,62.5,Beaded
+444,Spin,MVP,Putt & Approach,-2.0,2.5,4.0,-2.0,0.0,21.0,1.9,1.5,1.1,18.8,7.1,60.75,Beadless
+22188,Zeppelin,Discraft,Putt & Approach,-1.0,2.5,6.0,-1.0,0.0,22.1,2.0,1.5,0.9,20.3,6.8,62.0,Beadless
+165231,Acacia,Above Ground Level,Putt & Approach,0.0,3.0,4.0,0.0,0.0,21.0,2.0,1.5,1.0,19.0,7.1,55.5,Beaded
+309,Aero,Innova,Putt & Approach,0.0,3.0,6.0,0.0,0.0,21.7,2.5,1.3,1.0,19.6,6.0,43.75,Beadless
+207879,AK-47,Fly High Discs,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.0,2.2,1.5,1.0,19.0,7.1,59.25,Beaded
+5711,Alpaca,Infinite Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.1,2.0,1.5,1.0,19.0,7.1,63.75,Beadless
+72947,Alter,Thought Space Athletics,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,2.0,1.5,1.1,19.0,7.1,61.5,Beaded
+192291,Aquarion,Discape Disc Golf,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,1.9,1.4,1.1,18.9,6.7,67.5,Beadless
+183493,Arowana,Elevation Disc Golf,Putt & Approach,1.0,3.0,3.0,-1.0,2.0,21.1,1.8,1.3,1.0,19.1,6.2,62.25,Beadless
+439,Atom,MVP,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.1,1.9,1.4,1.1,18.8,6.6,60.75,Beadless
+315,Aviar3,Innova,Putt & Approach,2.0,3.0,2.0,0.0,2.0,21.2,1.9,1.5,1.0,19.2,7.1,55.75,Beadless
+316,AviarX3,Innova,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.3,1.8,1.6,1.0,19.3,7.5,55.75,Beadless
+169044,Beginner Beaded Mid-Range,Kestrel Outdoors,Mid Range,2.0,3.0,3.0,0.0,2.0,21.1,1.9,1.2,1.0,19.1,5.7,58.75,Beaded
+11048,Bennu,XCom,Putt & Approach,-1.0,3.0,5.0,-1.0,0.0,21.0,2.2,1.5,1.1,18.9,7.1,60.5,Beadless
+118668,Benny,Lone Star Disc,Putt & Approach,2.0,3.0,4.0,0.0,2.0,21.1,1.9,1.5,1.1,18.9,7.1,58.5,Beaded
+183555,Bernoulli,Bernoulli,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.1,2.2,1.5,1.0,19.0,7.1,78.75,Beadless
+183563,Biome,Rogue Iron,Putt & Approach,-0.5,3.0,4.0,-1.0,0.5,21.2,2.1,1.4,1.2,18.8,6.6,55.0,Beadless
+836,Blowfly II,DGA,Putt & Approach,2.0,3.0,2.0,0.0,2.0,21.7,2.3,1.7,1.4,18.9,7.8,46.6,Beadless
+207996,Blue Moon,GT Discs,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.4,1.9,1.5,1.1,19.3,7.0,64.5,Beadless
+842,Breaker,DGA,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.0,1.7,1.2,1.0,19.0,5.7,62.0,Beadless
+55044,Bull Snake,Lone Star Disc,Putt & Approach,4.0,3.0,2.0,0.0,4.0,21.1,2.0,1.3,1.3,18.5,6.2,61.25,Beaded
+318,Bullfrog,Innova,Putt & Approach,1.0,3.0,1.0,0.0,1.0,21.1,1.8,1.3,1.0,19.0,6.2,67.75,Beadless
+207891,BumbleBob,FotCot Discs,Putt & Approach,-1.0,3.0,4.0,-1.0,0.0,21.0,2.2,1.3,1.1,18.8,6.2,54.25,Beadless
+207349,C4,Arsenal Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.1,1.9,1.3,1.0,19.1,6.2,50.0,Beadless
+156525,Candy,Clash Discs,Putt & Approach,0.0,3.0,3.0,-1.0,1.0,21.2,2.3,1.5,1.2,18.8,7.1,65.25,Beadless
+156523,Cash,Hooligan Discs,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.0,1.7,1.4,1.0,18.9,6.7,58.5,Beaded
+102560,Chainsaw,Black Zombie Disc Golf,Putt & Approach,1.0,3.0,5.0,0.0,1.0,21.0,2.2,1.5,1.0,19.1,7.1,66.5,Beadless
+178,Chief,Gateway,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.1,1.7,1.3,1.0,19.2,6.2,60.5,Beaded
+179,Chief OS,Gateway,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,2.1,1.3,1.0,19.2,6.1,55.75,Beaded
+319,Classic Roc,Innova,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,2.0,1.2,0.9,19.4,5.7,42.75,Beaded
+183650,Cloud Ripper,STM Disc Golf,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.1,2.1,1.4,1.2,18.8,6.6,46.25,Beadless
+320,Colt,Innova,Putt & Approach,0.0,3.0,4.0,-1.0,1.0,21.2,1.8,1.3,1.1,19.0,6.1,59.75,Beaded
+271,Condor,Innova,Mid Range,2.0,3.0,4.0,0.0,2.0,24.1,2.2,1.6,1.3,21.5,6.6,49.25,Beadless
+95843,Copperhead,Lone Star Disc,Putt & Approach,2.0,3.0,4.0,0.0,2.0,21.6,1.8,1.3,1.0,19.6,6.0,55.5,Beaded
+723,Crater,Storm Disc Golf,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.1,1.8,1.3,1.1,19.0,6.2,79.25,Beadless
+23011,Credo,Crosslap,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.7,2.0,1.6,1.2,19.3,7.4,49.75,Beadless
+524,Crown,Westside,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.2,2.0,1.4,1.0,19.2,6.6,54.0,Beaded
+207755,Cyber Putter,Doomsday Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.1,1.6,1.0,19.0,7.6,69.0,Beaded
+323,Dart,Innova,Putt & Approach,0.0,3.0,4.0,0.0,0.0,21.2,2.2,1.4,1.2,18.8,6.6,38.0,Beadless
+144,Deputy,Dynamic Discs,Putt & Approach,-1.5,3.0,4.0,-1.5,0.0,21.2,2.0,1.5,1.1,19.1,7.1,61.0,Beadless
+183741,Detonator,Remix Disc Golf,Putt & Approach,1.5,3.0,3.0,0.0,1.5,21.2,1.9,1.6,1.1,19.0,7.5,62.5,Beaded
+180,Devil Hawk,Gateway,Putt & Approach,4.0,3.0,3.0,0.0,4.0,21.2,2.1,1.3,1.0,19.2,6.1,70.25,Beaded
+137327,Dlask,Wingman,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.1,1.5,1.3,18.4,7.1,53.75,Beadless
+125821,Eldritch,Remix Disc Golf,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,2.0,1.5,1.1,18.9,7.1,55.75,Beadless
+183778,Embark,H13 Disc Golf,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.0,2.3,1.5,1.0,19.0,7.1,53.5,Beaded
+183779,Ember,Lightspeed Disc Golf,Putt & Approach,2.0,3.0,4.0,0.0,2.0,21.0,1.9,1.6,1.1,18.8,7.6,56.25,Beaded
+568,Envy,Axiom,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.0,1.8,1.4,1.1,18.8,6.7,52.0,Beadless
+209171,Eraser,ColorYourGame,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,2.1,1.6,1.0,19.1,7.5,68.0,Beadless
+105,Fierce,Discraft,Putt & Approach,-2.0,3.0,4.0,-2.0,0.0,21.1,1.9,1.5,1.0,19.0,7.1,63.5,Beadless
+47016,Fragment,Obsidian Discs,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.2,1.8,1.5,1.1,19.0,7.1,68.0,Beadless
+145,Gavel,Dynamic Discs,Putt & Approach,-1.5,3.0,5.0,-2.0,0.5,21.3,1.9,1.4,1.4,19.5,6.6,45.75,Beadless
+86270,Genesis,Goliath Discs,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.1,2.0,1.5,1.0,19.1,7.1,59.5,Beadless
+226230,Ghoul,Gateway,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.2,1.9,1.2,1.0,19.2,5.7,75.25,Beaded
+147233,Goblin,Innova,Mid Range,1.0,3.0,4.0,0.0,1.0,21.2,2.2,1.3,1.0,19.3,6.1,44.25,Beadless
+16104,Habit,Plastic Addicts,Putt & Approach,-1.0,3.0,5.0,-1.0,0.0,22.1,2.1,1.6,1.0,20.1,7.2,63.25,Beadless
+183434,Houdini,Gateway,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.2,1.9,1.5,1.2,18.8,7.1,55.75,Beaded
+327,Hydra,Innova,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.1,2.0,1.4,1.4,18.3,6.6,44.75,Beadless
+328,Invader,Innova,Putt & Approach,1.0,3.0,2.0,0.0,1.0,21.2,1.9,1.5,1.0,19.1,7.1,67.75,Beaded
+27793,Jack Rabbit,Lone Star Disc,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.1,2.0,1.5,1.2,18.7,7.1,57.25,Beadless
+685,Jokeri,Prodiscus,Putt & Approach,3.0,3.0,3.0,1.0,2.0,21.3,1.8,1.5,1.1,19.0,7.0,54.0,Beadless
+184031,JokeriX,Prodiscus,Putt & Approach,3.0,3.0,3.0,1.0,2.0,21.3,1.8,1.5,1.1,19.0,7.0,54.0,Beaded
+75963,Kang,Yikun,Mid Range,-2.0,3.0,5.0,-2.0,0.0,21.5,1.8,1.4,1.0,19.6,6.5,59.5,Beaded
+137817,Khan,Innova,Putt & Approach,2.0,3.0,2.0,0.0,2.0,21.3,1.9,1.5,1.0,19.2,7.0,62.75,Beaded
+22063,Koi,Elevation Disc Golf,Putt & Approach,-1.0,3.0,4.0,-1.0,0.0,21.1,1.8,1.4,1.1,18.8,6.6,62.25,Beadless
+208673,Kore,Orbital Discs,Putt & Approach,1.0,3.0,5.0,0.0,1.0,21.2,2.1,1.5,1.0,19.3,7.1,62.25,Beadless
+166494,Kratos,Discraft,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.1,2.0,1.4,1.1,18.9,6.6,59.75,Beaded
+198245,Kyrios,Yeet Street Discs,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.2,2.0,1.4,1.0,19.1,6.6,54.25,Beadless
+11072,Lander,Launch Disc Golf,Putt & Approach,1.5,3.0,4.0,-0.5,2.0,21.0,1.8,1.4,1.2,18.6,6.7,49.25,Beaded
+158969,Lasso,Mint Discs,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,1.9,1.2,1.7,17.8,5.7,34.0,Beadless
+88074,Lockdown,Guru Disc Golf,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,1.7,1.4,1.0,19.1,6.6,55.25,Beadless
+22501,Logic,Discmania,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,1.9,1.3,1.1,19.0,6.1,55.0,Beadless
+107,Luna,Discraft,Putt & Approach,2.0,3.0,4.0,0.0,2.0,21.1,2.0,1.4,1.1,18.9,6.6,68.5,Beadless
+88078,Mad Mission,Guru Disc Golf,Mid Range,2.0,3.0,3.0,0.0,2.0,21.2,1.8,1.4,1.0,19.2,6.6,70.5,Beaded
+541,Madrone,Above Ground Level,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.2,1.7,1.0,19.0,8.1,83.5,Beaded
+526,Maiden,Westside,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.2,1.8,1.3,1.0,19.2,6.1,57.75,Beaded
+207910,Manifest,Full Turn,Mid Range,3.0,3.0,3.0,0.0,3.0,21.0,2.0,1.5,1.0,19.0,7.1,75.5,Beaded
+542,Manzanita,Above Ground Level,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.0,2.1,1.6,1.1,18.7,7.6,67.0,Beadless
+148,Marshal,Dynamic Discs,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.2,2.0,1.6,1.1,19.1,7.5,67.0,Beadless
+201242,Milestone,Deuz Disc Golf,Putt & Approach,-1.0,3.0,4.0,-2.0,1.0,21.2,1.7,1.4,1.4,18.3,6.6,37.5,Beadless
+201241,Milestone - Beaded,Deuz Disc Golf,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,1.7,1.4,1.4,18.3,6.6,37.5,Beaded
+330,Mirage,Innova,Putt & Approach,-3.0,3.0,4.0,-3.0,0.0,21.2,1.9,1.2,1.1,19.0,5.7,50.25,Beaded
+184196,Momentum,Supersonic Discs,Putt & Approach,0.0,3.0,7.0,0.0,0.0,21.5,2.0,1.8,1.3,18.8,8.4,53.5,Beadless
+23344,Muse,Thought Space Athletics,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,2.0,1.6,1.2,18.8,7.5,61.5,Beadless
+17398,Narwhal,Divergent Discs,Putt & Approach,0.0,3.0,5.0,0.0,0.0,21.0,2.3,1.2,1.2,18.5,5.7,53.25,Beadless
+166496,Neon,Loft Discs,Putt & Approach,3.0,3.0,1.0,0.0,3.0,21.2,1.9,1.4,1.1,18.9,6.6,56.5,Beadless
+207865,Nila,Exel Discs,Putt & Approach,2.0,3.0,2.0,0.0,2.0,21.3,1.9,1.6,1.1,19.1,7.5,66.0,Beadless
+23366,Nuno,Divergent Discs,Putt & Approach,0.0,3.0,4.0,-1.0,1.0,21.1,2.3,1.5,1.2,18.8,7.1,55.5,Beadless
+198241,Oath,Negative Disc Golf,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,2.2,1.5,1.0,19.1,7.1,62.25,Beadless
+664,Omega Driver,Millennium,Putt & Approach,2.0,3.0,2.0,0.0,2.0,21.1,2.0,1.5,0.9,18.1,7.1,55.75,Beadless
+86547,Origo,Prodiscus,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,1.9,1.5,1.1,19.1,7.1,56.75,Beadless
+184296,Overwatch,STM Disc Golf,Putt & Approach,0.5,3.0,4.0,0.5,0.0,21.1,2.1,1.4,1.2,18.8,6.6,42.25,Beadless
+208763,P Model OS,Prodigy,Putt & Approach,3.0,3.0,4.0,0.0,3.0,21.1,2.2,1.5,1.0,19.1,7.1,58.75,Beadless
+492,P Model S,Prodigy,Putt & Approach,2.0,3.0,5.0,0.0,2.0,21.2,2.0,1.5,1.0,19.2,7.1,56.25,Beaded
+493,P Model US,Prodigy,Putt & Approach,0.0,3.0,5.0,-1.0,1.0,21.3,2.0,1.5,1.1,19.1,7.0,63.75,Beadless
+34492,P Model US+,Prodigy,Putt & Approach,0.0,3.0,5.0,-1.0,1.0,21.3,2.0,1.4,1.1,19.1,6.6,79.75,Beadless
+39,P3,Discmania,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.2,2.0,1.2,1.0,19.2,5.7,59.0,Beadless
+40,P3x,Discmania,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.3,1.9,1.5,1.1,19.0,7.0,62.0,Beaded
+494,PA-1,Prodigy,Putt & Approach,2.5,3.0,3.0,0.0,2.5,21.0,1.9,1.4,1.0,19.0,6.7,57.5,Beadless
+495,PA-2,Prodigy,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.1,1.9,1.4,1.0,19.1,6.6,47.5,Beadless
+496,PA-3,Prodigy,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.0,1.4,1.0,18.9,6.7,66.0,Beaded
+497,PA-4,Prodigy,Putt & Approach,0.0,3.0,3.0,-1.0,1.0,21.0,1.9,1.4,1.0,19.0,6.7,69.25,Beadless
+74954,PA-5,Prodigy,Putt & Approach,-1.5,3.0,4.0,-2.0,0.5,21.4,1.9,1.4,0.9,19.5,6.5,58.25,Beadless
+443,Particle,MVP,Putt & Approach,2.5,3.0,3.0,0.0,2.5,21.1,2.0,1.4,1.1,18.8,6.6,61.25,Beadless
+184326,Path,Compound Discs,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.1,2.3,1.4,1.0,19.2,6.6,76.5,Beadless
+46282,Peace Frog,AquaFlight Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.2,1.6,1.0,19.1,7.6,63.75,Beadless
+208337,Peak,Latitude 64,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.3,1.9,1.3,1.1,19.1,6.1,59.25,Beaded
+17453,Penny Putter,Lone Star Disc,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.0,1.9,1.5,1.1,18.8,7.1,61.5,Beadless
+22619,Phi,EV-7,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.0,2.0,1.5,1.1,18.9,7.1,71.5,Beadless
+161445,Pillar,Goliath Discs,Putt & Approach,4.0,3.0,2.0,0.0,4.0,21.0,1.8,1.4,1.3,18.4,6.7,68.5,Beadless
+11087,Plutonium,Element Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.0,1.5,1.0,19.0,7.1,77.75,Beadless
+543,Ponderosa,Above Ground Level,Putt & Approach,-2.0,3.0,4.0,-2.0,0.0,21.1,2.1,1.5,1.0,19.0,7.1,69.75,Beadless
+28017,Popcorn,Clash Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.4,1.9,1.6,1.1,19.2,7.5,69.5,Beadless
+23436,Praxis,Thought Space Athletics,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,1.8,1.4,1.2,18.8,6.6,60.0,Beadless
+208474,Prickly Pear,Lone Star Disc,Putt & Approach,0.0,3.0,3.0,-1.0,1.0,21.2,1.8,1.3,1.1,19.0,6.1,58.5,Beaded
+569,Proxy,Axiom,Putt & Approach,-0.5,3.0,3.0,-1.0,0.5,21.0,1.8,1.5,1.1,18.8,7.1,63.5,Beadless
+401,Pure,Latitude 64,Putt & Approach,0.0,3.0,3.0,-1.0,1.0,21.2,1.8,1.4,1.0,19.2,6.6,48.25,Beadless
+23452,PX-3,Prodigy,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.0,1.9,1.4,1.0,19.0,6.7,52.0,Beaded
+124015,Raze,Infinite Discs,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.2,1.9,1.5,1.1,19.0,7.1,66.25,Beadless
+617,Reko,Kastaplast,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,1.8,1.4,1.0,19.1,6.6,61.25,Beaded
+33646,Reko X,Kastaplast,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.4,1.9,1.4,1.1,19.2,6.5,49.5,Beaded
+402,Ruby,Latitude 64,Putt & Approach,-2.0,3.0,5.0,-3.0,1.0,21.5,1.9,1.4,1.0,19.5,6.5,69.0,Beadless
+203,Ruin,Infinite Discs,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.8,1.8,1.4,1.3,19.1,6.4,49.25,Beadless
+704,Ruru,RPM Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.0,2.3,1.6,1.0,18.9,7.6,72.75,Beaded
+208047,Sense,Independent Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.1,1.9,1.3,1.1,18.9,6.2,58.75,Beadless
+41,Sensei,Discmania,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.3,2.3,1.4,1.0,19.2,6.6,71.0,Beadless
+23541,Shadowplay,Crosslap,Putt & Approach,-1.5,3.0,3.0,-2.0,0.5,21.1,2.0,1.4,1.1,18.9,6.6,53.0,Beadless
+182,Shaman,Gateway,Putt & Approach,-0.5,3.0,3.0,-1.0,0.5,21.2,1.8,1.3,1.0,19.2,6.1,65.75,Beadless
+527,Shield,Westside,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.1,2.5,1.4,1.0,19.0,6.6,67.0,Beaded
+86736,ShoreBreak,3C Discs,Putt & Approach,3.0,3.0,3.0,0.0,3.0,21.2,2.0,1.6,1.1,19.0,7.5,67.5,Beadless
+161437,Shut The Putt Up,Ire Gear,Putt & Approach,-2.0,3.0,3.0,-2.0,0.0,21.1,2.4,1.3,1.3,18.4,6.2,47.5,Beadless
+184550,Silent Forest,Albatross Disc Golf,Putt & Approach,-1.0,3.0,3.0,-2.0,1.0,21.2,1.9,1.5,1.1,19.0,7.1,50.5,Beadless
+149,Slammer,Dynamic Discs,Putt & Approach,3.0,3.0,2.0,0.0,3.0,21.2,1.8,1.4,1.0,19.2,6.6,53.5,Beadless
+28150,Sockibomb Slammer,Dynamic Discs,Putt & Approach,4.5,3.0,1.0,0.5,4.0,21.1,1.9,1.5,1.2,18.8,7.1,59.0,Beadless
+184578,Sonar,DGA,Putt & Approach,2.0,3.0,4.0,0.0,2.0,21.1,1.9,1.4,1.0,19.1,6.6,62.25,Beaded
+11097,Sparrow,Disctroyer,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.3,1.9,1.6,1.1,19.1,7.4,69.75,Beaded
+184597,Splash,Neptune Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,2.1,1.4,1.1,19.1,6.6,64.25,Beadless
+47017,Splinter,Obsidian Discs,Putt & Approach,3.5,3.0,2.0,0.0,3.5,21.3,2.4,1.5,1.0,19.2,7.0,71.25,Beadless
+186381,SPZ1 Zombie,Latitude 64,Putt & Approach,-1.0,3.0,3.0,-2.0,1.0,21.2,2.1,1.5,1.1,19.0,7.1,59.25,Beadless
+731,Stabilizer,Streamline,Putt & Approach,3.0,3.0,3.5,0.0,3.0,21.2,1.8,1.4,1.1,18.8,6.6,56.25,Beadless
+11099,Stego,Reptilian Disc Golf,Mid Range,5.0,3.0,1.0,1.0,4.0,21.3,1.8,1.2,1.0,19.3,5.6,74.0,Beaded
+336,Stud,Innova,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,1.9,1.3,1.1,18.9,6.1,69.5,Beaded
+184657,Surf,DGA,Putt & Approach,0.0,3.0,4.0,-1.0,1.0,21.1,1.9,1.5,1.0,19.1,7.1,55.25,Beadless
+528,Swan,Westside,Putt & Approach,-1.0,3.0,3.0,-1.0,0.0,21.1,1.9,1.4,1.1,19.0,6.6,55.75,Beadless
+529,Swan 1 Reborn,Westside,Putt & Approach,-2.5,3.0,3.0,-2.5,0.0,21.1,1.9,1.3,1.1,18.9,6.2,52.5,Beadless
+184666,Swell,3C Discs,Putt & Approach,0.0,3.0,3.0,0.0,0.0,21.2,1.9,1.4,1.1,19.0,6.6,53.75,Beadless
+184669,Swisch,Nordic Pitch,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.0,1.9,1.4,1.0,19.0,6.7,59.5,Beadless
+703,TeMoko,RPM Discs,Mid Range,0.0,3.0,4.0,0.0,0.0,23.7,2.9,2.3,0.7,22.3,9.7,74.5,Beadless
+184712,The Chimp,Gorilla Disc Golf,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,1.8,1.4,1.1,19.0,6.6,58.25,Beaded
+205,Tomb,Infinite Discs,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.3,1.6,1.3,1.1,19.1,6.1,65.5,Beaded
+207431,Tone Popcorn,Clash Discs,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.5,2.2,1.5,1.1,19.3,7.0,74.25,Beadless
+207523,Triceratops,Dino Discs,Putt & Approach,-2.0,3.0,3.0,-3.0,1.0,21.0,2.2,1.7,1.0,19.0,8.1,56.5,Beadless
+184758,Trireme,Albatross Disc Golf,Mid Range,2.0,3.0,3.0,0.0,2.0,21.2,1.9,1.2,1.0,19.2,5.7,51.0,Beadless
+705,Tui,RPM Discs,Putt & Approach,-1.0,3.0,4.0,-1.0,0.0,21.1,1.8,1.4,0.9,19.3,6.6,44.25,Beadless
+184783,US Capitol,HIAARO,Putt & Approach,1.0,3.0,4.0,0.0,1.0,21.2,2.1,1.2,1.3,18.7,5.7,43.0,Beadless
+11111,Vaccine,Salient,Mid Range,2.0,3.0,3.0,0.0,2.0,21.2,1.8,1.2,1.0,19.2,5.7,56.75,Beadless
+102555,War Hammer,Black Zombie Disc Golf,Putt & Approach,2.0,3.0,4.0,0.0,2.0,21.2,2.0,1.5,1.0,19.3,7.1,51.5,Beadless
+337,Warhog,Innova,Putt & Approach,1.0,3.0,3.0,0.0,1.0,21.2,2.2,1.4,1.4,18.4,6.6,55.75,Beadless
+186,Warspear,Gateway,Putt & Approach,2.0,3.0,3.0,0.0,2.0,21.2,1.8,1.3,1.0,19.2,6.1,77.75,Beadless
+207885,White Widow,Fly High Discs,Putt & Approach,-1.0,3.0,5.0,-1.0,0.0,21.0,2.1,1.5,1.0,19.0,7.1,75.5,Beaded
+184852,Wild Thing,Jester Disc Golf,Putt & Approach,2.5,3.0,3.0,0.0,2.5,21.2,1.9,1.5,1.2,18.8,7.1,68.75,Beaded
+755,Wings,Yikun,Mid Range,2.0,3.0,3.0,0.0,2.0,21.2,1.8,1.2,1.0,19.2,5.7,56.75,Beaded
+171615,Wren,Stokely Discs,Putt & Approach,0.5,3.0,3.5,-0.5,1.0,21.1,2.0,1.4,1.1,18.9,6.6,63.5,Beadless
+340,XD,Innova,Putt & Approach,0.0,3.0,4.0,-1.0,1.0,21.2,2.0,1.2,0.9,19.4,5.7,42.75,Beadless
+341,XD +,Innova,Putt & Approach,0.0,3.0,4.0,-1.0,1.0,21.2,2.0,1.2,0.9,19.4,5.7,42.75,Beadless
+21979,Yan,Yikun,Mid Range,0.0,3.0,6.0,0.0,0.0,21.9,2.2,1.4,1.1,19.7,6.4,49.0,Beadless
+75965,Yi,Yikun,Putt & Approach,0.0,3.0,3.0,0.0,0.0,21.2,1.9,1.4,1.0,19.1,6.6,49.75,Beadless
+47155,Zeal,Uplay Disc Golf,Putt & Approach,-2.0,3.0,4.0,-2.0,0.0,21.2,2.3,1.5,1.1,19.1,7.1,65.0,Beadless
+201,Cohort,Infinite Discs,Putt & Approach,1.0,3.5,4.0,0.0,1.0,21.1,1.8,1.3,1.0,19.1,6.2,58.5,Beadless
+304,Wedge,Innova,Mid Range,-2.0,3.5,3.0,-3.0,1.0,21.2,1.7,1.2,1.0,19.2,5.7,47.25,Beadless
+488,A1,Prodigy,Putt & Approach,5.0,4.0,2.0,0.0,5.0,21.0,2.0,1.3,1.4,18.2,6.2,41.75,Beaded
+489,A2,Prodigy,Putt & Approach,4.0,4.0,2.0,0.0,4.0,21.0,2.0,1.3,1.4,18.2,6.2,41.75,Beadless
+490,A3,Prodigy,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.0,2.0,1.3,1.4,18.2,6.2,50.25,Beaded
+491,A4,Prodigy,Putt & Approach,2.0,4.0,3.0,-1.0,3.0,21.0,2.0,1.3,1.4,18.2,6.2,61.75,Beaded
+47241,A5,Prodigy,Putt & Approach,2.0,4.0,3.0,0.0,2.0,21.3,1.9,1.4,1.2,19.0,6.6,54.75,Beadless
+565,Alias,Axiom,Mid Range,0.0,4.0,4.0,-1.0,1.0,21.5,1.8,1.2,1.2,19.1,5.6,61.5,Beadless
+145668,Alien,Innova,Mid Range,1.0,4.0,2.0,0.0,1.0,21.6,2.2,1.4,1.4,18.7,6.5,48.5,Beadless
+22872,Alpas,Divergent Discs,Putt & Approach,-1.0,4.0,4.0,-2.0,1.0,21.0,1.9,1.2,1.2,18.6,5.7,53.0,Beadless
+33010,Angler,Wild Discs,Mid Range,3.0,4.0,3.0,0.0,3.0,21.5,2.0,1.4,1.5,18.5,6.5,44.0,Beadless
+517,Anvil,Westside,Mid Range,4.0,4.0,2.0,0.0,4.0,21.3,1.8,1.2,1.5,18.3,5.6,41.75,Beadless
+161452,Area 51,Doomsday Discs,Putt & Approach,2.5,4.0,3.0,0.0,2.5,21.1,1.5,1.2,1.2,18.7,5.7,53.0,Beadless
+146895,Arrowhead,Sacred Discs,Mid Range,1.0,4.0,3.0,0.0,1.0,21.1,1.6,1.3,1.2,18.7,6.2,53.5,Beadless
+137372,Artemis,Lone Star Disc,Putt & Approach,2.0,4.0,4.0,0.0,2.0,21.1,2.0,1.4,1.2,18.8,6.6,50.5,Beadless
+657,Aurora MS,Millennium,Mid Range,0.0,4.0,5.0,0.0,0.0,21.8,1.8,1.2,1.2,19.4,5.5,36.75,Beadless
+739,Axe,Viking Discs,Mid Range,1.0,4.0,3.0,0.0,1.0,21.2,2.0,1.3,1.0,19.2,6.1,57.0,Beadless
+540,Baobab,Above Ground Level,Putt & Approach,4.0,4.0,0.0,1.0,3.0,21.3,1.7,1.3,1.1,19.1,6.1,86.5,Beadless
+183532,Barb,Compound Discs,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.5,1.6,1.3,1.2,19.2,6.0,69.25,Beadless
+169042,Beginner Beadless Mid-Range,Kestrel Outdoors,Mid Range,2.0,4.0,4.0,0.0,2.0,21.1,1.9,1.2,1.0,19.1,5.7,58.75,Beadless
+5776,Bounty,Dynamic Discs,Mid Range,-1.0,4.0,5.0,-1.5,0.5,21.9,1.8,1.2,1.2,19.5,5.9,40.25,Beaded
+207886,Bull Bay,FlyTec,Putt & Approach,0.0,4.0,4.0,-1.0,1.0,21.2,2.0,1.4,1.0,19.2,6.6,47.75,Beadless
+267,Bulldog,Innova,Mid Range,2.0,4.0,3.0,0.0,2.0,21.1,2.0,1.6,1.3,18.6,7.6,45.0,Beadless
+233859,Canyon,Trash Panda,Mid Range,2.0,4.0,3.0,0.0,2.0,21.3,1.6,1.3,1.1,19.0,6.1,53.0,Beaded
+857,Caribou,Daredevil,Mid Range,-2.0,4.0,5.0,-3.0,1.0,21.8,2.1,1.3,1.3,19.3,6.0,40.75,Beaded
+207869,Chicane,Finish Line Discs,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.4,1.6,1.4,1.2,19.1,6.5,58.25,Beadless
+183644,Citadel,Compound Discs,Putt & Approach,1.0,4.0,4.0,0.0,1.0,21.5,1.6,1.2,1.0,19.5,5.6,72.0,Beadless
+269,Cobra,Innova,Mid Range,0.0,4.0,5.0,-2.0,2.0,21.7,2.0,1.1,1.2,19.3,5.1,35.25,Beadless
+88,Comet,Discraft,Mid Range,-1.0,4.0,5.0,-2.0,1.0,21.8,2.1,1.3,1.2,19.4,6.0,35.25,Beaded
+183663,Companion,H13 Disc Golf,Putt & Approach,1.0,4.0,4.0,0.0,1.0,21.3,1.9,1.3,1.0,19.3,6.1,49.75,Beadless
+272,Coyote,Innova,Mid Range,1.0,4.0,5.0,0.0,1.0,21.7,1.9,1.3,1.2,19.4,6.0,47.25,Beadless
+87158,Crag,Vibram,Mid Range,3.5,4.0,3.0,0.0,3.5,21.4,2.0,1.4,1.4,18.6,6.5,31.75,Beadless
+161450,Crisis,Doomsday Discs,Putt & Approach,3.5,4.0,3.0,0.0,3.5,21.7,1.7,1.2,1.3,19.1,5.5,47.0,Beadless
+183694,Crossbow Nu,Yikun,Mid Range,4.5,4.0,1.5,0.5,4.0,21.3,1.6,1.3,1.6,18.2,6.1,42.75,Beadless
+27589,Culprit,Dynamic Discs,Putt & Approach,3.5,4.0,3.0,0.0,3.5,21.3,1.6,1.3,1.2,18.9,6.1,46.25,Beadless
+235772,DarkMight,Discape Disc Golf,Putt & Approach,2.0,4.0,4.0,0.0,2.0,21.3,1.7,1.2,1.0,19.3,5.6,74.0,Beadless
+33197,Distortion,Prodigy,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.4,1.9,1.3,1.3,18.9,6.1,48.25,Beadless
+108476,Douglas Fir,Above Ground Level,Putt & Approach,-1.0,4.0,3.0,-2.0,1.0,21.2,1.8,1.3,1.0,19.2,6.1,65.0,Beadless
+207544,Drop,Discmania,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,1.6,1.3,1.2,18.7,6.1,56.5,Beadless
+440,Entropy,MVP,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,2.0,1.4,1.2,18.8,6.6,31.75,Beadless
+183835,Fjord,Alfa Discs,Putt & Approach,3.0,4.0,4.0,0.0,3.0,21.1,1.7,1.4,1.2,18.8,6.6,59.0,Beadless
+386,Fuji,Latitude 64,Mid Range,2.0,4.0,4.0,0.0,2.0,21.7,1.8,1.2,1.3,18.9,5.5,42.75,Beadless
+519,Gatekeeper,Westside,Mid Range,2.0,4.0,5.0,0.0,2.0,21.7,1.8,1.3,1.4,18.9,6.0,41.25,Beadless
+634,Ghost,Legacy Discs,Mid Range,3.0,4.0,5.0,0.0,3.0,21.7,2.0,1.3,1.2,19.3,6.0,42.75,Beadless
+23151,Golem,Divergent Discs,Putt & Approach,4.0,4.0,2.0,0.0,4.0,21.2,1.7,1.4,1.2,18.8,6.6,47.5,Beadless
+613,Gote,Kastaplast,Mid Range,1.0,4.0,5.0,0.0,1.0,21.9,2.1,1.3,1.3,19.3,5.9,42.25,Beadless
+183914,GP2,Disgo,Putt & Approach,2.0,4.0,3.0,0.0,2.0,21.3,1.6,1.4,1.2,19.0,6.6,57.75,Beadless
+1038,Grizzly,Daredevil,Mid Range,2.0,4.0,4.0,0.0,2.0,21.9,2.0,1.3,1.3,19.3,5.9,42.25,Beadless
+525,Harp,Westside,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,1.6,1.4,1.1,19.0,6.6,65.0,Beaded
+17242,Harpoon,Lone Star Disc,Mid Range,1.0,4.0,3.0,0.0,1.0,21.5,1.7,1.2,1.2,19.1,5.6,54.25,Beadless
+87362,Havu,Exel Discs,Putt & Approach,0.0,4.0,4.0,0.0,0.0,21.5,1.8,1.5,1.1,19.3,7.0,55.5,Beadless
+91,Hawk,Discraft,Mid Range,0.0,4.0,3.0,-2.0,2.0,21.5,1.8,1.2,1.2,19.1,5.6,33.0,Beadless
+198244,Hazard,Compound Discs,Putt & Approach,4.0,4.0,1.0,0.0,4.0,21.2,1.9,1.4,1.4,18.5,6.6,51.5,Beadless
+91393,Hellbender,Daredevil,Putt & Approach,2.0,4.0,4.0,0.0,2.0,21.2,1.7,1.3,1.1,19.0,6.1,60.5,Beadless
+92503,Hellbender Razorback,Daredevil,Putt & Approach,3.0,4.0,4.0,0.0,3.0,21.1,1.9,1.3,1.1,18.9,6.2,60.5,Beadless
+183968,Honey,Essential Discs,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,1.7,1.3,1.2,18.8,6.1,47.75,Beadless
+149698,Horny Toad,Lone Star Disc,Mid Range,3.0,4.0,3.0,0.0,3.0,21.1,2.0,1.4,1.1,18.9,6.6,69.25,Beadless
+208671,Hyrrokin,Orbital Discs,Putt & Approach,2.5,4.0,4.0,0.0,2.5,21.2,1.8,1.3,1.2,18.9,6.1,60.5,Beadless
+17259,I-One,Cheengz,Mid Range,0.0,4.0,5.0,0.0,0.0,22.1,2.0,1.4,0.9,20.3,6.3,65.25,Beaded
+701,Kea,RPM Discs,Mid Range,3.0,4.0,3.0,0.0,3.0,21.2,1.9,1.4,1.4,18.0,6.6,62.75,Beaded
+280,King Cobra,Innova,Mid Range,2.0,4.0,5.0,0.0,2.0,21.7,2.0,1.1,1.2,19.3,5.1,35.25,Beadless
+21508,Kon Tiki,Infinite Discs,Mid Range,-3.0,4.0,5.0,-3.0,0.0,21.2,1.7,1.2,1.1,19.0,5.7,52.5,Beaded
+740,Loki,Viking Discs,Mid Range,4.0,4.0,2.0,0.0,4.0,21.4,1.9,1.3,1.5,18.5,6.1,44.5,Beadless
+283,Lycan,Innova,Mid Range,1.0,4.0,5.0,0.0,1.0,21.8,2.1,1.4,1.5,18.8,6.4,49.75,Beadless
+481,M Model US,Prodigy,Mid Range,0.0,4.0,5.0,-1.0,1.0,21.8,1.9,1.5,1.3,19.1,6.9,53.0,Beadless
+27,Maestro,Discmania,Mid Range,2.0,4.0,3.0,0.0,2.0,21.3,1.7,1.3,1.0,19.2,6.1,55.25,Beadless
+285,Mako,Innova,Mid Range,0.0,4.0,5.0,0.0,0.0,21.7,2.1,1.4,1.2,19.3,6.5,52.75,Beadless
+28,MD,Discmania,Mid Range,0.0,4.0,5.0,0.0,0.0,21.8,2.1,1.4,1.4,19.0,6.4,48.25,Beadless
+30,MD2,Discmania,Mid Range,2.0,4.0,5.0,0.0,2.0,21.7,2.0,1.4,1.4,19.0,6.5,43.75,Beadless
+27913,Mint,Clash Discs,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.4,1.7,1.4,1.3,18.9,6.5,54.0,Beadless
+184198,Money Shot,Lucky Discs,Putt & Approach,4.0,4.0,3.0,1.0,3.0,21.3,1.8,1.5,1.1,19.0,7.0,54.0,Beadless
+1199,Moose,Daredevil,Mid Range,2.0,4.0,5.0,0.0,2.0,21.8,2.1,1.3,1.3,19.3,6.0,41.0,Beadless
+184217,Nail,Forge Discs,Putt & Approach,2.0,4.0,2.0,0.0,2.0,21.4,1.8,1.4,1.2,19.0,6.5,75.0,Beadless
+87586,No3 Hookshot,Lightning Discs,Mid Range,1.0,4.0,5.0,-1.0,2.0,21.9,2.1,1.2,1.3,19.2,5.5,27.5,Beadless
+87587,No3 Hyzer,Lightning Discs,Mid Range,4.0,4.0,4.0,0.0,4.0,22.1,2.0,1.2,1.6,18.9,5.4,31.0,Beadless
+741,Nordic Warrior,Viking Discs,Mid Range,2.0,4.0,4.0,0.0,2.0,21.5,2.0,1.4,1.4,18.7,6.5,36.0,Beadless
+208933,Owl,Stokely Discs,Mid Range,4.0,4.0,3.0,0.5,3.5,21.1,2.0,1.4,1.2,18.7,6.6,57.25,Beadless
+237692,P4,Discmania,Putt & Approach,3.0,4.0,2.0,0.0,3.0,21.4,1.8,1.4,1.2,19.0,6.5,53.0,Beadless
+391,Pain,Latitude 64,Mid Range,3.0,4.0,4.0,0.0,3.0,21.7,2.0,1.4,1.4,18.9,6.5,40.75,Beadless
+592,Passport,Full Turn,Putt & Approach,0.0,4.0,4.0,-1.0,1.0,21.2,2.1,1.6,1.0,19.2,7.5,64.0,Beadless
+86580,Peach,Clash Discs,Mid Range,-1.0,4.0,5.0,-2.0,1.0,21.4,1.9,1.3,1.4,18.6,6.1,45.0,Beadless
+392,Pearl,Latitude 64,Mid Range,-4.0,4.0,6.0,-4.0,0.0,21.6,1.8,1.2,1.2,19.2,5.6,49.25,Beadless
+127902,Peppermint,Clash Discs,Putt & Approach,4.0,4.0,2.0,0.0,4.0,21.2,1.7,1.4,1.4,18.5,6.6,44.25,Beadless
+332,Pig,Innova,Putt & Approach,3.0,4.0,1.0,0.0,3.0,21.2,2.1,1.4,1.4,18.4,6.6,57.5,Beadless
+1291,Pteranodon,Daredevil,Mid Range,-1.0,4.0,6.0,-2.0,1.0,21.6,2.3,1.2,1.4,18.8,5.6,44.5,Beaded
+289,Rancho Roc,Innova,Mid Range,3.0,4.0,4.0,0.0,3.0,21.7,2.0,1.3,1.2,19.3,6.0,43.0,Beaded
+290,Rat,Innova,Mid Range,3.0,4.0,2.0,0.0,3.0,21.2,1.8,1.3,1.2,18.8,6.1,66.75,Beadless
+22658,Razor Claw Tactic,Discmania,Putt & Approach,4.0,4.0,2.0,0.0,4.0,21.3,2.0,1.4,1.1,19.0,6.6,57.75,Beadless
+110,Ringer,Discraft,Putt & Approach,2.0,4.0,4.0,0.0,2.0,21.0,1.8,1.2,0.9,19.2,5.7,67.75,Beadless
+111,Ringer GT,Discraft,Putt & Approach,3.0,4.0,4.0,0.0,3.0,21.1,1.7,1.1,1.0,19.0,5.2,63.25,Beaded
+291,Roc,Innova,Mid Range,3.0,4.0,4.0,0.0,3.0,21.7,2.0,1.3,1.2,19.3,6.0,43.0,Beaded
+34614,Roc+,Innova,Mid Range,3.0,4.0,4.0,0.0,3.0,21.7,2.0,1.3,1.2,19.3,6.0,43.0,Beadless
+109066,Savior,Latitude 64,Putt & Approach,3.0,4.0,4.0,0.0,3.0,21.4,1.7,1.2,1.2,19.1,5.6,46.75,Beadless
+142942,Scope,Doomsday Discs,Mid Range,2.0,4.0,4.0,0.0,2.0,21.2,1.5,1.2,1.4,18.5,5.7,35.75,Beadless
+207838,Screech,Elevation Disc Golf,Putt & Approach,4.0,4.0,2.0,0.0,4.0,21.1,1.6,1.3,1.2,18.7,6.2,60.25,Beadless
+296,Shark,Innova,Mid Range,2.0,4.0,4.0,0.0,2.0,21.7,2.1,1.3,1.2,19.3,6.0,39.5,Beadless
+1387,Shockwave,DGA,Mid Range,3.0,4.0,2.0,0.0,3.0,21.5,2.2,1.3,1.3,18.9,6.0,47.75,Beadless
+207914,Shortcut,Full Turn,Putt & Approach,5.0,4.0,1.0,1.0,4.0,21.3,1.9,1.3,1.1,19.2,6.1,70.25,Beadless
+21789,Shu,Yikun,Mid Range,-1.0,4.0,5.0,-2.0,1.0,21.8,1.8,1.1,1.3,19.1,5.0,36.75,Beadless
+97,Sol,Discraft,Mid Range,-3.0,4.0,5.0,-3.0,0.0,21.1,1.7,1.3,1.1,18.9,6.2,51.25,Beadless
+405,Spike,Latitude 64,Putt & Approach,0.0,4.0,3.0,-1.0,1.0,21.2,1.8,1.3,1.0,19.2,6.1,56.25,Beadless
+172915,Spy,Northstar Discs,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,1.8,1.3,1.2,18.8,6.1,52.5,Beadless
+184624,Star Zone,X-UFO,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.3,1.7,1.4,1.2,19.0,5.6,54.5,Beaded
+208022,Stinger,Hero Disc,Mid Range,2.0,4.0,3.0,0.0,2.0,21.2,1.9,1.3,1.0,19.2,6.1,51.5,Beadless
+300,Stingray,Innova,Mid Range,-2.0,4.0,5.0,-3.0,1.0,21.7,1.8,1.1,1.2,19.3,5.1,38.25,Beadless
+301,Super Stingray,Innova,Mid Range,0.0,4.0,5.0,-1.0,1.0,21.7,1.8,1.1,1.2,19.3,5.1,38.25,Beadless
+140,Suspect,Dynamic Discs,Mid Range,3.0,4.0,3.0,0.0,3.0,21.3,1.6,1.2,1.2,18.9,5.6,47.5,Beadless
+42,Tactic,Discmania,Putt & Approach,3.0,4.0,2.0,0.0,3.0,21.4,1.8,1.4,1.1,19.1,6.5,53.0,Beadless
+93615,Tailor,Discmania,Mid Range,1.0,4.0,4.0,0.0,1.0,21.7,1.8,1.3,1.3,19.1,6.0,45.25,Beadless
+434,Tangent,MVP,Mid Range,0.0,4.0,4.0,-0.5,0.5,21.5,2.1,1.3,1.2,19.1,6.0,54.5,Beadless
+659,Taurus,Millennium,Mid Range,4.0,4.0,4.0,0.0,4.0,21.7,2.0,1.5,1.4,19.0,6.9,66.75,Beaded
+54059,Temple,Thought Space Athletics,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.3,1.7,1.4,1.2,18.9,6.6,53.0,Beadless
+130091,Tempo,Axiom,Putt & Approach,2.5,4.0,4.0,0.0,2.5,21.2,1.6,1.4,1.2,18.7,6.6,55.5,Beadless
+435,Tensor,MVP,Mid Range,2.5,4.0,4.0,0.0,2.5,21.5,2.0,1.3,1.2,19.1,6.0,46.75,Beadless
+11103,The Baron,Disc Golf UK,Mid Range,2.5,4.0,3.0,0.0,2.5,21.2,2.0,1.6,2.3,18.7,7.5,62.25,Beadless
+567,Theory,Axiom,Mid Range,-0.5,4.0,4.0,-1.5,1.0,21.5,1.9,1.3,1.2,19.1,6.0,50.0,Beadless
+11107,Thor,Guru Disc Golf,Mid Range,2.0,4.0,4.0,0.0,2.0,21.7,2.1,1.3,1.3,19.1,6.0,40.25,Beaded
+184727,Tian Shi,Yikun,Mid Range,3.0,4.0,3.0,0.0,3.0,21.3,1.7,1.3,1.2,18.9,6.1,55.5,Beadless
+23791,Toro,Innova,Putt & Approach,4.0,4.0,2.0,1.0,3.0,21.2,1.7,1.4,1.3,18.6,6.6,68.25,Beadless
+207867,Tuohi,Exel Discs,Mid Range,3.0,4.0,4.0,0.0,3.0,21.2,1.8,1.3,1.5,18.2,6.1,34.5,Beadless
+11110,Uranium,Element Discs,Mid Range,2.0,4.0,2.0,0.0,2.0,21.2,1.5,1.4,1.3,18.7,6.6,49.5,Beadless
+437,Vertex,MVP,Mid Range,-1.5,4.0,4.0,-2.0,0.5,21.5,1.9,1.3,1.2,19.0,6.0,46.75,Beadless
+303,VRoc,Innova,Mid Range,1.0,4.0,4.0,0.0,1.0,21.8,2.0,1.3,1.4,19.0,6.0,43.0,Beadless
+1537,Walrus,Daredevil,Mid Range,3.0,4.0,5.0,0.0,3.0,21.8,1.9,1.2,1.3,19.3,5.5,48.75,Beadless
+305,Wolf,Innova,Mid Range,-3.0,4.0,3.0,-4.0,1.0,21.8,1.6,1.1,1.2,19.4,5.0,30.25,Beadless
+184863,Woodpecker,Disctroyer,Putt & Approach,3.5,4.0,2.5,0.0,3.5,21.3,1.7,1.4,1.2,18.9,6.6,59.75,Beadless
+55027,Yao,Yikun,Mid Range,3.0,4.0,4.0,0.0,3.0,21.6,1.9,1.4,1.4,18.8,6.5,39.75,Beadless
+114,Zone,Discraft,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.1,2.0,1.3,1.2,18.8,6.2,46.0,Beadless
+171612,Zone GT Banger Top,Discraft,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,1.7,1.3,1.2,18.8,6.1,57.75,Beadless
+171611,Zone GT Ringer Top,Discraft,Putt & Approach,3.0,4.0,3.0,0.0,3.0,21.2,1.7,1.2,1.2,18.8,5.7,62.75,Beadless
+142061,Zone OS,Discraft,Putt & Approach,6.0,4.0,2.0,1.0,5.0,21.2,1.8,1.4,1.2,18.9,6.6,64.25,Beadless
+33368,Jarn,Kastaplast,Mid Range,3.0,4.5,3.0,0.0,3.0,21.3,1.8,1.4,1.3,18.8,6.6,51.5,Beadless
+16942,Addax,Wild Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.7,1.3,1.5,18.7,6.0,39.25,Beaded
+108235,Addax V2,Wild Discs,Mid Range,1.0,5.0,5.0,0.0,1.0,21.5,1.6,1.3,1.4,18.6,6.0,45.5,Beadless
+769,Aftershock,DGA,Mid Range,2.0,5.0,4.0,0.0,2.0,21.5,2.0,1.2,1.3,18.9,5.6,38.0,Beadless
+183462,Amethyst,Visionary Disc Golf,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.4,1.6,1.3,1.4,18.5,6.1,42.75,Beadless
+183465,Amulet,Prodiscus,Mid Range,4.0,5.0,4.0,1.0,3.0,21.6,1.8,1.5,1.4,18.8,6.9,47.5,Beadless
+382,Anchor,Latitude 64,Mid Range,3.0,5.0,4.0,0.0,3.0,21.7,1.8,1.5,1.4,18.9,6.9,43.25,Beaded
+11046,Antidote,Salient,Mid Range,1.0,5.0,5.0,0.0,1.0,21.5,2.0,1.3,1.3,18.9,6.0,43.25,Beadless
+197,Anubis,Infinite Discs,Mid Range,0.0,5.0,5.0,0.0,0.0,21.8,2.1,1.3,1.4,18.7,6.0,50.0,Beadless
+22886,Apollo,Alfa Discs,Mid Range,1.0,5.0,5.0,-1.0,2.0,21.8,1.8,1.3,1.3,19.1,6.0,49.75,Beadless
+83,Archer,Discraft,Mid Range,-3.0,5.0,4.0,-4.0,1.0,21.5,1.8,1.1,1.5,18.5,5.1,36.0,Beadless
+144494,Archive,Prodigy,Mid Range,2.0,5.0,5.0,0.0,2.0,21.8,2.0,1.3,1.4,19.0,6.0,56.25,Beadless
+183487,Arctic,Rogue Iron,Mid Range,-0.5,5.0,5.0,-1.5,1.0,21.6,1.9,1.4,1.3,18.9,6.5,41.0,Beadless
+8821,Arcturus,RPM Discs,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.8,2.0,1.2,1.3,19.2,5.5,38.25,Beadless
+264,Atlas,Innova,Mid Range,1.0,5.0,4.0,0.0,1.0,21.8,1.7,1.4,1.4,19.1,6.4,46.25,Beadless
+265,Avatar,Innova,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,1.8,1.4,1.1,19.0,6.6,52.25,Beadless
+430,Axis,MVP,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.8,2.1,1.3,1.3,19.2,6.0,43.75,Beadless
+22915,Badger,Legacy Discs,Mid Range,3.0,5.0,3.0,0.0,3.0,21.4,1.6,1.3,1.5,18.3,6.1,42.0,Beadless
+183523,Balance,Essential Discs,Mid Range,1.5,5.0,5.0,0.0,1.5,21.6,1.7,1.3,1.4,18.7,6.0,48.75,Beadless
+518,Bard,Westside,Mid Range,3.0,5.0,4.0,0.0,3.0,21.7,1.9,1.3,1.5,18.8,6.0,42.5,Beadless
+266,Barracuda,Innova,Mid Range,1.0,5.0,4.0,-2.0,3.0,22.5,1.7,1.2,1.6,19.3,5.3,30.75,Beaded
+125631,Battleship,Remix Disc Golf,Mid Range,2.5,5.0,4.5,0.0,2.5,21.4,1.8,1.4,1.4,18.5,6.5,50.5,Beadless
+22927,BB6,Lone Star Disc,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.3,2.1,1.3,1.2,18.8,6.1,58.5,Beadless
+207904,Beacon,Full Turn,Mid Range,3.5,5.0,3.0,0.5,3.0,21.9,1.7,1.2,1.5,18.8,5.5,52.0,Beaded
+160203,BearKat,Lone Star Disc,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.7,1.6,1.2,1.3,19.0,5.5,38.25,Beadless
+22930,Beech,Above Ground Level,Mid Range,3.0,5.0,2.0,0.0,3.0,21.9,1.8,1.3,1.6,18.7,5.9,39.0,Beaded
+207436,Belleair,Climo Disc Golf,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,1.9,1.2,1.4,18.9,5.5,42.75,Beadless
+27503,Berry,Clash Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.4,1.7,1.4,1.3,18.8,6.5,50.5,Beadless
+208668,Bliss,Orbital Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,2.3,1.3,1.4,18.9,6.0,43.25,Beadless
+668,Bobcat,Mint Discs,Mid Range,2.5,5.0,4.0,0.0,2.5,21.4,1.9,1.4,1.4,18.5,6.5,36.0,Beadless
+207517,Brachiosaurus,Dino Discs,Mid Range,-3.5,5.0,5.0,-4.5,1.0,21.4,2.1,1.3,1.2,19.1,6.1,31.5,Beadless
+207518,Brontosaurus,Dino Discs,Mid Range,-0.5,5.0,5.0,-1.0,0.5,22.1,1.7,1.3,1.3,19.6,5.9,39.5,Beaded
+84,Buzzz,Discraft,Mid Range,0.0,5.0,4.0,-1.0,1.0,21.7,1.9,1.3,1.2,19.3,6.0,44.0,Beadless
+85,Buzzz GT,Discraft,Mid Range,1.0,5.0,5.0,0.0,1.0,21.5,1.7,1.3,1.3,19.0,6.0,44.0,Beadless
+86,Buzzz OS,Discraft,Mid Range,3.0,5.0,4.0,0.0,3.0,21.7,1.7,1.2,1.3,19.1,5.5,45.75,Beadless
+87,Buzzz SS,Discraft,Mid Range,-1.0,5.0,4.0,-2.0,1.0,21.6,2.1,1.3,1.3,19.0,6.0,43.5,Beadless
+171616,Cardinal,Stokely Discs,Mid Range,2.5,5.0,4.0,0.0,2.5,21.5,1.6,1.2,1.5,18.4,5.6,45.5,Beadless
+183629,Chango,Gorilla Disc Golf,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.8,1.6,1.3,1.3,19.3,6.0,45.75,Beadless
+198,Chariot,Infinite Discs,Mid Range,1.0,5.0,5.0,0.0,1.0,21.8,1.7,1.4,1.4,19.0,6.4,51.5,Beadless
+160202,Cherry,Clash Discs,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.4,1.7,1.4,1.4,18.5,6.5,51.0,Beadless
+207892,ChooChooBob,FotCot Discs,Mid Range,2.0,5.0,4.0,0.0,2.0,21.2,2.1,1.2,1.3,18.6,5.7,47.25,Beadless
+383,Claymore,Latitude 64,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.7,1.9,1.2,1.4,18.9,5.5,42.5,Beadless
+270,Commander,Innova,Mid Range,4.0,5.0,3.0,0.0,4.0,21.8,2.2,1.2,1.4,19.0,5.5,42.0,Beadless
+384,Compass,Latitude 64,Mid Range,1.0,5.0,5.0,0.0,1.0,21.6,2.3,1.3,1.3,19.0,6.0,42.75,Beadless
+88073,Conquest,Guru Disc Golf,Mid Range,-1.0,5.0,4.0,-2.0,1.0,21.6,1.6,1.1,1.3,19.0,5.1,37.5,Beadless
+183668,Conspiracy,Pie Pan Discs,Mid Range,-2.0,5.0,5.0,-2.0,0.0,21.6,1.8,1.3,1.4,18.8,6.0,43.75,Beadless
+183679,Cowbell,Goto Disc Golf,Mid Range,0.0,5.0,6.0,-1.0,1.0,21.5,2.0,1.2,1.4,18.6,5.6,46.75,Beadless
+157744,Creature,Remix Disc Golf,Mid Range,-2.0,5.0,5.0,-3.0,1.0,21.4,1.8,1.4,1.4,18.6,6.5,46.25,Beadless
+273,Cro,Innova,Mid Range,2.0,5.0,3.0,0.0,2.0,21.2,2.0,1.4,1.3,18.5,6.6,48.5,Beadless
+752,Crossbow,Black Zombie Disc Golf,Putt & Approach,-1.0,5.0,5.0,-1.0,0.0,21.9,1.6,1.2,1.4,19.1,5.5,32.75,Beadless
+208976,Crux,Thought Space Athletics,Mid Range,2.0,5.0,4.0,0.0,2.0,21.4,2.0,1.4,1.4,18.5,6.5,47.25,Beadless
+192290,Daybreaker,Lightspeed Disc Golf,Mid Range,4.0,5.0,2.0,0.0,4.0,21.2,1.5,1.2,1.4,18.5,5.7,48.25,Beadless
+431,Deflector,MVP,Mid Range,4.0,5.0,3.5,0.0,4.0,21.5,2.0,1.3,1.6,18.3,6.0,40.0,Beadless
+142311,Desolation,Doomsday Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.2,2.1,1.6,1.5,18.1,7.5,33.5,Beadless
+86166,Despair,Doomsday Discs,Mid Range,0.0,5.0,4.0,-1.0,1.0,21.4,2.1,1.4,1.3,18.8,6.5,46.25,Beadless
+161435,Detour,MVP,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.6,1.6,1.3,1.4,18.7,6.0,47.25,Beadless
+11053,Dingo,Fourth Circle Discs,Mid Range,3.0,5.0,5.0,0.0,3.0,21.5,1.6,1.3,1.3,18.9,6.0,45.0,Beadless
+231946,DMM1,Disc Monkey,Mid Range,2.0,5.0,5.0,0.0,2.0,21.6,1.8,1.2,1.4,18.8,5.6,46.25,Beadless
+46281,Dragonfly,AquaFlight Discs,Mid Range,-2.0,5.0,4.0,-3.0,1.0,21.0,1.6,1.1,1.4,19.1,5.2,43.0,Beadless
+89,Drone,Discraft,Mid Range,5.0,5.0,3.0,1.0,4.0,21.5,2.0,1.3,1.5,18.5,6.0,41.25,Beadless
+149527,Dune,Trash Panda,Mid Range,-1.0,5.0,5.0,-1.0,0.0,21.5,1.8,1.4,1.2,19.1,6.5,49.5,Beadless
+86187,Echo,Streamline,Mid Range,-0.5,5.0,5.0,-1.5,1.0,21.4,1.6,1.3,1.5,18.5,6.1,42.0,Beadless
+11054,Eden,XCom,Mid Range,2.0,5.0,4.0,0.0,2.0,21.3,2.0,1.3,1.3,18.7,6.1,47.75,Beadless
+183772,Einstein,Bernoulli,Mid Range,0.0,5.0,4.0,-1.0,1.0,21.6,2.1,1.3,1.4,18.8,6.0,40.75,Beadless
+172,Element,Gateway,Mid Range,0.0,5.0,5.0,-1.0,1.0,22.1,1.7,1.3,1.3,19.6,5.9,39.5,Beadless
+134,EMac Truth,Dynamic Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.8,1.2,1.5,18.7,5.5,42.25,Beadless
+135,Evidence,Dynamic Discs,Mid Range,-1.0,5.0,5.0,-1.0,0.0,21.7,1.8,1.2,1.4,18.7,5.5,41.25,Beadless
+722,Eye,Storm Disc Golf,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.9,1.8,1.2,1.4,19.0,5.5,46.75,Beadless
+183837,Flame Skimmer,RIPR,Mid Range,3.0,5.0,4.0,0.0,3.0,21.4,1.9,1.3,1.3,18.9,6.1,35.25,Beadless
+142395,Flat Earth,Doomsday Discs,Mid Range,-1.0,5.0,5.0,-1.0,0.0,21.8,2.1,1.3,1.2,19.4,6.0,48.0,Beadless
+93616,Flip,Hooligan Discs,Mid Range,-3.0,5.0,6.0,-4.0,1.0,21.7,1.9,1.3,1.3,19.1,6.0,45.25,Beadless
+207897,Fly,Fourth Circle Discs,Mid Range,0.0,5.0,5.0,0.0,0.0,21.7,1.9,1.3,1.3,19.0,6.0,38.5,Beadless
+207287,Flying Squirrel,ABC Discs,Mid Range,1.0,5.0,5.0,-3.0,2.0,21.9,2.0,1.4,1.3,19.4,6.4,30.75,Beadless
+275,Foxbat,Innova,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.7,2.2,1.4,1.4,19.0,6.5,33.5,Beadless
+86249,Frag,Doomsday Discs,Mid Range,5.0,5.0,2.0,0.0,5.0,22.1,1.9,1.2,1.6,18.9,5.4,41.0,Beadless
+136,Fugitive,Dynamic Discs,Mid Range,1.0,5.0,5.0,-0.5,1.5,21.8,2.1,1.3,1.4,19.1,6.0,39.0,Beaded
+387,Fuse,Latitude 64,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.9,2.1,1.3,1.3,19.3,5.9,42.5,Beadless
+276,Gator,Innova,Mid Range,4.0,5.0,2.0,0.0,4.0,21.2,1.9,1.4,1.3,18.6,6.6,49.5,Beaded
+277,Gator3,Innova,Mid Range,3.0,5.0,2.0,0.0,3.0,21.2,1.8,1.4,1.5,18.2,6.6,49.5,Beaded
+633,Gauge,Legacy Discs,Mid Range,1.0,5.0,5.0,0.0,1.0,21.8,2.2,1.4,1.2,19.4,6.4,48.25,Beadless
+11057,Gila,Reptilian Disc Golf,Mid Range,3.0,5.0,4.0,0.0,3.0,21.0,1.6,1.2,1.4,19.2,5.7,36.5,Beaded
+209173,Glacier,Discmania,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.8,1.3,1.4,18.9,6.0,37.25,Beadless
+171614,Gladius,Remix Disc Golf,Mid Range,0.5,5.0,5.0,-0.5,1.0,21.4,1.9,1.4,1.4,18.5,6.5,45.75,Beaded
+207893,GlowBob,FotCot Discs,Mid Range,-2.5,5.0,4.0,-2.5,0.0,21.6,1.9,1.2,1.3,18.9,6.0,41.75,Beadless
+183900,GM1,Disgo,Mid Range,3.0,5.0,4.0,0.0,3.0,21.5,2.2,1.4,1.3,18.9,6.5,41.0,Beadless
+16103,Gremlin GM,Discmania,Mid Range,2.0,5.0,4.0,0.0,2.0,21.2,1.8,1.2,1.4,18.5,5.7,45.25,Beaded
+278,Griffin,Innova,Mid Range,4.0,5.0,3.0,1.0,3.0,21.2,2.0,1.3,1.7,17.8,6.1,33.25,Beadless
+11058,Griffon,XCom,Mid Range,-2.5,5.0,4.0,-2.5,0.0,21.6,1.9,1.4,1.3,18.9,6.5,41.25,Beadless
+160201,Guava,Clash Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.4,1.9,1.4,1.4,18.7,6.5,43.5,Beadless
+183950,Harmony,Essential Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.5,1.7,1.4,1.4,18.6,6.5,39.5,Beadless
+108628,Havran,Wingman,Mid Range,0.0,5.0,5.0,-1.0,1.0,22.0,2.0,1.3,1.4,19.2,5.9,42.5,Beadless
+22447,Hex,Axiom,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.4,1.6,1.3,1.4,18.5,6.1,45.0,Beadless
+92,Hornet,Discraft,Mid Range,4.0,5.0,5.0,0.0,4.0,21.5,1.9,1.3,1.3,18.9,6.0,41.5,Beadless
+174226,Houston,Lone Star Disc,Mid Range,2.0,5.0,5.0,0.0,2.0,21.5,1.9,1.4,1.4,18.8,6.5,38.25,Beadless
+87383,Ibex,Vibram,Mid Range,0.0,5.0,4.0,-1.0,1.0,21.5,2.4,1.3,1.3,18.9,6.0,46.25,Beadless
+183994,Iguana,Reptilian Disc Golf,Mid Range,0.5,5.0,5.0,-1.0,1.5,21.9,1.8,1.2,1.4,19.1,5.5,55.5,Beaded
+199,Inca,Infinite Discs,Mid Range,3.0,5.0,5.0,0.0,3.0,21.7,1.9,1.4,1.3,19.0,6.5,36.25,Beadless
+21475,Interceptor,Elevation Disc Golf,Mid Range,3.0,5.0,4.0,0.0,3.0,21.1,1.5,1.1,1.4,18.2,5.2,49.5,Beadless
+78392,Jay,Innova,Mid Range,1.0,5.0,4.0,0.0,1.0,21.7,1.7,1.2,1.4,18.9,5.5,45.75,Beadless
+46624,Jireh,Goliath Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.6,2.0,1.4,1.3,19.0,6.5,44.0,Beaded
+137,Justice,Dynamic Discs,Mid Range,4.5,5.0,1.0,0.5,4.0,21.3,1.7,1.3,1.5,18.3,6.1,39.5,Beadless
+87420,Kanto,Exel Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,22.1,1.9,1.4,1.4,19.3,6.3,41.5,Beaded
+23231,Kapre,Divergent Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.4,2.3,1.4,1.6,18.3,6.5,51.25,Beadless
+173,Karma,Gateway,Mid Range,2.0,5.0,5.0,-1.0,3.0,21.9,1.9,1.1,1.4,19.1,5.0,42.5,Beaded
+184046,Kataw,Divergent Discs,Mid Range,3.0,5.0,4.0,0.0,3.0,21.8,1.8,1.4,1.3,19.2,6.4,48.75,Beadless
+207882,KGB,Fly High Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.8,1.9,1.1,1.4,19.0,5.0,38.5,Beadless
+167770,Khonsu,Infinite Discs,Mid Range,-3.0,5.0,5.0,-3.0,0.0,21.8,1.7,1.2,1.4,18.9,5.5,38.0,Beadless
+281,Kite,Innova,Mid Range,-2.0,5.0,6.0,-3.0,1.0,21.2,1.9,1.3,1.6,17.9,6.1,36.25,Beadless
+22490,Kotuku,RPM Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.7,1.4,1.4,19.0,6.5,48.75,Beadless
+753,Kui,Yikun,Mid Range,2.5,5.0,5.0,0.0,2.5,21.2,2.1,1.3,1.6,17.9,6.1,35.75,Beadless
+87447,Launch,Vibram,Mid Range,1.0,5.0,5.0,-1.0,2.0,21.4,2.1,1.3,1.3,18.8,6.1,51.25,Beadless
+47014,Lava,Obsidian Discs,Mid Range,-0.5,5.0,5.0,-1.5,1.0,21.9,1.7,1.3,1.3,19.2,5.9,48.0,Beadless
+17308,Leviathan,Divergent Discs,Mid Range,-3.0,5.0,4.0,-3.0,0.0,21.3,1.9,1.1,1.4,18.6,5.2,42.0,Beadless
+282,Lion,Innova,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,1.7,1.4,1.3,19.0,6.5,54.75,Beadless
+11076,Lithium,Element Discs,Mid Range,-1.0,5.0,4.0,-2.0,1.0,21.9,1.5,1.3,1.5,18.9,5.9,51.75,Beadless
+57017,Lobster,Mint Discs,Mid Range,-2.0,5.0,5.0,-3.0,1.0,21.5,1.8,1.3,1.4,18.6,6.0,47.5,Beadless
+95844,Lone Wolf,Lone Star Disc,Mid Range,-2.0,5.0,5.0,-3.0,1.0,21.6,1.5,1.1,1.4,18.9,5.1,41.75,Beaded
+23271,Lucky,Crosslap,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.7,1.7,1.3,1.3,19.1,6.0,43.5,Beadless
+482,M1,Prodigy,Mid Range,3.0,5.0,4.0,0.0,3.0,21.8,1.9,1.3,1.4,19.0,6.0,36.5,Beadless
+483,M2,Prodigy,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,2.0,1.3,1.4,18.9,6.0,41.0,Beadless
+484,M3,Prodigy,Mid Range,1.0,5.0,4.0,0.0,1.0,21.7,1.9,1.4,1.4,18.9,6.5,47.5,Beadless
+485,M4,Prodigy,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.7,2.0,1.3,1.4,18.9,6.0,52.0,Beadless
+486,M5,Prodigy,Mid Range,-2.0,5.0,5.0,-3.0,1.0,21.7,1.8,1.4,1.4,18.8,6.5,53.0,Beadless
+389,Mace,Latitude 64,Mid Range,2.0,5.0,5.0,0.0,2.0,21.8,2.1,1.3,1.3,19.2,6.0,38.75,Beadless
+47015,Magma,Obsidian Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.9,1.7,1.3,1.5,18.9,5.9,42.25,Beadless
+539,Magnolia,Above Ground Level,Mid Range,2.0,5.0,6.0,0.0,2.0,21.8,2.0,1.2,1.4,19.0,5.5,45.5,Beadless
+286,Mako3,Innova,Mid Range,0.0,5.0,5.0,0.0,0.0,21.7,1.9,1.4,1.4,19.0,6.5,52.75,Beadless
+94,Malta,Discraft,Mid Range,4.0,5.0,4.0,1.0,3.0,21.3,1.7,1.3,1.3,18.6,6.1,45.0,Beadless
+54060,Mana,Thought Space Athletics,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.5,1.8,1.4,1.4,18.6,6.5,53.5,Beadless
+27880,Mango,Clash Discs,Mid Range,4.0,5.0,4.0,0.0,4.0,21.4,1.8,1.4,1.4,18.7,6.5,44.25,Beadless
+287,Manta,Innova,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.8,1.9,1.2,1.4,19.0,5.5,37.25,Beadless
+432,Matrix,MVP,Mid Range,1.0,5.0,4.0,-1.0,2.0,21.5,1.6,1.4,1.4,18.7,6.5,46.5,Beadless
+29,MD1,Discmania,Mid Range,0.0,5.0,6.0,0.0,0.0,21.7,2.1,1.4,1.3,19.1,6.5,53.0,Beadless
+31,MD3,Discmania,Mid Range,1.0,5.0,5.0,0.0,1.0,21.8,2.0,1.4,1.4,18.9,6.4,47.0,Beadless
+32,MD4,Discmania,Mid Range,3.0,5.0,4.0,0.0,3.0,21.7,1.9,1.3,1.3,19.0,6.0,51.25,Beaded
+33,MD5,Discmania,Mid Range,4.0,5.0,3.0,0.0,4.0,21.2,2.0,1.3,1.5,18.2,6.2,51.25,Beadless
+390,Medius,Latitude 64,Mid Range,1.0,5.0,5.0,-1.0,2.0,21.5,2.4,1.2,1.4,18.8,5.6,42.5,Beadless
+95,Meteor,Discraft,Mid Range,-2.0,5.0,5.0,-3.0,1.0,21.5,2.0,1.3,1.3,18.9,6.0,49.25,Beadless
+34,Method,Discmania,Mid Range,3.0,5.0,5.0,0.0,3.0,21.7,1.9,1.4,1.3,19.0,6.5,44.0,Beadless
+27908,Mid Disc3,Innova,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.8,1.3,1.4,18.9,6.0,43.75,Beadless
+683,Midari,Prodiscus,Mid Range,1.0,5.0,4.0,-1.0,2.0,21.6,1.8,1.5,1.4,18.8,6.9,37.5,Beadless
+184183,MidariX,Prodiscus,Mid Range,1.0,5.0,4.0,-1.0,2.0,21.6,2.0,1.5,1.4,18.8,6.9,41.25,Beaded
+17378,Middy,Lone Star Disc,Mid Range,3.0,5.0,5.0,0.0,3.0,21.4,1.6,1.2,1.3,18.8,5.6,42.75,Beadless
+207289,Mission,ABC Discs,Mid Range,1.0,5.0,5.0,-1.0,2.0,21.8,2.0,1.4,1.2,19.4,6.4,39.25,Beaded
+209170,Modify,ColorYourGame,Mid Range,2.0,5.0,4.0,0.0,2.0,21.6,1.7,1.2,1.4,18.8,5.6,48.75,Beadless
+192286,Monsoon,Windward Discs,Mid Range,2.0,5.0,4.0,0.0,2.0,21.3,2.0,1.3,1.3,18.7,6.1,46.5,Beadless
+207351,Morningstar,Gateway,Mid Range,1.0,5.0,4.0,0.0,1.0,21.7,1.9,1.3,1.3,19.1,6.0,43.75,Beadless
+604,Mortar,Hyzer Bomb,Mid Range,3.0,5.0,2.0,0.0,3.0,21.2,1.9,1.4,1.4,18.4,6.6,56.75,Beadless
+1203,Mustang,Mint Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.5,1.6,1.3,1.4,18.6,6.0,44.5,Beadless
+22563,Mutant,Discmania,Mid Range,4.0,5.0,3.0,0.0,4.0,21.7,1.8,1.2,1.3,19.0,5.5,40.75,Beadless
+87554,MX-1,Prodigy,Mid Range,4.0,5.0,3.0,0.0,4.0,21.3,2.0,1.3,1.5,18.3,6.1,41.75,Beadless
+172918,MX-2,Prodigy,Mid Range,3.0,5.0,4.0,0.0,3.0,21.2,1.7,1.4,1.4,18.5,6.6,60.75,Beadless
+487,MX-3,Prodigy,Mid Range,1.0,5.0,4.0,0.0,1.0,21.7,1.9,1.3,1.4,18.9,6.0,32.75,Beaded
+174,Mystic,Gateway,Mid Range,-3.0,5.0,5.0,-3.0,0.0,22.0,2.0,1.1,1.5,19.0,5.0,49.75,Beadless
+184220,Nautilus,Neptune Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.9,1.7,1.2,1.4,19.1,5.5,35.0,Beadless
+591,Navigator,Full Turn,Mid Range,1.0,5.0,4.0,-1.0,2.0,21.6,1.7,1.5,1.4,18.9,6.9,40.5,Beadless
+96,Nebula,Discraft,Mid Range,1.5,5.0,4.0,-0.5,2.0,21.3,2.0,1.3,1.3,18.7,6.1,44.5,Beadless
+184228,Nimbus,Elevation Disc Golf,Mid Range,1.5,5.0,5.0,0.0,1.5,21.7,1.7,1.2,1.3,19.1,5.5,39.75,Beadless
+87579,No2 Hyzer,Lightning Discs,Mid Range,5.0,5.0,5.0,1.0,4.0,21.1,2.0,1.2,1.6,17.9,5.7,29.0,Beadless
+169046,Nord,Kastaplast,Mid Range,3.0,5.0,4.0,0.0,3.0,21.7,2.0,1.3,1.3,19.0,6.0,47.5,Beadless
+87600,Obex,Vibram,Control Driver,3.0,5.0,4.0,0.0,3.0,21.5,2.1,1.2,1.3,18.9,5.6,41.0,Beadless
+11085,Orbit,Galaxy Disc Golf,Mid Range,3.0,5.0,4.0,0.0,3.0,21.2,2.1,1.3,1.0,19.2,6.1,60.0,Beaded
+1232,Origin,Discmania,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.4,1.6,1.2,1.3,18.8,5.6,46.5,Beadless
+207308,Orsus,Aerobees,Mid Range,1.0,5.0,5.0,0.0,1.0,21.5,2.3,1.2,1.4,18.7,5.6,38.75,Beadless
+207309,Orsus Compost,Aerobees,Mid Range,1.0,5.0,5.0,0.0,1.0,21.7,2.3,1.1,1.5,18.7,5.1,38.75,Beadless
+184293,Osiris,STM Disc Golf,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.5,2.2,1.3,1.3,18.9,6.0,52.75,Beadless
+288,Panther,Innova,Mid Range,-1.0,5.0,4.0,-2.0,1.0,21.2,1.9,1.2,1.3,18.6,5.7,34.0,Beadless
+23400,Paradox,Axiom,Mid Range,-4.0,5.0,4.0,-4.0,0.0,21.5,1.8,1.3,1.3,18.9,6.0,50.25,Beadless
+11086,Pathfinder,Thought Space Athletics,Mid Range,1.0,5.0,5.0,0.0,1.0,21.5,1.7,1.3,1.4,18.6,6.0,43.0,Beadless
+138,Patrol,Dynamic Discs,Mid Range,-2.0,5.0,5.0,-3.0,1.0,21.7,1.6,1.2,1.4,18.8,5.5,44.0,Beadless
+165227,Peace Train,Jester Disc Golf,Mid Range,-1.0,5.0,4.0,-2.0,1.0,21.5,1.7,1.3,1.4,18.6,6.0,41.75,Beadless
+161434,Petra,Yeet Street Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.5,1.6,1.3,1.4,18.6,6.0,42.75,Beadless
+184356,Pike,Osuma Disc,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.7,1.7,1.4,1.4,18.8,6.5,39.0,Beadless
+520,Pine,Westside,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,1.9,1.3,1.5,18.7,6.0,39.75,Beadless
+702,Piwakawaka,RPM Discs,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.8,2.0,1.2,1.3,19.2,5.5,38.25,Beadless
+139,Proof,Dynamic Discs,Mid Range,-2.0,5.0,6.0,-3.0,1.0,21.5,1.5,1.1,1.3,19.0,5.1,39.5,Beadless
+175,Prophecy,Gateway,Mid Range,2.0,5.0,5.0,0.0,2.0,21.9,1.7,1.2,1.5,19.0,5.5,38.5,Beaded
+184396,Purpose,Essential Discs,Mid Range,3.0,5.0,4.0,0.0,3.0,21.4,1.7,1.3,1.4,18.5,6.1,33.0,Beadless
+150464,Pursue,Wing It Disc Golf,Mid Range,3.0,5.0,4.0,0.0,3.0,21.2,1.9,1.6,1.5,18.1,7.5,33.25,Beadless
+635,Pursuit,Legacy Discs,Mid Range,3.0,5.0,3.0,0.0,3.0,21.3,1.6,1.3,1.5,18.3,6.1,44.0,Beadless
+184401,Pyramid,Prodiscus,Mid Range,3.0,5.0,3.0,0.0,3.0,21.6,1.7,1.2,1.4,18.8,5.6,41.25,Beadless
+566,Pyro,Axiom,Mid Range,2.5,5.0,4.0,0.0,2.5,21.5,1.6,1.3,1.6,18.4,6.0,42.25,Beadless
+1300,Quake,DGA,Mid Range,3.0,5.0,3.0,0.0,3.0,21.6,1.7,1.2,1.5,18.6,5.6,40.0,Beadless
+200,Ra,Infinite Discs,Mid Range,2.5,5.0,4.0,0.0,2.5,21.7,1.8,1.4,1.4,18.8,6.5,50.25,Beaded
+208495,Ravine,Meridian Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.6,1.7,1.3,1.4,18.7,6.0,49.25,Beadless
+433,Reactor,MVP,Mid Range,1.0,5.0,5.0,-0.5,1.5,21.4,1.7,1.3,1.4,18.5,6.1,44.5,Beadless
+636,Recluse,Legacy Discs,Mid Range,4.0,5.0,3.0,0.0,4.0,21.3,1.6,1.3,1.5,18.3,6.1,44.0,Beaded
+161444,Redemption,Goliath Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.9,1.7,1.2,1.5,18.9,5.5,46.0,Beadless
+1334,Rift,DGA,Mid Range,0.5,5.0,4.0,-1.0,1.5,21.6,1.8,1.3,1.5,18.6,6.0,47.0,Beadless
+178169,Rise,Birdie,Mid Range,2.0,5.0,4.0,0.0,2.0,21.6,1.6,1.2,1.4,18.7,5.6,47.0,Beadless
+198240,Ritual,Negative Disc Golf,Mid Range,2.0,5.0,5.0,0.0,2.0,21.6,1.8,1.2,1.4,18.8,5.6,47.5,Beadless
+293,Roc3,Innova,Mid Range,3.0,5.0,4.0,0.0,3.0,21.8,2.0,1.3,1.4,19.0,6.0,43.0,Beaded
+294,RocX3,Innova,Mid Range,3.5,5.0,4.0,0.0,3.5,21.8,2.0,1.4,1.4,19.0,6.4,49.75,Beaded
+121731,Rollo,Innova,Mid Range,-3.0,5.0,6.0,-4.0,1.0,21.8,1.6,1.1,1.5,18.8,5.0,32.75,Beaded
+156524,Rope,Hooligan Discs,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.7,1.6,1.3,1.3,19.2,6.0,45.25,Beadless
+729,Runway,Streamline,Mid Range,3.5,5.0,4.0,0.0,3.5,21.5,1.7,1.4,1.4,18.6,6.5,47.25,Beaded
+207983,Samson,Goliath Discs,Mid Range,3.5,5.0,3.0,0.0,3.5,21.5,1.6,1.1,1.5,18.5,5.1,43.75,Beadless
+161453,Scavenger,Doomsday Discs,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.6,1.9,1.2,1.3,19.0,5.6,46.75,Beadless
+295,Scorpion,Innova,Mid Range,1.0,5.0,5.0,-1.0,2.0,21.1,1.5,1.1,2.3,16.4,5.2,27.5,Beaded
+184517,Sea Turtle - Base Plastic,Ocean Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.6,1.7,1.4,1.4,18.8,6.5,49.5,Beadless
+184518,Sea Turtle - Premium Plastic,Ocean Discs,Mid Range,1.0,5.0,5.0,0.0,1.0,21.6,1.7,1.4,1.4,18.8,6.5,49.5,Beadless
+207875,Sector,Finish Line Discs,Mid Range,1.0,5.0,4.0,0.0,1.0,21.8,1.9,1.5,1.3,19.1,6.9,45.5,Beadless
+208046,Seeker,Independent Discs,Mid Range,1.0,5.0,5.0,0.0,1.0,21.1,1.9,1.2,1.4,18.4,5.7,48.5,Beadless
+658,Sentinel MF,Millennium,Mid Range,4.0,5.0,4.0,0.0,4.0,21.7,2.1,1.2,1.3,19.1,5.5,27.5,Beaded
+184523,Serene Sky,Albatross Disc Golf,Mid Range,-1.0,5.0,6.0,-2.0,1.0,21.7,1.8,1.1,1.2,19.2,5.1,46.75,Beadless
+297,Shark3,Innova,Mid Range,2.0,5.0,4.0,0.0,2.0,21.8,2.0,1.3,1.4,19.0,6.0,39.5,Beadless
+102556,Shotgun,Black Zombie Disc Golf,Mid Range,2.0,5.0,5.0,0.0,2.0,22.0,1.8,1.3,1.6,18.8,5.9,48.25,Beadless
+88079,Silent Cruiser,Guru Disc Golf,Mid Range,2.5,5.0,5.0,0.0,2.5,21.1,1.8,1.3,1.6,17.8,6.2,39.5,Beadless
+86741,Silicon,Loft Discs,Mid Range,3.0,5.0,4.0,0.0,3.0,21.6,1.8,1.4,1.3,18.9,6.5,45.0,Beadless
+198239,Simon Line Balance Prototype,Axiom,Mid Range,3.0,5.0,4.0,0.0,3.0,21.5,1.6,1.3,1.5,18.4,6.0,40.25,Beaded
+220530,Simon Line Balance Prototype 2,Axiom,Mid Range,3.0,5.0,4.0,0.0,3.0,21.4,1.7,1.3,1.5,18.4,6.1,41.5,Beaded
+220531,Simon Line Balance Prototype 3,Axiom,Mid Range,3.0,5.0,4.0,0.0,3.0,21.4,1.7,1.3,1.5,18.3,6.1,43.75,Beaded
+192288,Sirocco,Windward Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.5,2.1,1.4,1.3,18.9,6.5,41.0,Beadless
+298,Skeeter,Innova,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.2,1.9,1.3,1.3,18.7,6.1,43.25,Beadless
+208643,Skeggox,Nordisc,Mid Range,2.5,5.0,5.0,0.0,2.5,21.2,1.9,1.3,1.6,17.9,6.1,34.75,Beadless
+11096,Skylark,Disctroyer,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,1.9,1.5,1.4,19.3,6.9,46.5,Beadless
+207532,Skyterron,Discape Disc Golf,Mid Range,2.0,5.0,4.0,0.0,2.0,21.5,1.7,1.4,1.3,18.8,6.5,51.25,Beadless
+521,Sling,Westside,Mid Range,1.0,5.0,5.0,0.0,1.0,21.8,1.8,1.2,1.3,19.3,5.5,41.0,Beadless
+208674,Solar Eclipse,Orbital Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.8,1.6,1.2,1.3,19.3,5.5,48.75,Beadless
+28153,Solstice,Millennium,Mid Range,3.0,5.0,4.0,0.0,3.0,21.8,1.7,1.3,1.4,18.9,6.0,55.75,Beadless
+299,Spider,Innova,Mid Range,1.0,5.0,3.0,0.0,1.0,21.2,1.7,1.4,1.3,18.6,6.6,45.0,Beadless
+28168,Spruce,Above Ground Level,Mid Range,1.0,5.0,4.0,-1.0,2.0,22.0,1.7,1.2,1.5,19.1,5.5,52.75,Beadless
+186382,SPZ2 Pirate,Latitude 64,Mid Range,-2.0,5.0,6.0,-2.0,0.0,21.7,1.9,1.3,1.3,19.1,6.0,43.0,Beadless
+184614,Star Bison,X-UFO,Mid Range,3.0,5.0,4.0,0.0,3.0,21.5,2.0,1.3,1.3,18.9,6.0,43.25,Beaded
+684,STARi,Prodiscus,Mid Range,-1.0,5.0,4.0,-2.0,1.0,21.6,1.9,1.4,1.3,18.9,6.5,45.0,Beadless
+184629,Statue of Liberty,HIAARO,Mid Range,1.0,5.0,5.0,0.0,1.0,21.2,2.0,1.3,1.3,18.7,6.1,47.5,Beadless
+207522,Stegosaurus,Dino Discs,Mid Range,-2.0,5.0,5.0,-4.0,2.0,21.6,2.3,1.4,1.3,19.1,6.5,38.75,Beaded
+170327,Strait,Meridian Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.5,2.1,1.3,1.3,18.9,6.0,41.75,Beaded
+98,Stratus,Discraft,Mid Range,-3.0,5.0,4.0,-4.0,1.0,21.4,1.8,1.2,1.2,19.0,5.6,36.25,Beadless
+184646,SubZero,Kestrel Outdoors,Mid Range,2.5,5.0,5.0,0.0,2.5,21.1,1.8,1.3,1.6,17.8,6.2,35.75,Beadless
+184649,Summit Crest,Albatross Disc Golf,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.6,1.6,1.1,1.3,19.0,5.1,47.75,Beadless
+120694,Supra,Finish Line Discs,Mid Range,1.0,5.0,5.0,0.0,1.0,21.6,1.7,1.2,1.4,18.9,5.6,45.0,Beadless
+207811,Supreme EMAC Truth,Dynamic Discs,Mid Range,3.0,5.0,5.0,0.0,3.0,21.7,1.8,1.2,1.5,18.8,5.5,42.25,Beadless
+104817,Supreme Fugitive,Dynamic Discs,Mid Range,4.0,5.0,3.0,0.0,4.0,21.7,1.9,1.3,1.5,18.7,6.0,39.0,Beaded
+1440,Svea,Kastaplast,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.9,2.1,1.3,1.3,19.3,5.9,41.5,Beadless
+171609,Swarm,Discraft,Mid Range,4.0,5.0,3.0,0.0,4.0,21.7,1.6,1.2,1.3,19.0,5.5,44.0,Beadless
+170323,Taco,Mint Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.4,1.9,1.4,1.4,18.5,6.5,43.0,Beaded
+55045,Texas Ranger,Lone Star Disc,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.4,1.8,1.2,1.4,18.6,5.6,37.5,Beadless
+184725,Thunder Heloha,Native Discs,Mid Range,0.0,5.0,4.0,-1.0,1.0,21.6,1.7,1.2,1.3,19.0,5.6,41.5,Beadless
+754,Tomahawk,Yikun,Mid Range,0.0,5.0,6.0,0.0,0.0,21.6,1.9,1.3,1.3,19.0,6.0,34.75,Beadless
+207430,Tone Guava,Clash Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.4,2.4,1.4,1.4,18.7,6.5,45.5,Beadless
+126593,Torpedo,Remix Disc Golf,Mid Range,1.0,5.0,5.0,0.0,1.0,21.4,1.6,1.4,1.4,18.5,6.5,42.5,Beadless
+207850,Transition,Eurodisc,Mid Range,1.0,5.0,5.0,0.0,1.0,21.3,1.9,1.3,1.3,18.7,6.1,46.0,Beadless
+207851,Transition Organic,Eurodisc,Mid Range,1.0,5.0,5.0,0.0,1.0,21.5,2.1,1.3,1.3,18.9,6.0,46.0,Beadless
+87955,Troija,Prodiscus,Mid Range,5.0,5.0,2.0,0.0,5.0,21.7,2.1,1.4,1.5,18.7,6.5,40.0,Beadless
+21899,Trust,Latitude 64,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.9,1.3,1.3,19.1,6.0,43.75,Beadless
+141,Truth,Dynamic Discs,Mid Range,0.0,5.0,5.0,-1.0,1.0,21.7,1.7,1.2,1.5,18.7,5.5,41.5,Beadless
+522,Tursas,Westside,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.7,1.7,1.3,1.4,18.9,6.0,42.5,Beadless
+142063,Ultra,Birdie,Mid Range,3.0,5.0,3.0,0.0,3.0,21.4,1.6,1.2,1.5,18.4,5.6,44.75,Beadless
+184777,Unicorn,Prodiscus,Mid Range,2.0,5.0,4.0,0.0,2.0,21.6,1.8,1.3,1.5,18.7,6.0,42.25,Beadless
+23675,Uplink,MVP,Mid Range,-2.5,5.0,5.0,-3.0,0.5,21.5,1.8,1.4,1.3,18.8,6.5,45.0,Beadless
+47146,Ursus,Terminal Velocity Discs,Mid Range,3.0,5.0,4.0,0.0,3.0,21.3,1.7,1.3,1.5,18.3,6.1,44.25,Beaded
+637,Valor,Legacy Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,2.1,1.3,1.2,19.3,6.0,49.0,Beaded
+208966,Varma,Taito Frisbeegolf,Mid Range,1.0,5.0,3.0,0.0,1.0,21.6,1.8,1.5,1.3,18.9,6.9,37.5,Beadless
+302,VCobra,Innova,Mid Range,1.0,5.0,5.0,-1.0,2.0,21.7,2.0,1.1,1.2,19.3,5.1,35.25,Beadless
+436,Vector,MVP,Mid Range,2.0,5.0,4.0,0.0,2.0,21.7,2.1,1.3,1.3,19.1,6.0,36.5,Beadless
+142,Verdict,Dynamic Discs,Mid Range,3.5,5.0,4.0,0.0,3.5,21.7,1.7,1.2,1.5,18.7,5.5,43.25,Beadless
+166498,Waco,Prodigy,Mid Range,1.0,5.0,5.0,0.0,1.0,21.7,1.7,1.4,1.3,19.1,6.5,35.5,Beaded
+44308,Walker,Lone Star Disc,Mid Range,4.0,5.0,3.0,0.0,4.0,21.4,1.7,1.2,1.4,18.6,5.6,34.5,Beaded
+1536,Wall Cloud,Storm Disc Golf,Mid Range,3.0,5.0,5.0,0.0,3.0,21.9,2.1,1.3,1.5,18.8,5.9,31.25,Beaded
+143,Warrant,Dynamic Discs,Mid Range,-2.0,5.0,5.0,-2.0,0.0,21.7,1.8,1.3,1.4,18.8,6.0,46.5,Beadless
+177,Warrior,Gateway,Mid Range,3.0,5.0,4.0,0.0,3.0,22.0,1.9,1.2,1.4,19.3,5.5,42.5,Beaded
+523,Warship,Westside,Mid Range,1.0,5.0,6.0,0.0,1.0,21.7,2.1,1.3,1.4,18.9,6.0,31.0,Beadless
+99,Wasp,Discraft,Mid Range,2.0,5.0,3.0,0.0,2.0,21.6,1.8,1.3,1.2,19.2,6.0,37.0,Beaded
+161456,Wasteland,Doomsday Discs,Mid Range,1.0,5.0,4.0,0.0,1.0,21.2,2.0,1.2,1.3,18.6,5.7,45.5,Beadless
+207888,Willow,FlyTec,Mid Range,-1.0,5.0,5.0,-2.0,1.0,21.5,2.1,1.4,1.2,18.9,6.5,47.0,Beadless
+172917,Wingman,Northstar Discs,Mid Range,2.0,5.0,5.0,0.0,2.0,21.7,1.8,1.3,1.3,19.1,6.0,34.0,Beadless
+306,Wombat,Innova,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.8,2.2,1.4,1.4,18.9,6.4,36.25,Beaded
+307,Wombat3,Innova,Mid Range,-1.0,5.0,6.0,-1.0,0.0,21.7,1.8,1.2,1.4,18.9,5.5,30.0,Beaded
+208489,Wonder,Loop Discs,Mid Range,0.0,5.0,6.0,-1.0,1.0,21.4,1.7,1.3,1.4,18.5,6.1,43.0,Beadless
+75959,Zheng,Yikun,Mid Range,2.0,5.0,5.0,0.0,2.0,21.8,1.7,1.3,1.3,19.1,6.0,40.5,Beadless
+268,Caiman,Innova,Mid Range,4.0,5.5,2.0,0.0,4.0,21.1,1.7,1.4,1.4,18.3,6.6,66.5,Beadless
+11052,Code,Launch Disc Golf,Mid Range,1.5,5.5,4.0,-0.5,2.0,21.2,1.6,1.2,1.4,18.3,5.7,32.5,Beadless
+22012,Code-X,Launch Disc Golf,Mid Range,1.0,5.5,5.0,-1.0,2.0,21.2,1.6,1.2,1.4,18.3,5.7,36.75,Beadless
+274,Croc,Innova,Mid Range,5.0,5.5,2.0,0.0,5.0,21.1,2.0,1.4,1.4,18.3,6.6,56.25,Beadless
+279,Jaguar,Innova,Mid Range,-1.0,5.5,6.0,-3.0,2.0,24.1,1.7,1.4,1.6,20.9,5.8,36.0,Beadless
+11105,The Duchess,Disc Golf UK,Mid Range,1.0,5.5,5.0,-1.0,2.0,21.3,1.7,1.1,1.8,17.8,5.2,36.5,Beadless
+11106,The Duke,Disc Golf UK,Mid Range,3.5,5.5,4.0,0.0,3.5,21.5,1.9,1.4,1.7,18.1,6.5,35.25,Beadless
+208682,Andro 1,Ozone Discs,Mid Range,1.0,6.0,3.5,-1.0,2.0,21.5,1.8,1.3,1.5,18.5,6.0,26.0,Beadless
+208683,Andro C,Ozone Discs,Mid Range,1.0,6.0,4.0,-1.0,2.0,21.4,1.5,1.3,1.5,18.4,6.1,31.25,Beadless
+91391,Ascend,Streamline,Control Driver,-2.5,6.0,5.0,-3.0,0.5,21.2,1.8,1.2,1.7,17.8,5.7,38.0,Beadless
+238,Cheetah,Innova,Control Driver,0.0,6.0,4.0,-2.0,2.0,21.2,1.9,1.2,1.6,18.0,5.7,28.25,Beadless
+88076,Contrail,Guru Disc Golf,Control Driver,2.0,6.0,5.0,0.0,2.0,21.0,1.5,1.3,1.6,17.7,6.2,39.25,Beadless
+385,Core,Latitude 64,Mid Range,0.5,6.0,5.0,-0.5,1.0,21.7,2.0,1.2,1.4,18.9,5.5,48.0,Beadless
+171,Demon,Gateway,Mid Range,4.0,6.0,4.0,0.0,4.0,21.1,1.9,1.2,1.7,17.7,5.7,30.25,Beadless
+11056,Flatline,Salient,Control Driver,0.5,6.0,5.0,-0.5,1.0,21.2,1.6,1.1,1.6,18.0,5.2,32.0,Beadless
+243,Gargoyle,Innova,Control Driver,1.0,6.0,3.0,-1.0,2.0,21.2,2.0,1.2,1.4,18.4,5.7,43.5,Beadless
+244,Gazelle,Innova,Control Driver,2.0,6.0,4.0,0.0,2.0,21.2,1.8,1.2,1.6,18.0,5.7,28.25,Beadless
+90,Glide,Discraft,Mid Range,-2.0,6.0,5.0,-3.0,1.0,21.5,2.0,1.3,1.5,18.6,6.0,36.5,Beadless
+388,Gobi,Latitude 64,Mid Range,0.5,6.0,5.0,-0.5,1.0,21.7,1.8,1.3,1.4,18.8,6.0,37.5,Beadless
+11059,Helios,XCom,Control Driver,-2.0,6.0,5.0,-3.0,1.0,21.0,1.6,1.1,1.6,17.7,5.2,34.0,Beadless
+93,Impact,Discraft,Mid Range,-2.0,6.0,6.0,-3.0,1.0,21.6,2.0,1.3,1.3,19.0,6.0,33.75,Beadless
+750,Jiao,Yikun,Control Driver,-0.5,6.0,5.0,-2.0,1.5,21.2,1.6,1.1,1.6,18.0,5.2,32.0,Beadless
+614,Kaxe,Kastaplast,Mid Range,3.0,6.0,4.0,0.0,3.0,21.1,1.7,1.3,1.6,17.8,6.2,35.0,Beaded
+615,Kaxe Z,Kastaplast,Mid Range,2.0,6.0,5.0,0.0,2.0,21.1,1.9,1.3,1.5,18.0,6.2,2.0,Beadless
+245,Leopard,Innova,Control Driver,-1.0,6.0,5.0,-2.0,1.0,21.2,1.6,1.1,1.6,18.0,5.2,29.25,Beadless
+479,M Model OS,Prodigy,Mid Range,2.0,6.0,4.0,-1.0,3.0,21.7,1.9,1.4,1.3,19.1,6.5,45.25,Beadless
+480,M Model S,Prodigy,Mid Range,3.0,6.0,4.0,0.0,3.0,21.7,2.0,1.5,1.3,19.1,6.9,47.25,Beadless
+25,Magician,Discmania,Control Driver,2.0,6.0,4.0,0.0,2.0,21.2,1.8,1.3,1.6,17.9,6.1,39.75,Beadless
+208853,Mercenary,Remix Disc Golf,Control Driver,-1.0,6.0,5.0,-2.0,1.0,21.2,1.8,1.2,1.7,17.8,5.7,34.25,Beadless
+11082,Midgard,Guru Disc Golf,Control Driver,0.0,6.0,5.0,-1.0,1.0,21.1,1.7,1.1,1.8,17.5,5.2,32.5,Beadless
+602,Moab,Hyzer Bomb,Control Driver,6.0,6.0,4.0,1.0,5.0,21.8,1.7,1.2,1.8,18.4,5.7,38.25,Beadless
+87571,No1 Hookshot,Lightning Discs,Control Driver,3.0,6.0,4.0,0.0,3.0,22.2,1.7,1.5,1.5,19.2,6.8,32.5,Beadless
+87578,No2 Hookshot,Lightning Discs,Mid Range,1.0,6.0,5.0,-1.0,2.0,21.5,2.1,1.1,1.3,18.9,5.1,40.0,Beadless
+87581,No2 Roller,Lightning Discs,Control Driver,0.0,6.0,6.0,-2.0,2.0,23.6,2.1,1.4,1.7,19.2,5.9,30.25,Beadless
+87582,No2 Slice,Lightning Discs,Control Driver,-2.0,6.0,5.0,-3.0,1.0,21.6,2.0,1.1,1.3,19.0,5.1,27.25,Beadless
+87584,No3 Driver,Lightning Discs,Control Driver,1.0,6.0,5.0,-2.0,3.0,22.5,2.0,1.2,1.6,19.3,5.3,29.75,Beadless
+87588,No3 Slice,Lightning Discs,Mid Range,-2.0,6.0,5.0,-3.0,1.0,21.7,1.9,1.1,1.4,18.9,5.1,34.0,Beadless
+46279,Pelican,AquaFlight Discs,Control Driver,-2.0,6.0,5.0,-3.0,1.0,21.1,2.0,1.2,1.7,17.7,5.7,29.5,Beadless
+656,Polaris LS,Millennium,Control Driver,0.0,6.0,4.0,-1.0,1.0,21.1,1.9,1.1,1.6,17.9,5.2,35.0,Beadless
+192285,Pounce,X-UFO,Control Driver,-1.0,6.0,5.0,-2.0,1.0,21.1,1.6,1.1,1.8,17.6,5.2,32.0,Beadless
+207883,Pure OG,Fly High Discs,Control Driver,1.0,6.0,4.0,-1.0,2.0,21.8,1.9,1.1,1.5,18.8,5.0,37.75,Beadless
+11091,Radium,Element Discs,Mid Range,1.0,6.0,4.0,-1.0,2.0,21.9,2.0,1.1,1.5,18.9,5.3,43.25,Beadless
+249,Ram,Innova,Control Driver,5.0,6.0,4.0,1.0,4.0,21.7,1.9,1.3,1.8,18.1,6.0,27.5,Beadless
+250,Raven,Innova,Control Driver,0.0,6.0,4.0,-2.0,2.0,21.7,1.9,1.2,1.6,18.5,5.5,29.25,Beaded
+184434,Readiness,Evolvent Discs,Mid Range,0.0,6.0,6.0,-1.0,1.0,21.2,1.6,1.2,1.3,18.5,5.7,43.5,Beadless
+423,Relay,MVP,Control Driver,-1.0,6.0,5.0,-2.0,1.0,21.1,1.5,1.2,1.7,17.7,5.7,35.75,Beadless
+373,River Pro,Latitude 64,Control Driver,2.0,6.0,5.0,0.0,2.0,21.4,1.8,1.3,1.8,17.8,6.1,34.0,Beadless
+201240,Salamander,Mint Discs,Control Driver,-1.0,6.0,6.0,-2.0,1.0,21.2,1.8,1.4,1.1,18.9,6.6,52.5,Beadless
+176,Scout,Gateway,Mid Range,1.0,6.0,5.0,-1.0,2.0,21.8,2.1,1.1,1.4,19.0,5.0,58.75,Beadless
+427,Signal,MVP,Control Driver,-2.0,6.0,5.0,-3.0,1.0,21.1,1.5,1.2,1.7,17.7,5.7,35.5,Beadless
+1417,Squall,DGA,Mid Range,0.0,6.0,4.0,-1.0,1.0,21.5,1.8,1.3,1.3,18.6,6.0,34.5,Beadless
+184612,Star Bear,X-UFO,Control Driver,-1.0,6.0,5.0,-2.0,1.0,21.0,1.7,1.1,1.8,17.5,5.2,30.0,Beadless
+114899,Stig,Kastaplast,Mid Range,-1.0,6.0,5.0,-2.0,1.0,21.1,1.9,1.2,1.6,18.0,5.7,39.0,Beadless
+64948,Stryder,Prodigy,Mid Range,3.0,6.0,4.0,0.0,3.0,21.8,2.0,1.5,1.3,19.2,6.9,48.75,Beadless
+201248,The Tex,Lone Star Disc,Control Driver,-2.0,6.0,5.0,-3.0,1.0,21.1,1.8,1.1,1.7,17.7,5.2,33.25,Beadless
+1496,Tremor,DGA,Mid Range,-3.0,6.0,5.0,-4.0,1.0,21.6,1.7,1.1,1.4,18.8,5.1,39.25,Beadless
+378,Trident,Latitude 64,Control Driver,2.5,6.0,4.0,-0.5,3.0,21.4,1.4,1.1,1.9,17.6,5.1,36.75,Beadless
+262,Viper,Innova,Control Driver,6.0,6.0,4.0,1.0,5.0,21.7,2.0,1.3,1.6,18.5,6.0,29.25,Beadless
+263,Whippet,Innova,Control Driver,6.0,6.0,3.0,1.0,5.0,21.2,1.9,1.3,1.7,17.8,6.1,26.0,Beadless
+58978,Xtreme,Discraft,Control Driver,5.0,6.0,3.0,1.0,4.0,21.0,1.9,1.2,1.7,17.7,5.7,29.0,Beadless
+82,Zombee,Discraft,Control Driver,0.0,6.0,4.0,-1.0,1.0,21.6,2.1,1.2,1.6,18.4,5.6,34.75,Beadless
+559,Clash,Axiom,Control Driver,1.0,6.5,4.0,-1.0,2.0,21.1,1.4,1.1,1.8,17.5,5.2,33.5,Beadless
+560,Crave,Axiom,Control Driver,0.0,6.5,5.0,-1.0,1.0,21.1,1.4,1.2,1.8,17.4,5.7,27.75,Beadless
+138862,Galleon,Infinite Discs,Control Driver,6.0,6.5,1.0,1.0,5.0,21.2,2.0,1.2,1.7,17.8,5.7,39.5,Beadless
+562,Inspire,Axiom,Control Driver,-0.5,6.5,5.0,-1.5,1.0,21.1,1.5,1.2,1.8,17.4,5.7,32.75,Beadless
+424,Resistor,MVP,Control Driver,3.5,6.5,4.0,0.0,3.5,21.1,1.5,1.2,1.7,17.5,5.7,31.75,Beadless
+425,Servo,MVP,Control Driver,1.0,6.5,5.0,-1.0,2.0,21.1,1.4,1.2,1.8,17.5,5.7,32.0,Beadless
+184592,Spider Monkey,Gorilla Disc Golf,Control Driver,-2.0,6.5,5.0,-3.0,1.0,21.1,1.7,1.2,1.7,17.7,5.7,35.75,Beadless
+428,Switch,MVP,Control Driver,-0.5,6.5,5.0,-1.5,1.0,21.1,1.4,1.2,1.8,17.5,5.7,31.0,Beadless
+183446,Adventurer,H13 Disc Golf,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.3,1.8,1.2,1.7,17.9,5.6,30.25,Beadless
+80854,Athena,Discraft,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,1.5,1.1,1.8,17.7,5.2,30.0,Beadless
+237,Banshee,Innova,Control Driver,3.0,7.0,3.0,0.0,3.0,21.2,1.5,1.2,1.8,17.6,5.7,29.25,Beadless
+737,Barbarian,Viking Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,1.8,1.2,1.9,17.6,5.6,35.75,Beadless
+169041,Beginner Fairway Driver,Kestrel Outdoors,Control Driver,0.0,7.0,6.0,-1.0,1.0,21.0,1.5,1.1,1.7,17.6,5.2,29.0,Beadless
+166,Blaze,Gateway,Mid Range,3.0,7.0,4.0,0.0,3.0,21.1,1.9,1.2,1.7,17.7,5.7,30.25,Beadless
+166499,Brave,Latitude 64,Control Driver,1.0,7.0,6.0,-1.0,2.0,21.3,1.8,1.1,1.8,17.7,5.2,30.0,Beadless
+110627,Brazos,Lone Star Disc,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,1.7,1.1,1.8,17.7,5.2,29.25,Beadless
+209172,Brushstroke,ColorYourGame,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.2,2.0,1.1,1.7,17.7,5.2,33.0,Beadless
+161455,Bunker Buster,Doomsday Discs,Control Driver,2.0,7.0,6.0,0.0,2.0,24.0,1.6,1.2,1.7,20.6,5.0,33.25,Beadless
+193,Centurion,Infinite Discs,Control Driver,0.5,7.0,5.0,-1.0,1.5,21.1,1.8,1.2,1.7,17.8,5.7,37.0,Beadless
+207753,Chemtrail,Doomsday Discs,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.2,1.7,1.1,1.7,17.8,5.2,33.0,Beadless
+152886,Cicada,Discraft,Control Driver,0.0,7.0,6.0,-1.0,1.0,21.4,1.6,1.2,1.7,18.0,5.6,35.25,Beadless
+209168,Cigarra,Discraft,Control Driver,1.0,7.0,6.0,-1.0,2.0,21.3,1.6,1.1,1.7,17.9,5.2,34.75,Beadless
+47012,Cinder,Obsidian Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,2.2,1.3,1.9,17.5,6.1,30.25,Beadless
+68942,Cookie,Clash Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.4,1.7,1.2,1.8,17.8,5.6,35.5,Beadless
+738,Cosmos,Viking Discs,Control Driver,1.0,7.0,5.0,0.0,1.0,21.0,1.6,1.1,1.8,17.4,5.2,28.5,Beadless
+208494,Current,Meridian Discs,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.2,1.9,1.1,1.7,17.8,5.2,32.75,Beadless
+207350,Cyborg,Gateway,Control Driver,-2.0,7.0,6.0,-3.0,1.0,21.0,1.6,1.2,1.8,17.4,5.7,30.75,Beadless
+65,Cyclone,Discraft,Control Driver,1.0,7.0,4.0,-1.0,2.0,21.3,1.8,1.2,1.6,18.1,5.6,26.0,Beadless
+231945,DMD1,Disc Monkey,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.3,2.2,1.1,1.7,17.8,5.2,34.0,Beadless
+165226,Dream Weaver,Jester Disc Golf,Control Driver,0.5,7.0,5.0,-1.0,1.5,21.3,1.7,1.1,1.7,17.8,5.2,35.75,Beadless
+728,Drift,Streamline,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.2,1.8,1.2,1.8,17.7,5.7,33.0,Beadless
+240,Eagle,Innova,Control Driver,2.0,7.0,4.0,-1.0,3.0,21.2,1.6,1.2,1.7,17.8,5.7,29.5,Beadless
+66,Eclipse,Discraft,Control Driver,0.0,7.0,5.0,-2.0,2.0,22.0,1.6,1.2,1.4,19.2,5.5,26.0,Beadless
+208670,Euphoria,Orbital Discs,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.0,1.9,1.2,1.8,17.4,5.7,27.0,Beadless
+16102,Evader,Dynamic Discs,Control Driver,2.5,7.0,4.0,0.0,2.5,21.2,1.9,1.1,1.8,17.5,5.2,26.75,Beadless
+194,Exodus,Infinite Discs,Control Driver,1.5,7.0,5.0,-0.5,2.0,21.1,1.8,1.1,1.8,17.5,5.2,36.25,Beadless
+651,EXP-X,Millennium,Control Driver,5.0,7.0,3.0,1.0,4.0,21.1,1.6,1.2,1.8,17.5,5.7,28.25,Beadless
+652,EXP1,Millennium,Control Driver,4.0,7.0,3.0,0.0,4.0,21.1,1.6,1.2,1.8,17.5,5.7,28.25,Beadless
+365,Explorer,Latitude 64,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,1.7,1.1,1.8,17.7,5.2,32.75,Beadless
+33239,Fairway Disc Dark Rebel,Innova,Control Driver,0.0,7.0,6.0,-1.0,1.0,21.2,1.6,1.2,1.8,17.5,5.7,35.75,Beadless
+20,FD,Discmania,Control Driver,1.0,7.0,6.0,0.0,1.0,21.2,1.4,1.1,1.7,17.7,5.2,39.0,Beadless
+110818,FD1,Discmania,Control Driver,2.0,7.0,4.0,0.0,2.0,21.2,1.7,1.1,1.8,17.6,5.2,36.25,Beadless
+21,FD2,Discmania,Control Driver,2.0,7.0,4.0,0.0,2.0,21.2,1.6,1.1,1.8,17.5,5.2,33.75,Beadless
+104813,Frio,Lone Star Disc,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.1,1.6,1.1,1.8,17.6,5.2,32.5,Beadless
+23127,Frontier,Launch Disc Golf,Control Driver,-2.0,7.0,5.0,-3.0,1.0,21.2,2.0,1.2,1.9,17.4,5.7,26.0,Beadless
+21397,Fu,Yikun,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,1.8,1.2,1.9,17.5,5.6,28.5,Beadless
+23,Genius,Discmania,Control Driver,-3.0,7.0,5.0,-4.0,1.0,21.1,1.7,1.2,1.7,17.7,5.7,29.5,Beadless
+183888,GF1,Disgo,Control Driver,0.0,7.0,7.0,-1.0,1.0,21.5,1.8,1.2,1.7,18.1,5.6,28.75,Beadless
+23149,Glory,Latitude 64,Control Driver,3.0,7.0,5.0,0.0,3.0,21.2,1.8,1.1,1.8,17.6,5.2,33.0,Beadless
+183908,Gong,Goto Disc Golf,Control Driver,2.0,7.0,5.0,0.0,2.0,21.4,2.1,1.1,1.8,17.8,5.1,31.25,Beadless
+76977,Grackle,Mint Discs,Control Driver,1.0,7.0,5.0,-1.0,2.0,21.3,1.6,1.2,1.9,17.5,5.6,33.75,Beadless
+55041,Guadalupe,Lone Star Disc,Control Driver,0.0,7.0,6.0,-2.0,2.0,21.4,1.6,1.1,1.9,17.7,5.1,32.5,Beadless
+27760,Hawkeye,Innova,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.1,1.7,1.2,1.8,17.5,5.7,35.75,Beadless
+699,Huia,RPM Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,1.9,1.2,1.8,17.5,5.7,33.75,Beadless
+183984,Husky,Osuma Disc,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.2,1.7,1.1,1.9,17.4,5.2,31.5,Beadless
+167,Hybrid,Gateway,Control Driver,1.5,7.0,4.0,-0.5,2.0,21.2,2.2,1.3,1.7,17.8,6.1,32.5,Beadless
+183992,Ice Age,Doomsday Discs,Control Driver,3.0,7.0,4.0,0.0,3.0,21.5,1.8,1.2,1.8,17.8,5.6,32.25,Beadless
+183993,Idog,Kastaplast,Control Driver,1.5,7.0,5.0,-0.5,2.0,21.2,1.8,1.1,1.8,17.6,5.2,32.0,Beadless
+24,Instinct,Discmania,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,1.9,1.1,1.8,17.6,5.2,32.25,Beadless
+71945,IT,Innova,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.2,1.6,1.2,1.8,17.5,5.7,38.75,Beadless
+653,JLS,Millennium,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.0,1.5,1.1,1.6,17.8,5.2,30.75,Beadless
+22064,Kraken,Divergent Discs,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.1,1.5,1.2,1.9,17.4,5.7,28.75,Beadless
+208931,Lark,Stokely Discs,Control Driver,0.0,7.0,5.0,-1.5,1.5,21.1,1.6,1.1,1.8,17.5,5.2,38.5,Beadless
+246,Leopard3,Innova,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.2,1.7,1.1,1.7,17.8,5.2,29.25,Beadless
+184110,Lumen,Lightspeed Disc Golf,Control Driver,3.0,7.0,5.0,0.0,3.0,21.1,1.9,1.1,1.7,17.7,5.2,33.75,Beadless
+184117,M01,Torch Discs,Control Driver,1.0,7.0,5.0,-1.0,2.0,21.0,1.6,1.1,1.9,17.2,5.2,35.0,Beadless
+184155,Marlin,Neptune Discs,Control Driver,-3.0,7.0,5.0,-4.0,1.0,21.0,1.8,1.2,1.8,17.6,5.7,31.25,Beadless
+369,Maul,Latitude 64,Control Driver,-1.0,7.0,7.0,-2.0,1.0,21.4,2.0,1.1,1.8,17.7,5.1,33.0,Beadless
+130,Maverick,Dynamic Discs,Control Driver,0.5,7.0,4.0,-1.5,2.0,21.2,1.8,1.1,1.7,17.8,5.2,35.0,Beadless
+208021,Maximus,Hero Disc,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.1,1.6,1.2,1.7,17.6,5.7,31.25,Beadless
+92500,Mermaid,Discmania,Control Driver,1.0,7.0,4.0,-1.0,2.0,21.3,1.8,1.2,1.9,17.5,5.6,41.75,Beadless
+184186,Millet,Clash Discs,Control Driver,-2.0,7.0,6.0,-3.0,1.0,21.4,1.6,1.2,1.8,17.8,5.6,29.0,Beadless
+17384,Mockingbird,Lone Star Disc,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.0,2.0,1.2,1.8,17.5,5.7,28.75,Beadless
+88080,Night Trooper,Guru Disc Golf,Control Driver,0.0,7.0,6.0,-1.0,1.0,21.0,1.5,1.1,1.8,17.5,5.2,29.25,Beadless
+87568,No1 Driver,Lightning Discs,Control Driver,0.0,7.0,4.0,-2.0,2.0,21.4,1.5,1.1,1.6,18.2,5.1,28.75,Beadless
+87572,No1 Hyzer,Lightning Discs,Control Driver,4.0,7.0,3.0,0.0,4.0,21.7,1.8,1.3,1.8,18.1,6.0,29.25,Beadless
+87573,No1 Roller,Lightning Discs,Control Driver,-0.5,7.0,4.0,-1.0,0.5,21.7,1.7,1.1,1.8,18.1,5.1,30.75,Beadless
+87574,No1 Slice,Lightning Discs,Mid Range,-1.0,7.0,4.0,-3.0,2.0,22.6,1.8,1.2,1.4,19.8,5.3,27.75,Beadless
+87585,No3 Flyer,Lightning Discs,Control Driver,0.0,7.0,4.0,-2.0,2.0,22.3,2.0,1.2,1.5,19.2,5.4,36.25,Beadless
+87589,No4 Driver,Lightning Discs,Control Driver,1.0,7.0,4.0,-1.0,2.0,21.2,1.7,1.1,1.7,17.9,5.2,26.75,Beadless
+87593,Notch,Vibram,Control Driver,4.5,7.0,3.0,0.0,4.5,21.0,2.0,1.2,1.9,17.2,5.7,36.75,Beadless
+192283,Nuance,Thought Space Athletics,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.2,1.8,1.1,1.7,17.8,5.2,33.5,Beadless
+147549,Oracle,Sacred Discs,Control Driver,0.0,7.0,5.0,-2.0,2.0,21.1,1.5,1.1,1.7,17.7,5.2,34.5,Beadless
+207894,ParkingBob,FotCot Discs,Control Driver,-1.0,7.0,5.0,-3.0,1.0,21.0,1.6,1.1,1.7,17.6,5.2,30.75,Beadless
+629,Patriot,Legacy Discs,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.2,1.8,1.1,1.8,17.6,5.2,28.25,Beadless
+247,Pegasus,Innova,Control Driver,2.0,7.0,4.0,-1.0,3.0,21.1,1.7,1.1,1.7,17.7,5.2,31.75,Beadless
+630,Phantom Warrior,Legacy Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,2.0,1.2,1.8,17.8,5.6,29.25,Beadless
+11090,Ptero,Reptilian Disc Golf,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.2,1.7,1.1,1.8,17.6,5.2,33.25,Beadless
+207866,Puro,Exel Discs,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.4,2.1,1.2,1.8,17.8,5.6,32.75,Beadless
+248,Python,Innova,Control Driver,1.0,7.0,3.0,-1.0,2.0,21.7,1.7,1.1,1.9,17.9,5.1,31.25,Beadless
+110514,Quantum Vela,Millennium,Control Driver,0.5,7.0,4.0,-1.5,2.0,21.2,1.8,1.2,1.8,17.6,5.7,43.75,Beadless
+184443,Reflection,Essential Discs,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.2,1.8,1.1,1.7,17.8,5.2,33.75,Beadless
+86671,Rhythm,Axiom,Control Driver,-1.0,7.0,5.5,-2.0,1.0,21.2,1.5,1.2,1.8,17.6,5.7,30.25,Beadless
+201244,Rio Grande,Lone Star Disc,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.1,1.9,1.2,1.7,17.7,5.7,29.75,Beadless
+632,Rival,Legacy Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,2.0,1.2,1.8,17.8,5.6,29.25,Beadless
+372,River,Latitude 64,Control Driver,0.0,7.0,7.0,-1.0,1.0,21.5,1.9,1.2,1.8,17.8,5.6,30.5,Beadless
+168,Sabre,Gateway,Control Driver,0.0,7.0,6.0,-1.0,1.0,21.2,1.8,1.2,1.7,17.8,5.7,27.0,Beadless
+514,Seer,Westside,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.2,1.8,1.1,1.8,17.7,5.2,42.5,Beadless
+47013,Shard,Obsidian Discs,Control Driver,-0.5,7.0,5.0,-1.5,1.0,21.2,1.5,1.2,1.9,17.4,5.7,28.0,Beadless
+11095,Shooting Star,Galaxy Disc Golf,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.0,1.8,1.2,1.8,17.4,5.7,26.25,Beadless
+110515,Sirius Helio Vela,Millennium,Control Driver,2.5,7.0,4.0,-0.5,3.0,21.2,1.8,1.2,1.8,17.6,5.7,43.75,Beadless
+51892,Soda,Clash Discs,Control Driver,0.0,7.0,5.0,-2.0,2.0,21.4,2.0,1.2,1.8,17.8,5.6,31.5,Beadless
+376,Spark,Latitude 64,Control Driver,2.5,7.0,4.0,-0.5,3.0,21.2,1.5,1.1,1.9,17.4,5.2,34.0,Beadless
+72,Stalker,Discraft,Control Driver,1.0,7.0,5.0,-1.0,2.0,21.6,1.6,1.2,1.6,18.4,5.6,32.5,Beadless
+184611,Star Bat,X-UFO,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.4,1.8,1.1,1.8,17.9,5.1,26.25,Beadless
+184619,Star Dorado,X-UFO,Control Driver,2.0,7.0,5.0,0.0,2.0,21.0,1.7,1.1,1.8,17.4,5.2,32.25,Beadless
+73,Sting,Discraft,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.4,1.8,1.2,1.6,18.2,5.6,36.25,Beadless
+78819,Strike,Birdie,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,1.8,1.2,1.8,17.7,5.6,30.5,Beadless
+538,Sycamore,Above Ground Level,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.2,2.2,1.3,1.7,17.8,6.1,32.25,Beadless
+254,TeeBird,Innova,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,1.5,1.1,1.7,17.8,5.2,29.25,Beadless
+255,TeeBird +,Innova,Control Driver,2.0,7.0,5.0,0.0,2.0,21.2,1.5,1.1,1.7,17.8,5.2,29.25,Beadless
+169045,Titanium,Loft Discs,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.3,2.0,1.1,1.7,17.8,5.2,36.0,Beadless
+258,TL,Innova,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.1,1.6,1.2,1.8,17.5,5.7,33.0,Beadless
+207429,Tone Cookie,Clash Discs,Control Driver,2.0,7.0,5.0,0.0,2.0,21.4,1.8,1.2,1.8,17.8,5.6,35.5,Beadless
+207433,Tone Soda,Clash Discs,Control Driver,0.0,7.0,5.0,-2.0,2.0,21.4,1.9,1.2,1.8,17.8,5.6,33.25,Beadless
+208961,Trailblazer,Supersonic Discs,Control Driver,4.0,7.0,4.0,0.0,4.0,21.9,1.6,1.2,2.0,17.8,5.5,43.75,Beadless
+87950,Trak,Vibram,Control Driver,1.0,7.0,4.0,-1.0,2.0,21.0,1.7,1.2,1.9,17.2,5.7,33.25,Beadless
+207852,Transporter,Eurodisc,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.1,1.7,1.2,1.8,17.5,5.7,28.0,Beadless
+207853,Transporter Organic,Eurodisc,Control Driver,-1.0,7.0,6.0,-2.0,1.0,21.2,1.9,1.2,1.8,17.6,5.7,28.0,Beadless
+201247,Trinity,Lone Star Disc,Control Driver,2.0,7.0,5.0,0.0,2.0,21.1,1.8,1.2,1.8,17.4,5.7,27.5,Beadless
+11109,Tyrant,Reptilian Disc Golf,Control Driver,2.5,7.0,3.0,0.0,2.5,21.2,1.4,1.1,1.8,17.6,5.2,28.0,Beadless
+208644,Tyrfing,Nordisc,Control Driver,-2.0,7.0,6.0,-3.0,1.0,21.1,1.7,1.1,1.7,17.7,5.2,33.25,Beadless
+516,Underworld,Westside,Control Driver,-2.0,7.0,6.0,-3.0,1.0,21.3,1.8,1.2,1.9,17.4,5.6,30.25,Beadless
+87975,Valley,Vibram,Control Driver,0.0,7.0,5.0,-1.0,1.0,21.0,1.9,1.1,1.8,17.4,5.2,31.25,Beadless
+87977,Vamp,Vibram,Control Driver,-1.0,7.0,5.0,-2.0,1.0,21.0,1.9,1.2,1.9,17.2,5.7,34.75,Beadless
+603,Veteran,Hyzer Bomb,Control Driver,3.0,7.0,4.0,0.0,3.0,21.1,1.8,1.2,1.8,17.5,5.7,29.0,Beadless
+751,View,Yikun,Control Driver,-2.5,7.0,6.0,-3.5,1.0,21.1,2.0,1.2,1.7,17.6,5.7,32.75,Beadless
+28292,Vortex,DGA,Control Driver,-2.0,7.0,6.0,-3.0,1.0,21.4,1.6,1.1,1.7,17.9,5.1,33.25,Beadless
+23701,Votum,Thought Space Athletics,Control Driver,3.0,7.0,5.0,0.0,3.0,21.2,1.7,1.2,1.8,17.5,5.7,36.25,Beadless
+104818,War Bear,Premier Discs,Control Driver,-2.0,7.0,5.0,-3.0,1.0,21.2,1.8,1.1,1.7,17.9,5.2,35.75,Beadless
+88084,White Raven,Guru Disc Golf,Control Driver,-2.0,7.0,6.0,-3.0,1.0,21.1,1.7,1.3,1.6,17.8,6.2,31.5,Beadless
+78,XL,Discraft,Control Driver,-1.0,7.0,4.0,-2.0,1.0,21.1,2.1,1.2,1.7,17.7,5.7,32.25,Beadless
+380,XXX,Latitude 64,Control Driver,4.0,7.0,3.0,0.0,4.0,21.5,1.5,1.1,2.0,17.5,5.1,32.5,Beadless
+23755,Zhu,Yikun,Control Driver,2.0,7.0,5.0,0.0,2.0,21.3,1.8,1.2,1.9,17.5,5.6,38.0,Beadless
+157745,Troll,Remix Disc Golf,Control Driver,2.0,7.5,4.5,0.0,2.0,21.2,1.8,1.2,1.8,17.6,5.7,37.0,Beadless
+721,Abyss,Storm Disc Golf,Control Driver,3.0,8.0,4.0,0.0,3.0,21.1,1.6,1.1,2.0,17.1,5.2,31.75,Beadless
+667,Alpha,Mint Discs,Control Driver,2.0,8.0,4.0,0.0,2.0,21.1,2.1,1.2,2.0,17.1,5.7,30.5,Beadless
+422,Amp,MVP,Control Driver,-0.5,8.0,5.0,-1.5,1.0,21.0,1.7,1.1,1.9,17.2,5.2,26.0,Beadless
+642,Aquarius,Millennium,Distance Driver,-1.0,8.0,5.0,-3.0,2.0,21.0,1.9,1.2,2.0,17.0,5.7,30.0,Beadless
+87020,Arch,Vibram,Control Driver,2.0,8.0,5.0,0.0,2.0,21.0,1.9,1.1,1.8,17.4,5.2,34.0,Beadless
+236,Archangel,Innova,Control Driver,-3.0,8.0,6.0,-4.0,1.0,21.1,1.9,1.4,1.8,17.3,7.1,31.25,Beadless
+87027,Ascent,Vibram,Distance Driver,3.0,8.0,4.0,0.0,3.0,21.1,1.6,1.2,1.9,17.3,5.7,30.0,Beadless
+183521,Badia,STM Disc Golf,Control Driver,1.5,8.0,5.0,0.0,1.5,21.0,1.7,1.2,1.8,17.4,5.7,34.5,Beadless
+183528,Bank Robber,Lucky Discs,Control Driver,1.0,8.0,5.0,-1.0,2.0,21.2,1.9,1.2,1.9,17.4,5.7,30.75,Beadless
+818,Banzai,DGA,Control Driver,3.0,8.0,4.0,0.0,3.0,21.4,1.7,1.2,1.9,17.5,5.6,30.0,Beadless
+62959,Bear,Westside,Control Driver,2.0,8.0,6.0,-0.5,2.5,21.2,1.8,1.2,1.9,17.4,5.7,30.25,Beadless
+28354,Binx,Elevation Disc Golf,Control Driver,1.0,8.0,5.0,0.0,1.0,21.4,1.7,1.2,1.7,18.0,5.6,27.75,Beadless
+86036,Blackout,Doomsday Discs,Control Driver,-1.0,8.0,5.0,-2.0,1.0,21.2,1.9,1.2,1.9,17.4,5.7,28.5,Beadless
+125,Breakout,Dynamic Discs,Control Driver,0.5,8.0,5.0,-1.0,1.5,21.0,1.6,1.1,1.9,17.2,5.2,32.75,Beadless
+11051,Cipher,Launch Disc Golf,Control Driver,1.0,8.0,4.0,-1.0,2.0,21.6,1.8,1.2,1.8,17.9,5.6,32.75,Beadless
+58163,Cosmic,Alfa Discs,Control Driver,2.0,8.0,6.0,0.0,2.0,21.2,2.0,1.2,1.9,17.5,5.7,31.25,Beadless
+364,Diamond,Latitude 64,Control Driver,-2.0,8.0,6.0,-3.0,1.0,21.1,1.4,1.1,1.8,17.4,5.2,30.0,Beadless
+27631,Dos X,Lone Star Disc,Control Driver,1.0,8.0,4.0,-1.0,2.0,21.3,1.9,1.2,2.0,17.3,5.6,32.25,Beadless
+239,Dragon,Innova,Control Driver,0.0,8.0,5.0,-2.0,2.0,21.0,1.9,1.2,1.8,17.4,5.7,32.0,Beadless
+161447,Enoch,Goliath Discs,Control Driver,1.5,8.0,5.0,0.0,1.5,21.0,1.9,1.2,1.8,17.4,5.7,33.75,Beadless
+19,Essence,Discmania,Control Driver,-1.0,8.0,6.0,-2.0,1.0,21.0,1.8,1.2,1.8,17.4,5.7,33.25,Beadless
+464,F1,Prodigy,Control Driver,2.0,8.0,4.0,-1.0,3.0,21.3,1.5,1.1,1.8,17.7,5.2,27.25,Beadless
+465,F2,Prodigy,Control Driver,1.0,8.0,4.0,-1.0,2.0,21.3,1.5,1.1,1.8,17.7,5.2,32.75,Beadless
+466,F3,Prodigy,Control Driver,0.0,8.0,5.0,-2.0,2.0,21.3,1.5,1.1,1.8,17.7,5.2,31.5,Beadless
+467,F5,Prodigy,Control Driver,-1.0,8.0,6.0,-2.0,1.0,21.3,1.9,1.2,1.8,17.7,5.6,35.75,Beadless
+468,F7,Prodigy,Control Driver,-2.0,8.0,6.0,-3.0,1.0,21.3,1.5,1.1,1.8,17.8,5.2,37.0,Beadless
+144761,F9,Prodigy,Control Driver,-3.5,8.0,6.0,-4.0,0.5,21.1,1.9,1.1,1.8,17.5,5.2,31.5,Beadless
+366,Falchion,Latitude 64,Control Driver,1.0,8.0,5.0,-1.0,2.0,21.1,1.6,1.1,1.9,17.3,5.2,34.5,Beadless
+11055,Firehawk,Fourth Circle Discs,Control Driver,-1.0,8.0,5.0,-2.0,1.0,21.3,1.9,1.2,1.8,17.7,5.6,26.25,Beadless
+174227,Function,Discmania,Control Driver,-3.0,8.0,6.5,-4.0,1.0,21.2,1.8,1.1,1.9,17.4,5.2,31.75,Beadless
+748,Gou,Yikun,Control Driver,-2.5,8.0,5.0,-3.5,1.0,21.3,1.8,1.2,1.9,17.4,5.6,33.75,Beadless
+17273,Jackalope,Mint Discs,Control Driver,-1.0,8.0,5.0,-2.0,1.0,21.2,1.5,1.1,1.9,17.3,5.2,32.75,Beadless
+119104,Lotus,Clash Discs,Control Driver,1.0,8.0,5.0,-1.0,2.0,21.4,1.7,1.2,1.9,17.6,5.6,32.5,Beadless
+184113,M 30,Tefat,Control Driver,0.0,8.0,6.0,-2.0,2.0,21.2,1.7,1.1,1.9,17.5,5.2,31.25,Beadless
+184122,M31,Tefat,Control Driver,2.0,8.0,5.0,0.0,2.0,21.3,1.5,1.1,1.9,17.5,5.2,28.25,Beadless
+68,Mantis,Discraft,Control Driver,0.0,8.0,4.0,-2.0,2.0,21.2,1.9,1.1,1.9,17.4,5.2,28.0,Beadless
+23782,Minotaur,Divergent Discs,Control Driver,3.0,8.0,3.0,0.0,3.0,21.6,2.0,1.2,1.9,17.8,5.6,32.75,Beadless
+46964,Nice,Momentum Discs,Control Driver,0.0,8.0,7.0,-2.0,2.0,21.4,1.7,1.1,1.8,17.8,5.1,29.0,Beadless
+87569,No1 Flyer,Lightning Discs,Control Driver,0.0,8.0,5.0,-2.0,2.0,21.4,1.5,1.1,1.6,18.2,5.1,27.75,Beadless
+87570,No1 Helix,Lightning Discs,Control Driver,2.0,8.0,4.0,-1.0,3.0,21.5,1.6,1.3,1.6,18.3,6.0,31.25,Beadless
+87575,No2 Driver,Lightning Discs,Control Driver,0.0,8.0,5.0,-2.0,2.0,21.4,2.0,1.2,1.6,18.2,5.6,29.0,Beadless
+87576,No2 Flyer,Lightning Discs,Control Driver,1.0,8.0,5.0,-1.0,2.0,22.4,1.8,1.2,1.5,19.4,5.4,30.75,Beadless
+87577,No2 Helix,Lightning Discs,Control Driver,2.0,8.0,5.0,-1.0,3.0,21.2,1.7,1.4,1.7,17.8,6.6,34.0,Beadless
+184265,Nv Wa,Yikun,Control Driver,-1.5,8.0,6.0,-1.5,0.0,21.9,1.9,1.2,1.7,18.5,5.5,28.0,Beadless
+198242,Odyssey,Gateway,Control Driver,-1.0,8.0,5.0,-2.0,1.0,21.1,2.0,1.1,2.1,17.0,5.2,30.25,Beadless
+87615,Onyx,Vibram,Control Driver,-2.0,8.0,6.0,-3.0,1.0,21.0,1.8,1.1,1.8,17.3,5.2,30.75,Beadless
+207912,Outlander,Full Turn,Control Driver,3.0,8.0,4.0,0.0,3.0,21.1,2.1,1.3,1.9,17.2,6.2,27.25,Beadless
+174229,Ozone,Trash Panda,Control Driver,-2.0,8.0,6.0,-3.0,1.0,21.2,1.9,1.1,1.9,17.4,5.2,29.75,Beadless
+172914,Paladin,Northstar Discs,Control Driver,2.0,8.0,5.0,-1.0,3.0,21.2,1.8,1.2,1.8,17.5,5.7,32.0,Beadless
+172909,Paladin OS,Northstar Discs,Control Driver,3.0,8.0,4.0,0.0,3.0,21.0,2.0,1.3,1.8,17.4,6.2,32.0,Beadless
+23402,Passion,Discraft,Control Driver,0.0,8.0,5.0,-1.0,1.0,21.6,1.6,1.2,1.7,18.3,5.6,32.0,Beadless
+226231,Persona,Thought Space Athletics,Control Driver,-2.0,8.0,5.0,-3.0,1.0,21.4,1.7,1.1,1.7,18.0,5.1,34.25,Beadless
+631,Phenom,Legacy Discs,Control Driver,1.0,8.0,5.0,-1.0,2.0,21.2,1.7,1.2,1.8,17.7,5.7,33.25,Beadless
+1273,Pipeline,DGA,Control Driver,2.0,8.0,5.0,0.0,2.0,21.4,1.5,1.1,1.8,17.8,5.1,31.0,Beadless
+208990,Power Roller,Tobu Discs,Control Driver,-2.0,8.0,4.0,-3.0,1.0,21.1,1.4,1.1,1.8,17.5,5.2,29.5,Beadless
+184416,Rain,Essential Discs,Control Driver,3.0,8.0,5.0,0.0,3.0,21.3,1.7,1.2,1.9,17.4,5.6,61.25,Beadless
+158972,Rally,Finish Line Discs,Control Driver,1.0,8.0,5.0,-1.0,2.0,21.0,1.8,1.2,1.9,17.3,5.7,36.5,Beadless
+71,Reaper,Discraft,Control Driver,4.0,8.0,3.0,0.0,4.0,21.4,1.5,1.2,1.8,17.8,5.6,29.5,Beadless
+681,Respecti,Prodiscus,Control Driver,2.0,8.0,4.0,0.0,2.0,21.0,1.8,1.3,1.9,17.2,6.2,33.25,Beadless
+22683,Rockstar,Discmania,Control Driver,-1.0,8.0,5.0,-2.0,1.0,21.3,1.7,1.2,1.9,17.6,5.6,35.5,Beadless
+126393,Ronin,Remix Disc Golf,Control Driver,2.0,8.0,4.5,0.0,2.0,21.3,1.9,1.2,1.9,17.4,5.6,31.5,Beadless
+375,Saint Pro,Latitude 64,Control Driver,1.5,8.0,5.0,-0.5,2.0,21.2,2.0,1.2,1.8,17.5,5.7,33.0,Beadless
+426,Shock,MVP,Control Driver,2.5,8.0,5.0,0.0,2.5,21.1,1.6,1.1,1.9,17.2,5.2,29.75,Beadless
+184573,Solar Death Ray,Doomsday Discs,Control Driver,0.0,8.0,5.0,-1.0,1.0,21.0,1.7,1.3,1.9,17.2,6.2,28.75,Beadless
+515,Stag,Westside,Control Driver,1.0,8.0,6.0,-1.0,2.0,21.2,1.8,1.2,1.9,17.4,5.7,29.25,Beadless
+184622,Star Ship,X-UFO,Control Driver,0.0,8.0,5.0,-1.0,1.0,21.5,1.8,1.1,2.0,17.5,5.1,27.5,Beadless
+11100,Stork,Disctroyer,Control Driver,1.0,8.0,5.0,0.0,1.0,21.3,1.7,1.2,1.9,17.5,5.6,33.75,Beadless
+377,Striker,Latitude 64,Control Driver,2.0,8.0,5.0,0.0,2.0,21.4,1.6,1.2,1.9,17.6,5.6,29.0,Beadless
+184676,Taiga,Rogue Iron,Control Driver,0.5,8.0,5.0,-1.0,1.5,21.1,1.6,1.2,1.9,17.3,5.7,31.75,Beadless
+74,Talon,Discraft,Control Driver,4.0,8.0,3.0,1.0,3.0,21.0,1.5,1.1,1.8,17.5,5.2,28.25,Beadless
+256,TeeBird3,Innova,Control Driver,2.0,8.0,4.0,0.0,2.0,21.2,1.7,1.1,1.8,17.5,5.2,29.25,Beadless
+28224,Terra,MVP,Control Driver,3.0,8.0,5.0,0.0,3.0,21.2,1.8,1.2,1.9,17.4,5.7,32.75,Beadless
+11104,The Count,Disc Golf UK,Control Driver,1.0,8.0,4.0,-1.0,2.0,21.5,1.7,1.1,1.4,18.7,5.1,35.5,Beadless
+55043,The Dome,Lone Star Disc,Control Driver,-2.0,8.0,6.0,-3.0,1.0,21.1,1.8,1.1,1.9,17.2,5.2,36.0,Beadless
+131,Thief,Dynamic Discs,Control Driver,0.5,8.0,5.0,-1.5,2.0,21.2,1.8,1.1,1.9,17.3,5.2,34.25,Beadless
+678,Titan,Prodiscus,Distance Driver,2.0,8.0,3.0,0.0,2.0,21.2,1.6,1.2,1.9,17.3,5.7,32.75,Beadless
+23652,Tiyanak,Divergent Discs,Control Driver,-4.0,8.0,5.0,-5.0,1.0,21.2,2.0,1.2,2.0,17.3,5.7,33.75,Beadless
+259,TL3,Innova,Control Driver,0.0,8.0,4.0,-1.0,1.0,21.2,1.7,1.1,1.8,17.6,5.2,33.0,Beadless
+158973,Torque,Finish Line Discs,Control Driver,2.5,8.0,4.0,0.0,2.5,21.1,1.8,1.2,1.9,17.3,5.7,35.0,Beadless
+75,Tracker,Discraft,Control Driver,2.0,8.0,5.0,-1.0,3.0,21.2,1.7,1.2,1.8,17.7,5.7,32.5,Beadless
+113839,Trance,Axiom,Control Driver,-1.0,8.0,5.0,-2.0,1.0,21.0,1.8,1.2,1.9,17.1,5.7,41.25,Beadless
+11112,Vein,Salient,Control Driver,2.0,8.0,4.0,0.0,2.0,21.3,1.9,1.3,1.8,17.4,6.1,27.75,Beadless
+23693,Vigil,Crosslap,Control Driver,0.0,8.0,6.0,-2.0,2.0,21.7,1.5,1.1,1.9,17.9,5.1,32.5,Beadless
+379,Vision,Latitude 64,Control Driver,1.0,8.0,6.0,-1.0,2.0,21.1,1.9,1.1,1.8,17.4,5.2,33.0,Beadless
+429,Volt,MVP,Control Driver,1.5,8.0,5.0,-0.5,2.0,21.1,1.6,1.1,2.0,17.1,5.2,28.25,Beadless
+198243,Weapon,Birdie,Control Driver,2.5,8.0,5.0,0.0,2.5,21.1,1.4,1.1,1.9,17.5,5.2,43.0,Beadless
+133,Witness,Dynamic Discs,Control Driver,-2.0,8.0,6.0,-3.0,1.0,21.1,1.8,1.1,1.9,17.3,5.2,32.25,Beadless
+79,Xpress,Discraft,Control Driver,-2.0,8.0,5.0,-3.0,1.0,21.1,1.8,1.2,1.7,17.6,5.7,28.0,Beadless
+80,XS,Discraft,Control Driver,3.0,8.0,5.0,0.0,3.0,21.1,1.8,1.2,1.8,17.6,5.7,27.5,Beadless
+102553,Chameleon,Reptilian Disc Golf,Control Driver,1.0,8.5,5.0,-1.0,2.0,21.2,1.8,1.1,2.0,17.1,5.2,39.75,Beadless
+511,Ahti,Westside,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.7,1.1,2.0,17.2,5.2,28.75,Beadless
+183452,AirFlight,Kestrel Outdoors,Control Driver,0.0,9.0,5.0,-2.0,2.0,21.2,1.7,1.1,1.9,17.4,5.2,31.75,Beadless
+183491,Ark,Goliath Discs,Control Driver,1.0,9.0,4.0,-1.0,2.0,21.2,2.0,1.2,1.9,17.3,5.7,34.5,Beadless
+164,Assassin,Gateway,Control Driver,-0.5,9.0,6.0,-1.5,1.0,21.2,1.8,1.1,2.0,17.2,5.2,34.5,Beadless
+183503,Atlantis,Alfa Discs,Control Driver,-3.0,9.0,6.0,-4.0,1.0,21.1,1.7,1.1,1.9,17.2,5.2,29.5,Beadless
+143314,Avalanche,DGA,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.5,1.1,1.9,17.4,5.2,32.25,Beadless
+625,Bandit,Legacy Discs,Control Driver,-1.0,9.0,5.0,-2.0,1.0,21.3,1.5,1.1,2.0,17.3,5.2,30.75,Beadless
+75962,Bi,Yikun,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.2,1.7,1.2,1.9,17.3,5.7,28.75,Beadless
+165,Blade,Gateway,Control Driver,3.0,9.0,5.0,0.0,3.0,21.3,1.5,1.1,2.0,17.3,5.2,34.0,Beadless
+362,Bryce,Latitude 64,Control Driver,0.0,9.0,6.0,-2.0,2.0,21.2,1.7,1.1,2.0,17.2,5.2,28.25,Beadless
+845,Buffalo,Daredevil,Distance Driver,4.0,9.0,4.0,-1.0,5.0,21.0,1.6,1.2,2.0,17.0,5.7,34.0,Beadless
+183604,Canyon Echo,Albatross Disc Golf,Control Driver,-2.0,9.0,6.0,-2.0,0.0,21.1,1.5,1.1,1.9,17.3,5.2,29.25,Beadless
+124400,Captain Raptor,Discraft,Distance Driver,5.0,9.0,3.0,1.0,4.0,21.2,1.6,1.2,1.9,17.4,5.7,30.25,Beadless
+98080,CD1,Discmania,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.2,1.7,1.1,1.9,17.3,5.2,31.25,Beadless
+18,CD2,Discmania,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.9,1.1,1.9,17.2,5.2,30.0,Beadless
+161442,Chainbreaker,Goliath Discs,Control Driver,4.0,9.0,3.0,0.0,4.0,21.1,1.5,1.1,2.0,17.1,5.2,32.0,Beadless
+208989,Charge,Tobu Discs,Control Driver,1.0,9.0,4.0,-1.0,2.0,21.1,1.5,1.1,1.7,17.6,5.2,27.0,Beadless
+11050,Chromium,Element Discs,Control Driver,0.0,9.0,5.0,-1.0,1.0,21.1,2.0,1.2,2.0,17.2,5.7,31.25,Beadless
+55042,Chupacabra,Lone Star Disc,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.6,1.2,2.0,17.2,5.7,30.5,Beadless
+127901,Cinnamon,Clash Discs,Control Driver,0.5,9.0,5.0,-1.5,2.0,21.1,1.6,1.2,2.0,17.1,5.7,30.5,Beadless
+54061,Coalesce,Thought Space Athletics,Control Driver,3.0,9.0,5.0,0.0,3.0,21.2,1.9,1.2,1.9,17.4,5.7,32.5,Beadless
+126,Convict,Dynamic Discs,Control Driver,2.5,9.0,4.0,-0.5,3.0,21.2,1.4,1.1,2.0,17.2,5.2,34.75,Beadless
+235770,Crazy Hawk,Jester Disc Golf,Control Driver,3.5,9.0,4.0,0.0,3.5,21.2,1.7,1.1,2.0,17.2,5.2,30.25,Beadless
+183688,Crested Peak,Albatross Disc Golf,Control Driver,-2.0,9.0,6.0,-2.0,0.0,21.1,1.6,1.1,1.9,17.2,5.2,33.75,Beadless
+363,Culverin,Latitude 64,Control Driver,2.5,9.0,5.0,-0.5,3.0,21.2,2.0,1.1,2.0,17.0,5.2,31.25,Beadless
+201245,Desperado,Lone Star Disc,Control Driver,-1.0,9.0,5.0,-2.0,1.0,21.1,1.8,1.2,1.9,17.3,5.7,28.5,Beadless
+153,Diablo,Gateway,Distance Driver,1.5,9.0,5.0,-0.5,2.0,21.2,1.7,1.2,2.0,17.1,5.7,32.5,Beadless
+85146,Diamondback,Mint Discs,Control Driver,0.0,9.0,5.0,-2.0,2.0,21.3,1.6,1.1,2.1,17.1,5.2,31.25,Beadless
+650,Draco,Millennium,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.4,1.2,1.9,17.3,5.7,35.5,Beadless
+198238,Draconyx,Discape Disc Golf,Distance Driver,-1.0,9.0,5.0,-2.0,1.0,21.1,1.5,1.2,2.0,17.2,5.7,29.25,Beadless
+590,Drifter,Full Turn,Control Driver,1.0,9.0,4.0,-1.0,2.0,21.1,1.7,1.2,1.9,17.3,5.7,27.0,Beadless
+27637,Dynasty,Infinite Discs,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.4,1.1,1.9,17.3,5.2,31.25,Beadless
+626,Enemy,Legacy Discs,Control Driver,4.0,9.0,3.0,0.0,4.0,21.1,1.9,1.2,1.9,17.2,5.7,32.5,Beadless
+127,Escape,Dynamic Discs,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,2.0,1.1,2.0,17.1,5.2,27.75,Beadless
+610,Falk,Kastaplast,Control Driver,-1.0,9.0,6.0,-2.0,1.0,21.1,1.8,1.1,1.9,17.2,5.2,30.25,Beadless
+22,FD3,Discmania,Control Driver,3.0,9.0,4.0,0.0,3.0,21.3,1.7,1.1,2.0,17.3,5.2,33.25,Beadless
+157746,Feedback,Prodigy,Control Driver,2.0,9.0,5.0,-1.0,3.0,21.2,1.7,1.1,2.0,17.2,5.2,31.0,Beadless
+128,Felon,Dynamic Discs,Control Driver,4.5,9.0,3.0,0.5,4.0,21.2,1.8,1.1,2.0,17.2,5.2,31.5,Beadless
+552,Fireball,Axiom,Distance Driver,3.5,9.0,3.5,0.0,3.5,21.1,1.4,1.1,2.0,17.1,5.2,29.5,Beadless
+241,Firebird,Innova,Control Driver,4.0,9.0,3.0,0.0,4.0,21.1,1.4,1.2,1.9,17.3,5.7,26.75,Beadless
+242,FL,Innova,Control Driver,2.0,9.0,3.0,0.0,2.0,21.1,1.7,1.2,1.9,17.3,5.7,29.25,Beadless
+725,Flare,Streamline,Distance Driver,3.5,9.0,4.0,0.0,3.5,21.2,1.8,1.2,2.0,17.2,5.7,29.5,Beadless
+679,Flipperi,Prodiscus,Control Driver,-3.0,9.0,3.0,-3.0,0.0,21.2,1.7,1.2,2.0,17.2,5.7,26.0,Beadless
+183857,Frog,AstroDisc,Control Driver,2.0,9.0,5.0,0.0,2.0,21.1,1.7,1.2,2.0,17.1,5.7,32.5,Beadless
+367,Fury,Latitude 64,Control Driver,0.0,9.0,6.0,-2.0,2.0,21.2,1.8,1.1,1.9,17.4,5.2,36.75,Beadless
+469,FX-2,Prodigy,Control Driver,3.0,9.0,4.0,0.0,3.0,21.1,1.6,1.2,2.0,17.1,5.7,29.25,Beadless
+33277,FX-3,Prodigy,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.2,1.8,1.2,1.9,17.3,5.7,29.25,Beadless
+34222,FX-4,Prodigy,Control Driver,0.0,9.0,5.0,-2.0,2.0,21.2,1.8,1.2,2.0,17.3,5.7,32.25,Beadless
+207288,Gamma Ray,ABC Discs,Control Driver,0.0,9.0,4.0,-2.0,2.0,21.0,1.8,1.3,1.9,17.1,6.2,29.75,Beadless
+183883,Gecko,Elevation Disc Golf,Control Driver,3.5,9.0,4.0,0.0,3.5,21.1,1.5,1.1,1.8,17.5,5.2,33.5,Beadless
+129,Getaway,Dynamic Discs,Control Driver,2.5,9.0,5.0,-0.5,3.0,21.1,1.8,1.1,2.0,17.1,5.2,28.75,Beadless
+27720,Ginger,Clash Discs,Control Driver,2.0,9.0,4.0,0.0,2.0,21.4,1.7,1.3,1.9,17.6,6.1,26.5,Beadless
+183905,Golden Gate Bridge,HIAARO,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.3,1.9,1.2,2.0,17.3,5.7,31.25,Beadless
+104820,Grunt,Pie Pan Discs,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.0,1.7,1.2,2.0,17.0,5.7,32.25,Beadless
+64949,H7,Prodigy,Control Driver,-3.0,9.0,5.0,-4.0,1.0,21.1,2.0,1.1,1.9,17.2,5.2,31.25,Beadless
+512,Hatchet,Westside,Control Driver,-1.0,9.0,6.0,-2.0,1.0,21.3,2.0,1.2,1.9,17.6,5.6,27.0,Beadless
+125969,Haymaker,Remix Disc Golf,Control Driver,4.0,9.0,4.0,0.0,4.0,21.2,1.8,1.2,2.0,17.2,5.7,31.5,Beadless
+67,Heat,Discraft,Control Driver,-2.0,9.0,6.0,-3.0,1.0,21.1,2.1,1.2,1.9,17.2,5.7,29.5,Beadless
+116686,Honor,Latitude 64,Control Driver,2.5,9.0,5.0,0.0,2.5,21.2,1.8,1.1,1.9,17.4,5.2,31.75,Beadless
+183970,Honu,AstroDisc,Control Driver,0.0,9.0,4.0,-2.0,2.0,21.1,1.7,1.2,2.0,17.1,5.7,32.75,Beadless
+749,Hu,Yikun,Control Driver,0.0,9.0,5.0,-2.0,2.0,21.2,1.8,1.1,1.9,17.4,5.2,31.75,Beadless
+108650,Hyena,Wild Discs,Control Driver,0.0,9.0,5.0,-2.0,2.0,21.3,1.7,1.1,1.9,17.5,5.2,30.5,Beadless
+208672,Ignition,Orbital Discs,Control Driver,2.0,9.0,4.0,-1.0,3.0,21.0,1.6,1.2,2.0,17.0,5.7,29.0,Beadless
+161439,Impetus,Momentum Discs,Control Driver,0.0,9.0,6.0,-2.0,2.0,21.3,1.8,1.2,1.9,17.5,5.6,30.25,Beadless
+409,Impulse,MVP,Distance Driver,-2.0,9.0,5.0,-3.0,1.0,21.0,1.4,1.2,2.0,17.0,5.7,28.75,Beadless
+410,Inertia,MVP,Distance Driver,0.0,9.0,5.0,-2.0,2.0,21.1,1.4,1.2,2.0,17.1,5.7,27.25,Beadless
+561,Insanity,Axiom,Control Driver,-0.5,9.0,5.0,-2.0,1.5,21.1,1.4,1.1,2.0,17.0,5.2,27.0,Beadless
+207881,Jack the Ripper,Fly High Discs,Control Driver,1.0,9.0,5.0,0.0,1.0,21.0,1.7,1.1,1.9,17.1,5.2,33.5,Beadless
+368,Jade,Latitude 64,Control Driver,-1.0,9.0,6.0,-2.0,1.0,21.0,1.8,1.1,1.9,17.3,5.2,30.0,Beadless
+184025,Jin Wu,Yikun,Control Driver,2.0,9.0,5.0,0.0,2.0,21.6,2.0,1.2,1.9,17.8,5.6,29.5,Beadless
+184029,Johnson,Bernoulli,Control Driver,-2.0,9.0,6.0,-3.0,1.0,21.2,1.7,1.2,2.0,17.2,5.7,28.5,Beadless
+209104,Kalous,Wingman,Control Driver,-1.0,9.0,5.0,-2.0,1.0,21.3,1.9,1.2,1.9,17.4,5.6,29.0,Beadless
+207863,Kelo,Exel Discs,Control Driver,4.0,9.0,3.0,0.0,4.0,21.0,1.7,1.2,2.0,17.0,5.7,32.75,Beadless
+102554,Komodo,Reptilian Disc Golf,Control Driver,3.0,9.0,3.0,0.0,3.0,21.2,2.0,1.1,2.0,17.2,5.2,29.25,Beaded
+43829,Lariat,Lone Star Disc,Control Driver,0.0,9.0,5.0,-1.0,1.0,21.1,1.7,1.1,2.0,17.1,5.2,30.5,Beadless
+726,Lift,Streamline,Distance Driver,-0.5,9.0,5.0,-2.0,1.5,21.2,1.7,1.2,2.0,17.2,5.7,28.0,Beadless
+6045,Locust,Above Ground Level,Distance Driver,2.0,9.0,4.0,-1.0,3.0,21.2,1.6,1.1,2.0,17.2,5.2,29.75,Beadless
+513,Longbowman,Westside,Control Driver,3.0,9.0,4.0,0.0,3.0,21.3,1.6,1.1,1.8,17.7,5.2,36.0,Beadless
+611,Lots,Kastaplast,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.5,1.1,1.9,17.3,5.2,29.5,Beadless
+17334,Mad Cat,Lone Star Disc,Control Driver,2.0,9.0,5.0,0.0,2.0,21.2,1.8,1.2,1.9,17.4,5.7,30.0,Beadless
+1160,Mammoth,Daredevil,Control Driver,4.0,9.0,4.0,-1.0,5.0,21.1,1.7,1.2,2.0,17.1,5.7,29.25,Beadless
+11079,Mantra,Thought Space Athletics,Control Driver,-1.0,9.0,6.0,-2.0,1.0,21.2,1.7,1.2,2.0,17.1,5.7,32.0,Beadless
+601,Marksman,Hyzer Bomb,Control Driver,1.0,9.0,4.0,-1.0,2.0,21.1,1.6,1.2,1.9,17.2,5.7,29.0,Beadless
+165230,Money Tree,Above Ground Level,Control Driver,-1.0,9.0,6.0,-2.0,1.0,21.1,1.8,1.1,2.0,17.1,5.2,30.5,Beadless
+628,Mongoose,Legacy Discs,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.3,1.5,1.1,2.0,17.3,5.2,30.5,Beadless
+412,Motion,MVP,Distance Driver,4.0,9.0,3.5,0.0,4.0,21.0,1.4,1.2,2.0,17.0,5.7,30.25,Beadless
+91975,MX1,Lightning Discs,Control Driver,1.0,9.0,4.0,-2.0,3.0,21.3,1.7,1.1,2.1,17.1,5.2,33.25,Beadless
+207887,Oak,FlyTec,Control Driver,-0.5,9.0,7.0,-1.5,1.0,21.1,2.0,1.2,2.0,17.2,5.7,32.5,Beadless
+47011,Obsidian Tremor,Obsidian Discs,Distance Driver,3.5,9.0,4.0,0.0,3.5,21.2,1.6,1.2,2.0,17.2,5.7,29.25,Beadless
+1221,Ogopogo,Daredevil,Control Driver,3.0,9.0,4.0,-2.0,5.0,21.1,1.5,1.2,2.0,17.1,5.7,36.75,Beadless
+33534,Omen,Thought Space Athletics,Control Driver,4.0,9.0,4.0,0.0,4.0,21.2,1.7,1.2,2.0,17.2,5.7,28.25,Beadless
+654,Orion LF,Millennium,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.5,1.2,1.9,17.4,5.7,27.25,Beadless
+655,Orion LS,Millennium,Control Driver,0.0,9.0,4.0,-1.0,1.0,21.1,1.4,1.2,1.9,17.3,5.7,32.25,Beadless
+184297,Oxygen,Essential Discs,Control Driver,-2.0,9.0,6.0,-3.0,1.0,21.2,1.6,1.2,2.1,17.0,5.7,42.75,Beadless
+22614,Pekapeka,RPM Discs,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.2,1.5,1.1,2.0,17.2,5.2,28.75,Beadless
+87668,Phoenix,Mint Discs,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.7,1.2,2.0,17.2,5.7,26.75,Beadless
+370,Pioneer,Latitude 64,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.5,1.2,1.9,17.3,5.7,27.0,Beadless
+647,Polaris LF,Millennium,Distance Driver,0.5,9.0,5.0,-2.0,2.5,21.1,1.9,1.1,1.6,17.9,5.2,28.5,Beadless
+184373,Pondskater,Supersonic Discs,Control Driver,0.0,9.0,4.0,-2.0,2.0,21.6,1.8,1.2,2.0,17.6,5.6,40.75,Beadless
+69,Predator,Discraft,Control Driver,5.0,9.0,4.0,1.0,4.0,21.2,1.9,1.1,1.9,17.4,5.2,28.5,Beadless
+46965,Pretty Fly,Momentum Discs,Control Driver,1.0,9.0,6.0,-1.0,2.0,21.3,1.6,1.2,1.9,17.6,5.6,28.5,Beadless
+371,Primitus,Latitude 64,Control Driver,2.0,9.0,5.0,0.0,2.0,21.0,2.3,1.2,2.0,17.0,5.7,27.0,Beadless
+207520,Pterodactylus,Dino Discs,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.1,2.0,1.1,1.9,17.3,5.2,26.75,Beadless
+70,Raptor,Discraft,Control Driver,3.0,9.0,4.0,0.0,3.0,21.3,1.9,1.1,1.9,17.4,5.2,27.25,Beadless
+1338,Riptide,DGA,Distance Driver,3.0,9.0,4.0,0.0,3.0,21.4,1.7,1.2,2.0,17.4,5.6,27.5,Beadless
+251,Roadrunner,Innova,Control Driver,-3.0,9.0,5.0,-4.0,1.0,21.1,1.4,1.2,1.8,17.5,5.7,29.0,Beadless
+682,Rocket,Prodiscus,Control Driver,3.0,9.0,4.0,0.0,3.0,21.2,1.7,1.3,1.9,17.3,6.1,30.0,Beadless
+1355,Sabertooth,Daredevil,Control Driver,5.0,9.0,4.0,0.0,5.0,21.0,1.8,1.2,2.0,17.0,5.7,29.0,Beadless
+374,Saint,Latitude 64,Control Driver,1.0,9.0,7.0,-1.0,2.0,21.2,1.9,1.2,1.9,17.4,5.7,29.25,Beadless
+252,Savant,Innova,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.6,1.1,1.9,17.2,5.2,36.5,Beadless
+195,Scepter,Infinite Discs,Control Driver,4.0,9.0,4.0,0.0,4.0,21.2,1.4,1.1,1.9,17.3,5.2,28.25,Beadless
+59984,Shadowfax,Prodigy,Control Driver,-0.5,9.0,5.0,-2.0,1.5,21.1,1.8,1.1,2.0,17.2,5.2,33.0,Beadless
+184536,Shift,Streamline,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.2,1.5,1.1,2.1,17.1,5.2,32.75,Beadless
+253,Sidewinder,Innova,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.1,1.4,1.2,1.8,17.5,5.7,28.0,Beadless
+208856,Skirmisher,Remix Disc Golf,Control Driver,-1.0,9.0,5.0,-2.5,1.5,21.2,1.6,1.2,1.9,17.3,5.7,33.5,Beadless
+207809,Sockibomb Felon,Dynamic Discs,Control Driver,4.5,9.0,4.0,0.5,4.0,21.2,1.6,1.1,2.0,17.1,5.2,31.5,Beadless
+126478,Spartan,Remix Disc Golf,Control Driver,-1.0,9.0,6.0,-2.0,1.0,21.2,1.6,1.2,2.1,17.0,5.7,32.5,Beadless
+169,Spear,Gateway,Control Driver,0.0,9.0,6.0,-1.0,1.0,21.2,1.4,1.1,2.0,17.3,5.2,31.25,Beadless
+196,Sphinx,Infinite Discs,Control Driver,-2.0,9.0,6.0,-3.0,1.0,21.1,1.6,1.1,1.9,17.3,5.2,30.75,Beadless
+22740,Splice,Discmania,Control Driver,4.0,9.0,3.0,0.0,4.0,21.2,1.5,1.1,1.9,17.3,5.2,32.5,Beadless
+170324,Spur,Lone Star Disc,Control Driver,3.0,9.0,4.0,0.0,3.0,21.2,1.5,1.1,2.0,17.2,5.2,31.25,Beadless
+186077,SPZ3 Superhero,Latitude 64,Distance Driver,0.0,9.0,6.0,-2.0,2.0,21.1,1.8,1.2,1.9,17.3,5.7,31.25,Beadless
+612,Stal,Kastaplast,Control Driver,3.0,9.0,4.0,0.0,3.0,21.1,1.8,1.1,1.9,17.3,5.2,30.5,Beadless
+184615,Star Bucks,X-UFO,Control Driver,1.0,9.0,5.0,0.0,1.0,21.3,1.6,1.1,2.0,17.4,5.2,27.5,Beadless
+184616,Star Craft,X-UFO,Control Driver,-1.0,9.0,5.0,-2.0,1.0,21.6,1.6,1.1,2.0,17.5,5.1,29.75,Beadless
+33764,Stratosphere,Wing It Disc Golf,Control Driver,-1.0,9.0,4.0,-2.0,1.0,21.2,1.9,1.3,1.9,17.4,6.1,28.75,Beadless
+92502,Supreme Escape,Dynamic Discs,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.7,1.1,2.0,17.2,5.2,32.5,Beadless
+11101,Suture,Salient,Control Driver,-1.0,9.0,5.0,-2.0,1.0,21.2,1.8,1.1,1.9,17.4,5.2,31.75,Beadless
+46280,Swift,AquaFlight Discs,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.0,1.6,1.1,1.9,17.1,5.2,30.0,Beadless
+1444,Swift Fox,Daredevil,Control Driver,-2.0,9.0,5.0,-3.0,1.0,21.1,1.7,1.2,1.8,17.6,5.7,27.0,Beadless
+184680,Talisman,Prodiscus,Control Driver,2.0,9.0,4.0,0.0,2.0,21.1,1.7,1.2,1.9,17.3,5.7,37.75,Beadless
+208964,Tasma,Taito Frisbeegolf,Control Driver,0.0,9.0,4.0,-1.0,1.0,21.1,1.5,1.1,1.9,17.2,5.2,32.25,Beadless
+22146,Tasmanian Devil,Wild Discs,Control Driver,2.5,9.0,4.0,0.0,2.5,21.2,1.8,1.1,2.0,17.3,5.2,28.75,Beadless
+109194,Tasmanian Devil V2,Wild Discs,Control Driver,4.0,9.0,4.0,0.0,4.0,21.2,1.8,1.1,2.0,17.2,5.2,30.75,Beadless
+17,TDx,Discmania,Distance Driver,-2.0,9.0,5.0,-3.0,1.0,21.1,1.5,1.2,2.0,17.2,5.7,30.5,Beadless
+420,Tesla,MVP,Distance Driver,1.0,9.0,5.0,-1.0,2.0,21.0,1.4,1.2,2.0,17.0,5.7,26.5,Beadless
+68943,Thread,Hooligan Discs,Control Driver,0.0,9.0,5.0,-1.0,1.0,21.2,1.9,1.1,2.0,17.2,5.2,38.5,Beadless
+257,Thunderbird,Innova,Control Driver,2.0,9.0,5.0,0.0,2.0,21.2,1.6,1.1,1.9,17.3,5.2,31.0,Beadless
+184728,Tiki,AstroDisc,Control Driver,-3.0,9.0,5.0,-4.0,1.0,21.1,1.7,1.2,2.0,17.1,5.7,31.0,Beadless
+16106,Tilt,Discmania,Control Driver,7.0,9.0,1.0,1.0,6.0,21.1,1.6,1.2,2.0,17.1,5.7,29.25,Beadless
+1483,Timberwolf,Daredevil,Control Driver,-1.0,9.0,6.0,-1.0,0.0,21.1,1.6,1.2,1.8,17.5,5.7,27.0,Beadless
+184741,Tornado Mahli Chito,Native Discs,Control Driver,-2.0,9.0,6.0,-3.0,1.0,21.2,1.7,1.2,2.0,17.2,5.7,28.5,Beadless
+588,Traveler,Full Turn,Distance Driver,2.0,9.0,4.0,0.0,2.0,21.1,1.7,1.2,1.9,17.3,5.7,28.75,Beadless
+1500,Tsunami,DGA,Distance Driver,4.0,9.0,3.0,0.0,4.0,21.4,1.9,1.2,1.9,17.5,5.6,28.5,Beadless
+76,Undertaker,Discraft,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.1,1.8,1.1,1.9,17.5,5.2,30.75,Beadless
+260,Valkyrie,Innova,Control Driver,0.0,9.0,4.0,-2.0,2.0,21.1,1.4,1.2,1.9,17.3,5.7,26.0,Beadless
+132,Vandal,Dynamic Discs,Control Driver,0.5,9.0,5.0,-1.5,2.0,21.2,1.7,1.1,1.9,17.4,5.2,36.25,Beadless
+139593,Vanguard,Discmania,Control Driver,2.0,9.0,5.0,0.0,2.0,21.2,1.7,1.1,2.0,17.3,5.2,29.75,Beadless
+11113,Velociraptor,Reptilian Disc Golf,Control Driver,2.5,9.0,4.0,0.0,2.5,21.0,2.0,1.6,2.0,17.0,5.7,37.0,Beadless
+261,Viking,Innova,Control Driver,1.0,9.0,4.0,-1.0,2.0,21.2,1.4,1.1,1.9,17.4,5.2,30.75,Beadless
+563,Virus,Axiom,Distance Driver,-2.5,9.0,5.0,-3.5,1.0,21.2,1.4,1.1,2.0,17.0,5.2,29.5,Beadless
+1557,Wolverine,Daredevil,Control Driver,0.0,9.0,5.0,-2.0,2.0,21.2,1.8,1.2,1.8,17.5,5.7,27.5,Beadless
+201250,Wrangler,Lone Star Disc,Control Driver,1.0,9.0,5.0,-1.0,2.0,21.2,1.7,1.2,2.0,17.2,5.7,28.25,Beadless
+564,Wrath,Axiom,Control Driver,1.5,9.0,4.5,-0.5,2.0,21.1,1.4,1.1,2.0,17.0,5.2,30.25,Beadless
+161436,Wyrm,Divergent Discs,Control Driver,5.0,9.0,2.0,0.0,5.0,21.3,1.5,1.1,1.9,17.4,5.2,31.25,Beadless
+116245,Xenon,Loft Discs,Control Driver,4.0,9.0,3.0,0.0,4.0,21.1,1.5,1.2,2.0,17.1,5.7,27.0,Beadless
+184879,Xi He,Yikun,Control Driver,-3.0,9.0,5.0,-3.5,0.5,21.4,2.0,1.2,1.9,17.6,5.6,31.5,Beadless
+381,Zion,Latitude 64,Control Driver,2.5,9.0,4.0,-0.5,3.0,21.2,1.7,1.1,2.0,17.2,5.2,28.0,Beadless
+207347,50 Cal,Arsenal Discs,Control Driver,0.0,10.0,4.0,-2.0,2.0,21.1,1.6,1.2,2.0,17.2,5.7,31.75,Beadless
+183464,Amphibian,Gateway,Distance Driver,-2.0,10.0,6.0,-4.0,2.0,21.1,1.9,1.2,2.0,17.1,5.7,29.5,Beadless
+64,Anax,Discraft,Control Driver,3.0,10.0,6.0,0.0,3.0,21.4,1.7,1.2,1.9,17.5,5.6,29.75,Beadless
+151,Apache,Gateway,Control Driver,2.0,10.0,6.0,0.0,2.0,21.3,1.8,1.2,1.9,17.4,5.6,28.5,Beadless
+43,Avenger,Discraft,Distance Driver,3.0,10.0,5.0,0.0,3.0,21.2,1.7,1.2,1.9,17.4,5.7,26.25,Beadless
+44,Avenger SS,Discraft,Distance Driver,-2.0,10.0,5.0,-3.0,1.0,21.4,1.8,1.2,1.9,17.6,5.6,29.25,Beadless
+188,Aztec,Infinite Discs,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.2,1.5,1.1,2.1,16.9,5.2,33.0,Beadless
+208,Beast,Innova,Distance Driver,0.0,10.0,5.0,-2.0,2.0,21.2,1.4,1.1,2.0,17.1,5.2,26.76,Beadless
+733,Berserker,Viking Discs,Distance Driver,-1.0,10.0,5.0,-3.0,2.0,21.2,1.7,1.2,2.1,17.0,5.7,28.75,Beadless
+192287,Blizzard,Windward Discs,Distance Driver,2.0,10.0,5.0,0.0,2.0,21.5,1.9,1.2,2.1,17.3,5.6,27.0,Beadless
+201243,Cactus,Lone Star Disc,Distance Driver,0.0,10.0,5.0,-2.0,2.0,21.2,1.6,1.1,2.1,17.0,5.2,28.5,Beadless
+1,CD,Discmania,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.2,1.3,1.1,1.9,17.3,5.2,28.5,Beadless
+108365,Cervini,Terminal Velocity Discs,Control Driver,-2.0,10.0,6.0,-3.0,1.0,21.3,1.5,1.1,2.0,17.3,5.2,31.0,Beadless
+79836,Construct,Thought Space Athletics,Distance Driver,1.0,10.0,6.0,-1.0,2.0,21.3,1.6,1.2,2.0,17.2,5.6,26.5,Beadless
+116,Criminal,Dynamic Discs,Distance Driver,5.0,10.0,3.0,1.0,4.0,21.2,1.5,1.2,2.1,16.9,5.7,29.0,Beadless
+208554,Dispatch,Momentum Discs,Distance Driver,1.5,10.0,6.0,-0.5,2.0,21.7,1.8,1.1,2.0,17.8,5.1,27.0,Beadless
+86185,Dystopia,Doomsday Discs,Distance Driver,0.0,10.0,5.0,-2.0,2.0,21.4,1.7,1.2,2.1,17.2,5.6,28.25,Beadless
+33219,Era,Finish Line Discs,Control Driver,1.0,10.0,5.0,-1.0,2.0,21.2,1.6,1.2,2.0,17.3,5.7,29.0,Beadless
+971,F Model OS,Prodigy,Control Driver,6.0,10.0,5.0,2.0,4.0,21.3,1.6,1.1,2.1,17.1,5.2,39.0,Beadless
+462,F Model S,Prodigy,Control Driver,4.0,10.0,5.0,1.0,3.0,21.3,1.4,1.1,2.0,17.2,5.2,30.25,Beadless
+463,F Model US,Prodigy,Control Driver,-1.0,10.0,5.0,-2.0,1.0,21.3,1.5,1.1,2.1,17.2,5.2,32.0,Beadless
+87271,Fenrir,Viking Discs,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.3,1.8,1.1,2.0,17.3,5.2,29.75,Beadless
+627,Fighter,Legacy Discs,Control Driver,4.0,10.0,3.0,0.0,4.0,21.2,1.7,1.2,2.0,17.1,5.7,27.75,Beadless
+48,Flash,Discraft,Distance Driver,1.0,10.0,5.0,-2.0,3.0,21.1,1.6,1.2,2.1,17.0,5.7,27.5,Beadless
+501,Fortress,Westside,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.2,1.5,1.1,2.0,17.2,5.2,28.0,Beadless
+666,Freetail,Mint Discs,Distance Driver,-3.0,10.0,5.0,-4.0,1.0,21.1,1.7,1.2,2.0,17.1,5.7,37.75,Beadless
+175540,Gorgon,Innova,Distance Driver,-1.0,10.0,6.0,-2.0,1.0,21.2,1.6,1.1,2.1,16.9,5.2,34.75,Beadless
+175541,Gorgon Gstar,Innova,Distance Driver,-2.0,10.0,6.0,-3.0,1.0,21.2,1.6,1.1,2.1,16.9,5.2,34.75,Beadless
+470,H1,Prodigy,Control Driver,3.0,10.0,4.0,0.0,3.0,21.3,1.8,1.2,1.9,17.4,5.6,31.75,Beadless
+472,H2,Prodigy,Control Driver,2.0,10.0,4.0,-1.0,3.0,21.3,1.7,1.2,1.9,17.5,5.6,30.75,Beadless
+474,H3,Prodigy,Control Driver,0.0,10.0,5.0,-1.0,1.0,21.3,1.7,1.2,2.0,17.3,5.6,34.5,Beadless
+476,H4,Prodigy,Control Driver,-1.0,10.0,5.0,-2.0,1.0,21.3,1.8,1.2,1.9,17.4,5.6,41.75,Beadless
+477,H4 V2,Prodigy,Control Driver,-0.5,10.0,5.0,-2.0,1.5,21.3,1.5,1.2,2.0,17.4,5.6,29.0,Beadless
+478,H5,Prodigy,Control Driver,-2.0,10.0,5.0,-3.0,1.0,21.3,1.7,1.2,2.0,17.4,5.6,37.5,Beadless
+1064,Hellfire,DGA,Control Driver,5.0,10.0,3.0,0.0,5.0,21.1,1.6,1.2,2.2,16.7,5.7,29.25,Beadless
+183974,Hou Yi,Yikun,Distance Driver,1.0,10.0,6.0,-1.0,2.0,21.2,1.8,1.1,2.0,17.2,5.2,28.75,Beadless
+217,Invictus,Innova,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.2,1.5,1.2,2.1,16.9,5.7,29.0,Beadless
+697,Kiwi,RPM Discs,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.1,1.9,1.2,2.2,16.7,5.7,26.0,Beadless
+680,Laseri,Prodiscus,Control Driver,0.0,10.0,4.0,-1.0,1.0,21.1,1.6,1.1,1.9,17.2,5.2,32.25,Beadless
+184095,Lockdown Doomsday,Doomsday Discs,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.5,1.8,1.1,2.1,17.3,5.1,27.25,Beadless
+75960,Long,Yikun,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.3,1.6,1.2,2.1,17.1,5.6,35.25,Beadless
+11077,Lucky 13,Skyquest,Distance Driver,-1.0,10.0,5.0,-3.0,2.0,21.1,1.5,1.1,2.1,16.9,5.2,26.75,Beadless
+208269,Malm,Kastaplast,Control Driver,2.5,10.0,4.0,0.0,2.5,21.2,1.9,1.1,2.0,17.3,5.2,30.75,Beadless
+222,Monarch,Innova,Distance Driver,-3.0,10.0,5.0,-4.0,1.0,21.1,1.6,1.2,2.1,17.0,5.7,30.75,Beadless
+223,Monster,Innova,Distance Driver,5.0,10.0,3.0,0.0,5.0,21.2,1.4,1.2,2.0,17.2,5.7,32.25,Beadless
+354,Musket,Latitude 64,Distance Driver,1.5,10.0,5.0,-0.5,2.0,21.2,1.8,1.1,2.0,17.1,5.2,28.5,Beadless
+620,Nemesis,Legacy Discs,Distance Driver,-2.0,10.0,6.0,-4.0,2.0,21.3,1.5,1.1,2.0,17.3,5.2,29.0,Beadless
+27938,Nightjar,Disctroyer,Distance Driver,2.0,10.0,5.0,-0.5,2.5,21.3,1.7,1.3,2.1,17.1,6.1,26.25,Beadless
+156,Ninja,Gateway,Distance Driver,1.0,10.0,6.0,-1.0,2.0,21.2,1.9,1.2,2.0,17.2,5.7,31.75,Beadless
+504,Northman,Westside,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.5,1.7,1.1,2.0,17.5,5.1,28.25,Beadless
+225,Orc,Innova,Distance Driver,2.0,10.0,4.0,-1.0,3.0,21.2,1.9,1.2,2.0,17.2,5.7,27.0,Beadless
+172913,Pacific,Northstar Discs,Control Driver,2.0,10.0,5.0,-1.0,3.0,21.1,1.7,1.1,1.9,17.2,5.2,28.0,Beadless
+172908,Pacific OS,Northstar Discs,Control Driver,3.0,10.0,4.0,0.0,3.0,21.0,1.7,1.2,2.0,17.1,5.7,28.0,Beadless
+11,PD,Discmania,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.2,1.5,1.2,1.9,17.3,5.7,32.0,Beadless
+23434,Power Disc Phantom Sword,Innova,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.2,1.5,1.2,1.9,17.3,5.7,26.5,Beadless
+157,Rage,Gateway,Distance Driver,3.0,10.0,5.0,-0.5,3.5,21.5,1.7,1.1,2.2,17.1,5.1,26.25,Beadless
+117096,Roman,Infinite Discs,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.2,1.5,1.2,1.9,17.3,5.7,27.25,Beadless
+126397,Rumble,Remix Disc Golf,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.2,1.7,1.2,2.0,17.1,5.7,33.75,Beadless
+506,Sampo,Westside,Distance Driver,1.0,10.0,4.0,-1.0,2.0,21.2,1.9,1.2,2.1,17.0,5.7,34.75,Beadless
+358,Sapphire,Latitude 64,Distance Driver,-0.5,10.0,6.0,-2.0,1.5,21.0,1.7,1.2,2.0,17.0,5.7,29.5,Beadless
+207291,Secret Weapon,ABC Discs,Control Driver,-1.0,10.0,5.0,-3.0,2.0,21.1,2.0,1.1,1.9,17.3,5.2,26.75,Beadless
+227,SL,Innova,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.1,1.7,1.1,2.0,17.1,5.2,29.0,Beadless
+88083,Sleipner,Guru Disc Golf,Distance Driver,1.0,10.0,4.0,-1.0,2.0,21.2,1.5,1.1,2.1,17.0,5.2,28.75,Beadless
+112577,Spice,Clash Discs,Distance Driver,4.0,10.0,4.0,0.0,4.0,21.1,2.0,1.2,2.0,17.2,5.7,31.5,Beadless
+184613,Star Bird,X-UFO,Distance Driver,1.0,10.0,5.0,-1.0,2.0,21.2,1.6,1.1,2.2,16.8,5.2,27.0,Beadless
+184620,Star Glide,X-UFO,Distance Driver,0.0,10.0,5.0,-2.0,2.0,21.1,1.3,1.1,2.2,16.7,5.2,29.5,Beadless
+184623,Star Trek,X-UFO,Distance Driver,2.0,10.0,5.0,0.0,2.0,21.5,1.7,1.1,2.1,17.3,5.1,30.25,Beadless
+228,Starfire,Innova,Distance Driver,3.0,10.0,4.0,0.0,3.0,21.2,1.4,1.1,2.0,17.2,5.2,29.0,Beadless
+208996,Swinhoe Pheasant,Tornado Throw,Distance Driver,2.0,10.0,5.0,-1.0,3.0,21.1,1.5,1.1,2.0,17.0,5.2,27.5,Beadless
+700,Taniwha,RPM Discs,Control Driver,0.0,10.0,5.0,-2.0,2.0,21.1,1.4,1.2,2.0,17.1,5.7,26.25,Beadless
+116092,Tara Iti,RPM Discs,Distance Driver,2.0,10.0,5.0,0.0,2.0,21.2,1.5,1.2,2.1,17.0,5.7,30.0,Beadless
+15,TD,Discmania,Distance Driver,-1.0,10.0,5.0,-2.0,1.0,21.1,1.8,1.1,1.9,17.3,5.2,35.5,Beadless
+14580,TD2,Discmania,Distance Driver,-3.0,10.0,5.0,-4.0,1.0,21.1,1.6,1.1,2.1,16.9,5.2,30.25,Beadless
+178166,Trail,MVP,Distance Driver,0.0,10.0,5.0,-1.0,1.0,21.2,1.6,1.1,2.1,17.0,5.2,26.5,Beadless
+28259,Tumbleweed,Lone Star Disc,Distance Driver,-2.0,10.0,6.0,-3.0,1.0,21.3,1.7,1.1,2.2,16.8,5.2,28.5,Beadless
+1506,Undertow,DGA,Distance Driver,0.0,10.0,4.0,-1.0,1.0,21.5,1.6,1.2,2.1,17.3,5.6,28.25,Beadless
+624,Vengeance,Legacy Discs,Distance Driver,2.0,10.0,5.0,0.0,2.0,21.2,1.7,1.2,2.0,17.2,5.7,33.0,Beadless
+77,Vulture,Discraft,Control Driver,2.0,10.0,5.0,0.0,2.0,21.4,1.6,1.2,1.8,17.8,5.6,33.5,Beadless
+747,Wei,Yikun,Distance Driver,-0.5,10.0,5.0,-2.5,2.0,21.1,1.7,1.1,2.0,17.1,5.2,30.25,Beadless
+11114,Zion Driver,XCom,Distance Driver,1.0,10.0,4.0,-1.0,2.0,21.4,1.7,1.1,2.1,17.2,5.1,27.0,Beadless
+11045,Animus,Thought Space Athletics,Distance Driver,2.0,10.5,4.5,-0.5,2.5,21.2,1.6,1.2,2.1,17.0,5.7,30.0,Beadless
+125924,Goliath,Remix Disc Golf,Distance Driver,1.5,10.5,4.5,-1.0,2.5,21.2,1.6,1.2,2.1,17.0,5.7,31.0,Beadless
+174228,Alva,Kastaplast,Distance Driver,0.0,11.0,6.0,-2.0,2.0,21.1,1.7,1.1,2.2,16.7,5.2,32.75,Beadless
+152,Apex,Gateway,Distance Driver,0.5,11.0,6.0,-1.0,1.5,21.5,1.9,1.1,2.3,17.1,5.1,30.25,Beadless
+207,Archon,Innova,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.1,1.7,1.2,2.3,16.6,5.7,28.25,Beadless
+643,Aries,Millennium,Distance Driver,-2.0,11.0,6.0,-4.0,2.0,21.1,1.6,1.1,2.1,16.9,5.2,28.0,Beadless
+644,Astra,Millennium,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.1,1.5,1.2,2.2,16.7,5.7,28.25,Beadless
+645,Astra-X,Millennium,Distance Driver,4.0,11.0,5.0,0.0,4.0,21.1,1.5,1.2,2.2,16.7,5.7,28.25,Beadless
+498,Boatman,Westside,Distance Driver,2.0,11.0,5.0,0.0,2.0,21.4,1.9,1.3,2.2,17.0,6.1,29.5,Beadless
+142201,Cataclysm,Doomsday Discs,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.5,1.5,1.1,2.1,17.3,5.1,29.25,Beadless
+2,CD3,Discmania,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.1,2.0,1.2,2.1,16.9,5.7,31.0,Beadless
+536,Cedar,Above Ground Level,Distance Driver,3.0,11.0,5.0,0.0,3.0,21.5,1.7,1.1,2.2,17.1,5.1,27.25,Beadless
+183632,Chasm,Meridian Discs,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.2,1.6,1.1,2.2,16.8,5.2,28.25,Beadless
+47,Crush,Discraft,Distance Driver,4.0,11.0,5.0,0.0,4.0,21.1,1.7,1.2,2.1,17.0,5.7,29.0,Beadless
+22018,Curl,Lone Star Disc,Distance Driver,2.0,11.0,6.0,-1.0,3.0,21.2,1.8,1.1,2.2,16.8,5.2,26.75,Beadless
+86137,Czar,Infinite Discs,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.1,1.7,1.2,2.2,16.7,5.7,33.25,Beadless
+5,DD,Discmania,Distance Driver,-1.0,11.0,6.0,-3.0,2.0,21.2,1.7,1.1,2.2,16.8,5.2,30.0,Beadless
+93614,DD1,Discmania,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.2,1.5,1.1,2.2,16.8,5.2,30.75,Beadless
+549,Defy,Axiom,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.1,1.5,1.1,2.2,16.7,5.2,26.0,Beadless
+207880,Diesel,Fly High Discs,Distance Driver,3.0,11.0,5.0,0.0,3.0,21.4,1.6,1.1,2.2,16.9,5.1,33.25,Beadless
+171610,Drive,Discraft,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.1,1.7,1.1,2.1,16.8,5.2,27.5,Beadless
+183790,ES1,Millennium,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.2,1.5,1.1,2.1,17.0,5.2,38.5,Beadless
+21355,Expedition,Full Turn,Distance Driver,-1.0,11.0,5.0,-2.0,1.0,21.0,1.7,1.2,2.1,16.7,5.7,31.5,Beadless
+208916,Flagship,Skyiron,Distance Driver,-1.0,11.0,4.0,-3.0,2.0,21.5,1.3,1.1,2.2,17.2,5.1,26.25,Beadless
+348,Flow,Latitude 64,Distance Driver,1.5,11.0,6.0,-0.5,2.0,21.1,1.8,1.2,2.2,16.8,5.7,27.75,Beadless
+183882,GD1,Disgo,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.3,1.8,1.1,2.2,16.9,5.2,28.0,Beadless
+21421,Grace,Latitude 64,Distance Driver,1.0,11.0,6.0,-1.0,2.0,21.1,1.6,1.1,2.2,16.6,5.2,30.5,Beadless
+471,H1 V2,Prodigy,Control Driver,3.0,11.0,4.0,0.0,3.0,21.4,1.6,1.2,2.0,17.4,5.6,28.0,Beadless
+473,H2 V2,Prodigy,Control Driver,2.5,11.0,5.0,0.0,2.5,21.4,1.6,1.2,2.0,17.4,5.6,28.0,Beadless
+475,H3 V2,Prodigy,Control Driver,1.0,11.0,5.0,-1.0,2.0,21.3,1.8,1.2,2.0,17.3,5.6,30.75,Beaded
+208684,Hyperion,Ozone Discs,Distance Driver,4.0,11.0,4.0,0.0,4.0,21.0,1.6,1.1,2.2,16.7,5.2,26.0,Beadless
+154,Illusion,Gateway,Distance Driver,1.5,11.0,5.0,-1.0,2.5,21.4,1.5,1.1,2.1,17.2,5.1,32.75,Beadless
+33369,Jet,Streamline,Distance Driver,-1.0,11.0,5.0,-3.0,2.0,21.2,1.5,1.1,2.2,16.8,5.2,26.25,Beadless
+155,Journey,Gateway,Distance Driver,-1.0,11.0,6.0,-2.0,1.0,21.2,1.9,1.1,2.2,16.9,5.2,28.25,Beadless
+744,Jun,Yikun,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.1,2.0,1.2,2.1,16.8,5.7,29.75,Beadless
+219,Krait,Innova,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.2,2.3,1.2,2.3,16.6,5.7,30.25,Beadless
+1129,Longhorn,Mint Discs,Distance Driver,2.0,11.0,4.0,-1.0,3.0,21.3,1.5,1.2,2.1,17.0,5.6,31.0,Beadless
+52,Machete,Discraft,Distance Driver,4.0,11.0,4.0,0.0,4.0,21.1,1.6,1.1,2.1,16.8,5.2,30.5,Beadless
+720,Maelstrom,Storm Disc Golf,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.4,1.7,1.1,2.2,17.1,5.1,33.5,Beadless
+220,Mamba,Innova,Distance Driver,-4.0,11.0,6.0,-5.0,1.0,21.1,1.7,1.1,2.1,16.9,5.2,27.5,Beadless
+184153,Marine,Rogue Iron,Distance Driver,-0.5,11.0,5.0,-2.0,1.5,21.1,1.6,1.2,2.2,16.7,5.7,28.0,Beadless
+221,Max,Innova,Distance Driver,5.0,11.0,3.0,0.0,5.0,21.2,1.9,1.2,2.2,16.8,5.7,34.0,Beadless
+190,Maya,Infinite Discs,Distance Driver,-2.0,11.0,5.0,-3.0,1.0,21.1,1.6,1.1,2.1,16.9,5.2,31.0,Beadless
+11080,Medusa,Skyquest,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.2,1.5,1.1,2.1,17.0,5.2,29.25,Beadless
+10,Mentor,Discmania,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.2,1.8,1.2,2.1,17.9,5.7,39.75,Beadless
+11081,Meteorite,Galaxy Disc Golf,Distance Driver,1.5,11.0,3.0,-0.5,2.0,21.1,1.8,1.1,2.1,16.8,5.2,26.0,Beadless
+192292,Milky Way,Kalaxy Discs,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.0,1.4,1.1,2.4,16.3,5.2,26.0,Beadless
+209011,Monstrum,UB Disc Golf - Hand Candy,Distance Driver,3.0,11.0,5.0,0.0,3.0,21.1,1.5,1.3,2.4,16.4,6.2,31.25,Beadless
+224,Mystere,Innova,Distance Driver,0.0,11.0,6.0,-2.0,2.0,21.1,1.6,1.1,2.1,16.9,5.2,31.5,Beadless
+11084,Napalm,Salient,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.1,2.0,1.2,2.1,16.8,5.7,29.75,Beadless
+104815,Nimitz,Lone Star Disc,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.2,1.7,1.1,2.2,16.9,5.2,27.75,Beadless
+47010,Obsidian Rift,Obsidian Discs,Distance Driver,-2.0,11.0,5.0,-3.0,1.0,21.2,1.5,1.2,2.1,17.0,5.7,29.0,Beadless
+415,Orbital,MVP,Distance Driver,-3.5,11.0,5.0,-4.5,1.0,21.1,1.4,1.1,2.2,16.7,5.2,28.5,Beadless
+13,PD3,Discmania,Distance Driver,5.0,11.0,3.0,0.0,5.0,21.0,1.7,1.2,2.2,16.6,5.7,37.0,Beadless
+14,PDx,Discmania,Distance Driver,3.0,11.0,4.0,0.0,3.0,21.1,1.9,1.2,2.1,16.9,5.7,30.5,Beadless
+27998,Pepper,Clash Discs,Distance Driver,4.0,11.0,5.0,0.0,4.0,21.4,1.8,1.2,2.2,17.1,5.6,26.25,Beadless
+416,Phase,MVP,Distance Driver,4.0,11.0,3.5,0.0,4.0,21.1,1.4,1.1,2.2,16.7,5.2,29.5,Beadless
+417,Photon,MVP,Distance Driver,1.5,11.0,5.0,-1.0,2.5,21.1,1.4,1.1,2.2,16.6,5.2,26.75,Beadless
+56,Pulse,Discraft,Distance Driver,3.0,11.0,4.0,0.0,3.0,21.2,1.7,1.3,2.1,17.1,6.1,29.75,Beadless
+734,Ragnarok,Viking Discs,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.2,2.1,1.1,2.1,16.9,5.2,27.75,Beadless
+121,Renegade,Dynamic Discs,Distance Driver,1.0,11.0,5.0,-1.5,2.5,21.2,1.7,1.1,2.1,17.0,5.2,28.0,Beadless
+357,Riot,Latitude 64,Distance Driver,1.0,11.0,4.0,-1.0,2.0,21.2,1.9,1.2,2.2,16.8,5.7,30.0,Beadless
+1349,Rogue,DGA,Distance Driver,0.0,11.0,4.0,-1.0,1.0,21.1,1.7,1.2,2.2,16.8,5.7,28.25,Beadless
+600,Sabot,Hyzer Bomb,Distance Driver,4.0,11.0,4.0,0.0,4.0,21.1,1.7,1.2,2.2,16.7,5.7,36.5,Beadless
+1358,Sail,DGA,Distance Driver,-4.0,11.0,5.0,-5.0,1.0,21.0,1.9,1.1,1.9,17.2,5.2,29.75,Beadless
+22703,Scorch,Discraft,Distance Driver,0.0,11.0,6.0,-2.0,2.0,21.1,1.8,1.1,2.2,16.8,5.2,28.75,Beaded
+122,Sergeant,Dynamic Discs,Distance Driver,2.5,11.0,4.0,0.0,2.5,21.2,1.5,1.2,2.1,17.0,5.7,28.5,Beadless
+88081,Short Slacker,Guru Disc Golf,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.0,1.4,1.2,2.1,16.8,5.7,28.25,Beadless
+207438,Skyway,Climo Disc Golf,Distance Driver,2.0,11.0,4.0,-1.0,3.0,21.1,1.7,1.2,2.1,16.8,5.7,29.5,Beadless
+161,Speed Demon,Gateway,Distance Driver,2.5,11.0,4.0,-0.5,3.0,21.4,1.8,1.1,2.2,17.0,5.1,27.0,Beadless
+162,Spirit,Gateway,Distance Driver,4.0,11.0,4.0,0.0,4.0,21.2,1.8,1.1,2.1,17.0,5.2,26.0,Beadless
+64950,Squid,Neptune Discs,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.2,2.0,1.1,1.9,17.5,5.2,27.75,Beadless
+184647,Sugar Glider,Supersonic Discs,Distance Driver,0.0,11.0,6.0,-1.0,1.0,21.6,1.6,1.1,1.9,17.7,5.1,35.75,Beadless
+59,Surge,Discraft,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.1,1.6,1.2,2.0,17.1,5.7,30.25,Beadless
+60,Surge SS,Discraft,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.1,1.6,1.2,2.1,16.8,5.7,29.25,Beadless
+230,TeeRex,Innova,Distance Driver,4.0,11.0,4.0,0.0,4.0,21.1,1.7,1.2,2.2,16.8,5.7,30.0,Beadless
+557,Thrill,Axiom,Distance Driver,3.5,11.0,4.0,0.0,3.5,21.1,1.5,1.1,2.2,16.7,5.2,26.0,Beadless
+727,Trace,Streamline,Distance Driver,1.0,11.0,5.0,-1.0,2.0,21.2,1.7,1.2,2.2,16.8,5.7,31.25,Beadless
+143158,Vanilla,Clash Discs,Distance Driver,-1.0,11.0,6.0,-2.0,1.0,21.4,1.6,1.1,2.1,17.1,5.1,26.0,Beadless
+558,Vanish,Axiom,Distance Driver,-1.0,11.0,5.0,-3.0,2.0,21.1,1.5,1.1,2.2,16.6,5.2,27.75,Beadless
+46629,Vibe,Hooligan Discs,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.1,1.7,1.1,2.2,16.6,5.2,28.5,Beadless
+421,Wave,MVP,Distance Driver,0.0,11.0,5.0,-2.0,2.0,21.1,1.4,1.1,2.2,16.6,5.2,29.25,Beadless
+62,Wildcat,Discraft,Distance Driver,1.0,11.0,5.0,-2.0,3.0,21.3,1.5,1.2,1.9,17.5,5.6,27.25,Beadless
+234,Wraith,Innova,Distance Driver,2.0,11.0,5.0,-1.0,3.0,21.1,1.4,1.2,2.1,16.9,5.7,26.75,Beadless
+61965,Zenith,MVP,Distance Driver,1.5,11.0,5.0,-0.5,2.0,21.2,1.7,1.1,2.2,16.8,5.2,27.0,Beadless
+102557,Flame Thrower,Black Zombie Disc Golf,Distance Driver,0.0,11.5,6.0,-2.0,2.0,21.6,1.7,1.2,2.2,17.2,5.6,30.0,Beadless
+207515,Allosaurus,Dino Discs,Distance Driver,-2.0,12.0,6.0,-3.0,1.0,21.2,1.9,1.1,2.2,16.9,5.2,28.25,Beadless
+161446,Ambush,Goliath Discs,Distance Driver,-1.0,12.0,6.0,-3.0,2.0,21.0,1.5,1.2,2.2,16.5,5.7,36.25,Beadless
+183478,Apocalypse,Doomsday Discs,Distance Driver,7.0,12.0,1.0,1.0,6.0,21.3,1.5,1.2,2.4,16.5,5.6,27.0,Beadless
+22221,Astronaut,Discmania,Distance Driver,-3.0,12.0,6.0,-4.0,1.0,21.2,1.8,1.1,2.3,16.6,5.2,26.0,Beadless
+172907,Aura,Gateway,Distance Driver,-1.0,12.0,6.0,-2.0,1.0,21.2,1.5,1.1,2.3,16.6,5.2,29.0,Beadless
+11047,Backdraft,Salient,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.3,2.0,1.3,2.4,16.4,6.1,30.5,Beadless
+22926,Basilisk,Divergent Discs,Distance Driver,-3.0,12.0,5.0,-4.0,1.0,21.0,2.0,1.2,2.3,16.3,5.7,27.75,Beadless
+125639,Behemoth,Remix Disc Golf,Distance Driver,2.0,12.0,4.5,-1.0,3.0,21.2,1.8,1.2,2.3,16.6,5.7,26.5,Beadless
+102558,Berzerker,Black Zombie Disc Golf,Distance Driver,3.0,12.0,4.0,0.0,3.0,21.4,1.6,1.1,2.2,17.0,5.1,29.5,Beadless
+345,Blitz,Latitude 64,Distance Driver,4.0,12.0,3.0,0.0,4.0,21.2,1.6,1.2,2.2,16.8,5.7,30.5,Beadless
+183582,Bowrider,Albatross Disc Golf,Distance Driver,-3.0,12.0,6.0,-4.0,1.0,21.2,1.4,1.1,2.3,16.5,5.2,26.5,Beadless
+47009,Caldera,Obsidian Discs,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.2,1.7,1.2,2.3,16.7,5.7,26.0,Beadless
+178167,Captain Thrasher,Discraft,Distance Driver,2.0,12.0,5.0,0.0,2.0,21.1,1.7,1.2,2.1,16.8,5.7,26.5,Beadless
+161457,Carnivore,Reptilian Disc Golf,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.2,1.4,1.1,2.2,16.8,5.2,27.75,Beadless
+66945,Cloudbreaker,Discmania,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.8,1.2,2.3,16.5,5.7,27.25,Beadless
+208055,Conqueror,Infinite Discs,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.6,1.1,2.3,16.4,5.2,29.75,Beadless
+537,Cypress,Above Ground Level,Distance Driver,0.0,12.0,5.0,-2.0,2.0,21.2,1.5,1.1,2.2,16.7,5.2,26.75,Beadless
+448,D1,Prodigy,Distance Driver,4.0,12.0,5.0,0.0,4.0,21.1,1.7,1.2,2.3,16.5,5.7,26.0,Beadless
+450,D2,Prodigy,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,1.6,1.2,2.3,16.5,5.7,30.25,Beadless
+23031,D2 Pro,Prodigy,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.0,1.5,1.1,2.4,16.3,5.2,30.0,Beadless
+452,D3,Prodigy,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.7,1.2,2.3,16.5,5.7,29.5,Beadless
+454,D4,Prodigy,Distance Driver,0.0,12.0,5.0,-2.0,2.0,21.0,1.9,1.2,2.3,16.3,5.7,30.0,Beadless
+455,D5,Prodigy,Distance Driver,-2.0,12.0,6.0,-4.0,2.0,21.2,1.7,1.2,2.4,16.4,5.7,29.75,Beadless
+456,D6,Prodigy,Distance Driver,-3.0,12.0,6.0,-4.0,1.0,21.0,1.8,1.2,2.3,16.3,5.7,26.75,Beadless
+158970,Daytona,Finish Line Discs,Distance Driver,3.0,12.0,4.0,0.0,3.0,21.1,1.7,1.1,2.2,16.6,5.2,30.5,Beadless
+7,DD3,Discmania,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.9,1.1,2.3,16.5,5.2,29.5,Beadless
+8,DDx,Discmania,Distance Driver,1.0,12.0,6.0,-1.0,2.0,21.1,1.7,1.1,2.3,16.5,5.2,28.75,Beadless
+213,Destroyer,Innova,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.4,1.2,2.2,16.7,5.7,30.5,Beadless
+91392,Elder,Launch Disc Golf,Distance Driver,0.0,12.0,6.0,-2.0,2.0,21.1,1.8,1.2,2.3,16.5,5.7,27.75,Beadless
+189,Emperor,Infinite Discs,Distance Driver,1.5,12.0,5.0,-1.0,2.5,21.1,1.7,1.2,2.3,16.4,5.7,28.0,Beadless
+118,Enforcer,Dynamic Discs,Distance Driver,4.5,12.0,4.0,0.5,4.0,21.1,1.8,1.1,2.2,16.7,5.2,27.0,Beadless
+9,Enigma,Discmania,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.1,1.6,1.1,2.2,16.6,5.2,27.75,Beadless
+208458,Enterprise,Lone Star Disc,Distance Driver,0.0,12.0,6.0,-2.0,2.0,21.1,1.7,1.1,2.3,16.5,5.2,30.0,Beadless
+161440,Ether,Gateway,Distance Driver,1.0,12.0,6.0,-1.0,2.0,21.2,1.4,1.1,2.2,16.8,5.2,26.5,Beadless
+161454,Famine,Doomsday Discs,Distance Driver,-1.0,12.0,5.0,-2.0,1.0,21.1,1.7,1.2,2.2,16.6,5.7,27.0,Beadless
+49,Flick,Discraft,Distance Driver,6.0,12.0,3.0,1.0,5.0,21.1,1.3,1.1,2.1,16.9,5.2,26.0,Beadless
+50,Force,Discraft,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,1.7,1.2,2.3,16.5,5.7,26.0,Beadless
+183861,Fu Xi,Yikun,Distance Driver,1.0,12.0,6.0,-1.0,2.0,21.2,1.6,1.2,2.3,16.6,5.7,27.5,Beadless
+183871,G-One,Gateway,Distance Driver,0.0,12.0,6.0,-1.0,1.0,21.1,1.7,1.2,2.3,16.4,5.7,28.0,Beadless
+172906,General,Dynamic Discs,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.8,1.1,2.2,16.7,5.2,29.0,Beadless
+87322,Goat,Mint Discs,Distance Driver,2.0,12.0,4.0,-1.0,3.0,21.2,1.7,1.2,2.3,16.6,5.7,27.0,Beadless
+183921,Grey Wolf,RIPR,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.0,1.6,1.1,2.4,16.2,5.2,27.5,Beadless
+152885,Growler,Lone Star Disc,Distance Driver,-1.0,12.0,6.0,-3.0,2.0,21.1,1.8,1.1,2.3,16.6,5.2,27.0,Beadless
+608,Grym X,Kastaplast,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.2,1.6,1.1,2.2,16.9,5.2,26.0,Beadless
+51,Hades,Discraft,Distance Driver,-1.0,12.0,6.0,-3.0,2.0,21.0,1.6,1.1,2.3,16.5,5.2,30.0,Beadless
+118985,Harrier,Lone Star Disc,Distance Driver,-3.0,12.0,6.0,-4.0,1.0,21.1,1.7,1.2,2.3,16.5,5.7,27.5,Beadless
+183977,Howler,Gorilla Disc Golf,Distance Driver,1.0,12.0,4.0,-1.0,2.0,21.1,1.6,1.1,2.3,16.5,5.2,26.25,Beadless
+1069,Hurricane,DGA,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.6,1.2,2.3,16.5,5.7,27.0,Beadless
+158971,Interval,Finish Line Discs,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.1,1.5,1.1,2.2,16.6,5.2,31.5,Beadless
+16105,Intervention,Plastic Addicts,Distance Driver,3.0,12.0,5.0,-1.0,4.0,21.2,1.3,1.1,2.3,16.7,5.2,30.5,Beadless
+184012,Ironclad,Albatross Disc Golf,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.0,1.6,1.1,2.4,16.2,5.2,28.75,Beadless
+719,Jet Stream,Storm Disc Golf,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.0,1.7,1.2,2.3,16.5,5.7,26.5,Beadless
+110513,Juggernaut,Innova,Distance Driver,5.0,12.0,4.0,1.0,4.0,21.1,1.7,1.2,2.3,16.4,5.7,26.5,Beadless
+207864,Korpi,Exel Discs,Distance Driver,0.0,12.0,6.0,-2.0,2.0,21.4,1.6,1.1,2.3,16.7,5.1,29.25,Beadless
+698,Kotare,RPM Discs,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.2,1.5,1.2,2.3,16.5,5.7,28.5,Beadless
+126052,Krut,Kastaplast,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.2,1.7,1.1,2.2,16.8,5.2,30.25,Beadless
+23254,Lawin,Divergent Discs,Distance Driver,-1.0,12.0,5.0,-3.0,2.0,21.0,2.1,1.2,2.3,16.4,5.7,28.5,Beadless
+87604,Odin,Viking Discs,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.3,1.4,1.1,2.3,16.6,5.2,26.0,Beadless
+23377,Openwater,Crosslap,Distance Driver,0.5,12.0,4.0,-1.5,2.0,21.5,2.0,1.1,2.3,16.9,5.1,32.0,Beadless
+17423,Orca,Wild Discs,Distance Driver,0.5,12.0,5.0,-1.5,2.0,21.2,1.4,1.1,2.3,16.6,5.2,28.5,Beaded
+46278,Osprey,AquaFlight Discs,Distance Driver,1.0,12.0,4.0,-1.0,2.0,21.0,1.6,1.2,2.3,16.4,5.7,28.0,Beadless
+621,Outlaw,Legacy Discs,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.0,1.6,1.1,2.3,16.4,5.2,29.0,Beadless
+96962,Paradigm,Discmania,Distance Driver,0.5,12.0,6.0,-1.5,2.0,21.1,1.7,1.1,2.1,16.8,5.2,34.0,Beadless
+12,PD2,Discmania,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.8,1.1,2.3,16.4,5.2,28.25,Beadless
+86600,Plague,Doomsday Discs,Distance Driver,1.5,12.0,5.0,-1.0,2.5,21.1,1.8,1.1,2.2,16.7,5.2,26.75,Beadless
+170325,Power Disc 2 Elixer,Innova,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.6,1.2,2.3,16.4,5.7,27.0,Beadless
+209012,Procul,UB Disc Golf - Hand Candy,Distance Driver,-1.0,12.0,4.0,-3.0,2.0,21.1,1.6,1.3,2.3,16.4,6.2,27.0,Beadless
+184390,Psychic,Elevation Disc Golf,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.1,1.3,1.1,2.2,16.6,5.2,31.0,Beadless
+57,Punisher,Discraft,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,1.5,1.1,2.2,16.7,5.2,28.25,Beadless
+174224,Racer,Innova,Distance Driver,1.0,12.0,6.0,-1.0,2.0,21.1,1.6,1.2,2.3,16.4,5.7,28.75,Beadless
+161443,Rapture,Goliath Discs,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,1.9,1.1,2.2,16.7,5.2,29.5,Beadless
+676,Razeri,Prodiscus,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.5,1.1,2.3,16.4,5.2,27.25,Beadless
+150076,Reach,Birdie,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.2,1.5,1.1,2.3,16.6,5.2,26.75,Beadless
+158968,Realm,Gateway,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.2,1.4,1.1,2.2,16.8,5.2,26.75,Beadless
+356,Recoil,Latitude 64,Distance Driver,3.0,12.0,4.0,0.0,3.0,21.2,1.8,1.2,2.2,16.8,5.7,26.0,Beadless
+28066,Redwood,Above Ground Level,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.1,1.8,1.2,2.3,16.5,5.7,26.5,Beadless
+131109,Sage,Clash Discs,Distance Driver,2.0,12.0,6.0,-1.0,3.0,21.3,1.7,1.2,2.3,16.7,5.6,32.25,Beadless
+61966,Salt,Clash Discs,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.0,1.7,1.1,2.3,16.4,5.2,27.0,Beadless
+649,Scorpius,Millennium,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.7,1.2,2.4,16.3,5.7,26.25,Beadless
+359,Scythe,Latitude 64,Distance Driver,4.0,12.0,3.0,0.0,4.0,21.1,1.5,1.1,2.2,16.6,5.2,29.0,Beadless
+166497,Silverback,Gorilla Disc Golf,Distance Driver,2.0,12.0,4.5,-1.0,3.0,21.1,1.5,1.1,2.3,16.6,5.2,27.0,Beadless
+192,Slab,Infinite Discs,Distance Driver,4.0,12.0,3.0,0.0,4.0,21.2,1.6,1.2,2.3,16.6,5.7,29.0,Beadless
+677,Slaidi,Prodiscus,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,2.0,1.2,2.2,16.8,5.7,30.5,Beadless
+184574,Solara,Essential Discs,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.2,1.5,1.1,2.3,16.6,5.2,28.5,Beadless
+58,Spectra,Discraft,Distance Driver,0.0,12.0,5.0,-2.0,2.0,21.2,1.7,1.2,2.2,16.8,5.7,30.75,Beadless
+142062,Spell,Gateway,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,1.7,1.1,2.2,16.6,5.2,27.75,Beadless
+207521,Spinosaurus,Dino Discs,Distance Driver,2.0,12.0,5.0,0.0,2.0,21.2,1.4,1.1,2.0,17.3,5.2,31.25,Beadless
+184595,Spire,Pie Pan Discs,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.1,2.0,1.1,2.4,16.4,5.2,26.75,Beadless
+184621,Star Hawk,X-UFO,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.4,1.1,2.5,16.1,5.2,27.25,Beadless
+104819,Supreme Trespass,Dynamic Discs,Distance Driver,1.5,12.0,5.0,-0.5,2.0,21.1,1.7,1.1,2.2,16.6,5.2,30.0,Beadless
+508,Sword,Westside,Distance Driver,1.5,12.0,5.0,-0.5,2.0,21.2,1.8,1.2,2.2,16.8,5.7,28.75,Beadless
+33780,Synapse,Thought Space Athletics,Distance Driver,1.5,12.0,5.0,-1.5,3.0,21.2,1.6,1.2,2.3,16.6,5.7,26.25,Beadless
+229,TeeDevil,Innova,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.2,1.6,1.2,2.4,16.4,5.7,28.5,Beadless
+231,Tern,Innova,Distance Driver,-1.0,12.0,6.0,-3.0,2.0,21.1,1.7,1.1,2.3,16.6,5.2,28.5,Beadless
+61,Thrasher,Discraft,Distance Driver,-1.0,12.0,5.0,-3.0,2.0,21.1,1.7,1.1,2.1,16.8,5.2,26.75,Beadless
+149255,Time Lapse,Axiom,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.2,1.7,1.2,2.3,16.5,5.7,26.25,Beadless
+207432,Tone Salt,Clash Discs,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.7,1.1,2.3,16.5,5.2,27.0,Beadless
+184753,Treasure Hunt,Lucky Discs,Distance Driver,2.0,12.0,6.0,-1.0,3.0,21.3,1.5,1.1,2.2,17.0,5.2,28.5,Beadless
+124,Trespass,Dynamic Discs,Distance Driver,2.5,12.0,5.0,-0.5,3.0,21.1,1.9,1.1,2.1,16.7,5.2,26.25,Beadless
+746,Twin Swords,Yikun,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.2,1.9,1.2,2.4,16.4,5.7,26.5,Beadless
+208965,Tykki,Taito Frisbeegolf,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.5,1.1,2.3,16.4,5.2,27.25,Beadless
+220741,Typhoon DGA202408,DGA,Distance Driver,0.0,12.0,6.0,-2.0,2.0,21.1,1.7,1.1,2.3,16.5,5.2,31.25,Beadless
+736,Valhalla,Viking Discs,Distance Driver,2.0,12.0,5.0,0.0,2.0,21.3,2.0,1.2,2.2,16.8,5.6,28.0,Beadless
+208675,Valhalla Reaper,Orbital Discs,Distance Driver,3.0,12.0,4.0,0.0,3.0,21.0,1.6,1.1,2.3,16.4,5.2,26.5,Beadless
+150463,Vass,Kastaplast,Distance Driver,0.5,12.0,5.0,-1.5,2.0,21.3,1.7,1.1,2.2,16.9,5.2,26.25,Beadless
+361,Villain,Latitude 64,Distance Driver,4.0,12.0,4.0,0.0,4.0,21.1,1.7,1.2,2.1,16.8,5.7,28.0,Beadless
+589,Voyage,Full Turn,Distance Driver,3.0,12.0,5.0,0.0,3.0,21.1,1.8,1.1,2.3,16.4,5.2,26.25,Beadless
+233,Wahoo,Innova,Distance Driver,0.0,12.0,6.0,-2.0,2.0,21.0,2.0,1.2,2.4,16.1,5.7,33.25,Beadless
+184826,Wanderlust,H13 Disc Golf,Distance Driver,1.0,12.0,5.0,-1.0,2.0,21.1,2.0,1.2,2.3,16.6,5.7,27.25,Beadless
+28302,Warbird,Lone Star Disc,Distance Driver,2.0,12.0,6.0,-1.0,3.0,21.1,1.9,1.2,2.3,16.5,5.7,26.0,Beadless
+86938,Wild Honey,Clash Discs,Distance Driver,0.0,12.0,5.0,-2.0,2.0,21.0,1.8,1.1,2.3,16.4,5.2,27.5,Beadless
+458,X2,Prodigy,Distance Driver,2.0,12.0,5.0,0.0,2.0,21.1,1.8,1.1,2.2,16.6,5.2,26.0,Beadless
+459,X3,Prodigy,Distance Driver,1.0,12.0,6.0,-1.0,2.0,21.1,1.7,1.1,2.2,16.6,5.2,30.5,Beadless
+460,X4,Prodigy,Distance Driver,0.0,12.0,6.0,-2.0,2.0,21.2,1.7,1.1,2.3,16.6,5.2,27.0,Beadless
+461,X5,Prodigy,Distance Driver,-1.0,12.0,6.0,-3.0,2.0,21.1,1.9,1.1,2.2,16.6,5.2,28.25,Beadless
+14912,XCaliber,Innova,Distance Driver,4.0,12.0,5.0,0.0,4.0,21.1,1.6,1.2,2.3,16.4,5.7,29.5,Beadless
+46628,Yeet,Hooligan Discs,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.9,1.2,2.2,16.7,5.7,26.75,Beadless
+63,Zeus,Discraft,Distance Driver,2.0,12.0,5.0,-1.0,3.0,21.1,1.6,1.2,2.3,16.5,5.7,28.5,Beadless
+21990,Adder,Westside,Distance Driver,4.0,13.0,5.0,0.0,4.0,21.2,1.9,1.1,2.2,16.8,5.2,28.75,Beadless
+618,Aftermath,Legacy Discs,Distance Driver,1.0,13.0,5.0,-2.0,3.0,21.2,1.7,1.1,2.5,16.3,5.2,29.0,Beadless
+207348,Air Strike,Gateway,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.5,1.2,2.3,16.3,5.7,26.25,Beadless
+206,Ape,Innova,Distance Driver,4.0,13.0,5.0,0.0,4.0,21.1,1.5,1.2,2.4,16.2,5.7,27.75,Beadless
+208871,Ballistic,Rip Disc Golf,Distance Driver,1.0,13.0,4.0,-2.0,3.0,21.1,2.0,1.2,2.4,16.4,5.7,33.25,Beadless
+104816,Bayonet,Lone Star Disc,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.8,1.1,2.3,16.4,5.2,26.0,Beadless
+829,Big Foot,Daredevil,Distance Driver,0.0,13.0,6.0,-2.0,2.0,21.1,1.6,1.1,2.5,16.1,5.2,26.0,Beadless
+346,Bolt,Latitude 64,Distance Driver,1.0,13.0,6.0,-2.0,3.0,21.1,1.7,1.1,2.4,16.4,5.2,27.75,Beadless
+209,Boss,Innova,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.2,1.5,1.2,2.5,16.2,5.7,26.0,Beadless
+21221,Bowie,Lone Star Disc,Distance Driver,4.0,13.0,5.0,0.0,4.0,21.1,1.7,1.1,2.4,16.3,5.2,26.25,Beadless
+115,Captain,Dynamic Discs,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.1,1.6,1.1,2.3,16.6,5.2,30.0,Beadless
+406,Catalyst,MVP,Distance Driver,0.0,13.0,5.5,-2.0,2.0,21.1,1.9,1.2,2.4,16.3,5.7,30.0,Beadless
+87120,Charger,Innova,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.1,1.6,1.2,2.3,16.4,5.7,28.5,Beadless
+22998,Company,Crosslap,Distance Driver,3.0,13.0,4.0,0.0,3.0,21.0,2.0,1.1,2.3,16.4,5.2,27.75,Beadless
+45,Crank,Discraft,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.1,1.6,1.1,2.4,16.3,5.2,30.0,Beadless
+46,Crank SS,Discraft,Distance Driver,-1.0,13.0,5.0,-3.0,2.0,21.1,1.5,1.1,2.4,16.3,5.2,27.25,Beadless
+201251,Crockett,Lone Star Disc,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.3,1.7,1.2,2.2,16.9,5.6,28.0,Beadless
+587,Cruise,Full Turn,Distance Driver,1.0,13.0,4.0,-2.0,3.0,21.1,1.6,1.1,2.3,16.4,5.2,26.5,Beadless
+207906,Crusade,Full Turn,Distance Driver,4.0,13.0,5.0,0.0,4.0,21.2,1.6,1.1,2.4,16.4,5.2,27.25,Beadless
+347,Cutlass,Latitude 64,Distance Driver,3.5,13.0,5.0,0.0,3.5,21.1,1.7,1.2,2.2,16.6,5.7,28.75,Beadless
+445,D Model OS,Prodigy,Distance Driver,4.0,13.0,5.0,0.0,4.0,21.0,1.5,1.1,2.2,16.7,5.2,26.0,Beadless
+446,D Model S,Prodigy,Distance Driver,2.0,13.0,6.0,0.0,2.0,21.1,1.5,1.1,2.2,16.7,5.2,30.0,Beadless
+447,D Model US,Prodigy,Distance Driver,-2.0,13.0,6.0,-3.0,1.0,21.0,1.6,1.1,2.2,16.7,5.2,28.25,Beadless
+449,D1 Max,Prodigy,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.0,1.6,1.2,2.3,16.3,5.7,26.75,Beadless
+451,D2 Max,Prodigy,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.1,1.9,1.2,2.4,16.3,5.7,30.5,Beadless
+453,D3 Max,Prodigy,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.1,1.8,1.2,2.4,16.3,5.7,30.25,Beadless
+5854,D4 Max,Prodigy,Distance Driver,-1.0,13.0,5.0,-3.0,2.0,21.0,1.9,1.2,2.4,16.3,5.7,30.25,Beadless
+923,DaE,Yikun,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.0,1.7,1.1,2.4,16.2,5.2,27.5,Beadless
+212,Daedalus,Innova,Distance Driver,-1.0,13.0,6.0,-3.0,2.0,21.1,1.5,1.2,2.3,16.4,5.7,26.25,Beadless
+6,DD2,Discmania,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.8,1.1,2.3,16.4,5.2,31.75,Beadless
+117,Defender,Dynamic Discs,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.0,1.6,1.1,2.3,16.4,5.2,30.75,Beadless
+208669,Deranged Squirrel,Orbital Discs,Distance Driver,-2.0,13.0,5.0,-3.0,1.0,21.1,1.6,1.1,2.5,16.1,5.2,26.0,Beadless
+214,Dominator,Innova,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.1,1.4,1.1,2.4,16.2,5.2,27.75,Beadless
+183759,Dream,Wing It Disc Golf,Distance Driver,-3.0,13.0,5.0,-4.0,1.0,21.3,1.4,1.1,2.4,16.5,5.2,27.0,Beadless
+207997,Dynamo,GT Discs,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.7,1.2,2.4,16.3,5.7,28.0,Beadless
+183781,Empire,Prodiscus,Distance Driver,4.0,13.0,5.0,0.0,4.0,21.1,1.9,1.2,2.4,16.3,5.7,28.0,Beadless
+408,Energy,MVP,Distance Driver,4.0,13.0,4.0,0.0,4.0,21.1,2.1,1.2,2.4,16.3,5.7,26.0,Beadless
+646,Falcon,Millennium,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.1,1.4,1.1,2.4,16.3,5.2,30.25,Beadless
+33243,Falcor,Prodigy,Distance Driver,1.5,13.0,6.0,-1.0,2.5,21.1,1.7,1.2,2.3,16.5,5.7,28.75,Beadless
+674,Fasti,Prodiscus,Distance Driver,1.0,13.0,4.0,-2.0,3.0,21.1,1.6,1.1,2.3,17.1,5.2,26.75,Beadless
+88082,Fenris,Guru Disc Golf,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.2,1.7,1.1,2.5,16.2,5.2,26.0,Beadless
+502,Giant,Westside,Distance Driver,3.5,13.0,4.0,0.0,3.5,21.1,1.7,1.2,2.3,16.6,5.7,29.25,Beadless
+349,Gladiator,Latitude 64,Distance Driver,3.5,13.0,5.0,0.0,3.5,21.1,1.7,1.1,2.3,16.5,5.2,28.5,Beadless
+33302,Great White,Wild Discs,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.1,1.8,1.1,2.4,16.2,5.2,27.25,Beadless
+216,Groove,Innova,Distance Driver,0.0,13.0,6.0,-2.0,2.0,21.1,1.7,1.2,2.4,16.3,5.7,28.0,Beadless
+607,Grym,Kastaplast,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.1,1.8,1.1,2.2,16.7,5.2,26.25,Beadless
+57018,Guld,Kastaplast,Distance Driver,2.5,13.0,5.0,-0.5,3.0,21.1,1.8,1.2,2.3,16.5,5.7,28.75,Beadless
+350,Halo,Latitude 64,Distance Driver,2.5,13.0,5.0,-0.5,3.0,21.2,1.4,1.1,2.4,16.3,5.2,26.25,Beadless
+351,Havoc,Latitude 64,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.1,1.7,1.1,2.3,16.6,5.2,28.0,Beadless
+22454,Hypercane,DGA,Distance Driver,4.0,13.0,4.0,0.0,4.0,21.2,1.6,1.2,2.2,16.7,5.7,26.5,Beadless
+184019,Javelin,Gateway,Distance Driver,3.0,13.0,4.0,0.0,3.0,21.1,1.7,1.2,2.3,16.4,5.7,29.75,Beadless
+694,Kahu,RPM Discs,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.0,1.5,1.1,2.4,16.2,5.2,31.5,Beadless
+695,Kahu OS,RPM Discs,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.0,1.5,1.1,2.4,16.2,5.2,31.5,Beadless
+696,Kahu XG,RPM Discs,Distance Driver,-0.5,13.0,5.0,-2.5,2.0,21.0,1.5,1.1,2.4,16.2,5.2,31.5,Beadless
+218,Katana,Innova,Distance Driver,0.0,13.0,5.0,-3.0,3.0,21.2,1.8,1.2,2.5,16.3,5.7,26.25,Beadless
+172911,Launcher,Northstar Discs,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.0,1.7,1.1,2.4,16.3,5.2,27.0,Beadless
+172910,Launcher OS,Northstar Discs,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.0,1.9,1.1,2.4,16.3,5.2,27.0,Beadless
+172912,Launcher US,Northstar Discs,Distance Driver,0.0,13.0,6.0,-2.0,2.0,21.0,1.8,1.1,2.4,16.3,5.2,27.0,Beadless
+675,Legenda,Prodiscus,Distance Driver,3.0,13.0,4.0,-1.0,4.0,21.0,1.5,1.1,2.4,16.3,5.2,26.75,Beadless
+22527,Majesty,Discmania,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.7,1.2,2.4,16.2,5.7,27.25,Beadless
+553,Mayhem,Axiom,Distance Driver,0.5,13.0,5.0,-1.5,2.0,21.2,1.9,1.2,2.4,16.3,5.7,27.5,Beadless
+413,Nitro,MVP,Distance Driver,2.5,13.0,4.0,-0.5,3.0,21.2,1.9,1.2,2.4,16.3,5.7,26.75,Beadless
+53,Nuke,Discraft,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.2,1.6,1.2,2.5,16.1,5.7,28.25,Beadless
+54,Nuke OS,Discraft,Distance Driver,4.0,13.0,4.0,0.0,4.0,21.2,1.6,1.2,2.5,16.2,5.7,30.75,Beadless
+55,Nuke SS,Discraft,Distance Driver,0.0,13.0,5.0,-3.0,3.0,21.2,1.5,1.1,2.5,16.2,5.2,28.75,Beadless
+87599,O-Lace,Vibram,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.0,1.7,1.1,2.3,16.3,5.2,26.0,Beadless
+414,Octane,MVP,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.1,1.7,1.2,2.4,16.3,5.7,27.25,Beadless
+554,Panic,Axiom,Distance Driver,2.5,13.0,4.0,-0.5,3.0,21.1,1.7,1.2,2.4,16.3,5.7,26.25,Beadless
+142807,Pestilence,Doomsday Discs,Distance Driver,-3.0,13.0,5.0,-4.0,1.0,21.2,1.5,1.1,2.4,16.5,5.2,28.0,Beadless
+191,Pharaoh,Infinite Discs,Distance Driver,1.0,13.0,6.0,-1.0,2.0,21.1,1.4,1.1,2.3,16.4,5.2,28.5,Beadless
+172919,Prince,Westside,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.1,1.8,1.1,2.3,16.6,5.2,29.75,Beadless
+21698,QI,Yikun,Distance Driver,0.0,13.0,6.0,-2.0,2.0,21.2,1.6,1.1,2.3,16.5,5.2,28.5,Beadless
+648,Quasar,Millennium,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.2,1.6,1.2,2.5,16.2,5.7,27.25,Beadless
+120,Raider,Dynamic Discs,Distance Driver,2.5,13.0,5.0,-0.5,3.0,21.2,1.5,1.1,2.3,16.3,5.2,29.25,Beadless
+623,Recon,Legacy Discs,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.2,1.7,1.1,2.4,16.4,5.2,28.75,Beadless
+11092,Reign,Salient,Distance Driver,2.0,13.0,5.0,0.0,2.0,21.0,1.7,1.1,2.4,16.2,5.2,27.5,Beadless
+33652,Reverb,Prodigy,Distance Driver,3.5,13.0,5.0,0.0,3.5,21.1,1.6,1.2,2.3,16.5,5.7,26.75,Beadless
+21739,Rive,Latitude 64,Distance Driver,3.5,13.0,5.0,0.0,3.5,21.1,1.8,1.2,2.3,16.5,5.7,30.0,Beadless
+75961,Rong,Yikun,Distance Driver,-2.0,13.0,5.0,-3.0,1.0,21.2,1.5,1.1,2.3,16.5,5.2,27.75,Beadless
+158,Samurai,Gateway,Distance Driver,0.0,13.0,5.0,-1.0,1.0,21.1,1.8,1.2,2.3,16.5,5.7,29.25,Beadless
+1365,Sasquatch,Daredevil,Distance Driver,-4.0,13.0,5.0,-5.0,1.0,21.0,1.7,1.1,2.5,16.0,5.2,26.5,Beadless
+104814,Seguin,Lone Star Disc,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.1,1.6,1.1,2.3,16.6,5.2,28.0,Beadless
+184533,She Gong,Yikun,Distance Driver,2.0,13.0,5.0,0.0,2.0,21.2,1.6,1.2,2.4,16.3,5.7,28.75,Beadless
+123,Sheriff,Dynamic Discs,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.1,1.6,1.1,2.4,16.3,5.2,30.25,Beadless
+226,Shryke,Innova,Distance Driver,0.0,13.0,6.0,-2.0,2.0,21.1,1.7,1.2,2.3,16.4,5.7,26.0,Beadless
+159,Siren,Gateway,Distance Driver,-1.0,13.0,5.0,-2.0,1.0,21.1,1.8,1.2,2.3,16.4,5.7,29.25,Beaded
+160,Slayer,Gateway,Distance Driver,1.0,13.0,5.0,-1.0,2.0,21.1,1.5,1.2,2.3,16.4,5.7,30.0,Beadless
+161441,Slingshot,Goliath Discs,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.6,1.1,2.4,16.2,5.2,27.5,Beadless
+87835,Solace,Vibram,Distance Driver,4.0,13.0,4.0,0.0,4.0,21.1,1.7,1.1,2.4,16.2,5.2,27.0,Beadless
+507,Sorcerer,Westside,Distance Driver,2.5,13.0,5.0,-0.5,3.0,21.2,1.6,1.1,2.3,16.7,5.2,32.25,Beadless
+184617,Star Death,X-UFO,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.1,1.3,1.1,2.6,16.0,5.2,29.0,Beadless
+11098,Starling,Disctroyer,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.7,1.2,2.4,16.2,5.7,27.0,Beadless
+147820,Starship,Sacred Discs,Distance Driver,1.0,13.0,6.0,-1.0,2.0,21.0,1.7,1.1,2.3,16.4,5.2,27.25,Beadless
+360,Stiletto,Latitude 64,Distance Driver,5.5,13.0,3.0,0.5,5.0,21.3,1.7,1.1,2.4,16.4,5.2,26.75,Beadless
+166500,Strive,Latitude 64,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.1,1.8,1.1,2.2,16.6,5.2,32.0,Beadless
+209167,Supreme Raider,Dynamic Discs,Distance Driver,2.5,13.0,5.0,-0.5,3.0,21.1,1.8,1.1,2.3,16.5,5.2,29.0,Beadless
+11102,Taipan,Fourth Circle Discs,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.1,1.6,1.1,2.4,16.3,5.2,27.25,Beadless
+1467,Tempest,DGA,Distance Driver,-1.0,13.0,5.0,-3.0,2.0,21.1,1.7,1.1,2.3,16.5,5.2,26.25,Beadless
+556,Tenacity,Axiom,Distance Driver,-0.5,13.0,5.0,-2.5,2.0,21.1,1.9,1.2,2.4,16.3,5.7,26.75,Beadless
+85947,Tombstone,Lone Star Disc,Distance Driver,4.0,13.0,4.0,0.0,4.0,21.1,1.3,1.1,2.3,16.5,5.2,28.75,Beadless
+207884,Train Wreck,Fly High Discs,Distance Driver,0.0,13.0,5.0,-2.0,2.0,21.0,1.8,1.2,2.3,16.4,5.7,33.25,Beadless
+22172,Venom,Discraft,Distance Driver,3.0,13.0,5.0,0.0,3.0,21.0,2.0,1.2,2.2,16.6,5.7,29.0,Beadless
+208676,Viperwolf,Orbital Discs,Distance Driver,2.0,13.0,5.0,-1.0,3.0,21.1,1.5,1.1,2.5,16.1,5.2,26.0,Beadless
+232,Vulcan,Innova,Distance Driver,-2.0,13.0,5.0,-4.0,2.0,21.2,1.4,1.1,2.4,16.4,5.2,27.25,Beadless
+184828,War Bonnet,STM Disc Golf,Distance Driver,0.0,13.0,6.0,-2.0,2.0,21.1,1.7,1.1,2.4,16.3,5.2,28.5,Beadless
+509,War Horse,Westside,Distance Driver,4.0,13.0,4.0,0.0,4.0,21.1,1.6,1.2,2.2,16.6,5.7,28.0,Beadless
+457,X1,Prodigy,Distance Driver,5.0,13.0,3.0,0.0,5.0,21.0,1.5,1.2,2.3,16.3,5.7,27.5,Beadless
+1578,Yeti,Daredevil,Distance Driver,-2.0,13.0,6.0,-3.0,1.0,21.1,1.6,1.1,2.5,16.1,5.2,26.0,Beadless
+771,Albatross,Daredevil,Distance Driver,1.0,14.0,6.0,-2.0,3.0,21.0,1.6,1.1,2.3,16.4,5.2,26.5,Beadless
+343,Ballista,Latitude 64,Distance Driver,2.0,14.0,5.0,-1.0,3.0,21.1,1.7,1.1,2.4,16.3,5.2,26.0,Beadless
+344,Ballista Pro,Latitude 64,Distance Driver,3.0,14.0,4.0,0.0,3.0,21.2,1.7,1.1,2.4,16.3,5.2,26.75,Beadless
+207286,Bee Line,ABC Discs,Distance Driver,-1.0,14.0,5.0,-3.0,2.0,21.1,1.6,1.1,2.5,16.2,5.2,26.25,Beadless
+22946,Bohrium,Loft Discs,Distance Driver,2.0,14.0,6.0,-1.0,3.0,21.0,1.4,1.1,2.5,16.0,5.2,26.25,Beadless
+619,Cannon,Legacy Discs,Distance Driver,0.0,14.0,5.0,-3.0,3.0,21.1,1.8,1.2,2.5,16.1,5.7,26.0,Beadless
+499,Catapult,Westside,Distance Driver,2.5,14.0,4.0,-0.5,3.0,21.1,1.6,1.1,2.3,16.6,5.2,27.0,Beadless
+210,Colossus,Innova,Distance Driver,2.0,14.0,5.0,-1.0,3.0,21.1,1.7,1.1,2.5,16.1,5.2,29.75,Beadless
+211,Corvette,Innova,Distance Driver,1.0,14.0,6.0,-1.0,2.0,21.1,1.8,1.2,2.3,16.3,5.7,26.75,Beadless
+500,Destiny,Westside,Distance Driver,1.0,14.0,6.0,-2.0,3.0,21.2,1.6,1.1,2.3,16.6,5.2,28.5,Beadless
+215,Firestorm,Innova,Distance Driver,2.0,14.0,4.0,-1.0,3.0,21.1,1.5,1.1,2.3,16.5,5.2,27.5,Beadless
+119,Freedom,Dynamic Discs,Distance Driver,0.0,14.0,5.0,-3.0,3.0,21.2,1.6,1.1,2.4,16.3,5.2,27.25,Beadless
+1034,Gray Jay,Daredevil,Distance Driver,5.0,14.0,4.0,0.0,5.0,21.0,1.4,1.1,2.3,16.3,5.2,28.5,Beadless
+503,King,Westside,Distance Driver,1.5,14.0,5.0,-1.5,3.0,21.1,1.9,1.1,2.3,16.5,5.2,29.25,Beadless
+352,Knight,Latitude 64,Distance Driver,1.5,14.0,4.0,-1.5,3.0,21.1,1.6,1.1,2.5,16.2,5.2,28.25,Beadless
+87442,Lace,Vibram,Distance Driver,0.0,14.0,6.0,-1.0,1.0,21.0,1.8,1.1,2.4,16.2,5.2,28.5,Beadless
+34366,Luan,Yikun,Distance Driver,2.0,14.0,5.0,-1.0,3.0,21.2,1.4,1.1,2.4,16.4,5.2,31.25,Beadless
+1183,Merlin,Daredevil,Distance Driver,3.0,14.0,5.0,-1.0,4.0,21.0,1.7,1.1,2.3,16.4,5.2,26.0,Beadless
+184215,Mystic Grove,Albatross Disc Golf,Distance Driver,2.0,14.0,5.0,-1.0,3.0,21.1,1.4,1.1,2.3,16.3,5.2,27.25,Beadless
+11088,Prometheus,Salient,Distance Driver,0.0,14.0,4.0,-1.0,1.0,22.6,1.6,1.2,2.6,17.5,5.3,26.5,Beadless
+505,Queen,Westside,Distance Driver,-1.0,14.0,5.0,-3.0,2.0,21.2,1.5,1.1,2.3,16.6,5.2,29.5,Beadless
+622,Rampage,Legacy Discs,Distance Driver,3.0,14.0,5.0,-1.0,4.0,21.1,1.8,1.2,2.5,16.1,5.7,26.0,Beadless
+609,Rask,Kastaplast,Distance Driver,4.0,14.0,3.0,0.0,4.0,21.2,1.6,1.1,2.2,16.8,5.2,26.5,Beadless
+735,Thunder God Thor,Viking Discs,Distance Driver,2.0,14.0,5.0,0.0,2.0,21.0,1.7,1.2,2.5,16.0,5.7,28.0,Beadless
+1490,Torrent,DGA,Distance Driver,1.0,14.0,5.0,-1.0,2.0,21.0,1.5,1.2,2.4,16.1,5.7,27.25,Beadless
+207524,Tyrannosaurus Rex,Dino Discs,Distance Driver,-1.0,14.0,5.0,-3.0,2.0,21.1,1.6,1.1,2.5,16.2,5.2,26.25,Beadless
+184773,Uncle,Pie Pan Discs,Distance Driver,3.0,14.0,4.0,0.0,3.0,21.0,1.7,1.2,2.3,16.5,5.7,30.75,Beadless
+87967,unLace,Vibram,Distance Driver,-4.0,14.0,6.0,-5.0,1.0,21.1,1.9,1.1,2.4,16.3,5.2,28.75,Beadless
+510,World,Westside,Distance Driver,2.5,14.0,4.0,-0.5,3.0,21.2,1.6,1.2,2.4,16.3,5.7,28.0,Beadless
+550,Delirium,Axiom,Distance Driver,2.5,14.5,5.0,-0.5,3.0,21.1,1.8,1.2,2.5,16.0,5.7,27.0,Beadless
+407,Dimension,MVP,Distance Driver,3.0,14.5,5.0,0.0,3.0,21.0,1.8,1.2,2.5,16.0,5.7,27.75,Beadless
+551,Excite,Axiom,Distance Driver,0.0,14.5,5.5,-2.0,2.0,21.1,2.1,1.2,2.5,15.9,5.7,27.0,Beadless
+411,Limit,MVP,Distance Driver,4.0,14.5,3.5,0.0,4.0,21.1,1.8,1.2,2.5,16.0,5.7,27.25,Beadless
+418,Relativity,MVP,Distance Driver,-1.5,14.5,5.5,-3.0,1.5,21.1,1.9,1.2,2.5,16.0,5.7,27.25,Beadless
+555,Tantrum,Axiom,Distance Driver,1.5,14.5,5.0,-1.5,3.0,21.1,1.9,1.2,2.5,16.0,5.7,26.75,Beadless
+419,Teleport,MVP,Distance Driver,1.0,14.5,5.0,-1.5,2.5,21.1,1.9,1.2,2.5,16.0,5.7,27.75,Beadless
+353,Missilen,Latitude 64,Distance Driver,4.0,15.0,3.0,-0.5,4.5,21.4,1.7,1.1,2.5,16.4,5.1,28.0,Beadless
+355,Raketen,Latitude 64,Distance Driver,1.0,15.0,4.0,-2.0,3.0,21.1,1.7,1.1,2.4,16.3,5.2,26.5,Beadless
+208816,10 Meter Brick,Quest Applied Technologies,Putt & Approach,,,,,,21.4,1.8,1.3,0.3,19.0,6.1,30.0,Beadless
+208817,10 Meter Crossfire,Quest Applied Technologies,Mid Range,,,,,,21.2,2.1,1.4,1.2,18.9,6.6,51.75,Beadless
+208818,100 Meter Lazer,Quest Applied Technologies,Distance Driver,,,,,,21.2,1.4,1.1,2.1,17.0,5.2,26.5,Beadless
+207922,844 Sabre,Gateway,Control Driver,,,,,,21.1,2.2,1.2,1.7,17.7,5.7,27.0,Beadless
+208992,9 Iron Chip & Putt,Tomahawk Specialty Discs,Putt & Approach,,,,,,21.3,1.5,1.2,1.0,19.3,5.6,34.5,Beadless
+207746,Abomination,Doomsday Discs,Distance Driver,,,,,,21.1,1.5,1.1,2.1,16.9,5.2,27.5,Beadless
+308,Ace,Innova,Control Driver,,,,,,21.1,1.6,1.2,1.6,17.9,5.7,27.75,Beadless
+207315,Albatrossdisc Driver,Albatross Disc Golf,Putt & Approach,,,,,,21.0,1.6,1.2,0.9,17.5,5.7,28.25,Beadless
+207316,Albatrossdisc Midrange,Albatross Disc Golf,Mid Range,,,,,,21.1,1.9,1.3,1.0,19.0,6.2,61.0,Beadless
+207317,Albatrossdisc Putter,Albatross Disc Golf,Putt & Approach,,,,,,21.2,2.1,1.6,0.8,19.6,7.5,101.75,Beadless
+208030,All in One,Hole19 sarl,Putt & Approach,,,,,,21.3,1.9,1.4,0.9,19.4,6.6,59.25,Beadless
+207406,Almond,Clash Discs,Putt & Approach,,,,,,21.3,1.9,1.6,1.1,19.1,7.5,61.5,Beadless
+208082,Apple,Innova,Putt & Approach,,,,,,26.4,3.2,2.0,0.7,25.1,7.6,93.25,Beadless
+207972,Apple Blossom,Goeringer Discs,Putt & Approach,,,,,,21.2,2.3,1.5,1.1,19.0,7.1,74.5,Beadless
+208812,Arc,Prysm Discs,Distance Driver,,,,,,21.0,1.9,1.2,2.2,16.6,5.7,29.25,Beadless
+207310,Arrow,Aerobie,Mid Range,,,,,,21.4,1.8,1.1,1.5,18.4,5.1,30.75,Beadless
+207889,Ash,Forge Discs,Mid Range,,,,,,21.3,1.7,1.2,1.0,19.3,5.6,64.75,Beadless
+207339,Asteroid,All 4 Frisbee,Putt & Approach,,,,,,21.3,2.3,1.5,1.1,19.2,7.0,64.75,Beadless
+208016,Astray,H13 Disc Golf,Mid Range,,,,,,21.8,1.8,1.3,1.5,18.8,6.0,49.0,Beadless
+208502,Aurora MF,Millennium,Mid Range,,,,,,21.7,2.1,1.4,1.2,19.4,6.5,38.75,Beadless
+208819,Backbone,Quest Applied Technologies,Distance Driver,,,,,,21.2,1.9,1.1,2.3,18.6,5.2,54.25,Beadless
+207407,Barley,Clash Discs,Putt & Approach,,,,,,21.5,1.8,1.3,1.1,19.3,6.0,57.5,Beadless
+208565,Beam,MVP,Distance Driver,,,,,,21.2,1.7,1.2,2.3,16.5,5.7,28.5,Beadless
+208610,Big Bend,National Perk Service,Distance Driver,,,,,,21.1,1.4,1.1,2.4,16.4,5.2,28.25,Beadless
+207928,Big Dog,Gateway,Putt & Approach,,,,,,22.6,2.7,2.1,0.7,21.2,9.3,112.75,Beadless
+208094,Big Kahuna,Innova,Putt & Approach,,,,,,27.5,3.3,2.0,0.8,26.0,7.3,93.5,Beadless
+208688,Bird-Dog,Paradigm Disc Golf,Mid Range,,,,,,21.0,2.4,1.5,1.0,19.0,7.1,64.0,Beadless
+208295,Bite,Latitude 64,Putt & Approach,,,,,,22.6,2.3,1.4,0.7,21.2,6.2,80.25,Beadless
+207930,Blast DT,Gateway,Distance Driver,,,,,,21.3,1.6,1.1,2.1,17.0,5.2,27.75,Beadless
+207932,Blurr,Gateway,Distance Driver,,,,,,21.3,1.7,1.1,2.2,17.0,5.2,28.0,Beadless
+220532,Boost,Streamline,Distance Driver,,,,,,21.2,1.5,1.1,2.1,16.9,5.2,30.75,Beadless
+207608,Breeze,Discraft,Mid Range,,,,,,21.3,1.8,1.4,1.2,19.0,6.6,55.75,Beadless
+207320,Caravel,Albatross Disc Golf,Control Driver,,,,,,21.2,2.0,1.3,1.6,17.9,6.1,29.5,Beadless
+208301,Catch,Latitude 64,Putt & Approach,,,,,,27.6,3.0,2.2,0.8,26.0,8.0,90.0,Beadless
+207597,Chain Smoker,DiscPro,Mid Range,,,,,,21.3,2.2,1.6,1.0,19.2,7.5,66.5,Beadless
+207973,Cherry Blossom,Goeringer Discs,Mid Range,,,,,,21.1,1.9,1.5,1.4,18.2,7.1,74.25,Beadless
+207475,Chimera,Deity Discs,Distance Driver,,,,,,21.1,1.7,1.2,2.2,16.7,5.7,27.5,Beadless
+208451,Chuck,Lone Star Disc,Mid Range,,,,,,21.8,1.6,1.3,1.3,19.3,6.0,46.0,Beadless
+208808,CNC,ProtoFlyte,Distance Driver,,,,,,21.0,1.8,1.1,2.3,16.3,5.2,29.25,Beadless
+208810,CNC+,ProtoFlyte,Distance Driver,,,,,,21.1,2.0,1.2,2.4,16.4,5.7,29.25,Beadless
+208809,CNC-,ProtoFlyte,Distance Driver,,,,,,21.1,1.9,1.2,2.4,16.4,5.7,29.25,Beadless
+208811,CNCi,ProtoFlyte,Distance Driver,,,,,,21.1,1.9,1.2,2.4,16.3,5.7,33.75,Beadless
+207385,Creedmoor OS,Ballisdisc,Distance Driver,,,,,,21.2,1.4,1.1,2.3,16.6,5.2,26.25,Beadless
+208038,Cricket,Hummingbird Flight Tech,Mid Range,,,,,,21.1,2.0,1.7,1.3,18.5,8.1,81.25,Beadless
+208820,Crossfire,Quest Applied Technologies,Mid Range,,,,,,21.2,2.0,1.4,1.2,18.9,6.6,51.75,Beadless
+207721,Crosshair,Discwing,Putt & Approach,,,,,,21.2,1.9,1.4,0.9,19.4,6.6,59.75,Beadless
+207622,Cruiser,Discraft,Control Driver,,,,,,21.4,1.8,1.2,1.7,18.1,5.6,34.5,Beadless
+207623,Cruiser-Windstar,Discraft,Control Driver,,,,,,21.4,1.8,1.2,1.7,18.1,5.6,34.5,Beadless
+208567,Cypher,MVP,Control Driver,,,,,,21.2,1.5,1.2,1.8,17.6,5.7,31.0,Beadless
+208726,D6 Max,Prodigy,Distance Driver,,,,,,21.1,1.7,1.2,2.4,16.3,5.7,26.75,Beadless
+208813,Dawn Chaser,Qingdao Hippo Sport Products,Mid Range,,,,,,21.6,1.7,1.3,1.4,18.7,6.0,48.75,Beadless
+208611,Death,National Perk Service,Putt & Approach,,,,,,21.4,2.2,1.5,1.1,19.2,7.0,70.75,Beadless
+207626,Deuce,Discraft,Putt & Approach,,,,,,21.7,2.2,1.3,1.1,19.5,6.0,51.0,Beadless
+207519,Diplodocus,Dino Discs,Mid Range,,,,,,22.1,1.7,1.3,1.3,19.6,5.9,39.5,Beadless
+207627,Discraft Torque,Discraft,Mid Range,,,,,,21.6,1.9,1.3,1.3,19.1,6.0,43.25,Beadless
+207628,Discraft Vortex,Discraft,Mid Range,,,,,,21.7,1.6,1.3,1.4,19.0,6.0,26.25,Beadless
+207629,Discraft X2,Discraft,Control Driver,,,,,,21.0,1.8,1.2,1.7,17.6,5.7,30.25,Beadless
+207938,Doggy Style,Gateway,Putt & Approach,,,,,,22.6,2.2,1.7,0.7,21.2,7.5,82.75,Beadless
+208118,Dolphin,Innova,Control Driver,,,,,,21.4,2.1,1.2,1.6,18.2,5.6,41.5,Beaded
+208821,Double D,Quest Applied Technologies,Distance Driver,,,,,,21.1,1.9,1.1,2.6,15.9,5.2,28.75,Beadless
+207940,Element X,Gateway,Control Driver,,,,,,21.9,1.9,1.2,1.8,19.3,5.5,42.5,Beadless
+208946,Engine,Streamline,Distance Driver,,,,,,21.2,1.5,1.1,2.4,16.4,5.2,27.75,Beadless
+207311,Epic,Aerobie,Distance Driver,,,,,,21.1,1.4,1.1,4.1,14.5,5.2,26.5,Beadless
+208506,ES2,Millennium,Distance Driver,,,,,,21.2,1.5,1.1,2.1,17.0,5.2,29.75,Beadless
+208977,Expanse,Thought Space Athletics,Distance Driver,,,,,,21.1,1.8,1.2,2.1,16.8,5.7,31.5,Beadless
+209007,Extraterrestrial I,Trash Panda,Distance Driver,,,,,,21.1,1.8,1.1,2.6,16.8,5.2,29.0,Beadless
+209008,Extraterrestrial II,Trash Panda,Distance Driver,,,,,,21.1,1.9,1.1,2.4,16.9,5.2,30.75,Beadless
+208705,Extruder,PrintPractical,Putt & Approach,,,,,,21.0,1.5,1.1,1.1,18.8,5.2,61.75,Beadless
+207901,Falkor,Franklin Sports,Mid Range,,,,,,21.5,1.9,1.2,1.3,19.0,5.6,36.75,Beadless
+208930,Finch,Stokely Discs,Mid Range,,,,,,21.1,2.0,1.4,1.0,19.1,6.6,59.75,Beadless
+207476,Floater,DestinyDynamic Disc,Putt & Approach,,,,,,27.5,3.6,2.0,0.6,26.3,7.3,106.5,Beadless
+207722,Fluent,Discwing,Control Driver,,,,,,21.2,1.7,1.2,1.7,17.8,5.7,29.75,Beadless
+209018,Four20,Vibram,Distance Driver,,,,,,21.0,1.7,1.1,2.4,16.2,5.2,26.0,Beadless
+207322,Frigate,Albatross Disc Golf,Distance Driver,,,,,,21.2,1.5,1.2,2.2,18.9,5.7,29.5,Beadless
+208913,G1R1,Sector,Distance Driver,,,,,,21.1,1.5,1.2,2.3,16.5,5.7,44.25,Beadless
+208914,G7R10,Sector,Distance Driver,,,,,,21.2,1.6,1.2,2.2,16.9,5.7,37.0,Beadless
+207340,Galaxy,All 4 Frisbee,Mid Range,,,,,,21.5,2.0,1.5,1.3,18.9,7.0,45.5,Beadless
+207336,Galileo,Alfa Discs,Mid Range,,,,,,21.1,1.7,1.4,1.2,18.8,6.6,59.0,Beadless
+207323,Galley,Albatross Disc Golf,Mid Range,,,,,,21.1,1.8,1.4,1.0,19.0,6.6,60.25,Beadless
+208993,Gello Shot Chip & Putt,Tomahawk Specialty Discs,Putt & Approach,,,,,,21.4,1.5,1.2,0.9,19.3,5.6,35.5,Beadless
+208677,Goose,Osuma Disc,Mid Range,,,,,,21.7,2.1,1.4,1.4,18.9,6.5,36.25,Beadless
+208133,Gopher,Innova,Putt & Approach,,,,,,22.9,2.5,2.1,0.7,21.5,9.2,84.25,Beadless
+208136,Grenade,Innova,Putt & Approach,,,,,,21.1,2.2,1.5,1.0,19.0,7.1,71.75,Beadless
+208023,Guardian,Hero Leports,Mid Range,,,,,,21.3,2.1,1.5,1.0,19.3,7.0,54.75,Beadless
+207909,Guide,Full Turn,Mid Range,,,,,,21.8,1.8,1.2,1.4,19.0,5.5,55.5,Beadless
+207341,Haze,All 4 Frisbee,Control Driver,,,,,,21.1,1.6,1.2,1.9,17.2,5.7,34.75,Beadless
+208851,Heavy Metal,Remix Disc Golf,Mid Range,,,,,,21.2,1.8,1.4,1.2,18.8,6.6,37.75,Beadless
+208142,Hero Disc Type 235,Innova,Putt & Approach,,,,,,23.7,2.9,1.8,0.6,22.5,11.8,77.75,Beadless
+208027,Hobbysport Driver,Hobbysport,Control Driver,,,,,,21.2,1.9,1.2,1.9,17.3,5.7,31.25,Beadless
+208028,Hobbysport Putter,Hobbysport,Putt & Approach,,,,,,21.1,2.3,1.4,1.3,18.5,6.6,44.75,Beadless
+208376,Horizon,Launch Disc Golf,Control Driver,,,,,,21.1,2.2,1.2,1.9,17.3,5.7,29.5,Beadless
+208029,HS2020 Midrange,Hobbysport,Mid Range,,,,,,21.3,2.2,1.2,1.2,18.9,5.6,34.5,Beadless
+207902,Hydro,Franklin Sports,Putt & Approach,,,,,,21.0,2.2,1.4,1.0,18.9,6.7,61.5,Beadless
+222432,Hype,Pie Pan Discs,Control Driver,,,,,,21.2,1.5,1.1,2.1,17.0,5.2,28.5,Beadless
+207868,Imagine,Ferris State University,Putt & Approach,,,,,,23.1,2.9,1.4,0.6,21.8,6.1,73.0,Beadless
+207400,Infection,Black Zombie Disc Golf,Control Driver,,,,,,21.2,1.6,1.1,1.8,17.7,5.2,33.5,Beadless
+208822,Inferno,Quest Applied Technologies,Distance Driver,,,,,,21.2,1.9,1.3,2.1,17.1,6.1,26.5,Beadless
+226233,Ingot,Flight Forge Discs,Control Driver,,,,,,21.8,1.5,1.1,1.6,18.6,5.0,36.75,Beadless
+208003,Inter Locked,Guru Disc Golf,Putt & Approach,,,,,,21.2,2.1,1.6,0.8,19.6,7.5,91.75,Beadless
+207477,Jeteye,DestinyDynamic Disc,Putt & Approach,,,,,,21.7,1.7,1.1,0.8,20.0,5.1,49.5,Beadless
+208289,Ka-kaa,Las Aves Disc Golf,Distance Driver,,,,,,21.1,1.6,1.1,2.2,16.7,5.2,26.25,Beadless
+208286,Kobold,Kraken Discs,Mid Range,,,,,,21.5,2.0,1.3,1.3,18.9,6.0,40.25,Beadless
+207337,Laks,Alfa Discs,Distance Driver,,,,,,21.1,1.6,1.1,2.3,16.5,5.2,27.5,Beadless
+207878,Line Tamer,Finuline,Control Driver,,,,,,21.3,1.5,1.3,1.6,18.1,6.1,41.0,Beadless
+207478,Long Ranger,DestinyDynamic Disc,Putt & Approach,,,,,,21.7,1.7,1.1,0.8,20.0,5.1,49.5,Beadless
+208823,Low Speed Driver,Quest Applied Technologies,Distance Driver,,,,,,23.4,1.6,1.4,2.4,18.6,6.0,34.0,Beadless
+208161,Lynx,Innova,Mid Range,,,,,,24.1,2.5,1.6,1.3,21.5,6.6,45.75,Beadless
+208932,Magpie,Stokely Discs,Distance Driver,,,,,,21.0,1.5,1.1,2.3,16.4,5.2,28.75,Beadless
+207650,Marauder,Discraft,Mid Range,,,,,,22.3,2.0,1.2,1.5,19.3,5.4,30.25,Beadless
+207723,Mark,Discwing,Mid Range,,,,,,21.1,2.2,1.6,1.0,19.1,7.6,70.0,Beadless
+208852,Mastodon,Remix Disc Golf,Mid Range,,,,,,21.2,2.1,1.5,1.0,19.1,7.1,57.5,Beadless
+207389,MaxGlide,Best Disc Golf Discs,Distance Driver,,,,,,21.1,1.6,1.1,2.3,16.6,5.2,29.25,Beadless
+208699,Maximizer,Plastic Paradise,Control Driver,,,,,,21.8,1.8,1.6,1.7,18.4,7.3,28.75,Beadless
+208685,Mercury Putter,Pacific Cycle,Putt & Approach,,,,,,21.3,2.0,1.6,0.8,19.7,7.5,60.0,Beadless
+208333,Mirus,Latitude 64,Control Driver,,,,,,21.0,2.4,1.1,2.0,17.0,5.2,27.25,Beadless
+208284,Misty,Kliffa Discs,Control Driver,,,,,,21.0,1.7,1.1,2.0,17.0,5.2,30.5,Beadless
+208962,Mjolnir,Synergy Discs,Control Driver,,,,,,22.0,1.6,1.1,1.8,18.4,5.0,33.25,Beadless
+237691,Monstrosity,Doomsday Discs,Distance Driver,,,,,,21.2,1.6,1.1,2.3,16.6,5.2,27.0,Beadless
+208814,Mooring,Qingdao Hippo Sport Products,Mid Range,,,,,,21.2,2.2,1.5,1.0,19.1,7.1,66.0,Beadless
+208172,Moray,Innova,Mid Range,,,,,,21.6,1.9,1.1,1.2,19.2,5.1,41.0,Beadless
+207652,MRV,Discraft,Mid Range,,,,,,21.3,2.2,1.3,1.2,18.9,6.1,36.25,Beadless
+207653,MRX,Discraft,Mid Range,,,,,,21.3,2.1,1.3,1.4,18.5,6.1,38.75,Beadless
+208546,Mystery Box,Mint Discs,Mid Range,,,,,,21.4,1.8,1.4,1.4,18.5,6.5,48.25,Beadless
+208547,Mystery Box 2023,Mint Discs,Mid Range,,,,,,21.5,1.9,1.4,1.4,18.6,6.5,43.75,Beadless
+208548,Mystery Box 2024,Mint Discs,Control Driver,,,,,,21.3,1.7,1.1,1.7,17.8,5.2,35.5,Beadless
+208824,Nighthawk,Quest Applied Technologies,Control Driver,,,,,,21.5,2.1,1.4,1.6,18.3,6.5,33.75,Beadless
+208622,NSH 1701,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.1,1.5,1.1,2.5,16.1,5.2,27.0,Beadless
+208623,NSH 8472,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.0,1.4,1.1,2.6,15.9,5.2,32.75,Beadless
+208624,NSH0 Nexxus,Newb SimHouse Custom Discs,Putt & Approach,,,,,,21.8,1.9,1.6,0.9,19.9,7.3,73.75,Beadless
+208625,NSH1 TheTeleporter,Newb SimHouse Custom Discs,Control Driver,,,,,,21.1,1.4,1.2,1.9,17.3,5.7,35.0,Beadless
+208626,NSH11 Bird of Prey,Newb SimHouse Custom Discs,Control Driver,,,,,,21.1,1.6,1.1,2.0,17.1,5.2,29.0,Beadless
+208627,NSH12 BatLeth,Newb SimHouse Custom Discs,Putt & Approach,,,,,,21.3,1.9,1.4,0.9,19.5,6.6,74.0,Beadless
+208628,NSH13 Gin Tak,Newb SimHouse Custom Discs,Putt & Approach,,,,,,21.9,1.8,1.4,0.9,20.0,6.4,68.0,Beadless
+208629,NSH14 Nin Jai,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.1,1.7,1.1,2.4,16.2,5.2,27.0,Beadless
+208630,NSH15 Reliant,Newb SimHouse Custom Discs,Control Driver,,,,,,21.3,1.5,1.2,2.0,17.2,5.6,37.5,Beadless
+208631,NSH16 Warp,Newb SimHouse Custom Discs,Control Driver,,,,,,21.3,1.8,1.4,1.7,17.9,6.6,40.25,Beadless
+208632,NSH2 The Borg,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.2,1.5,1.2,2.1,17.1,5.7,33.5,Beadless
+208633,NSH3 Dwayne,Newb SimHouse Custom Discs,Control Driver,,,,,,21.1,1.6,1.3,2.0,17.2,6.2,30.0,Beadless
+208634,NSH4 Mr Putt,Newb SimHouse Custom Discs,Putt & Approach,,,,,,21.1,1.7,1.3,1.1,19.0,6.2,79.5,Beadless
+208635,NSH5 Sweed,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.8,1.5,1.1,2.5,16.8,5.0,30.0,Beadless
+208636,NSH6 StackS,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.1,1.3,1.1,2.6,16.0,5.2,62.5,Beadless
+208637,NSH7 Gunnz,Newb SimHouse Custom Discs,Control Driver,,,,,,21.3,1.5,1.2,2.0,17.3,5.6,33.0,Beadless
+208638,NSH8 Defiant,Newb SimHouse Custom Discs,Control Driver,,,,,,21.1,1.5,1.2,1.6,17.9,5.7,34.25,Beadless
+208639,NSH9 Hexxus,Newb SimHouse Custom Discs,Putt & Approach,,,,,,21.8,1.8,1.4,0.9,20.0,6.4,62.5,Beadless
+208640,NX-01,Newb SimHouse Custom Discs,Distance Driver,,,,,,21.2,1.5,1.1,2.5,16.2,5.2,27.5,Beadless
+208825,Odyssey Approach & Putter,Quest Applied Technologies,Putt & Approach,,,,,,21.5,2.3,1.2,1.7,18.1,5.6,34.75,Beadless
+208826,Odyssey Driver,Quest Applied Technologies,Distance Driver,,,,,,21.3,2.5,1.5,2.3,16.8,7.0,27.0,Beadless
+208827,Odyssey Midrange,Quest Applied Technologies,Mid Range,,,,,,21.5,2.5,1.5,1.5,18.6,7.0,39.0,Beadless
+208828,Odyssey Power Driver,Quest Applied Technologies,Distance Driver,,,,,,21.4,2.1,1.5,2.2,17.1,7.0,27.25,Beadless
+208829,Odyssey Putter,Quest Applied Technologies,Putt & Approach,,,,,,21.3,2.6,1.5,1.1,19.0,7.0,54.0,Beadless
+208830,Odyssey True Line Putter,Quest Applied Technologies,Putt & Approach,,,,,,21.4,2.3,1.5,1.1,19.2,7.0,54.0,Beadless
+208700,Optimizer,Plastic Paradise,Putt & Approach,,,,,,22.0,1.7,1.4,0.9,20.2,7.7,68.0,Beadless
+208652,Paladin US,Northstar Discs,Control Driver,,,,,,21.0,1.7,1.2,2.0,17.1,5.7,32.0,Beadless
+208934,Peregrine,Stokely Discs,Distance Driver,,,,,,21.0,1.5,1.1,2.2,16.5,5.2,29.0,Beadless
+207659,Phantom,Discraft,Mid Range,,,,,,21.4,2.2,1.1,1.0,19.4,5.1,47.75,Beadless
+207660,Phantom Deuce,Discraft,Putt & Approach,,,,,,21.7,2.2,1.3,1.1,19.5,6.0,51.0,Beadless
+207661,Phantom Light,Discraft,Putt & Approach,,,,,,21.4,2.0,1.1,1.1,19.2,5.1,50.25,Beadless
+207662,Phantom+,Discraft,Mid Range,,,,,,21.4,2.2,1.1,1.0,19.4,5.1,47.75,Beadless
+208178,Phenix,Innova,Control Driver,,,,,,23.0,2.6,1.3,1.7,19.6,5.7,38.5,Beadless
+208180,Piranha,Innova,Putt & Approach,,,,,,21.2,2.1,1.6,0.7,19.8,7.5,81.5,Beadless
+231944,Pivot,Prodigy,Putt & Approach,,,,,,21.1,2.1,1.3,1.1,19.0,6.2,61.25,Beaded
+208686,Pluto Driver,Pacific Cycle,Control Driver,,,,,,21.0,1.7,1.1,1.4,18.2,5.2,29.0,Beadless
+208772,Prodigy Club Fairway,Prodigy,Control Driver,,,,,,21.1,2.0,1.2,1.8,17.6,5.7,31.0,Beadless
+208773,Prodigy Club Putter,Prodigy,Putt & Approach,,,,,,21.0,1.9,1.3,1.0,19.0,6.2,66.5,Beadless
+209174,Psyop,Doomsday Discs,Control Driver,,,,,,21.1,1.6,1.1,1.9,17.4,5.2,30.0,Beadless
+208184,Pulsar,Innova,Putt & Approach,,,,,,27.5,3.3,2.0,0.8,26.0,7.3,93.5,Beadless
+208185,Puma,Innova,Mid Range,,,,,,21.2,1.7,1.2,1.3,18.6,5.7,42.75,Beadless
+207479,Puppy,DestinyDynamic Disc,Putt & Approach,,,,,,21.0,2.5,1.8,0.6,19.8,8.6,75.0,Beadless
+208522,QJLS,Millennium,Control Driver,,,,,,21.2,1.8,1.1,1.6,18.0,5.2,30.75,Beadless
+208523,QMS,Millennium,Mid Range,,,,,,21.8,2.0,1.4,1.2,19.4,6.4,36.75,Beadless
+207724,Quarter K,Discwing,Distance Driver,,,,,,21.3,2.0,1.4,2.3,16.7,6.6,28.0,Beadless
+207725,Quarter K II,Discwing,Distance Driver,,,,,,21.0,1.8,1.1,2.1,16.8,5.2,28.0,Beadless
+208188,Racer 2,Innova,Distance Driver,,,,,,21.1,1.6,1.2,2.3,16.4,5.7,29.0,Beadless
+208831,Raging Inferno DT,Quest Applied Technologies,Distance Driver,,,,,,21.1,1.9,1.1,2.1,16.8,5.2,27.75,Beadless
+208832,Ragning Inferno,Quest Applied Technologies,Distance Driver,,,,,,21.2,1.9,1.1,2.1,16.9,5.2,27.5,Beadless
+208991,Rei,Tokyo Discs,Mid Range,,,,,,21.0,2.1,1.4,1.1,18.7,6.7,50.75,Beadless
+220529,Robin,Stokely Discs,Control Driver,,,,,,21.1,1.6,1.1,1.7,17.8,5.2,33.5,Beadless
+208833,Rock-It,Quest Applied Technologies,Mid Range,,,,,,21.3,1.8,1.3,1.3,18.8,6.1,54.75,Beadless
+208526,Rover,Millennium,Mid Range,,,,,,21.8,1.5,1.1,1.5,18.8,5.0,35.0,Beadless
+208559,Rush,Momentum Discs,Mid Range,,,,,,21.1,2.0,1.5,1.2,18.7,7.1,61.5,Beadless
+207903,Ryuu,Franklin Sports,Control Driver,,,,,,21.0,1.8,1.1,1.7,17.7,5.2,31.25,Beadless
+207920,Satellite,Galaxy Disc Golf,Putt & Approach,,,,,,21.3,2.1,1.7,0.8,19.7,8.0,95.25,Beadless
+208687,Saturn Mid Range,Pacific Cycle,Mid Range,,,,,,21.0,1.7,1.1,1.4,18.2,5.2,31.25,Beadless
+207958,Savage,Gateway,Control Driver,,,,,,21.3,1.8,1.2,1.9,17.4,5.6,30.0,Beadless
+208834,Scorcher,Quest Applied Technologies,Distance Driver,,,,,,21.2,1.9,1.2,2.2,16.8,5.7,30.25,Beadless
+231948,Scorpio X,XCOM,Distance Driver,,,,,,21.0,1.8,1.1,2.3,16.4,5.2,28.5,Beadless
+208835,Scream,Quest Applied Technologies,Distance Driver,,,,,,21.2,2.2,1.4,2.2,16.7,6.6,26.25,Beadless
+208836,Scream DT,Quest Applied Technologies,Distance Driver,,,,,,21.1,2.6,1.3,2.1,16.8,6.2,26.0,Beadless
+208837,Scream DT Max,Quest Applied Technologies,Distance Driver,,,,,,21.3,1.7,1.3,2.3,16.8,6.1,31.25,Beadless
+208838,Scream DT Ultra,Quest Applied Technologies,Distance Driver,,,,,,21.4,1.6,1.3,2.2,17.0,6.1,29.0,Beadless
+208839,Scream DT Ultra 2,Quest Applied Technologies,Distance Driver,,,,,,21.3,1.6,1.3,2.2,16.9,6.1,26.0,Beadless
+208840,Scream II,Quest Applied Technologies,Distance Driver,,,,,,21.3,2.2,1.4,2.2,16.9,6.6,27.25,Beadless
+207674,Shadow,Discraft,Mid Range,,,,,,22.1,2.1,1.3,1.5,19.1,8.1,29.25,Beadless
+208815,Shadow Slicer,Qingdao Hippo Sport Products,Control Driver,,,,,,21.2,1.8,1.1,1.7,17.8,5.2,32.25,Beadless
+207598,Shadow Walker,DiscPro,Control Driver,,,,,,21.3,1.7,1.1,1.7,17.8,5.2,32.0,Beadless
+207312,Sharpshooter 1,Aerobie,Distance Driver,,,,,,21.2,1.7,1.3,2.1,17.1,6.1,26.75,Beadless
+207313,Sharpshooter 2,Aerobie,Control Driver,,,,,,21.1,1.7,1.2,1.6,18.1,5.7,26.75,Beadless
+207314,Sharpshooter 3,Aerobie,Mid Range,,,,,,21.3,1.7,1.3,1.3,18.8,6.1,38.25,Beadless
+226232,Shepherd,Goliath Discs,Distance Driver,,,,,,21.1,1.5,1.2,2.2,16.7,5.7,30.5,Beadless
+231949,Singularity,Andromeda M31 Discs,Putt & Approach,,,,,,21.1,1.6,1.2,0.9,19.3,5.7,63.75,Beadless
+207675,Sky Pro,Discraft,Putt & Approach,,,,,,24.1,2.5,1.6,0.5,23.0,6.6,89.0,Beadless
+207676,Sky Streak,Discraft,Putt & Approach,,,,,,22.5,2.5,1.6,0.8,21.0,7.1,82.0,Beadless
+207677,Sky-Star,Discraft,Putt & Approach,,,,,,24.1,2.5,1.6,0.5,23.0,6.6,89.0,Beadless
+207678,Sky-Styler,Discraft,Putt & Approach,,,,,,26.7,3.8,2.1,0.6,25.6,7.9,109.25,Beadless
+207679,Slipstream GT,Discraft,Control Driver,,,,,,21.3,1.7,1.3,1.9,17.5,6.1,29.25,Beadless
+208048,Soul,Independent Discs,Control Driver,,,,,,21.1,1.8,1.2,1.9,17.3,5.7,31.25,Beadless
+226229,Spindle,ProtoFlyte,Control Driver,,,,,,21.2,1.8,1.2,2.1,17.0,5.2,31.75,Beadless
+237690,sPUTTnik,Sci-Fly Discs,Putt & Approach,,,,,,21.7,1.8,1.4,0.9,19.9,6.5,72.5,Beadless
+207685,Storm,Discraft,Mid Range,,,,,,21.4,1.8,1.3,1.3,18.8,6.1,35.75,Beadless
+209169,Sultan,Infinite Discs,Distance Driver,,,,,,21.2,1.5,1.2,2.4,16.4,5.7,27.0,Beadless
+208402,Sumo,Legacy Discs,Mid Range,,,,,,21.3,1.7,1.3,1.3,18.7,6.1,50.25,Beadless
+208214,Super Nova,Innova,Putt & Approach,,,,,,27.5,3.3,2.2,0.6,26.3,8.0,112.5,Beadless
+207480,Super Puppy,DestinyDynamic Disc,Putt & Approach,,,,,,21.0,2.5,1.8,0.6,19.8,8.6,75.0,Beadless
+208012,Super Soft Golf Disc,Guru Disc Golf,Mid Range,,,,,,21.1,1.6,1.2,1.0,19.1,5.7,52.5,Beadless
+208364,Sweep,Latitude 64,Control Driver,,,,,,21.2,1.8,1.1,2.0,17.3,5.2,28.0,Beadless
+208841,T-Bone,Quest Applied Technologies,Control Driver,,,,,,21.2,1.6,1.2,1.9,17.4,5.7,35.75,Beadless
+208531,Tachyon LF,Millennium,Control Driver,,,,,,21.7,2.0,1.3,1.6,18.5,6.0,29.25,Beadless
+208532,Tachyon LS,Millennium,Control Driver,,,,,,21.7,1.9,1.2,1.6,18.5,5.5,29.25,Beadless
+208285,Tasty,Kliffa Discs,Mid Range,,,,,,21.6,1.9,1.2,1.4,18.8,5.6,44.5,Beadless
+208689,Terrapin,Paradigm Disc Golf,Mid Range,,,,,,21.7,1.9,1.3,1.2,19.3,6.0,44.0,Beadless
+231947,Tide,Westside,Distance Driver,,,,,,21.1,1.8,1.2,2.2,16.7,5.7,32.25,Beadless
+208690,Tiger,Paradigm Disc Golf,Control Driver,,,,,,21.1,1.7,1.1,1.8,17.5,5.2,31.25,Beadless
+208995,Torch,Torch Discs,Control Driver,,,,,,21.0,1.6,1.1,1.9,17.2,5.2,35.0,Beadless
+208997,TOSY Smart S10,TOSY,Distance Driver,,,,,,21.4,1.6,1.3,2.3,16.7,6.1,36.5,Beadless
+208998,TOSY Smart S12,TOSY,Distance Driver,,,,,,21.1,1.6,1.3,2.6,15.9,6.2,30.0,Beadless
+208999,TOSY Smart S3,TOSY,Mid Range,,,,,,21.1,1.9,1.6,1.5,18.0,7.6,61.75,Beadless
+209000,TOSY Smart S7,TOSY,Distance Driver,,,,,,21.2,2.0,1.5,2.1,16.9,7.1,38.5,Beadless
+209001,TOSY UltraLED S10,TOSY,Distance Driver,,,,,,21.4,1.6,1.3,2.3,16.7,6.1,36.5,Beadless
+209002,TOSY UltraLED S12,TOSY,Distance Driver,,,,,,21.1,1.5,1.3,2.5,16.0,6.2,27.75,Beadless
+209003,TOSY UltraLED S3,TOSY,Mid Range,,,,,,21.1,1.9,1.6,1.5,18.0,7.6,61.75,Beadless
+209004,TOSY UltraLED S7,TOSY,Distance Driver,,,,,,21.2,1.9,1.5,2.1,16.9,7.1,38.5,Beadless
+208805,Totem,Prodiscus,Distance Driver,,,,,,21.1,1.9,1.2,2.2,16.7,5.7,29.5,Beadless
+207692,Tracer,Discraft,Mid Range,,,,,,22.3,1.7,1.3,1.5,19.3,8.1,26.5,Beadless
+207726,Transcend,Discwing,Putt & Approach,,,,,,21.2,1.9,1.3,0.9,19.4,6.1,47.5,Beadless
+231943,Treason,Dynamic Discs,Distance Driver,,,,,,21.1,1.8,1.1,2.1,17.0,5.2,30.5,Beadless
+209031,Trek,Vibram,Control Driver,,,,,,21.0,1.8,1.1,1.9,17.2,5.2,30.75,Beadless
+220533,Tuff,Kastaplast,Putt & Approach,,,,,,21.2,2.0,1.5,1.1,18.9,7.1,62.75,Beaded
+207694,Typhoon,Discraft,Mid Range,,,,,,21.9,1.8,1.2,1.5,18.9,5.5,26.0,Beadless
+208921,uControl,Sportme,Mid Range,,,,,,21.6,1.5,1.2,1.3,19.0,5.6,47.75,Beadless
+208922,uDrive,Sportme,Control Driver,,,,,,21.1,1.5,1.1,1.9,17.3,5.2,32.5,Beadless
+207695,Ultra-Star,Discraft,Putt & Approach,,,,,,27.3,3.2,2.0,0.7,25.8,7.3,88.25,Beadless
+208923,uPutt,Sportme,Putt & Approach,,,,,,21.1,2.2,1.6,1.0,19.0,7.6,63.0,Beadless
+207727,Vantage,Discwing,Mid Range,,,,,,21.1,1.8,1.2,1.5,18.1,5.7,33.0,Beadless
+208691,Wheelie,Parked LLC,Control Driver,,,,,,21.1,2.0,1.2,1.9,17.3,5.7,26.5,Beadless
+208920,Whitler,Snap Discs,Putt & Approach,,,,,,22.6,3.0,1.6,0.7,21.2,7.1,78.75,Beadless
+208842,Wildfire,Quest Applied Technologies,Control Driver,,,,,,21.2,2.4,1.2,1.7,17.7,5.7,61.75,Beadless
+207599,Wildwood Sawmill,DiscPro,Mid Range,,,,,,21.7,1.8,1.2,1.4,18.9,5.5,47.5,Beadless
+207600,Wind Surfer,DiscPro,Control Driver,,,,,,21.5,1.8,1.2,1.7,18.0,5.6,28.75,Beadless
+207701,Windstar,Discraft,Control Driver,,,,,,21.4,1.9,1.3,1.7,17.9,6.1,38.5,Beadless
+208290,Wo-Hoo,Las Aves Disc Golf,Mid Range,,,,,,21.1,1.8,1.3,1.5,18.0,6.2,37.25,Beadless
+208288,Wyvern,Kraken Discs,Distance Driver,,,,,,21.4,1.5,1.1,2.2,16.9,5.1,26.5,Beadless
+208915,X 090,Shenzhen Reanson,Putt & Approach,,,,,,27.6,3.1,2.0,0.8,26.0,7.2,86.25,Beadless
+207702,X-Clone,Discraft,Control Driver,,,,,,21.4,1.7,1.2,1.6,18.2,5.6,27.0,Beadless
+208784,X6,Prodigy,Distance Driver,,,,,,21.1,1.8,1.1,2.2,16.6,5.2,26.25,Beadless
+208245,XT V-Aviar,Innova,Putt & Approach,,,,,,21.1,2.0,1.4,1.0,19.1,6.6,55.75,Beadless
+207706,XTRA,Discraft,Control Driver,,,,,,21.1,1.8,1.2,1.7,17.7,5.7,27.0,Beadless
+208612,Yosemite,National Perk Service,Control Driver,,,,,,21.2,1.7,1.2,1.9,17.4,5.7,33.25,Beadless
+208701,Z Flyer,Precision Flytes,Putt & Approach,,,,,,27.5,3.2,1.9,0.9,25.7,7.0,109.75,Beadless

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disc — Birdie Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+<div class="page" id="body"><div class="loading-note">Loading disc…</div></div>
+
+<script src="assets/app.js"></script>
+<script>
+BF.init({ active: 'shop' });
+
+const PLASTICS = { 'Innova': ['Star', 'Champion', 'DX'], 'Discraft': ['ESP', 'Z Line', 'Pro-D'], 'Dynamic Discs': ['Lucid', 'Fuzion', 'Classic'], 'MVP': ['Neutron', 'Proton', 'Plasma'], 'Discmania': ['C-Line', 'S-Line', 'Neo'], 'Latitude 64': ['Opto', 'Gold', 'Retro'] };
+const COLORS = [['Orange', '#c2703d'], ['Forest', '#2f5c3f'], ['Blue', '#3a5a8c'], ['Sand', '#e8dfc8'], ['Plum', '#7a3b52']];
+
+(async function () {
+  const discs = await BF.loadDiscs();
+  const id = Number(BF.qs('id'));
+  const d = discs.find(x => x.id === id) || discs[0];
+  if (!d) { document.getElementById('body').innerHTML = '<div class="loading-note">Disc not found.</div>'; return; }
+  document.title = d.name + ' — Birdie Finder';
+
+  const p = BF.producerFor(d.manufacturer);
+  const plastics = PLASTICS[d.manufacturer] || ['Premium', 'Base'];
+  const molds = discs.filter(x => x.manufacturer === d.manufacturer).length;
+  const related = discs.filter(x => x.manufacturer === d.manufacturer && x.id !== d.id).slice(0, 4);
+  const relatedFill = related.length < 4 ? discs.filter(x => x.primaryUse === d.primaryUse && x.id !== d.id).slice(0, 4 - related.length) : [];
+  const rel = related.concat(relatedFill).slice(0, 4);
+
+  const sel = { plastic: plastics[0], color: COLORS[0][0], qty: 1 };
+
+  document.getElementById('body').innerHTML = `
+    <a class="crumb" href="shop.html">← Shop</a>
+    <div class="dd-layout">
+      <div class="dd-gallery">
+        <div class="dd-mainimg" id="mainimg">${BF.discSVG(d, 340)}</div>
+        <div class="dd-thumbs">${[0,1,2,3].map(i => `<div class="dd-thumb${i===0?' on':''}">${BF.discSVG({ ...d, id: d.id + i }, 60)}</div>`).join('')}</div>
+      </div>
+      <div>
+        <a class="dd-brand" href="shop.html?brand=${encodeURIComponent(d.manufacturer)}">${BF.esc(d.manufacturer)} →</a>
+        <div class="dd-name">${BF.esc(d.name)}</div>
+        <div class="dd-use">${BF.esc(d.primaryUse)} · ${d.stabilityLabel}</div>
+        <div class="dd-flight">
+          <div class="dd-fn"><div class="dd-fnv">${d.speed ?? '?'}</div><div class="dd-fnl">Speed</div></div>
+          <div class="dd-fn"><div class="dd-fnv">${d.glide ?? '?'}</div><div class="dd-fnl">Glide</div></div>
+          <div class="dd-fn"><div class="dd-fnv">${d.turn ?? '?'}</div><div class="dd-fnl">Turn</div></div>
+          <div class="dd-fn"><div class="dd-fnv">${d.fade ?? '?'}</div><div class="dd-fnl">Fade</div></div>
+        </div>
+        <div class="dd-price">${BF.money(d.price)}</div>
+        <div class="dd-optlabel">Plastic</div>
+        <div class="dd-plastics" id="plastics">${plastics.map((pl, i) => `<button class="dd-plastic${i===0?' on':''}" data-p="${BF.esc(pl)}">${BF.esc(pl)}</button>`).join('')}</div>
+        <div class="dd-optlabel">Color</div>
+        <div class="dd-colors" id="colors">${COLORS.map(([n, h], i) => `<button class="dd-color${i===0?' on':''}" data-c="${n}" style="background:${h}" aria-label="${n}"></button>`).join('')}</div>
+        <div class="dd-buyrow">
+          <div class="qty"><button id="qminus">−</button><span id="qval">1</span><button id="qplus">+</button></div>
+          <button class="btn-primary" style="flex:1;padding:14px" id="add">Add to bag · ${BF.money(d.price)}</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dd-two">
+      <div class="cd-card" style="margin:0">
+        <div class="cd-h3">Flight &amp; feel</div>
+        <p class="cd-desc">The ${BF.esc(d.name)} is a ${d.stabilityLabel.toLowerCase()} ${BF.esc((d.primaryUse || 'disc').toLowerCase())} from ${BF.esc(d.manufacturer)}. At speed ${d.speed ?? '?'} with ${d.glide ?? '?'} glide, expect ${d.turn <= -2 ? 'noticeable high-speed turn for hyzer-flips and rollers' : d.turn < 0 ? 'a workable amount of turn on full power throws' : 'a straight, wind-resistant flight'} and ${d.fade >= 3 ? 'a strong, dependable fade at the end' : d.fade >= 1 ? 'a gentle, predictable finish' : 'almost no fade — it holds whatever line you give it'}.</p>
+        <div class="dd-optlabel" style="margin-top:22px">Specifications</div>
+        <table class="spec-table"><tbody>
+          <tr><td>Diameter</td><td>${d.diameter || '—'} cm</td></tr>
+          <tr><td>Height</td><td>${d.height || '—'} cm</td></tr>
+          <tr><td>Rim depth</td><td>${d.rimDepth || '—'} cm</td></tr>
+          <tr><td>Rim thickness</td><td>${d.rimThickness || '—'} cm</td></tr>
+          <tr><td>Inside rim diameter</td><td>${d.insideRimDiameter || '—'} cm</td></tr>
+          <tr><td>Rim configuration</td><td>${d.rimConfig || '—'}</td></tr>
+          <tr><td>Bead</td><td>${BF.esc(d.bead || '—')}</td></tr>
+        </tbody></table>
+      </div>
+      <div class="producer">
+        <div class="prod-top"><div class="prod-logo" style="background:${BF.discColor(d)};display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Spectral',serif;font-weight:700;font-size:24px">${BF.esc(d.manufacturer.slice(0,1))}</div>
+          <div><div class="prod-name">${BF.esc(d.manufacturer)}</div><div class="prod-meta">The Producer</div></div></div>
+        <p class="prod-desc">${BF.esc(p.blurb)}</p>
+        <div class="prod-stats">
+          <div class="prod-stat"><b>${p.founded}</b><span>Founded</span></div>
+          <div class="prod-stat"><b>${BF.esc(p.hq)}</b><span>HQ</span></div>
+          <div class="prod-stat"><b>${molds > 1 ? molds : p.molds}</b><span>Molds</span></div>
+        </div>
+        <a class="prod-btn" style="text-align:center" href="shop.html?brand=${encodeURIComponent(d.manufacturer)}">View all ${BF.esc(d.manufacturer)} discs</a>
+      </div>
+    </div>
+
+    <div class="a-sec" style="padding:44px 0 0">
+      <div class="a-sechead"><h2 class="a-h2" style="font-size:30px">You might also throw</h2></div>
+      <div class="related-grid">${rel.map(r => `
+        <div class="a-disc"><a href="disc.html?id=${r.id}">
+          <div class="disc-svg" style="width:100px;height:100px">${BF.discSVG(r, 100)}</div>
+          <div class="a-brand">${BF.esc(r.manufacturer)}</div>
+          <div class="a-dname">${BF.esc(r.name)}</div>
+          <div class="a-duse">${BF.esc(r.primaryUse)}</div></a>
+          <div class="a-dbot"><span class="a-price">$${r.price}</span>
+            <button class="a-buy" onclick="BF.cart.add({id:${r.id},name:'${BF.esc(r.name)}',brand:'${BF.esc(r.manufacturer)}',price:${r.price},speed:${r.speed}})">Add</button></div>
+        </div>`).join('')}</div>
+    </div>`;
+
+  // selectors
+  document.getElementById('plastics').addEventListener('click', e => {
+    const b = e.target.closest('.dd-plastic'); if (!b) return;
+    document.querySelectorAll('.dd-plastic').forEach(x => x.classList.remove('on'));
+    b.classList.add('on'); sel.plastic = b.dataset.p;
+  });
+  document.getElementById('colors').addEventListener('click', e => {
+    const b = e.target.closest('.dd-color'); if (!b) return;
+    document.querySelectorAll('.dd-color').forEach(x => x.classList.remove('on'));
+    b.classList.add('on'); sel.color = b.dataset.c;
+  });
+  const qv = document.getElementById('qval');
+  document.getElementById('qminus').onclick = () => { sel.qty = Math.max(1, sel.qty - 1); qv.textContent = sel.qty; upd(); };
+  document.getElementById('qplus').onclick = () => { sel.qty = Math.min(9, sel.qty + 1); qv.textContent = sel.qty; upd(); };
+  function upd() { document.getElementById('add').textContent = 'Add to bag · ' + BF.money(d.price * sel.qty); }
+  document.getElementById('add').onclick = () =>
+    BF.cart.add({ id: d.id, name: d.name, brand: d.manufacturer, price: d.price, speed: d.speed, plastic: sel.plastic, color: sel.color, qty: sel.qty });
+})();
+</script>
+</body>
+</html>

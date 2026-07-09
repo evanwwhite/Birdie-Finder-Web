@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop — Birdie Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+<div class="page">
+  <div class="page-head">
+    <div class="eyebrow" id="head-eyebrow">Loading catalog…</div>
+    <h1 class="page-title">Shop</h1>
+    <p class="page-sub">Every disc, straight from the makers. Filter by flight, category, or brand to find your next throw.</p>
+  </div>
+
+  <div class="toolbar">
+    <label class="searchbig">⌕ <input id="q" type="search" placeholder="Search discs, molds, or brands…"></label>
+    <label class="sortsel">Sort:
+      <select id="sort">
+        <option value="name">Name A–Z</option>
+        <option value="speed-desc">Speed: high → low</option>
+        <option value="speed-asc">Speed: low → high</option>
+        <option value="price-asc">Price: low → high</option>
+        <option value="price-desc">Price: high → low</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="shop-layout">
+    <aside class="filters">
+      <div class="filter-group"><div class="filter-title">Category</div><div id="f-cat"></div></div>
+      <div class="filter-group"><div class="filter-title">Brand</div><div id="f-brand" style="max-height:220px;overflow-y:auto"></div></div>
+      <div class="filter-group"><div class="filter-title">Speed</div>
+        <div class="rangepills" data-f="speed">
+          <button class="pill sel" data-v="any">Any</button><button class="pill" data-v="1-3">1–3</button>
+          <button class="pill" data-v="4-6">4–6</button><button class="pill" data-v="7-9">7–9</button>
+          <button class="pill" data-v="10-15">10–14</button>
+        </div></div>
+      <div class="filter-group"><div class="filter-title">Stability</div>
+        <div class="rangepills" data-f="stab">
+          <button class="pill sel" data-v="any">Any</button><button class="pill" data-v="Understable">Understable</button>
+          <button class="pill" data-v="Stable">Stable</button><button class="pill" data-v="Overstable">Overstable</button>
+        </div></div>
+      <div class="filter-group"><div class="filter-title">Price</div>
+        <div class="rangepills" data-f="price">
+          <button class="pill sel" data-v="any">Any</button><button class="pill" data-v="0-15">&lt; $15</button>
+          <button class="pill" data-v="15-20">$15–20</button><button class="pill" data-v="20-99">$20+</button>
+        </div></div>
+    </aside>
+
+    <div>
+      <div class="results-top">
+        <div class="results-count" id="count">—</div>
+        <button class="a-more" id="clear">Clear filters</button>
+      </div>
+      <div class="shop-grid" id="grid"><div class="loading-note">Loading discs…</div></div>
+      <button class="btn-outline loadmore" id="more" hidden>Show more discs</button>
+    </div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+BF.init({ active: 'shop' });
+
+(async function () {
+  const discs = await BF.loadDiscs();
+  const brands = [...new Set(discs.map(d => d.manufacturer).filter(Boolean))].sort();
+  const cats = [...new Set(discs.map(d => d.primaryUse).filter(Boolean))].sort();
+
+  document.getElementById('head-eyebrow').textContent = BF.fmt(discs.length) + ' discs · ' + BF.fmt(brands.length) + ' brands';
+
+  const state = { q: '', cat: new Set(), brand: new Set(), speed: 'any', stab: 'any', price: 'any', sort: 'name', shown: 24 };
+  const urlBrand = BF.qs('brand');
+  if (urlBrand && brands.includes(urlBrand)) state.brand.add(urlBrand);
+
+  // Build checkbox lists
+  document.getElementById('f-cat').innerHTML = cats.map(c =>
+    `<div class="filter-opt" data-v="${BF.esc(c)}"><span class="chkbox"></span>${BF.esc(c)}</div>`).join('');
+  document.getElementById('f-brand').innerHTML = brands.map(b =>
+    `<div class="filter-opt${state.brand.has(b) ? ' sel' : ''}" data-v="${BF.esc(b)}"><span class="chkbox"></span>${BF.esc(b)}</div>`).join('');
+
+  function inRange(v, spec) {
+    if (spec === 'any' || v == null) return spec === 'any';
+    const [lo, hi] = spec.split('-').map(Number);
+    return v >= lo && v <= hi;
+  }
+
+  function filtered() {
+    let out = discs.filter(d => {
+      if (state.q && !(d.name + ' ' + d.manufacturer).toLowerCase().includes(state.q)) return false;
+      if (state.cat.size && !state.cat.has(d.primaryUse)) return false;
+      if (state.brand.size && !state.brand.has(d.manufacturer)) return false;
+      if (state.speed !== 'any' && !inRange(d.speed, state.speed)) return false;
+      if (state.stab !== 'any' && d.stabilityLabel !== state.stab) return false;
+      if (state.price !== 'any' && !inRange(d.price, state.price)) return false;
+      return true;
+    });
+    out.sort((a, b) =>
+      state.sort === 'speed-desc' ? (b.speed || 0) - (a.speed || 0) :
+      state.sort === 'speed-asc' ? (a.speed || 0) - (b.speed || 0) :
+      state.sort === 'price-asc' ? a.price - b.price :
+      state.sort === 'price-desc' ? b.price - a.price :
+      a.name.localeCompare(b.name));
+    return out;
+  }
+
+  function card(d) {
+    return `<div class="a-disc">
+      <a href="disc.html?id=${d.id}"><div class="disc-svg">${BF.discSVG(d)}</div>
+        <div class="a-brand">${BF.esc(d.manufacturer)}</div>
+        <div class="a-dname">${BF.esc(d.name)}</div>
+        <div class="a-duse">${BF.esc(d.primaryUse)}</div>
+        <div class="a-flight">
+          <span class="a-fn"><span class="a-fnv">${d.speed ?? '?'}</span><span class="a-fnl">SPD</span></span>
+          <span class="a-fn"><span class="a-fnv">${d.glide ?? '?'}</span><span class="a-fnl">GLD</span></span>
+          <span class="a-fn"><span class="a-fnv">${d.turn ?? '?'}</span><span class="a-fnl">TRN</span></span>
+          <span class="a-fn"><span class="a-fnv">${d.fade ?? '?'}</span><span class="a-fnl">FAD</span></span>
+        </div></a>
+      <div class="a-dbot"><span class="a-price">$${d.price}</span>
+        <button class="a-buy" data-add="${d.id}">Add to bag</button></div>
+    </div>`;
+  }
+
+  function render() {
+    const list = filtered();
+    document.getElementById('count').textContent = 'Showing ' + Math.min(state.shown, list.length) + ' of ' + BF.fmt(list.length) + ' discs';
+    document.getElementById('grid').innerHTML = list.length
+      ? list.slice(0, state.shown).map(card).join('')
+      : '<div class="loading-note">No discs match these filters.</div>';
+    document.getElementById('more').hidden = list.length <= state.shown;
+  }
+
+  document.getElementById('q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); state.shown = 24; render(); });
+  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; render(); });
+  document.getElementById('more').addEventListener('click', () => { state.shown += 24; render(); });
+  document.getElementById('clear').addEventListener('click', () => { location.href = 'shop.html'; });
+
+  document.querySelectorAll('.rangepills').forEach(g => g.addEventListener('click', e => {
+    const b = e.target.closest('.pill'); if (!b) return;
+    g.querySelectorAll('.pill').forEach(p => p.classList.remove('sel'));
+    b.classList.add('sel');
+    state[g.dataset.f] = b.dataset.v;
+    state.shown = 24; render();
+  }));
+  [['f-cat', state.cat], ['f-brand', state.brand]].forEach(([id, set]) => {
+    document.getElementById(id).addEventListener('click', e => {
+      const o = e.target.closest('.filter-opt'); if (!o) return;
+      o.classList.toggle('sel');
+      o.classList.contains('sel') ? set.add(o.dataset.v) : set.delete(o.dataset.v);
+      state.shown = 24; render();
+    });
+  });
+  document.getElementById('grid').addEventListener('click', e => {
+    const b = e.target.closest('[data-add]'); if (!b) return;
+    const d = discs.find(x => x.id === Number(b.dataset.add));
+    if (d) BF.cart.add({ id: d.id, name: d.name, brand: d.manufacturer, price: d.price, speed: d.speed });
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>

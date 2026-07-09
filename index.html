@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Birdie Finder — Find your next round</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+<div class="a-hero">
+  <div class="a-heroimg ph"><span class="phl">Full-bleed course hero — wooded fairway at golden hour</span></div>
+  <div class="a-herobody">
+    <div class="a-eyebrow" id="hero-eyebrow">Courses mapped nationwide</div>
+    <h1 class="a-h1">Find your next round.</h1>
+    <p class="a-sub">Discover courses near you, dig into hole-by-hole stats, and build the perfect bag — all in one place.</p>
+    <div class="a-herocta">
+      <a class="btn-primary" style="padding:15px 28px;font-size:15px" href="courses.html">Explore courses near me</a>
+      <a class="a-cta2" href="shop.html" style="display:inline-block">Browse the shop</a>
+    </div>
+  </div>
+</div>
+
+<div class="a-band" id="stat-band">
+  <span><b>—</b> courses</span><span><b>—</b> discs</span><span><b>—</b> brands</span><span><b>2.1M</b> rounds tracked</span>
+</div>
+
+<div class="a-sec">
+  <div class="a-sechead">
+    <div><div class="a-seclab">Sorted by distance</div><h2 class="a-h2">Courses near you</h2></div>
+    <a class="a-more" href="courses.html" id="near-more">View all →</a>
+  </div>
+  <div id="locbar"></div>
+  <div class="a-grid" id="near-grid"><div class="loading-note">Locating the closest courses…</div></div>
+</div>
+
+<div class="a-shopwrap">
+  <div class="a-sec" style="padding-top:0;padding-bottom:0">
+    <div class="a-sechead">
+      <div><div class="a-seclab">Fresh in the shop</div><h2 class="a-h2">Discs, by the makers</h2></div>
+      <a class="a-more" href="shop.html">Shop all →</a>
+    </div>
+    <div class="a-shoprow" id="shop-row"></div>
+    <div class="a-makers" id="makers-row"><span class="a-mlab">Meet the makers</span></div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+BF.init({ active: 'home' });
+
+(async function () {
+  const [courses, discs] = await Promise.all([BF.loadCourses(), BF.loadDiscs()]);
+
+  // Stat band from real data
+  const brands = new Set(discs.map(d => d.manufacturer).filter(Boolean));
+  document.getElementById('stat-band').innerHTML =
+    `<span><b>${BF.fmt(courses.length)}</b> courses</span>` +
+    `<span><b>${BF.fmt(discs.length)}</b> discs</span>` +
+    `<span><b>${BF.fmt(brands.size)}</b> brands</span>` +
+    `<span><b>2.1M</b> rounds tracked</span>`;
+  document.getElementById('hero-eyebrow').textContent = BF.fmt(courses.length) + ' courses mapped';
+
+  // Nearest 3 courses — re-sorts whenever the location changes
+  BF.renderLocationBar('#locbar');
+  document.getElementById('near-more').textContent = 'View all ' + BF.fmt(courses.length) + ' →';
+  window.addEventListener('bf:location', (e) => renderNear(e.detail));
+  renderNear(await BF.getLocation());
+
+  function renderNear(loc) {
+  const near = courses
+    .map(c => ({ ...c, dist: BF.haversineMi(loc.lat, loc.lng, c.lat, c.lng) }))
+    .sort((a, b) => a.dist - b.dist)
+    .slice(0, 3);
+  document.getElementById('near-grid').innerHTML = near.map(c => {
+    const d = BF.courseDetail(c);
+    return `<a class="a-card" href="course.html?id=${encodeURIComponent(c.id)}">
+      <div class="a-cardimg ph"><span class="phl">Course photo</span></div>
+      <div class="a-cardb">
+        <div class="a-ctop"><div><div class="a-cname">${BF.esc(c.name)}</div>
+          <div class="a-cloc">${BF.esc(c.city)}, ${BF.esc(c.state)} · ${c.dist.toFixed(1)} mi</div></div>
+          <div class="a-crate"><span class="star">★</span>${d.rating}</div></div>
+        <div class="a-chips"><span class="a-chip">${c.holes} holes</span><span class="a-chip">Par ${d.par}</span><span class="a-chip">${BF.fmt(d.length)} ft</span></div>
+        <div class="a-tagrow"><span class="a-tag">${d.diff}</span><span class="a-tag mossy">${d.terrain.join(' · ')}</span></div>
+      </div></a>`;
+  }).join('');
+  }
+
+  // Featured discs: well-known molds if present, else first four
+  const wanted = ['Destroyer', 'Buzzz', 'Judge', 'Wave'];
+  let featured = wanted.map(n => discs.find(d => d.name === n)).filter(Boolean);
+  if (featured.length < 4) featured = featured.concat(discs.slice(0, 4 - featured.length));
+  document.getElementById('shop-row').innerHTML = featured.map(d => `
+    <div class="a-disc">
+      <a href="disc.html?id=${d.id}"><div class="disc-svg">${BF.discSVG(d)}</div>
+        <div class="a-brand">${BF.esc(d.manufacturer)}</div>
+        <div class="a-dname">${BF.esc(d.name)}</div>
+        <div class="a-duse">${BF.esc(d.primaryUse)}</div>
+        <div class="a-flight">
+          <span class="a-fn"><span class="a-fnv">${d.speed}</span><span class="a-fnl">SPD</span></span>
+          <span class="a-fn"><span class="a-fnv">${d.glide}</span><span class="a-fnl">GLD</span></span>
+          <span class="a-fn"><span class="a-fnv">${d.turn}</span><span class="a-fnl">TRN</span></span>
+          <span class="a-fn"><span class="a-fnv">${d.fade}</span><span class="a-fnl">FAD</span></span>
+        </div></a>
+      <div class="a-dbot"><span class="a-price">$${d.price}</span>
+        <button class="a-buy" onclick="BF.cart.add({id:${d.id},name:'${BF.esc(d.name)}',brand:'${BF.esc(d.manufacturer)}',price:${d.price},speed:${d.speed}})">Add to bag</button></div>
+    </div>`).join('');
+
+  // Brand chips: top 6 brands by disc count
+  const counts = {};
+  discs.forEach(d => { if (d.manufacturer) counts[d.manufacturer] = (counts[d.manufacturer] || 0) + 1; });
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 6);
+  const mk = document.getElementById('makers-row');
+  top.forEach(([b]) => {
+    const a = document.createElement('a');
+    a.className = 'a-maker';
+    a.href = 'shop.html?brand=' + encodeURIComponent(b);
+    a.textContent = b;
+    mk.appendChild(a);
+  });
+})();
+</script>
+</body>
+</html>

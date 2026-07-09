@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Course — Birdie Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+
+<div class="page" id="body"><div class="loading-note">Loading course…</div></div>
+
+<script src="assets/app.js"></script>
+<script>
+BF.init({ active: 'courses' });
+
+const REVIEWERS = [
+  ['Jordan M.', 'JM', 5, 'Still the gold standard. The elevation and the water carries never get old. Immaculate conditions even after heavy rain.'],
+  ['Sam P.', 'SP', 4, 'Tough for a newer player but incredibly rewarding. Bring extra discs for the wooded holes — the OB lines are no joke.'],
+  ['Alex T.', 'AT', 5, 'Tee pads are grippy in all weather, signage is clear, and the flow between holes is excellent. A must-play.'],
+  ['Riley K.', 'RK', 4, 'Great mix of open bombers and tight technical lines. Gets busy on weekends — go early.'],
+];
+
+(async function () {
+  const id = BF.qs('id');
+  const courses = await BF.loadCourses();
+  const loc = await BF.getLocation();
+  const c = courses.find(x => x.id === id) || courses[0];
+  if (!c) { document.getElementById('body').innerHTML = '<div class="loading-note">Course not found.</div>'; return; }
+
+  const dist = BF.haversineMi(loc.lat, loc.lng, c.lat, c.lng);
+  document.title = c.name + ' — Birdie Finder';
+
+  const rnd = BF.seeded(c.id + 'x');
+  const reviews = REVIEWERS.slice(0, 2 + Math.floor(rnd() * 2)).map(([n, ini, s, body], i) => ({
+    n, ini, s: Math.max(3, Math.min(5, s - (rnd() < .3 ? 1 : 0))), body,
+    meta: 'Played ' + (1 + Math.floor(rnd() * 40)) + ' times · ' + ['Mar', 'Apr', 'May', 'Jun'][i % 4] + ' 2026',
+  }));
+
+  // Paint the estimated layout straight away, then repaint if OpenStreetMap /
+  // Open-Meteo come back with something better. A slow or blocked third party
+  // must never leave the page sitting on "Loading course…".
+  paint(BF.courseDetail(c), undefined);   // undefined = still checking, null = unavailable
+  Promise.all([BF.courseDetailLive(c), BF.weather(c.lat, c.lng)])
+    .then(([live, wx]) => paint(live, wx))
+    .catch(() => {});
+
+  function paint(d, wx) {
+  const src = BF.sourceNote(d);
+  const holeRows = d.holes.map(h => `
+    <tr class="${h.realPar ? 'real-row' : ''}"${h.realPar ? ' title="Par from OpenStreetMap"' : ''}>
+      <td class="hole-num">${h.n}</td><td class="hole-par">${h.par}</td><td>${BF.fmt(h.dist)} ft</td>
+      <td>${h.elev >= 0 ? '+' : '−'}${Math.abs(h.elev)} ft</td>
+      <td><div class="elbar"><i style="width:${h.diff}%"></i></div></td></tr>`).join('');
+
+  const mapsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + c.lat + ',' + c.lng;
+  const gRating = c.rating != null && c.rating > 0 ? c.rating.toFixed(1) : d.rating;
+
+  document.getElementById('body').innerHTML = `
+    <a class="crumb" href="courses.html">← All courses</a>
+    <div class="cd-hero">
+      <div class="ph"><span class="phl">Course photo — signature hole</span></div>
+      <div class="cd-herob">
+        <div><div class="cd-name">${BF.esc(c.name)}</div>
+          <div class="cd-loc">${BF.esc(c.city)}, ${BF.esc(c.state)} ${BF.esc(c.zip)} · ${dist.toFixed(1)} mi away</div></div>
+        <div class="cd-rate"><div class="cd-ratev"><span class="star">★</span> ${d.rating}</div><div class="cd-ratesub">${d.reviews} reviews</div></div>
+      </div>
+    </div>
+
+    <div class="cd-statbar">
+      <div class="cd-stat"><div class="cd-statv">${d.holes.length}</div><div class="cd-statl">Holes</div></div>
+      <div class="cd-stat"><div class="cd-statv">${d.par}</div><div class="cd-statl">Par</div></div>
+      <div class="cd-stat"><div class="cd-statv">${BF.fmt(d.length)} ft</div><div class="cd-statl">Total length</div></div>
+      <div class="cd-stat"><div class="cd-statv">${d.diff}</div><div class="cd-statl">Difficulty</div></div>
+    </div>
+
+    <div class="cd-layout">
+      <div>
+        <div class="cd-card">
+          <div class="cd-h3">About this course</div>
+          <p class="cd-desc">${BF.esc(c.name)} is a ${d.diff.toLowerCase()}-friendly ${c.holes}-hole layout in ${BF.esc(c.city)}, ${BF.esc(c.state)}, playing ${BF.fmt(d.length)} feet at par ${d.par}. Expect ${d.terrain.join(' and ').toLowerCase()} character throughout, with a mix of technical placement shots and open lanes where you can let the big discs fly.</p>
+          <div class="a-tagrow" style="margin-top:18px">
+            ${d.terrain.map(t => `<span class="a-tag mossy">${t}</span>`).join('')}
+            <span class="a-tag">Concrete tees</span>
+          </div>
+        </div>
+
+        <div class="cd-card">
+          <div class="cd-h3">Hole-by-hole <span class="srcbadge ${src.tone}">${BF.esc(src.text)}</span></div>
+          <table class="hole-table">
+            <thead><tr><th>Hole</th><th>Par</th><th>Distance</th><th>Elevation</th><th style="width:120px">Difficulty</th></tr></thead>
+            <tbody>${holeRows}</tbody>
+            <tfoot><tr class="tfoot"><td>Total</td><td>${d.par}</td><td>${BF.fmt(d.length)} ft</td><td colspan="2">Play it live in the scorecard →</td></tr></tfoot>
+          </table>
+          ${d.attribution ? `<div class="attrib">Hole data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors, ODbL. Marked rows (●) are surveyed; the rest are estimated.</div>` : ''}
+        </div>
+
+        <div class="cd-card">
+          <div class="cd-h3">Reviews</div>
+          <div class="rev-summary">
+            <div><div class="rev-big">${d.rating}</div><div class="rev-bigsub">${d.reviews} REVIEWS</div></div>
+            <div class="rev-cats">
+              ${Object.entries(d.cats).map(([k, v]) => `<div class="rev-cat"><span class="cl">${k}</span><div class="bar"><i style="width:${Math.round(v)}%"></i></div></div>`).join('')}
+            </div>
+          </div>
+          ${reviews.map(r => `
+            <div class="rev-item">
+              <div class="rev-head"><span class="rev-av">${r.ini}</span>
+                <div><div class="rev-name">${r.n}</div><div class="rev-meta">${r.meta}</div></div>
+                <span class="rev-stars">${'★'.repeat(r.s)}${'☆'.repeat(5 - r.s)}</span></div>
+              <p class="rev-body">${r.body}</p>
+            </div>`).join('')}
+        </div>
+      </div>
+
+      <aside class="cd-side">
+        <div class="info-card">
+          <div class="cond-badge ${wx && wx.condition.tone === 'warn' ? 'warn' : ''}"><span class="cond-dot"></span>${wx === undefined ? 'Checking conditions…' : wx ? BF.esc(wx.condition.label) : 'Conditions unavailable'}</div>
+          ${wx ? `<div class="wx-row">
+            <span>${wx.tempF}°F</span><span>${BF.esc(wx.sky)}</span>
+            <span>Wind ${wx.windMph} mph${wx.gustMph > wx.windMph + 4 ? ` (gusts ${wx.gustMph})` : ''}</span>
+            <span>Rain 24h ${wx.rain24In.toFixed(2)}"</span>
+          </div>` : ''}
+          <div class="info-row"><span class="info-k">Type</span><span class="info-v">Public · Free</span></div>
+          <div class="info-row"><span class="info-k">Tees</span><span class="info-v">Concrete</span></div>
+          <div class="info-row"><span class="info-k">Baskets</span><span class="info-v">${gRating >= 4 ? 'MVP Black Hole' : 'DGA Mach III'}</span></div>
+          <div class="info-row"><span class="info-k">Hours</span><span class="info-v">Dawn – Dusk</span></div>
+          <div class="info-row"><span class="info-k">Est. round</span><span class="info-v">~${c.holes >= 18 ? '2h 15m' : '1h 10m'}</span></div>
+          ${wx ? '<div class="attrib">Live weather © <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></div>' : ''}
+        </div>
+        <a class="btn-primary btn-block" style="margin-bottom:10px" href="scorecard.html?course=${encodeURIComponent(c.id)}">Start a scorecard</a>
+        <a class="btn-outline btn-block" style="justify-content:center" href="${mapsUrl}" target="_blank" rel="noopener">Get directions</a>
+      </aside>
+    </div>`;
+  }
+})();
+</script>
+</body>
+</html>

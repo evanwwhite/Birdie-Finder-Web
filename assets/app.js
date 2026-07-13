@@ -342,6 +342,44 @@
       cats: { Design: 80 + rnd() * 18, Scenery: 78 + rnd() * 20, Upkeep: 75 + rnd() * 23, Signage: 70 + rnd() * 25, Amenities: 65 + rnd() * 28, 'Tee pads': 74 + rnd() * 24 } };
   };
 
+  /* ---------- terrain elevation (Open-Meteo Elevation API, no key) ---------- */
+  const M_TO_FT = 3.28084;
+  BF.elevationsFt = async function (points) {
+    if (!points.length) return [];
+    const url = 'https://api.open-meteo.com/v1/elevation'
+      + `?latitude=${points.map((p) => p.lat.toFixed(6)).join(',')}`
+      + `&longitude=${points.map((p) => p.lon.toFixed(6)).join(',')}`;
+    try {
+      const r = await fetchT(url, {}, 8000);
+      if (!r.ok) throw new Error('elevation ' + r.status);
+      const j = await r.json();
+      return points.map((_, i) => (Number.isFinite(j.elevation && j.elevation[i]) ? j.elevation[i] * M_TO_FT : null));
+    } catch (e) { console.warn('Elevation unavailable:', e.message); return null; }
+  };
+
+  /* ---------- DiscIt (Marshall Street flight guide) — flight-shape images ---------- */
+  const DISCIT_TTL = 7 * 24 * 3600 * 1000;
+  BF.discitMatch = async function (d) {
+    const key = 'bf_discit_' + d.id;
+    const hit = cacheGet(key, DISCIT_TTL);
+    if (hit) return hit === 'miss' ? null : hit;
+    let list;
+    try {
+      const r = await fetchT('https://discit-api.fly.dev/disc?name=' + encodeURIComponent(d.name), {}, 8000);
+      if (!r.ok) throw new Error('discit ' + r.status);
+      list = await r.json();
+    } catch (e) { console.warn('DiscIt unavailable:', e.message); return null; }
+    const norm = (x) => String(x || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    const m = (list || []).find((x) => norm(x.name) === norm(d.name) && norm(x.brand) === norm(d.manufacturer))
+           || (list || []).find((x) => norm(x.name) === norm(d.name));
+    if (!m) { cacheSet(key, 'miss'); return null; }
+    return cacheSet(key, {
+      pic: m.pic || null, stability: m.stability || null,
+      speed: Number(m.speed), glide: Number(m.glide), turn: Number(m.turn), fade: Number(m.fade),
+      link: m.name_slug ? 'https://discit-api.fly.dev/disc/' + m.name_slug : null,
+    });
+  };
+
   /* ---------- real course data from OpenStreetMap (Overpass) ----------
    * OSM tags disc golf holes as `disc_golf=hole` with `par` and `ref` (hole
    * number). Coverage is thin — a few thousand holes worldwide against the 7k
@@ -386,6 +424,7 @@
     }
     const q = `[out:json][timeout:25];
 (nwr(around:${OSM_RADIUS_M},${c.lat},${c.lng})["disc_golf"="hole"];);out tags geom;
+(node(around:${OSM_RADIUS_M},${c.lat},${c.lng})["disc_golf"~"^(tee|basket)$"];);out;
 (nwr(around:${OSM_RADIUS_M},${c.lat},${c.lng})["amenity"~"^(toilets|parking|drinking_water)$"];);out tags center;`;
 
     let json;
@@ -393,9 +432,23 @@
 
     const byRef = new Map();
     const amens = new Set();
+    // tee / basket nodes paired by hole ref — real endpoints for straight-line
+    // distance and terrain elevation. When a ref repeats (long/short tees),
+    // keep the node nearest the course centre.
+    const tees = new Map(), baskets = new Map();
     for (const el of json.elements || []) {
       const t = el.tags || {};
       if (t.amenity) { if (AMENITY_MAP[t.amenity]) amens.add(AMENITY_MAP[t.amenity]); continue; }
+      if (t.disc_golf === 'tee' || t.disc_golf === 'basket') {
+        const n = /^\d+$/.test(t.ref || '') ? Number(t.ref) : null;
+        if (!n || n > 36 || el.lat == null) continue;
+        const bag = t.disc_golf === 'tee' ? tees : baskets;
+        const prev = bag.get(n);
+        if (!prev || BF.haversineFt(c.lat, c.lng, el.lat, el.lon) < BF.haversineFt(c.lat, c.lng, prev.lat, prev.lon)) {
+          bag.set(n, { lat: el.lat, lon: el.lon });
+        }
+        continue;
+      }
       if (t.disc_golf !== 'hole') continue;
 
       const geom = el.geometry || [];
@@ -442,6 +495,29 @@
       }
     }
 
+    // A course mapped only with tee/basket nodes still yields real holes.
+    for (const [n, tee] of tees) {
+      if (!byRef.has(n) && baskets.has(n)) {
+        byRef.set(n, { n, par: null, dist: null, elev: null, _away: 0, _lat: tee.lat, _lon: tee.lon });
+      }
+    }
+    // Straight-line tee→basket distance where OSM states no length — a floor
+    // for the true playing line, but real surveyed geometry, not a guess.
+    for (const rec of byRef.values()) {
+      const tee = tees.get(rec.n), basket = baskets.get(rec.n);
+      if (rec.dist == null && tee && basket) rec.dist = Math.round(BF.haversineFt(tee.lat, tee.lon, basket.lat, basket.lon));
+    }
+    // Real per-hole elevation change: Open-Meteo terrain elevation (free, no
+    // key — same API family as the weather card) at the tee and the basket.
+    const pending = [...byRef.values()].filter((r) => r.elev == null && tees.get(r.n) && baskets.get(r.n));
+    if (pending.length) {
+      const pts = pending.flatMap((r) => [tees.get(r.n), baskets.get(r.n)]);
+      const el = await BF.elevationsFt(pts);
+      if (el) pending.forEach((r, i) => {
+        if (el[i * 2] != null && el[i * 2 + 1] != null) r.elev = Math.round(el[i * 2 + 1] - el[i * 2]);
+      });
+    }
+
     const holes = [...byRef.values()].sort((a, b) => a.n - b.n).map(({ _away, _lat, _lon, ...h }) => h);
     if (!holes.length) { cacheSet(key + '_miss', 1); return null; }
 
@@ -478,6 +554,7 @@
         elev: r.elev != null ? r.elev : h.elev,
         realPar: r.par != null,
         realDist: r.dist != null,
+        realElev: r.elev != null,
       };
     });
 

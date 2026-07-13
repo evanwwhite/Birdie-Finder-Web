@@ -53,8 +53,8 @@ const REVIEWERS = [
   const src = BF.sourceNote(d);
   const holeRows = d.holes.map(h => `
     <tr class="${h.realPar ? 'real-row' : ''}"${h.realPar ? ' title="Par from OpenStreetMap"' : ''}>
-      <td class="hole-num">${h.n}</td><td class="hole-par">${h.par}</td><td>${BF.fmt(h.dist)} ft</td>
-      <td>${h.elev >= 0 ? '+' : '−'}${Math.abs(h.elev)} ft</td>
+      <td class="hole-num">${h.n}</td><td class="hole-par">${h.par}</td><td${h.realDist ? ' title="Distance from OpenStreetMap tee/basket survey"' : ''}>${BF.fmt(h.dist)} ft${h.realDist ? ' •' : ''}</td>
+      <td${h.realElev ? ' title="Terrain elevation at OSM tee/basket (Open-Meteo)"' : ''}>${h.elev >= 0 ? '+' : '−'}${Math.abs(h.elev)} ft${h.realElev ? ' •' : ''}</td>
       <td><div class="elbar"><i style="width:${h.diff}%"></i></div></td></tr>`).join('');
 
   const mapsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + c.lat + ',' + c.lng;

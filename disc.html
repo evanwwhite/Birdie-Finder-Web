@@ -28,6 +28,16 @@ const COLORS = [['Orange', '#c2703d'], ['Forest', '#2f5c3f'], ['Blue', '#3a5a8c'
   if (!d) { document.getElementById('body').innerHTML = '<div class="loading-note">Disc not found.</div>'; return; }
   document.title = d.name + ' — Birdie Finder';
 
+  // Cross-check against DiscIt (Marshall Street flight guide): fills flight
+  // numbers our dataset is missing and provides a real flight-path image.
+  const discit = await BF.discitMatch(d);
+  if (discit) {
+    for (const k of ['speed', 'glide', 'turn', 'fade']) {
+      if (d[k] == null && Number.isFinite(discit[k])) d[k] = discit[k];
+    }
+    if (d.stability == null && discit.stability) d.stabilityLabel = discit.stability.replace(/^./, (c) => c.toUpperCase());
+  }
+
   const p = BF.producerFor(d.manufacturer);
   const plastics = PLASTICS[d.manufacturer] || ['Premium', 'Base'];
   const molds = discs.filter(x => x.manufacturer === d.manufacturer).length;
@@ -106,6 +116,23 @@ const COLORS = [['Orange', '#c2703d'], ['Forest', '#2f5c3f'], ['Blue', '#3a5a8c'
             <button class="a-buy" onclick="BF.cart.add({id:${r.id},name:'${BF.esc(r.name)}',brand:'${BF.esc(r.manufacturer)}',price:${r.price},speed:${r.speed}})">Add</button></div>
         </div>`).join('')}</div>
     </div>`;
+
+  // Real flight-path image from DiscIt, replacing the generated disc art.
+  if (discit && discit.pic) {
+    const img = new Image();
+    img.onload = () => {
+      const main = document.getElementById('mainimg');
+      main.innerHTML = '';
+      img.style.cssText = 'max-width:100%;max-height:340px;display:block;margin:0 auto';
+      img.alt = d.name + ' flight path';
+      main.appendChild(img);
+      const note = document.createElement('div');
+      note.style.cssText = 'font-size:11px;color:#8a8574;text-align:center;margin-top:6px';
+      note.textContent = 'Flight path via DiscIt · Marshall Street Flight Guide';
+      main.appendChild(note);
+    };
+    img.src = discit.pic;
+  }
 
   // selectors
   document.getElementById('plastics').addEventListener('click', e => {

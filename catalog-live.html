@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Approved catalog — Birdie Finder</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body><main class="page" style="max-width:900px;margin:auto;padding:32px 16px">
+<h1>Birdie Finder</h1><nav><a href="catalog-live.html">Catalog</a> · <a href="scorecard.html">Solo scorecard</a> ·
+<a href="players.html">My rounds</a> · <a href="login.html">Account</a></nav>
+<p>Courses and discs appear here after their source and fields have been reviewed. Missing par, distance, and flight values stay unknown.</p>
+<label>Search approved courses <input id="q" type="search" placeholder="Name or city"></label>
+<p id="status" role="status"></p><div id="courses"></div><button id="next" type="button" hidden>More courses</button>
+<section id="detail" hidden></section><h2>Approved disc molds</h2><div id="discs"></div>
+</main><script src="assets/config.local.js"></script><script src="assets/vendor/supabase.js"></script>
+<script src="assets/solo.js"></script><script>
+(() => {
+  const esc = x => String(x ?? '').replace(/[&<>"']/g,c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const $ = id => document.getElementById(id); let offset = 0; let query = '';
+  async function load(reset = true) {
+    if (reset) { offset = 0; $('courses').replaceChildren(); }
+    try {
+      const page = await BFsolo.searchCourses(query,offset);
+      $('status').textContent = `${page.total} approved course${page.total === 1 ? '' : 's'} found`;
+      if (!page.total) $('courses').innerHTML = '<p>No approved courses are available for this search.</p>';
+      for (const c of page.items) {
+        const row = document.createElement('p');
+        row.innerHTML = `<button type="button">${esc(c.name)}</button> · ${esc(c.city)}, ${esc(c.state)} · ${c.reported_hole_count ?? 'unknown'} holes · ${esc(c.data_version)}<br><small>${esc(c.attribution || 'Attribution unavailable')}</small>`;
+        row.querySelector('button').onclick = () => detail(c.id);
+        $('courses').append(row);
+      }
+      offset += page.items.length; $('next').hidden = offset >= page.total;
+    } catch (error) { $('status').textContent = `Catalog unavailable: ${error.message}`; }
+  }
+  async function detail(id) {
+    const result = await BFsolo.requireClient().rpc('get_course_detail_v1',{p_id:id});
+    if (result.error || !result.data) { $('status').textContent = result.error?.message || 'Course unavailable'; return; }
+    const c = result.data;
+    $('detail').hidden = false;
+    $('detail').innerHTML = `<h2>${esc(c.name)}</h2><p>${esc(c.city)}, ${esc(c.state)} · ${esc(c.data_version)}<br>${esc(c.attribution || '')}</p>`+
+      (c.layouts.length ? c.layouts.map(l => `<h3>${esc(l.name)}</h3>`+
+      l.versions.map(v => `<p>Layout version ${v.version_no}</p><table><thead><tr><th>Hole</th><th>Par</th><th>Distance</th></tr></thead><tbody>`+
+      v.holes.map(h => `<tr><td>${h.hole_number}</td><td>${h.par ?? 'Unknown'}</td><td>${h.distance_ft == null ? 'Unknown' : h.distance_ft + ' ft'}</td></tr>`).join('')+
+      '</tbody></table>').join('')).join('') : '<p>No verified playable layout is available.</p>');
+    $('detail').scrollIntoView({behavior:'smooth'});
+  }
+  async function discs() {
+    try { const page = await BFsolo.searchDiscs();
+      $('discs').innerHTML = page.items.length ? page.items.map(d => `<p>${esc(d.manufacturer)} ${esc(d.name)} · flight ${[d.speed,d.glide,d.turn,d.fade].map(v => v ?? '?').join('/')}<br><small>${esc(d.attribution)} · ${esc(d.data_version)}</small><br><button type="button" data-add="${esc(d.id)}">Add to my bag</button></p>`).join('') : '<p>No approved disc molds are available yet.</p>';
+      $('discs').querySelectorAll('[data-add]').forEach(button => button.onclick = async () => {
+        try { const user = await BFsolo.requireUser();
+          const result = await BFsolo.requireClient().from('bag_items').insert(
+            {owner_id:user.id,disc_mold_id:button.dataset.add});
+          if (result.error) throw result.error;
+          button.textContent = 'Saved to account bag'; button.disabled = true;
+        } catch (error) { $('status').textContent = error.message; }
+      });
+    } catch (error) { $('discs').textContent = `Disc catalog unavailable: ${error.message}`; }
+  }
+  let timer; $('q').oninput = () => { clearTimeout(timer); timer = setTimeout(() => { query = $('q').value.trim(); void load(); },250); };
+  $('next').onclick = () => load(false);
+  void load(); void discs();
+})();
+</script></body></html>

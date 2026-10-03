@@ -1,136 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Player profile — Birdie Finder</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-</head>
-<body>
-
-<div class="page">
-  <div class="pl-hero">
-    <div class="pl-av">EW</div>
-    <div>
-      <div class="pl-name">Evan White</div>
-      <div class="pl-handle">@evanwhite · PDGA #182044 · Leicester, MA</div>
-      <div class="pl-badges">
-        <span class="pl-badge">▲ 942 rating</span>
-        <span class="pl-badge" id="rounds-badge">128 rounds</span>
-        <span class="pl-badge">42 courses played</span>
-      </div>
-    </div>
-    <div class="pl-follow">
-      <button class="btn-outline" style="border-color:rgba(245,240,230,.4);color:#f5f0e6" onclick="navigator.clipboard&&navigator.clipboard.writeText(location.href);BF.toast('Profile link copied')">Share</button>
-      <button class="btn-primary" onclick="this.textContent=this.textContent==='Follow'?'Following ✓':'Follow'">Follow</button>
-    </div>
-  </div>
-
-  <div class="stat5" id="stat5">
-    <div class="cd-stat"><div class="cd-statv" id="st-rounds">128</div><div class="cd-statl">Rounds</div></div>
-    <div class="cd-stat"><div class="cd-statv" id="st-avg">54.2</div><div class="cd-statl">Avg score</div></div>
-    <div class="cd-stat"><div class="cd-statv" id="st-best">−7</div><div class="cd-statl">Best round</div></div>
-    <div class="cd-stat"><div class="cd-statv">3</div><div class="cd-statl">Career aces</div></div>
-    <div class="cd-stat"><div class="cd-statv">42</div><div class="cd-statl">Courses</div></div>
-  </div>
-
-  <div class="pl-grid">
-    <div class="panel">
-      <div class="panel-title"><span class="panel-h">Player rating</span><span class="a-more">Last 8 rounds</span></div>
-      <div class="chart">
-        <div class="col"><i style="height:52%"></i><span>908</span></div>
-        <div class="col"><i style="height:60%"></i><span>915</span></div>
-        <div class="col"><i style="height:56%"></i><span>911</span></div>
-        <div class="col"><i style="height:70%"></i><span>926</span></div>
-        <div class="col"><i style="height:66%"></i><span>921</span></div>
-        <div class="col"><i style="height:82%"></i><span>938</span></div>
-        <div class="col"><i style="height:78%"></i><span>933</span></div>
-        <div class="col hl"><i style="height:92%"></i><span>942</span></div>
-      </div>
-    </div>
-
-    <div class="panel">
-      <div class="panel-title"><span class="panel-h">This season</span></div>
-      <div class="mini-grid">
-        <div class="mini"><b>61%</b><span>Circle 1 putting</span><small>▲ 4% vs 2025</small></div>
-        <div class="mini"><b>28%</b><span>Circle 2 putting</span><small>▲ 6% vs 2025</small></div>
-        <div class="mini"><b>72%</b><span>Fairway hits</span><small>▲ 3% vs 2025</small></div>
-        <div class="mini"><b>48%</b><span>Parked / GIR</span><small>▲ 5% vs 2025</small></div>
-      </div>
-    </div>
-
-    <div class="panel">
-      <div class="panel-title"><span class="panel-h">Recent rounds</span><a class="a-more" href="courses.html">Find a course →</a></div>
-      <div id="recent-rounds"></div>
-    </div>
-
-    <div class="panel">
-      <div class="panel-title"><span class="panel-h">Friends leaderboard</span><span class="a-more">This month</span></div>
-      <div class="lb-row"><span class="lb-rank">1</span><span class="lb-av">TG</span>
-        <div><div class="lb-name">Tyler G.</div><div class="lb-sub">14 rounds · Maple Hill</div></div><span class="lb-rating">▲ 978</span></div>
-      <div class="lb-row"><span class="lb-rank">2</span><span class="lb-av">MR</span>
-        <div><div class="lb-name">Maria R.</div><div class="lb-sub">11 rounds · Idlewild</div></div><span class="lb-rating">▲ 961</span></div>
-      <div class="lb-row me"><span class="lb-rank">3</span><span class="lb-av" style="background:#c2703d">EW</span>
-        <div><div class="lb-name">Evan White (you)</div><div class="lb-sub">9 rounds · Maple Hill</div></div><span class="lb-rating">▲ 942</span></div>
-      <div class="lb-row"><span class="lb-rank">4</span><span class="lb-av">JL</span>
-        <div><div class="lb-name">Jordan L.</div><div class="lb-sub">8 rounds · The Pyramids</div></div><span class="lb-rating">▲ 930</span></div>
-    </div>
-
-    <div class="panel span2">
-      <div class="panel-title"><span class="panel-h">In the bag</span><a class="a-more" href="shop.html">Shop discs →</a></div>
-      <div class="bag-grid" id="bag-grid"></div>
-    </div>
-  </div>
-</div>
-
-<script src="assets/app.js"></script>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your rounds — Birdie Finder</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body><main class="page"><div class="sc-wrap" style="padding:36px 16px">
+  <a class="crumb" href="index.html">← Home</a><h1 class="page-title">Your rounds</h1>
+  <p id="account"></p><p id="message" role="status"></p>
+  <p><a class="btn-primary" href="scorecard.html">Start a solo round</a> · <a href="import.html">Review old browser rounds</a></p>
+  <div class="sc-card" id="rounds"></div>
+  <div class="sc-card" style="margin-top:16px"><h2>My approved disc bag</h2><div id="bag"></div></div>
+  <p><button type="button" id="export-account">Export account data</button> <button type="button" id="delete-account">Delete account</button></p>
+  <button type="button" id="signout" hidden>Sign out</button>
+</div></main>
+<script src="assets/config.local.js"></script><script src="assets/vendor/supabase.js"></script><script src="assets/solo.js"></script>
 <script>
-BF.init({ active: 'players' });
-
-(async function () {
-  // Recent rounds: real rounds saved from the live scorecard, topped up with demo history.
-  const demo = [
-    { course: 'Maple Hill', date: 'Jun 14, 2026', holes: 18, total: 48, rel: -7 },
-    { course: 'The Pyramids', date: 'Jun 09, 2026', holes: 18, total: 52, rel: -2 },
-    { course: 'Idlewild', date: 'Jun 01, 2026', holes: 18, total: 63, rel: 3 },
-    { course: 'Blue Ribbon Pines', date: 'May 26, 2026', holes: 18, total: 60, rel: -2 },
-  ];
-  const saved = BF.rounds.all().map(r => ({ course: r.course, date: r.date, holes: r.holes, total: r.total, rel: r.rel }));
-  const rounds = saved.concat(demo).slice(0, 5);
-  const rel = (n) => n === 0 ? 'E' : n > 0 ? '+' + n : String(n);
-  document.getElementById('recent-rounds').innerHTML = rounds.map(r => `
-    <div class="round-row">
-      <div class="round-thumb ph"></div>
-      <div><div class="round-course">${BF.esc(r.course)}</div><div class="round-date">${BF.esc(r.date)} · ${r.holes} holes</div></div>
-      <div class="round-score"><div class="round-total">${r.total}</div>
-        <div class="round-rel ${r.rel <= 0 ? 'under' : 'over'}">${rel(r.rel)}</div></div>
-    </div>`).join('');
-
-  // Stat strip reflects saved rounds too
-  const totalRounds = 128 + saved.length;
-  document.getElementById('st-rounds').textContent = totalRounds;
-  document.getElementById('rounds-badge').textContent = totalRounds + ' rounds';
-  if (saved.length) {
-    const best = Math.min(-7, ...saved.map(r => r.rel));
-    document.getElementById('st-best').textContent = best > 0 ? '+' + best : best === 0 ? 'E' : '−' + Math.abs(best);
+(() => {
+  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+  async function init() {
+    try {
+      const user = await BFsolo.requireUser();
+      document.getElementById('account').textContent = user.email;
+      const rounds = await BFsolo.listRounds();
+      document.getElementById('rounds').innerHTML = rounds.length
+        ? rounds.map(round => `<p><a href="scorecard.html?round=${encodeURIComponent(round.id)}">${esc(round.layout_name)} · ${new Date(round.started_at).toLocaleDateString()} · ${esc(round.status)}</a></p>`).join('')
+        : '<p>No saved rounds yet.</p>';
+      const bag = await BFsolo.client.from('bag_items').select('id,disc_mold_id').order('added_at');
+      if (bag.error) throw bag.error;
+      const moldIds = bag.data.map(item => item.disc_mold_id);
+      const molds = moldIds.length ? await BFsolo.client.from('disc_molds').select('id,name,manufacturer').in('id',moldIds) : {data:[]};
+      if (molds.error) throw molds.error;
+      const byId = new Map(molds.data.map(d => [d.id,d]));
+      document.getElementById('bag').innerHTML = bag.data.length ? bag.data.map(item => {
+        const d = byId.get(item.disc_mold_id);
+        return `<p>${esc(d?.manufacturer || 'Unknown')} ${esc(d?.name || 'mold')} <button data-remove="${esc(item.id)}">Remove</button></p>`;
+      }).join('') : '<p>No approved discs in your account bag.</p>';
+      document.querySelectorAll('[data-remove]').forEach(button => button.onclick = async () => {
+        const result = await BFsolo.client.from('bag_items').delete().eq('id',button.dataset.remove);
+        if (result.error) document.getElementById('message').textContent = result.error.message;
+        else void init();
+      });
+      document.getElementById('export-account').onclick = async () => {
+        const result = await BFsolo.client.rpc('export_account_v1');
+        if (result.error) { document.getElementById('message').textContent = result.error.message; return; }
+        const bundle = {account:result.data,local_legacy_rounds:
+          localStorage.getItem('bf_legacy_claim_owner_v1') === user.id ? localStorage.getItem('bf_rounds_v1') : null};
+        const link = document.createElement('a'); link.href = URL.createObjectURL(new Blob([JSON.stringify(bundle,null,2)],{type:'application/json'}));
+        link.download = 'birdie-finder-account.json'; link.click(); setTimeout(() => URL.revokeObjectURL(link.href),1000);
+      };
+      document.getElementById('delete-account').onclick = async () => {
+        if (prompt('Type DELETE MY BIRDIE FINDER ACCOUNT to remove your account and synced data:') !== 'DELETE MY BIRDIE FINDER ACCOUNT') return;
+        const result = await BFsolo.client.rpc('delete_account_v1',{p_confirmation:'DELETE MY BIRDIE FINDER ACCOUNT'});
+        if (result.error) { document.getElementById('message').textContent = result.error.message; return; }
+        await BFsolo.client.auth.signOut(); location.href = 'login.html';
+      };
+      const signout = document.getElementById('signout'); signout.hidden = false;
+      signout.onclick = async () => { await BFsolo.client.auth.signOut(); location.href = 'login.html'; };
+    } catch (error) {
+      document.getElementById('message').textContent = error.message;
+      document.getElementById('rounds').innerHTML = '<a href="login.html?next=players.html">Log in or create an account</a>';
+    }
   }
-
-  // In-the-bag pulled from the real disc catalog
-  const discs = await BF.loadDiscs();
-  const bagNames = ['Destroyer', 'Wave', 'FD', 'Buzzz', 'Roc3', 'Judge', 'Zone', 'Aviar'];
-  let bag = bagNames.map(n => discs.find(d => d.name === n)).filter(Boolean);
-  if (bag.length < 8) bag = bag.concat(discs.slice(0, 8 - bag.length));
-  document.getElementById('bag-grid').innerHTML = bag.slice(0, 8).map(d => `
-    <a class="bag-disc" href="disc.html?id=${d.id}">
-      <div class="bag-img">${BF.discSVG(d, 54)}</div>
-      <div class="bag-name">${BF.esc(d.name)}</div>
-      <div class="bag-brand">${BF.esc(d.manufacturer)}</div>
-    </a>`).join('');
+  init();
 })();
-</script>
-</body>
-</html>
+</script></body></html>

@@ -1,0 +1,61 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Import saved rounds — Birdie Finder</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body><main class="page" style="max-width:760px;margin:auto;padding:32px 16px">
+<a href="players.html">← Your rounds</a><h1>Review saved browser rounds</h1>
+<p>The old browser store stays on this device. Review course matches before importing; unmatched records can be exported.</p>
+<p id="status" role="status"></p><div id="records"></div>
+<button id="export" type="button">Export original browser rounds</button>
+</main><script src="assets/config.local.js"></script><script src="assets/vendor/supabase.js"></script>
+<script src="assets/solo.js"></script><script src="assets/legacy-import.js"></script><script>
+(async () => {
+  const status = document.getElementById('status'), list = document.getElementById('records');
+  const raw = localStorage.getItem('bf_rounds_v1') || '[]';
+  document.getElementById('export').disabled = true;
+  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let deviceId = localStorage.getItem('bf_import_device_v1');
+  if (!deviceId) { deviceId = crypto.randomUUID(); localStorage.setItem('bf_import_device_v1',deviceId); }
+  document.getElementById('export').onclick = () => {
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(new Blob([raw], {type:'application/json'}));
+    link.download = 'birdie-finder-legacy-web-rounds.json'; link.click();
+    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+  };
+  try {
+    const user = await BFsolo.requireUser();
+    const owner = localStorage.getItem('bf_legacy_claim_owner_v1');
+    if (owner && owner !== user.id) throw new Error('Old browser data is claimed by another account on this device.');
+    if (!owner) {
+      status.textContent = 'Claim old local data for this account before preview or import.';
+      const button = document.createElement('button'); button.textContent = 'Claim old browser data';
+      button.onclick = () => { if (confirm('Claim this device\'s old browser rounds for the signed-in account?')) {
+        localStorage.setItem('bf_legacy_claim_owner_v1',user.id); location.reload(); } };
+      list.append(button); return;
+    }
+    document.getElementById('export').disabled = false;
+    const preview = await BFlegacy.previewWebLegacy(raw,deviceId,async slug => {
+      const result = await BFsolo.requireClient().from('course_external_ids')
+        .select('course_id').eq('provider','legacy_web').eq('external_id',slug).maybeSingle();
+      if (result.error || !result.data) return null;
+      if (['localhost','127.0.0.1'].includes(location.hostname)) return result.data.course_id;
+      const approved = await BFsolo.requireClient().from('courses').select('id')
+        .eq('id',result.data.course_id).eq('published',true).eq('synthetic',false).maybeSingle();
+      return approved.error ? null : approved.data?.id ?? null;
+    });
+    const receipts = await BFsolo.requireClient().rpc('list_legacy_import_receipts_v1',{p_device_id:deviceId});
+    if (receipts.error) throw receipts.error;
+    const acknowledged = new Set((receipts.data || []).map(r => r.record_id));
+    status.textContent = `${preview.records.length} valid records, ${preview.invalid.length} invalid. ${acknowledged.size} previously acknowledged.`;
+    list.innerHTML = preview.records.map((r,i) => `<section style="border:1px solid #bbb;padding:14px;margin:12px 0">
+      <strong>Record ${r.index+1}</strong> · ${esc(r.courseSlug)} · ${r.scores.length} holes · ${esc(r.playedAt || 'date unknown')}<br>
+      <span>${acknowledged.has(r.recordId) ? 'Already imported' : r.status === 'ready' ? 'Course matched' : 'Course match needed'}</span>
+      ${r.status === 'ready' && !acknowledged.has(r.recordId) ? `<button type="button" data-import="${i}">Import this record</button>` : ''}
+      </section>`).join('') || '<p>No saved browser rounds found.</p>';
+    list.querySelectorAll('[data-import]').forEach(button => button.onclick = async () => {
+      const record = preview.records[Number(button.dataset.import)]; button.disabled = true;
+      try { await BFlegacy.importWebRecord(record,deviceId); status.textContent = `Record ${record.index+1} saved and acknowledged. Original storage is unchanged.`;
+        button.replaceWith(document.createTextNode('Imported')); }
+      catch (error) { status.textContent = error.message; button.disabled = false; }
+    });
+  } catch (error) { status.textContent = error.message + ' Sign in before importing.'; }
+})();
+</script></body></html>

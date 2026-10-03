@@ -1,210 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Scorecard — Birdie Finder</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-</head>
-<body>
-
-<div class="page">
-  <!-- SETUP -->
-  <div id="step-setup">
-    <a class="crumb" id="back-crumb" href="courses.html">← Back to course</a>
-    <div class="sc-wrap">
-      <div class="page-head" style="text-align:center;margin-bottom:24px">
-        <div class="eyebrow" style="margin-bottom:8px">New round</div>
-        <h1 class="page-title" style="font-size:40px">Start a scorecard</h1>
-      </div>
-      <div class="sc-card">
-        <div class="sc-course-head">
-          <div class="sc-course-img ph"></div>
-          <div><div class="sc-course-name" id="sc-cname">—</div><div class="sc-course-meta" id="sc-cmeta">—</div></div>
-        </div>
-        <div class="dd-optlabel" style="margin-top:0">Layout &amp; tees</div>
-        <div class="dd-plastics" id="layouts"></div>
-        <div class="dd-optlabel">Players</div>
-        <div class="sc-players-setup" id="sc-players">
-          <div class="sc-player"><span class="sc-pnum">1</span><input class="sc-pname" value="You" placeholder="You"><button class="sc-premove">✕</button></div>
-          <div class="sc-player"><span class="sc-pnum">2</span><input class="sc-pname" placeholder="Guest"><button class="sc-premove">✕</button></div>
-        </div>
-        <button class="sc-addplayer" id="add-player">+ Add player</button>
-        <button class="btn-primary btn-block" style="margin-top:22px;padding:15px;font-size:16px" id="start">Start round</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- LIVE -->
-  <div id="step-live" hidden><div class="sc-live" id="sc-live-body"></div></div>
-
-  <!-- SUMMARY -->
-  <div id="step-summary" hidden><div class="sc-wrap" style="max-width:900px" id="sc-summary-body"></div></div>
-</div>
-
-<script src="assets/app.js"></script>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solo scorecard — Birdie Finder</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body><main class="page"><div class="sc-wrap" style="padding:36px 16px">
+  <a class="crumb" href="catalog-live.html">← Courses</a><h1 class="page-title">Solo scorecard</h1>
+  <p>An internet connection is required to save from the browser. Missing scores and unknown par stay blank.</p>
+  <p id="account"></p><p id="message" role="status"></p>
+  <section class="sc-card"><h2>New round</h2><div id="courses"></div></section>
+  <section class="sc-card" style="margin-top:18px"><h2>Your saved rounds</h2><div id="rounds"></div></section>
+  <section class="sc-card" style="margin-top:18px" id="current" hidden><div id="scorecard"></div></section>
+</div></main>
+<script src="assets/config.local.js"></script><script src="assets/vendor/supabase.js"></script><script src="assets/solo.js"></script>
 <script>
-BF.init({ active: 'courses' });
-
-(async function () {
-  const courses = await BF.loadCourses();
-  const id = BF.qs('course');
-  const c = courses.find(x => x.id === id) || courses[0];
-  const detail = BF.courseDetail(c);
-  document.title = 'Scorecard · ' + c.name + ' — Birdie Finder';
-  document.getElementById('back-crumb').href = 'course.html?id=' + encodeURIComponent(c.id);
-
-  document.getElementById('sc-cname').textContent = c.name;
-  document.getElementById('sc-cmeta').textContent = c.city + ', ' + c.state + ' · ' + c.holes + ' holes';
-
-  // Layouts: each has its own par (per Build Spec). Blue = full pars from detail;
-  // shorter layouts shave strokes off the longest holes.
-  function layoutPars(offset) {
-    if (!offset) return detail.holes.map(h => h.par);
-    const pars = detail.holes.map(h => h.par);
-    const order = detail.holes.map((h, i) => [h.dist, i]).sort((a, b) => b[0] - a[0]);
-    for (let k = 0; k < offset && k < order.length; k++) {
-      const i = order[k][1];
-      if (pars[i] > 3) pars[i]--;
-    }
-    return pars;
-  }
-  const layouts = [
-    { name: 'Blue', pars: layoutPars(0) },
-    { name: 'White', pars: layoutPars(3) },
-    { name: 'Red', pars: layoutPars(6) },
-  ];
-  layouts.forEach(l => l.par = l.pars.reduce((a, b) => a + b, 0));
-
-  const SC = { layout: layouts[0], players: [], hole: 0 };
-
-  const lay = document.getElementById('layouts');
-  lay.innerHTML = layouts.map((l, i) => `<button class="dd-plastic${i === 0 ? ' on' : ''}" data-i="${i}">${l.name} · Par ${l.par}</button>`).join('');
-  lay.addEventListener('click', e => {
-    const b = e.target.closest('.dd-plastic'); if (!b) return;
-    lay.querySelectorAll('.dd-plastic').forEach(x => x.classList.remove('on'));
-    b.classList.add('on');
-    SC.layout = layouts[Number(b.dataset.i)];
-  });
-
-  /* ----- player setup ----- */
-  const plist = document.getElementById('sc-players');
-  function renum() { [...plist.querySelectorAll('.sc-player')].forEach((el, i) => el.querySelector('.sc-pnum').textContent = i + 1); }
-  document.getElementById('add-player').addEventListener('click', () => {
-    const n = plist.querySelectorAll('.sc-player').length;
-    if (n >= 6) { BF.toast('Max 6 players per card'); return; }
-    const div = document.createElement('div');
-    div.className = 'sc-player';
-    div.innerHTML = `<span class="sc-pnum">${n + 1}</span><input class="sc-pname" placeholder="Player ${n + 1}"><button class="sc-premove">✕</button>`;
-    plist.appendChild(div);
-  });
-  plist.addEventListener('click', e => {
-    const b = e.target.closest('.sc-premove'); if (!b) return;
-    if (plist.querySelectorAll('.sc-player').length > 1) { b.closest('.sc-player').remove(); renum(); }
-  });
-
-  const relStr = n => n === 0 ? 'E' : n > 0 ? '+' + n : String(n);
-  const sumTo = (arr, i) => arr.slice(0, i + 1).reduce((a, b) => a + b, 0);
-  const show = step => ['setup', 'live', 'summary'].forEach(s =>
-    document.getElementById('step-' + s).hidden = s !== step) || window.scrollTo(0, 0);
-
-  document.getElementById('start').addEventListener('click', () => {
-    const names = [...plist.querySelectorAll('.sc-pname')].map(i => i.value.trim() || i.placeholder || 'Player');
-    SC.players = names.map(n => ({ name: n, scores: SC.layout.pars.slice() }));
-    SC.hole = 0;
-    renderLive();
-    show('live');
-  });
-
-  /* ----- live ----- */
-  function renderLive() {
-    const H = c.holes, h = SC.hole, par = SC.layout.pars[h], dist = detail.holes[h].dist;
-    const prog = Math.round((h + 1) / H * 100);
-    const rows = SC.players.map((p, i) => {
-      const s = p.scores[h], rel = s - par;
-      const thru = sumTo(p.scores, h) - sumTo(SC.layout.pars, h);
-      const bc = rel < 0 ? 'bird' : rel > 0 ? 'bog' : '';
-      return `<div class="sc-prow">
-        <div><div class="sc-prow-name">${BF.esc(p.name)}</div><div class="sc-prow-tot">Thru ${h + 1} · ${relStr(thru)}</div></div>
-        <span class="sc-holebadge ${bc}">${relStr(rel)}</span>
-        <div class="sc-stepper">
-          <button class="sc-step-btn" data-sc="minus" data-p="${i}">−</button>
-          <span class="sc-score">${s}</span>
-          <button class="sc-step-btn" data-sc="plus" data-p="${i}">+</button>
-        </div></div>`;
-    }).join('');
-    const nav = h === H - 1
-      ? '<button class="btn-primary" style="flex:1;padding:14px" data-sc="finish">Finish round</button>'
-      : '<button class="btn-primary" style="flex:1;padding:14px" data-sc="next">Next hole →</button>';
-    document.getElementById('sc-live-body').innerHTML =
-      `<div class="sc-topbar"><a class="crumb" style="margin:0" href="course.html?id=${encodeURIComponent(c.id)}">← Exit round</a>
-        <div class="sc-layoutlab">${BF.esc(c.name)} · ${SC.layout.name} layout · Par ${SC.layout.par}</div></div>` +
-      `<div class="sc-prog"><i style="width:${prog}%"></i></div>` +
-      `<div class="sc-holecard"><div class="sc-holenum">${h + 1}</div>
-        <div><div class="sc-holepar">Par ${par}</div><div class="sc-holedist">${BF.fmt(dist)} ft · ${SC.layout.name} tee → basket</div></div>
-        <div class="sc-holemap ph"><span class="phl">Hole ${h + 1} map</span></div></div>` +
-      `<div class="sc-players-live">${rows}</div>` +
-      `<div class="sc-navrow"><button class="btn-outline" style="flex:1;padding:14px;justify-content:center" data-sc="prev" ${h === 0 ? 'disabled' : ''}>← Previous</button>${nav}</div>`;
-  }
-
-  /* ----- summary ----- */
-  function renderSummary() {
-    const H = c.holes, tp = SC.layout.par, pars = SC.layout.pars;
-    const totals = SC.players.map(p => p.scores.reduce((a, b) => a + b, 0));
-    const best = Math.min(...totals);
-    const head = '<th class="sc-h-name">Player</th>' + pars.map((p, i) => `<th>${i + 1}</th>`).join('') + '<th class="sc-h-tot">Tot</th><th>+/−</th>';
-    const parRow = `<tr class="sc-parrow"><td class="sc-name-cell">Par</td>${pars.map(p => `<td>${p}</td>`).join('')}<td class="sc-tot-cell">${tp}</td><td></td></tr>`;
-    const rows = SC.players.map((p, pi) => {
-      const cells = p.scores.map((s, i) => {
-        const d = s - pars[i];
-        const cl = d < 0 ? 'bird' : d === 1 ? 'bog' : d >= 2 ? 'dbl' : '';
-        return `<td class="sc-cell ${cl}">${cl ? `<span>${s}</span>` : s}</td>`;
-      }).join('');
-      const tot = totals[pi], rel = tot - tp;
-      return `<tr class="${tot === best ? 'sc-winner' : ''}"><td class="sc-name-cell">${BF.esc(p.name)}</td>${cells}<td class="sc-tot-cell">${tot}</td><td class="sc-rel-cell">${relStr(rel)}</td></tr>`;
-    }).join('');
-    const winner = SC.players[totals.indexOf(best)].name;
-    document.getElementById('sc-summary-body').innerHTML =
-      `<div class="sc-done-head"><div>
-          <div class="eyebrow" style="margin-bottom:8px">${BF.esc(c.name)} · ${SC.layout.name} layout</div>
-          <h1 class="page-title" style="font-size:40px">Round complete</h1></div>
-        <div class="sc-winner-chip"><span class="star">★</span> ${BF.esc(winner)} wins · ${relStr(best - tp)}</div></div>` +
-      `<div class="sc-grid-wrap"><table class="sc-grid"><thead><tr>${head}</tr></thead><tbody>${parRow}${rows}</tbody></table></div>` +
-      `<div class="sc-navrow">
-        <button class="btn-outline" style="flex:1;padding:14px;justify-content:center" id="save-round">Save to profile</button>
-        <a class="btn-primary" style="flex:1;padding:14px;text-align:center" href="index.html">Done</a></div>`;
-
-    document.getElementById('save-round').addEventListener('click', () => {
-      const me = SC.players[0];
-      const total = me.scores.reduce((a, b) => a + b, 0);
-      BF.rounds.save({
-        course: c.name, courseId: c.id,
-        date: new Date().toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' }),
-        holes: c.holes, layout: SC.layout.name,
-        total, rel: total - tp,
-        players: SC.players.map(p => ({ name: p.name, scores: p.scores })),
-      });
-      location.href = 'players.html';
+(() => {
+  const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+  const $ = id => document.getElementById(id);
+  const message = text => { $('message').textContent = text; };
+  let current = null;
+  async function showRound(id) {
+    current = await BFsolo.round(id);
+    history.replaceState(null, '', '?round=' + encodeURIComponent(id));
+    const r = current;
+    const scored = r.holes.filter(h => h.strokes != null).length;
+    const total = r.holes.reduce((sum, h) => sum + (h.strokes ?? 0), 0);
+    const knownPar = r.holes.every(h => h.par != null);
+    const parTotal = knownPar ? r.holes.reduce((sum, h) => sum + h.par, 0) : null;
+    $('current').hidden = false;
+    $('scorecard').innerHTML = `<h2>${esc(r.layout_name)} · ${esc(r.status)}</h2>
+      <p>${scored}/${r.holes.length} scored · ${scored ? total : '—'} strokes · ${parTotal == null ? 'Par unknown' : 'Par ' + parTotal} · Revision ${r.revision}</p>
+      <div class="sc-grid-wrap"><table class="sc-grid"><thead><tr><th>Hole</th><th>Par</th><th>Distance</th><th>Strokes</th><th>Save</th></tr></thead><tbody>
+      ${r.holes.map(h => `<tr><td>${h.hole_number}</td><td>${h.par ?? '—'}</td><td>${h.distance_ft == null ? '—' : h.distance_ft + ' ft'}</td>
+      <td><input type="number" min="1" max="12" step="1" value="${h.strokes ?? ''}" aria-label="Hole ${h.hole_number} strokes" data-score="${h.hole_number}"></td>
+      <td><button type="button" data-save="${h.hole_number}">Save score</button></td></tr>`).join('')}
+      </tbody></table></div><div class="sc-navrow"><button type="button" id="refresh">Refresh from server</button>
+      ${r.status === 'live' ? '<button type="button" id="finish"' + (scored === r.holes.length ? '' : ' disabled') + '>Finish round</button>' : ''}</div>`;
+    $('scorecard').querySelectorAll('[data-save]').forEach(button => button.onclick = async () => {
+      const hole = Number(button.dataset.save);
+      const input = $('scorecard').querySelector(`[data-score="${hole}"]`);
+      const strokes = Number(input.value);
+      if (!Number.isInteger(strokes) || strokes < 1 || strokes > 12) { message('Enter an integer from 1 to 12.'); return; }
+      button.disabled = true;
+      try { await BFsolo.score(current, hole, strokes); message('Score saved to account.'); await showRound(id); await listRounds(); }
+      catch (error) { message(error.message + ' Refresh from server before editing again.'); button.disabled = false; }
     });
+    $('refresh').onclick = () => showRound(id).then(() => message('Loaded current server scores.')).catch(error => message(error.message));
+    if ($('finish')) $('finish').onclick = async () => {
+      try { await BFsolo.complete(current); await showRound(id); await listRounds(); message('Round complete.'); }
+      catch (error) { message(error.message); }
+    };
   }
-
-  document.addEventListener('click', e => {
-    const sc = e.target.closest('[data-sc]'); if (!sc) return;
-    const a = sc.dataset.sc;
-    if (a === 'minus' || a === 'plus') {
-      const i = Number(sc.dataset.p), h = SC.hole;
-      const v = SC.players[i].scores[h] + (a === 'plus' ? 1 : -1);
-      SC.players[i].scores[h] = Math.max(1, Math.min(12, v));
-      renderLive();
-    } else if (a === 'next') { if (SC.hole < c.holes - 1) { SC.hole++; renderLive(); } }
-    else if (a === 'prev') { if (SC.hole > 0) { SC.hole--; renderLive(); } }
-    else if (a === 'finish') { renderSummary(); show('summary'); }
-  });
+  async function listRounds() {
+    const rounds = await BFsolo.listRounds();
+    $('rounds').innerHTML = rounds.length ? rounds.map(r => `<p><button type="button" data-round="${esc(r.id)}">${esc(r.layout_name)} · ${new Date(r.started_at).toLocaleDateString()} · ${esc(r.status)}</button></p>`).join('') : '<p>No account rounds yet.</p>';
+    $('rounds').querySelectorAll('[data-round]').forEach(button => button.onclick = () => showRound(button.dataset.round).catch(error => message(error.message)));
+  }
+  async function init() {
+    try {
+      const user = await BFsolo.requireUser();
+      $('account').textContent = `Signed in as ${user.email}`;
+      const courses = await BFsolo.courses();
+      $('courses').innerHTML = courses.length ? courses.map((course, i) => `<p><button type="button" data-course="${i}">Start ${esc(course.name)} · ${course.holes.length} holes</button> · ${esc(course.layout)}</p>`).join('') : '<p>No approved playable courses are available yet.</p>';
+      $('courses').querySelectorAll('[data-course]').forEach(button => button.onclick = async () => {
+        button.disabled = true;
+        try { const round = await BFsolo.create(courses[Number(button.dataset.course)]); await listRounds(); await showRound(round.id); message('Round saved to account.'); }
+        catch (error) { message(error.message); } finally { button.disabled = false; }
+      });
+      await listRounds();
+      const id = new URLSearchParams(location.search).get('round');
+      if (id) await showRound(id);
+    } catch (error) {
+      message(error.message);
+      $('account').innerHTML = '<a href="login.html?next=scorecard.html">Log in or create an account</a>';
+    }
+  }
+  init();
 })();
-</script>
-</body>
-</html>
+</script></body></html>

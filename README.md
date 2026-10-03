@@ -1,78 +1,96 @@
-# Birdie Finder
+# Birdie Finder web
 
-A complete multi-page disc golf site built from the Build Spec and clickable prototype. Vanilla HTML/CSS/JS — no build step.
+Birdie Finder web is a static HTML, CSS, and JavaScript client for browsing reviewed disc golf courses and molds and managing **account-backed solo rounds**. It shares Supabase Auth, catalog data, rounds, and disc bag items with the [iPhone app](../birdie_finder_app/README.md). The [backend](../birdie_finder_backend/README.md) owns the database migrations, access rules, and API functions; this directory has no Node server or npm install step.
 
-## Pages
+## What is available now
 
-| File | Screen |
-|---|---|
-| `login.html` | Split login with rotating testimonial + social buttons |
-| `index.html` | Home: hero, live stat band, nearby courses (geolocation), featured discs, brand strip |
-| `courses.html` | Course directory with full filter rail + List/Map toggle (Leaflet + MapTiler) |
-| `course.html?id=…` | Course detail: stats, hole-by-hole table, reviews, conditions, directions |
-| `shop.html` | Disc catalog with category/brand/speed/stability/price filters |
-| `disc.html?id=…` | Disc detail: gallery, flight numbers, plastic/color/qty, specs, producer, related |
-| `players.html` | Profile: stat strip, rating chart, recent rounds (incl. your saved scorecards), leaderboard, in-the-bag |
-| `events.html` | Events with filter chips + register/waitlist |
-| `scorecard.html?course=…` | Live scorecard: setup → hole-by-hole scoring → summary grid, "Save to profile" |
+| Page | Purpose |
+| --- | --- |
+| `catalog-live.html` (also public `index.html`) | Search approved courses, inspect reviewed layouts and source details, browse approved disc molds, and add a mold to a signed-in bag. |
+| `login.html` | Create an account, sign in, and request or complete password recovery. |
+| `scorecard.html` | Start, score, complete, and reopen a signed-in solo round. Browser score edits require a connection; there is no offline browser draft. |
+| `players.html` | See saved rounds and bag items, export account data, sign out, or delete the account after confirmation. |
+| `import.html` | Claim and review older `bf_rounds_v1` browser records before importing eligible ones. Original localStorage data is kept. |
 
-## Setup
+The public catalog uses only reviewed, non-synthetic facts. Unknown par and distance stay unknown. A new local backend has synthetic scorecard fixtures, but public catalog searches can be empty until a real source has been reviewed and published. Group rounds, events, shop pages, and the older course/disc demo pages are prototype material, not part of the current public site; see [the demo notes](docs/LEGACY_DEMO_README.md).
 
-1. **Data (recommended):** copy the repo CSVs into the `data/` folder:
-   ```
-   cp ../src/data/courses.csv   data/courses.csv
-   cp ../src/data/all_discs.csv data/all_discs.csv
-   ```
-   If the CSVs are missing (or fetch is blocked), every page falls back to built-in sample data so the site still works.
+## Run locally
 
-2. **Serve locally** (fetch doesn't work over `file://`):
-   ```
-   python3 -m http.server 8000
-   # then open http://localhost:8000/index.html
+You need Node.js 20 or later and npm for the shared backend, a running Docker-compatible daemon for local Supabase, Python 3 (or another static HTTP server), and a modern browser. Start in `birdie_finder_web/`; it sits beside `birdie_finder_backend/`.
+
+1. In `birdie_finder_backend/`, start and seed the local Supabase project:
+
+   ```sh
+   cd ../birdie_finder_backend
+   npm ci
+   npm run start
+   npm run reset
+   npx supabase status
    ```
 
-## Location
+   `npm run reset` deletes local test data, applies the authoritative migrations, and loads synthetic course fixtures. Copy the **API URL** and **anon/publishable key** from the status output. Do not use a service-role or secret key in browser configuration.
 
-Distances and the map anchor to one shared fix, resolved once and reused by every page. Precedence:
+2. In `birdie_finder_web/`, create the ignored local config and replace its example key with the value from `supabase status`:
 
-1. **Manual pin** — a ZIP or city typed into the location bar. Sticky until cleared.
-2. **Cached fix** — 30-minute TTL, so pages never re-prompt.
-3. **GPS** — high accuracy, reverse-geocoded to a place name. Browsers only expose this on `https://` or `localhost`.
-4. **IP** — coarse fallback (ipwho.is) when GPS is denied or blocked.
-5. **Default** — Leicester, MA, clearly labelled as a default.
+   ```sh
+   cd ../birdie_finder_web
+   test -f assets/config.local.js || cp assets/config.local.example.js assets/config.local.js
+   ```
 
-The location bar always states *how* the fix was obtained, so a coarse IP guess is never mistaken for a real one. ZIP/city search resolves against the bundled `courses.csv` first — instant, offline, exact for the 7k US courses — and only falls through to a geocoder for places with no course in them.
+   Keep an existing config if it already points to the intended local project. Otherwise set `window.BIRDIE_SUPABASE_URL` to the local API URL (normally `http://127.0.0.1:54321`) and `window.BIRDIE_SUPABASE_ANON_KEY` to the local anon key. Use the **same** local project as the phone if testing cross-client rounds.
 
-`BF.setLocation()` fires a `bf:location` event; the course list, home page and map re-sort in place without a reload.
+3. Serve the directory over HTTP:
 
-## Live & real data
+   ```sh
+   python3 -m http.server 3000
+   ```
 
-| What | Source | Notes |
-|---|---|---|
-| Per-hole par, hole number, amenities | OpenStreetMap via [Overpass](https://overpass-api.de) (`disc_golf=hole`) | Cached 7 days. Course detail page only. |
-| Current conditions (temp, wind, rain) | [Open-Meteo](https://open-meteo.com) | Cached 15 min, no API key. |
-| Geocoding fallback | Open-Meteo Geocoding | Only when the CSV has no match. |
+   Open `http://127.0.0.1:3000/catalog-live.html`. Use this exact origin for local password recovery: the backend allows `http://127.0.0.1:3000/login.html` as a redirect. Recovery messages appear in local Mailpit at `http://127.0.0.1:54324`.
 
-**Coverage is thin, and the UI says so.** OSM has hole data for a few hundred of the 7,008 courses — across all of MA/CT/RI it knows exactly four. So each course page carries a provenance badge:
+4. Open `login.html` to create a local test account, then `scorecard.html` to start a solo round. If the public catalog is empty, the scorecard can show the local synthetic courses while served from `127.0.0.1` or `localhost`. Save a score and open `players.html` to find the round. `import.html` only has records to review if this browser already contains the old `bf_rounds_v1` localStorage data.
 
-- `Hole data from OpenStreetMap` — every hole surveyed.
-- `N of M holes from OpenStreetMap · rest estimated` — a blend; surveyed rows are marked `●`.
-- `Estimated layout — no hole data mapped yet` — fully generated.
+Serving this source directory also exposes the old demo pages for local inspection. They are excluded from the public build. Stop the local backend with `npm run stop` from `birdie_finder_backend/` when finished.
 
-Estimated layouts remain deterministic per course id, but pars now follow a realistic disc golf distribution (~86% par 3, so 18 holes land near par 54–58), and **difficulty is derived from average feet per hole** rather than a random pick.
+### If something looks wrong
 
-Two deliberate constraints:
+- **Account and catalog connection unavailable:** Check both values in `assets/config.local.js`, confirm `npx supabase status` shows the local backend running, and reload the page. A generated public build also needs both build environment variables.
+- **No courses in the catalog:** The synthetic seed is intentionally hidden there. Open the local **scorecard** after signing in to exercise the test course; real public entries require approved source data.
+- **Password reset returns to the wrong page:** Serve from `http://127.0.0.1:3000` and request recovery from `login.html`, matching the backend's configured redirect URL.
 
-- Only distances OSM *states* (a `dist`/`length` tag, or the `description` text) are trusted. Fairway geometry is often a partial centreline — measuring one gave 90 ft for a hole the mapper described as 268 ft — so geometry locates a hole, it never sizes it.
-- The course list does **not** hit Overpass; 7,008 lookups would be slow and abusive. Real hole data is fetched per course on the detail page, then cached.
+## Build a publishable directory
 
-The course page paints the estimated layout immediately and upgrades in place once OSM and the weather resolve, so a slow third party can't leave it stuck on "Loading course…".
+`scripts/build-public.mjs` copies an explicit allowlist of the five current pages and their supporting assets into `dist/`; it also creates `index.html` from the catalog page. The build writes `assets/config.local.js` with empty values unless **both** public Supabase environment variables are set. For a connected local preview or a deployment, set them for the appropriate Supabase project. From `birdie_finder_web/`:
 
-## Notes
+```sh
+BIRDIE_PUBLIC_SUPABASE_URL="http://127.0.0.1:54321" \
+BIRDIE_PUBLIC_SUPABASE_ANON_KEY="<anon key from supabase status>" \
+  node scripts/build-public.mjs
+node scripts/check-public.mjs dist
+python3 -m http.server 3000 --directory dist
+```
 
-- **Cart & auth are UI-only** per the Build Spec — cart persists in `localStorage` (`bf_cart_v1`), login just stores a demo user.
-- **Saved rounds** from the scorecard persist in `localStorage` (`bf_rounds_v1`) and appear on the Players page.
-- **Map** reuses the repo's MapTiler config from `src/discMap/map.js`. It fits the viewport to the nearest courses plus your own position, and draws an accuracy ring when the fix is coarse.
-- Reviews, terrain, layouts and disc prices are still generated deterministically per id.
-- Disc photos are rendered SVGs; other imagery uses the spec's striped placeholder style.
-- Attribution is required and rendered on the course page: OpenStreetMap contributors (ODbL) and Open-Meteo.
+Open `http://127.0.0.1:3000/` to preview. A hosted build needs that environment's hosted Supabase URL and anon/publishable key, plus matching Auth redirect settings. Publish **only `dist/`**, never the source directory. The build rejects secret/service-role keys and excludes the legacy CSVs, demo pages, `assets/app.js`, and their old external API calls. If you omit the two environment variables, the pages render but account and catalog requests cannot connect.
+
+For an isolated check without touching `dist/`, use:
+
+```sh
+node scripts/build-public.mjs /tmp/birdie-public-web-check
+node scripts/check-public.mjs /tmp/birdie-public-web-check
+```
+
+The `dist/` build can be hosted by any static file host. There is no server-side web process in this project; Supabase serves the account, catalog, and round APIs. The [release runbook](../birdie_finder_backend/docs/RELEASE_RUNBOOK.md) tracks the remaining source-rights, hosted staging, recovery, and browser/device gates.
+
+## How it is organized
+
+| Path | Purpose |
+| --- | --- |
+| `catalog-live.html`, `login.html`, `scorecard.html`, `players.html`, `import.html` | Current public page entry points. |
+| `assets/solo.js` | Supabase client setup and shared catalog/round calls. |
+| `assets/legacy-import.js` | Preview and import logic for older browser rounds. |
+| `assets/styles.css` and `assets/vendor/supabase.js` | Styling and checked-in browser Supabase client. |
+| `scripts/build-public.mjs` and `scripts/check-public.mjs` | Public file allowlist and output checks. |
+| `data/`, `assets/app.js`, and older HTML pages | Local prototype material, excluded from `dist/`. |
+
+Approved catalog pages call `search_courses_v1`, `get_course_detail_v1`, and `search_disc_molds_v1`. Solo rounds use `create_solo_round_v1`, `write_score_v1`, and `complete_round_v1`. The browser sends score changes while online; the phone maintains a SQLite outbox for offline scoring. Account data is isolated by the backend's row-level security and owner checks. The [version-one contract](../birdie_finder_backend/contracts/v1/README.md) describes request and response shapes.
+
+Legacy import is explicit and tied to one account in this browser. It keeps the original `bf_rounds_v1` key, gives duplicate-looking records separate stable IDs, and uses server receipts so retries do not create another copy. Records that cannot be matched to reviewed catalog IDs remain local and exportable. The public catalog may be empty until real source rights and field reviews are complete; see the [source register](../birdie_finder_backend/docs/SOURCE_REGISTER.md).

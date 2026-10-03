@@ -1,75 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Log in — Birdie Finder</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Spectral:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css">
-</head>
-<body class="auth">
-
-<div class="login-wrap">
-  <div class="login-art">
-    <div class="ph"><span class="phl">Course at dawn — misty fairway, basket in foreground</span></div>
-    <div class="login-topc"><span class="mark"><i></i></span>Birdie Finder</div>
-    <div class="login-quote">
-      <p id="quote-p">“The round starts before the first tee. It starts the moment you find the course.”</p>
-      <span id="quote-a">— Trailhead Journal, No. 12</span>
-    </div>
-  </div>
-  <div class="login-side">
-    <form class="login-card" id="login-form">
-      <h1>Welcome back.</h1>
-      <p class="lsub">Log in to track rounds, save courses, and pick up where you left off.</p>
-      <div class="field"><label for="email">Email</label><input id="email" type="email" placeholder="you@example.com" required></div>
-      <div class="field"><label for="pw">Password</label><input id="pw" type="password" placeholder="••••••••" required></div>
-      <div class="login-row">
-        <span class="remember" id="remember"><span class="chkbox on"></span>Remember me</span>
-        <span class="forgot" onclick="alert('Password reset requires the production auth backend — see Build Spec §1.')">Forgot password?</span>
-      </div>
-      <button class="btn-primary btn-block" type="submit">Log in</button>
-      <div class="divider">or continue with</div>
-      <div class="social">
-        <button type="button" onclick="demoAuth('Google')">Google</button>
-        <button type="button" onclick="demoAuth('Apple')">Apple</button>
-        <button type="button" onclick="demoAuth('PDGA')">PDGA</button>
-      </div>
-      <div class="signup-line">New to Birdie Finder? <a href="index.html">Create an account</a></div>
-    </form>
-  </div>
-</div>
-
-<script src="assets/app.js"></script>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Account — Birdie Finder</title><link rel="stylesheet" href="assets/styles.css"></head>
+<body class="auth"><main class="login-wrap"><div class="login-side"><form class="login-card" id="account-form">
+  <h1 id="title">Log in</h1><p class="lsub">Use your local/test Birdie Finder account to sync solo rounds.</p>
+  <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required></div>
+  <div class="field" id="password-field"><label for="password">Password</label><input id="password" type="password" autocomplete="current-password" minlength="6" required></div>
+  <p id="message" role="status"></p><button class="btn-primary btn-block" type="submit" id="submit">Log in</button>
+  <div class="signup-line"><button type="button" id="switch-signup">Create account</button> · <button type="button" id="switch-reset">Forgot password?</button></div>
+  <div class="signup-line"><a href="catalog-live.html">Browse approved courses without an account</a></div>
+</form></div></main>
+<script src="assets/config.local.js"></script><script src="assets/vendor/supabase.js"></script><script src="assets/solo.js"></script>
 <script>
-BF.init({ noChrome: true });
-
-const quotes = [
-  ['“The round starts before the first tee. It starts the moment you find the course.”', '— Trailhead Journal, No. 12'],
-  ['“Every course is a different puzzle. Birdie Finder is how I find the next one.”', '— Maria R., PDGA #101288'],
-  ['“Scorecards, stats, and the bag — finally in one place.”', '— Tyler G., league director'],
-];
-let qi = 0;
-setInterval(() => {
-  qi = (qi + 1) % quotes.length;
-  document.getElementById('quote-p').textContent = quotes[qi][0];
-  document.getElementById('quote-a').textContent = quotes[qi][1];
-}, 6000);
-
-document.getElementById('remember').addEventListener('click', function () {
-  this.querySelector('.chkbox').classList.toggle('on');
-});
-
-function demoAuth(provider) {
-  localStorage.setItem('bf_user', JSON.stringify({ name: 'Evan White', via: provider }));
-  location.href = 'index.html';
-}
-document.getElementById('login-form').addEventListener('submit', (e) => {
-  e.preventDefault();
-  demoAuth('email'); // Prototype auth: real backend + PDGA OAuth per Build Spec.
-});
-</script>
-</body>
-</html>
+(() => {
+  const form = document.getElementById('account-form'), message = document.getElementById('message');
+  const email = document.getElementById('email'), password = document.getElementById('password');
+  let mode = 'login';
+  function setMode(next) {
+    mode = next; message.textContent = '';
+    const title = { login: 'Log in', signup: 'Create account', reset: 'Reset password', newPassword: 'Choose a new password' }[mode];
+    document.getElementById('title').textContent = title;
+    document.getElementById('submit').textContent = title;
+    email.parentElement.hidden = mode === 'newPassword';
+    password.parentElement.hidden = mode === 'reset';
+    password.required = mode !== 'reset'; email.required = mode !== 'newPassword';
+  }
+  document.getElementById('switch-signup').onclick = () => setMode(mode === 'signup' ? 'login' : 'signup');
+  document.getElementById('switch-reset').onclick = () => setMode(mode === 'reset' ? 'login' : 'reset');
+  try {
+    const client = BFsolo.requireClient();
+    client.auth.onAuthStateChange(event => { if (event === 'PASSWORD_RECOVERY') setMode('newPassword'); });
+    const recovery = new URLSearchParams(location.hash.slice(1));
+    if (recovery.get('type') === 'recovery' && recovery.get('access_token') && recovery.get('refresh_token')) {
+      client.auth.setSession({ access_token: recovery.get('access_token'), refresh_token: recovery.get('refresh_token') })
+        .then(result => { if (result.error) message.textContent = result.error.message; else setMode('newPassword'); });
+    }
+  } catch (error) { message.textContent = error.message; }
+  form.addEventListener('submit', async event => {
+    event.preventDefault(); message.textContent = 'Working…';
+    try {
+      const client = BFsolo.requireClient(); let result;
+      if (mode === 'reset') {
+        result = await client.auth.resetPasswordForEmail(email.value, { redirectTo: location.origin + location.pathname });
+        if (result.error) throw result.error;
+        message.textContent = 'Check your email for a password reset link.'; return;
+      }
+      if (mode === 'newPassword') {
+        result = await client.auth.updateUser({ password: password.value });
+        if (result.error) throw result.error;
+        setMode('login'); message.textContent = 'Password updated.'; return;
+      }
+      result = mode === 'signup'
+        ? await client.auth.signUp({ email: email.value, password: password.value })
+        : await client.auth.signInWithPassword({ email: email.value, password: password.value });
+      if (result.error) throw result.error;
+      if (!result.data.session) { message.textContent = 'Check your email to confirm your account, then log in.'; return; }
+      await BFsolo.bootstrap();
+      const next = new URLSearchParams(location.search).get('next');
+      location.href = ['scorecard.html', 'players.html'].includes(next) ? next : 'scorecard.html';
+    } catch (error) { message.textContent = error.message; }
+  });
+})();
+</script></body></html>
